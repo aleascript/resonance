@@ -1,5 +1,7 @@
 # Le Manifeste de la Résonance
 
+![Resonance](resonance.png)
+
 1. Le Constat (Le Statu Quo)
 Depuis cinquante ans, les systèmes de jeu simulent la physique (la gravité, les dommages d'une arme) ou la narration (les arcs dramatiques). Mais ils imposent généralement le même moteur de résolution à un hacker, un chaman ou un chevalier. Le système reste une surcouche universelle, détachée de la vérité intime et métaphysique de l'univers joué.
 
