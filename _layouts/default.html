@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{% if page.path contains 'content/en/' %}en{% else %}fr{% endif %}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.path contains 'content/en/' %}
+    <link rel="alternate" hreflang="fr" href="{{ page.url | replace: 'content/en/', 'content/fr/' | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}">
+  {% else %}
+    <link rel="alternate" hreflang="fr" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.url | replace: 'content/fr/', 'content/en/' | absolute_url }}">
+  {% endif %}
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+</head>
+<body>
+  <header class="page-header">
+    <nav class="site-nav">
+      <span class="lang-switcher">
+        {% if page.path contains 'content/en/' %}
+          <a href="{{ page.url | replace: 'content/en/', 'content/fr/' | relative_url }}" class="lang-link" title="Version française">FR</a>
+        {% elsif page.path == 'index.md' %}
+          <a href="{{ '/content/en/' | relative_url }}" class="lang-link" title="English version">EN</a>
+        {% else %}
+          <a href="{{ page.url | replace: 'content/fr/', 'content/en/' | relative_url }}" class="lang-link" title="English version">EN</a>
+        {% endif %}
+      </span>
+    </nav>
+    <img src="{{ site.url }}{{ site.baseurl }}/content/assets/header.png" class="header-image">
+    <div class="pdf-links">
+      {% if page.path contains 'content/en/' %}
+        <a href="{{ "/srd/resonance-en.pdf" | relative_url }}" class="pdf-link">PDF (EN)</a>
+      {% else %}
+        <a href="{{ "/srd/resonance-fr.pdf" | relative_url }}" class="pdf-link">PDF (FR)</a>
+      {% endif %}
+    </div>
+  </header>
+  <main class="main-content">
+    {{ content }}
+    <footer class="site-footer">
+      <span class="site-footer-owner">
+        {% if page.path contains 'content/en/' %}
+          Résonance by <a href="https://github.com/aleascript">AleaScript</a>
+        {% else %}
+          Résonance par <a href="https://github.com/aleascript">AleaScript</a>
+        {% endif %}
+      </span>
+    </footer>
+  </main>
+  <script>
+    (function() {
+      var stored = localStorage.getItem('lang-preference');
+      if (stored) return;
+      var path = window.location.pathname;
+      if (path.indexOf('/content/en/') === -1) {
+        var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        if (lang.indexOf('fr') === -1) {
+          localStorage.setItem('lang-preference', 'en');
+          window.location.href = '{{ "/content/en/" | relative_url }}';
+        } else {
+          localStorage.setItem('lang-preference', 'fr');
+        }
+      } else {
+        if (!stored) localStorage.setItem('lang-preference', 'en');
+      }
+    })();
+  </script>
+</body>
+</html>

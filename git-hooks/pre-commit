@@ -1,0 +1,53 @@
+#!/bin/bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+GENERATE_PDF="$PROJECT_DIR/tools/generate-pdf.sh"
+
+if ! command -v pandoc &> /dev/null; then
+    echo "Erreur: pandoc n'est pas installé." >&2
+    echo "Installation: sudo apt install pandoc texlive-xetex texlive-lang-french" >&2
+    exit 1
+fi
+
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+PDF_NEEDED=()
+
+for FILE in $STAGED_FILES; do
+    if echo "$FILE" | grep -qE "^content/(fr|en)/index\.md$"; then
+        PDF_NEEDED+=("$FILE")
+    fi
+done
+
+if [ ${#PDF_NEEDED[@]} -eq 0 ]; then
+    exit 0
+fi
+
+echo "Modification de contenu détectée, génération des PDFs..."
+
+for FILE in $PDF_NEEDED; do
+    SOURCE="$PROJECT_DIR/$FILE"
+
+    if echo "$FILE" | grep -q "content/fr/"; then
+        OUTPUT="$PROJECT_DIR/srd/resonance-fr.pdf"
+    elif echo "$FILE" | grep -q "content/en/"; then
+        OUTPUT="$PROJECT_DIR/srd/resonance-en.pdf"
+    else
+        continue
+    fi
+
+    echo "  Génération: $OUTPUT"
+    bash "$GENERATE_PDF" "$SOURCE" "$OUTPUT"
+
+    if [ -f "$OUTPUT" ]; then
+        git add "$OUTPUT"
+        echo "  PDF ajouté au commit: $OUTPUT"
+    else
+        echo "Erreur: Échec de la génération de $OUTPUT" >&2
+        exit 1
+    fi
+done
+
+echo "Tous les PDFs ont été générés avec succès."

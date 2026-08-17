@@ -1,0 +1,33 @@
+title: Résonance
+description: Le Principe de Résonance - un système cognitif et diégétique pour les JDR
+baseurl: "/resonance"
+url: "https://aleascript.github.io"
+permalink: pretty
+theme: jekyll-theme-cayman
+lang: fr
+author: AleaScript
+
+twitter:
+  card: summary
+
+logo: /content/assets/resonance.png
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - tools/
+  - git-hooks/
+  - vendor/
+  - .bundle/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /content/assets/resonance.png

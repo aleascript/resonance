@@ -1,0 +1,53 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+
+\geometry{margin=2.5cm}
+
+\definecolor{resonance}{HTML}{2C3E50}
+\definecolor{accent}{HTML}{7F8C8D}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=resonance,
+  urlcolor=resonance,
+}
+
+\titleformat{\section}{\Large\bfseries\color{resonance}}{}{0em}{}
+\titleformat{\subsection}{\large\bfseries\color{resonance}}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\color{accent}}{}{0em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{accent} Résonance}
+\fancyhead[R]{\small\color{accent} Le Principe de Résonance}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setstretch{1.3}
+
+$if(title)$
+\title{\vspace{-2cm}\Huge\bfseries\color{resonance} $title$\vspace{1cm}}
+\author{\large\color{accent} AleaScript}
+\date{}
+$endif$
+
+\begin{document}
+$if(title)$
+\maketitle
+\thispagestyle{empty}
+\newpage
+$endif$
+
+$body$
+
+\end{document}
