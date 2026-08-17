@@ -1,7 +1,7 @@
 \documentclass[11pt, a4paper]{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
 \usepackage[french]{babel}
 \usepackage{geometry}
 \usepackage{titlesec}
@@ -10,8 +10,13 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{setspace}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc}
 
 \geometry{margin=2.5cm}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \definecolor{resonance}{HTML}{2C3E50}
 \definecolor{accent}{HTML}{7F8C8D}
@@ -50,7 +55,10 @@ $endif$
 
 % Table des matières
 \thispagestyle{empty}
-$toc$
+$if(toc)$
+\setcounter{tocdepth}{$toc-depth$}
+\tableofcontents
+$endif$
 \newpage
 
 % Contenu

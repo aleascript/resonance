@@ -4,9 +4,9 @@ title: Résonance
 
 ![Resonance](../assets/resonance.png)
 
-# Résonance : Pour un système cognitif et diégétique dans les JDR
+# Résonance : pour un système cognitif et diégétique dans les JDR
 
-## 1. Le Constat 
+## 1. Le constat 
 
 Depuis cinquante ans, les systèmes des JdR ont hérité du passé (les wargames), ont tenté de simuler la physique (la gravité, les dommages d'une arme) ou se sont focalisés sur la narration (les arcs dramatiques). Mais ils imposent généralement le même moteur de résolution à un hacker, un chaman ou un chevalier ou alors crée un système réduit à des archétypes (comme dans le PbtA).
 
@@ -14,7 +14,7 @@ Le système apparaît alors comme une surcouche universelle, un meta-jeu qui él
 
 Je pense comme Ron Edwards que le système compte: "System does matter". 
 
-## 2. Le Changement de Paradigme
+## 2. Le changement de paradigme
 
 **Résonance** postule que la mécanique de résolution doit:
 - être la plus naturelle possible
@@ -33,7 +33,7 @@ Le système ne repose plus sur des probabilités froides, mais sur l'alignement 
 
 # Comment rendre la mécanique de résolution naturelle?
 
-## Les Mises et l'Approche Cognitive
+## Les mises et l'approche cognitive
 
 ### La fin de l'illusion mathématique et du méta-jeu
 
@@ -47,13 +47,13 @@ Historiquement, le simulationnisme s'est focalisé sur la physique du combat (ca
 
 Au lieu de s'appuyer sur des mécaniques artificielles, le système reproduit le fonctionnement de l'esprit humain. Un individu évalue le poids des éléments qui l'entourent pour comprendre un contexte et agir en conséquence. Dans ce système, le PJ et le MJ font exactement la même chose. Face à une situation, chaque camp rassemble des **Mises** : des arguments narratifs justifiés par la fiction. Il peut s'agir d'une arme héritée de ses ancêtres, d'une bourrasque de vent providentielle, d'une haine viscérale, ou d'une discipline de fer. Il n'y a plus de tables, de mathématiques, de statistiques : MJ et PJ observent et exploitent la réalité de la scène, du monde et du récit qu'ils explorent. 
 
-### La Mécanique : Focus, Facteurs Cadres et Mises
+### La mécanique : focus, facteurs cadres et mises
 
 Lorsqu'un conflit éclate, ou que le récit arrive à la possibilité d'une bifurcation narrative, la résolution passe alors par l'analyse minutieuse de la situation.
 
-* **L'établissement des Camps :** Les Mises du Camp A sont constituées de tout ce qui favorise son objectif, plus les éléments qui viennent contrecarrer le Camp B (et inversement pour le Camp B).
-* **Le Focus :** On ne jette pas tous les traits de sa fiche de personnage sur la table. La table définit ce qui est *réellement* important à cet instant précis. Dans un pur débat philosophique, la maîtrise de l'épée longue d'un PJ n'entre pas dans le Focus et ne donne aucune Mise.
-* **Les Facteurs Cadres :** L'environnement peut imposer un élément tellement écrasant qu'il dicte ce qu'il est ontologiquement impossible de tenter. Exemple : Si une scène se déroule dans un sanctuaire divin dédié à la paix absolue, toute tentative d'agression ou d'intimidation est métaphysiquement étouffée. Le Facteur Cadre force les Mises à s'aligner sur d'autres approches (comme l'éloquence ou la prière).
+* **L'établissement des camps :** Les Mises du camp A sont constituées de tout ce qui favorise son objectif, plus les éléments qui viennent contrecarrer le camp B (et inversement pour le camp B).
+* **Le focus :** On ne jette pas tous les traits de sa fiche de personnage sur la table. La table définit ce qui est *réellement* important à cet instant précis. Dans un pur débat philosophique, la maîtrise de l'épée longue d'un PJ n'entre pas dans le Focus et ne donne aucune Mise.
+* **Les facteurs cadres :** L'environnement peut imposer un élément tellement écrasant qu'il dicte ce qu'il est ontologiquement impossible de tenter. Exemple : Si une scène se déroule dans un sanctuaire divin dédié à la paix absolue, toute tentative d'agression ou d'intimidation est métaphysiquement étouffée. Le Facteur Cadre force les Mises à s'aligner sur d'autres approches (comme l'éloquence ou la prière).
 
 ### L'auto-équilibrage pour le MJ : Le jeu "à somme nulle"
 
@@ -63,11 +63,11 @@ L'affrontement repose sur un équilibrage diégétique naturel, un **jeu à somm
 
 Cette mécanique éduque organiquement les joueurs : chercher des avantages avec des arguments futiles ne fera que donner des munitions narratives supplémentaires au MJ. L'histoire en sort toujours gagnante.
 
-### La Cristallisation : Le Tirage
+### La cristallisation : le tirage
 
 Jusque là, chaque joueur est dans son personnage (PJ, PNJ, obstacle, ...) avec une approche naturelle, presque littéraire, littérale.
 
-Voyons maintenant comment Resonance propose d'aller plus loin. 
+Voyons maintenant comment **Resonance** propose d'aller plus loin. 
 
 En effet, une fois le nombre de Mises défini pour chaque camp, le système bascule dans une logique d'observation et de résolution.
 
@@ -79,26 +79,26 @@ Et ca sera la différence de réussites entre les deux camps qui indique l'ample
 
 C'est la que le Game Designer d'un jeu Resonance intervient: la façon dont on détermine le nombre de réussites pour un tirage donné dépend du jeu qu'on veut créer. 
 
-**comment l'univers détermine-t-il le nombre de réussites à partir de ces dés ?**
+**Comment l'univers détermine-t-il le nombre de réussites à partir de ces dés ?**
 
 Dans un monde strictement physique et dénué de magie (le référentiel "agnostique"), la règle par défaut est d'une simplicité binaire : **un résultat pair (2, 4, 6) génère 1 réussite, un résultat impair (1, 3, 5) est un échec**. C'est la réalité fondamentale, matérielle et indifférente.
 
 Mais le véritable défi du *game designer* commence ici : il s'agit d'altérer cette règle de lecture pour qu'elle devienne le miroir parfait de la réalité (ou de la philosophie) dans laquelle il veut immerger ses joueurs. La façon de lire les dés doit *résonner* avec le monde exploré dans le jeu par les joueurs. 
 
-### Proof of Concept : Les Cadres de Pensée dans Glorantha Perspectives
+### Proof of concept : Les cadres de pensée dans Glorantha Perspectives
 
 Pour illustrer ce concept, le jeu [Glorantha Perspectives](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf) propose une démonstration magistrale. Dans ce monde, la magie n'est pas une liste de sorts, c'est un prisme à travers lequel on appréhende l'univers. La mécanique mute donc selon la philosophie de celui qui lance les dés :
 
-* **L'Amplification (Le Théisme) :** L'initié s'en remet aux Dieux. Les pairs sont des réussites, mais les "6" explosent et permettent de relancer les dés impairs. La mécanique simule littéralement le miracle : la foi transforme l'échec en victoire.
-* **Les Harmoniques (L'Animisme) :** Le chaman vit entouré d'esprits erratiques. Les pairs réussissent, mais le joueur doit chercher des paires parmi ses échecs (par exemple, deux "3" ou deux "5"). Ces "doubles impairs" entrent en résonance pour former 1 réussite, simulant le pacte noué à la volée avec un esprit local.
-* **La Compression (La Logique) :** Le savant rejette la magie de l'instant. Il n'y a plus de pairs ou d'impairs : le joueur additionne la valeur de *tous* ses dés, puis divise la somme totale par 5. C'est froid, mesurable, et dépourvu de tout miracle.
-* **L'Interférence (Le Mysticisme) :** Le mystique sait que le monde est une illusion. S'il obtient des "1", ceux-ci annihilent purement et simplement les "6" du camp adverse. La mécanique démontre la futilité de la force brute matérielle.
+* **Le Théisme :** L'initié s'en remet aux Dieux. Les pairs sont des réussites, mais les "6" explosent et permettent de relancer les dés impairs. La mécanique simule littéralement le miracle : la foi transforme l'échec en victoire.
+* **L'Animisme :** Le chaman vit entouré d'esprits erratiques. Les pairs réussissent, mais le joueur doit chercher des paires parmi ses échecs (par exemple, deux "3" ou deux "5"). Ces "doubles impairs" entrent en résonance pour former 1 réussite, simulant le pacte noué à la volée avec un esprit local.
+* **La Logique :** Le savant rejette la magie de l'instant. Il n'y a plus de pairs ou d'impairs : le joueur additionne la valeur de *tous* ses dés, puis divise la somme totale par 5. C'est froid, mesurable, et dépourvu de tout miracle.
+* **Le Mysticisme :** Le mystique sait que le monde est une illusion. S'il obtient des "1", ceux-ci annihilent purement et simplement les "6" du camp adverse. La mécanique démontre la futilité de la force brute matérielle.
 
-### L'horizon du Game Designer : Concevoir ses propres prismes
+### L'horizon du game designer : concevoir ses propres prismes
 
 Le *game design* diégétique ouvre des portes infinies. Le créateur n'est plus limité à changer des valeurs de difficulté ; il peut manipuler la matière même du hasard pour faire ressentir son univers.
 
-Voici comment Resonance peut être étendu et hacké :
+Voici comment **Resonance** peut être étendu et hacké :
 
 **1. Changer la forme des dés pour simuler une autre conscience**
 Pourquoi se limiter à des D6 ? Dans *Glorantha Perspectives*, la métaphysique insondable des Dragonewts est simulée en utilisant des **D8**, car leur réalité est liée aux 8 Runes de Pouvoir. Les motifs qui apparaissent lors du tirage forcent le joueur à un dilemme déchirant : utiliser la magie pour écraser l'adversaire mais régresser spirituellement (le Wyrm), ou sacrifier sa victoire matérielle pour s'élever vers l'illumination (l'Utuma). Le type de dé dicte l'expérience cognitive.
@@ -131,25 +131,25 @@ Longtemps, le jeu de rôle a renvoyé au grand public l'image d'un loisir réser
 
 # Quelques précisions
 
-## Le Zoom de Résolution : Action, Séquence ou Script
+## Le zoom de résolution : action, séquence ou script
 
 Une opposition peut couvrir une action isolée (un assaut, une plaidoirie) comme toute une série d’actions étalées dans le temps (un plan). On parle de zoom de résolution, et le choix de ce zoom est souvent implicite. En cas d’ambiguïté, c’est le protagoniste impliqué qui choisit le niveau.
 
-- L’Action : C’est l’opposition par défaut, une action locale et unique.
-- La Séquence : Une série d’actions résolue en un seul tirage pour couvrir toute une scène (un raid, une cérémonie, une traversée).
-- Le Script : Une suite d’actions ou de scènes connus à l’avance menant à un résultat (une quête héroïque, une succession d’épreuves).
+- L’action : C’est l’opposition par défaut, une action locale et unique.
+- La séquence : Une série d’actions résolue en un seul tirage pour couvrir toute une scène (un raid, une cérémonie, une traversée).
+- Le script : Une suite d’actions ou de scènes connus à l’avance menant à un résultat (une quête héroïque, une succession d’épreuves).
 
 Jouer une séquence : On joue l’opposition en un seul tirage pour connaitre le résultat global. On peut appliquer une séquence pour résoudre un simple vol dans une maison, une négociation ou un combat mais aussi une immense bataille qui met en scène plusieurs armées.
 
 Résoudre un script : On décompose l’obstacle en étapes (des actions pour une séquence, des scènes pour un script) et chaque étape représente une ou plusieurs étapes clés à franchir. On rassemble ensuite les mises de chaque camp et l’on procède au tirage normal. En cas d’échec, on compte le nombre de réussites obtenues par le camp protagoniste pour localiser l’étape qui a échoué (une réussite = une étape franchie). En cas de succès, on est nécessairement allé au bout. La suite peut ensuite être narrée collectivement.
 
-## Les Obstacles à Clés : Résoudre un Problème
+## Les obstacles à clés : résoudre un problème
 
 Certains obstacles sont de véritables problèmes à résoudre : une énigme, une enquête, une fabrication complexe, quelque chose à réparer. Côté obstacle, on définit alors un certain nombre de clés qu’il faudra découvrir ou franchir pour réussir. Exemples : une enquête (le coupable, le mobile, le mode opératoire) ou une potion à fabriquer (le laboratoire, les ingrédients, la recette).
 
 L’opposition se fait alors face au nombre de clés à découvrir.
 
-## Résolution, Interprétation et Rétributions
+## Résolution, interprétation et rétributions
 
 Graduation du Résultat:
 
@@ -165,7 +165,7 @@ Comment évolue-t-on ? L’évolution passe par la dynamique des mots-clés du p
 
 Quand évolue-t-on ? Cette évolution ne survient pas à la fin d’un scénario. Elle intervient de manière organique lors d’un Fiasco ou d’un Exploit (qui se traduisent par une différence de 2 réussites ou plus lors d’un tirage), ou tout simplement quand l’histoire l’exige.
 
-## Les Tirages sans Opposition : Mesurer l’Ampleur
+## Les tirages sans opposition : mesurer l’ampleur
 
 Puisque le système est intégralement narratif, il arrive que le but d’un tirage ne soit pas d’obtenir une victoire face à une adversité directe. Parfois, l’enjeu est simplement d’évaluer l’envergure d’une action pour en mesurer le niveau de réussite ou le niveau d’échec.
 
@@ -173,7 +173,7 @@ Puisque le système est intégralement narratif, il arrive que le but d’un tir
 
 - Mesurer la réussite : Parfait lorsqu’il s’agit de quantifier la puissance d’une préparation minutieuse, comme l’exécution d’un rituel complexe pour pénétrer dans le plan des héros.
 
-La Résolution :
+La résolution :
 
 Dans ces cas précis, le camp actif rassemble ses mises et effectue un tirage standard, mais sans aucune opposition adverse. Il suffit alors de connaître le nombre total de réussites obtenues et de l’interpréter selon la situation dramatique en cours.
 

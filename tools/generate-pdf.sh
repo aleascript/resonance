@@ -51,12 +51,12 @@ IMAGE_PATH="${PROJECT_DIR}/content/assets/resonance.png"
 echo "Génération du PDF: $OUTPUT"
 pandoc "$TMPFILE" \
     --pdf-engine=xelatex \
-    -V template="$TEMPLATE" \
+    --template="$TEMPLATE" \
     -V image_path="$IMAGE_PATH" \
     -V lang=fr \
     --resource-path="$PROJECT_DIR" \
     --toc \
-    --toc-depth=2 \
+    --toc-depth=4 \
     -o "$OUTPUT"
 
 echo "PDF généré: $OUTPUT"
