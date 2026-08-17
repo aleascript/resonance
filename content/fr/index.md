@@ -129,9 +129,9 @@ Longtemps, le jeu de rôle a renvoyé au grand public l'image d'un loisir réser
 
 À l'inverse, ce sont les vétérans du jeu de rôle qui peuvent se retrouver momentanément déroutés : pour maîtriser ce système, ils doivent désapprendre des décennies de réflexes mécaniques, abandonner la recherche d'un bonus chiffré sur leur feuille, et réapprendre, tout simplement, à regarder le monde.
 
-### Quelques précisions
+# Quelques précisions
 
-#### Le Zoom de Résolution : Action, Séquence ou Script
+## Le Zoom de Résolution : Action, Séquence ou Script
 
 Une opposition peut couvrir une action isolée (un assaut, une plaidoirie) comme toute une série d’actions étalées dans le temps (un plan). On parle de zoom de résolution, et le choix de ce zoom est souvent implicite. En cas d’ambiguïté, c’est le protagoniste impliqué qui choisit le niveau.
 
@@ -143,13 +143,13 @@ Jouer une séquence : On joue l’opposition en un seul tirage pour connaitre le
 
 Résoudre un script : On décompose l’obstacle en étapes (des actions pour une séquence, des scènes pour un script) et chaque étape représente une ou plusieurs étapes clés à franchir. On rassemble ensuite les mises de chaque camp et l’on procède au tirage normal. En cas d’échec, on compte le nombre de réussites obtenues par le camp protagoniste pour localiser l’étape qui a échoué (une réussite = une étape franchie). En cas de succès, on est nécessairement allé au bout. La suite peut ensuite être narrée collectivement.
 
-#### Les Obstacles à Clés : Résoudre un Problème
+## Les Obstacles à Clés : Résoudre un Problème
 
 Certains obstacles sont de véritables problèmes à résoudre : une énigme, une enquête, une fabrication complexe, quelque chose à réparer. Côté obstacle, on définit alors un certain nombre de clés qu’il faudra découvrir ou franchir pour réussir. Exemples : une enquête (le coupable, le mobile, le mode opératoire) ou une potion à fabriquer (le laboratoire, les ingrédients, la recette).
 
 L’opposition se fait alors face au nombre de clés à découvrir.
 
-#### Résolution, Interprétation et Rétributions
+## Résolution, Interprétation et Rétributions
 
 Graduation du Résultat:
 
@@ -165,7 +165,7 @@ Comment évolue-t-on ? L’évolution passe par la dynamique des mots-clés du p
 
 Quand évolue-t-on ? Cette évolution ne survient pas à la fin d’un scénario. Elle intervient de manière organique lors d’un Fiasco ou d’un Exploit (qui se traduisent par une différence de 2 réussites ou plus lors d’un tirage), ou tout simplement quand l’histoire l’exige.
 
-#### Les Tirages sans Opposition : Mesurer l’Ampleur
+## Les Tirages sans Opposition : Mesurer l’Ampleur
 
 Puisque le système est intégralement narratif, il arrive que le but d’un tirage ne soit pas d’obtenir une victoire face à une adversité directe. Parfois, l’enjeu est simplement d’évaluer l’envergure d’une action pour en mesurer le niveau de réussite ou le niveau d’échec.
 
@@ -179,7 +179,7 @@ Dans ces cas précis, le camp actif rassemble ses mises et effectue un tirage st
 
 N’obtenir aucune réussite lors de ce type de tirage doit être interprété comme un réel problème pour les joueurs, plongeant immédiatement le récit dans la crise.
 
-#### Gérer la léthalité
+## Gérer la léthalité
 
 Cela peut être défini dans le contrat social du jeu. Mais dans tous les cas, pour préserver l’immersion tout en évitant la frustration d’une "mort stupide" sur un mauvais tirage, le MJ doit toujours prévenir le joueur en cas de risque létal.
 

@@ -35,19 +35,26 @@
 
 \setstretch{1.3}
 
-$if(title)$
-\title{\vspace{-2cm}\Huge\bfseries\color{resonance} $title$\vspace{1cm}}
-\author{\large\color{accent} AleaScript}
-\date{}
-$endif$
-
 \begin{document}
-$if(title)$
-\maketitle
-\thispagestyle{empty}
-\newpage
-$endif$
 
+% Page de couverture
+\thispagestyle{empty}
+\begin{center}
+\vspace*{\fill}
+$if(image_path)$
+\includegraphics[width=0.8\textwidth]{$image_path$}
+$endif$
+\vspace*{\fill}
+\end{center}
+\newpage
+
+% Table des matières
+\thispagestyle{empty}
+$toc$
+\newpage
+
+% Contenu
+\pagestyle{fancy}
 $body$
 
 \end{document}

@@ -41,17 +41,18 @@ mkdir -p "$(dirname "$OUTPUT")"
 TMPFILE=$(mktemp /tmp/resonance-XXXXXX.md)
 trap "rm -f $TMPFILE" EXIT
 
-sed '1,/^---$/d' "$SOURCE" | sed '/^---$/,/^---$/d' > "$TMPFILE"
+sed '/^---$/,/^---$/d' "$SOURCE" | sed '/!\[.*\](\.\.\/assets\/.*\.png)/d' > "$TMPFILE"
 
 sed -i "s|/content/assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
+sed -i "s|\.\./assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
 
-TITLE=$(head -20 "$SOURCE" | grep -m1 "^title:" | sed 's/^title: *//')
+IMAGE_PATH="${PROJECT_DIR}/content/assets/resonance.png"
 
 echo "Génération du PDF: $OUTPUT"
 pandoc "$TMPFILE" \
     --pdf-engine=xelatex \
     -V template="$TEMPLATE" \
-    -V title="$TITLE" \
+    -V image_path="$IMAGE_PATH" \
     -V lang=fr \
     --resource-path="$PROJECT_DIR" \
     --toc \
