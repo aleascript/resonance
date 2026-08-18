@@ -55,15 +55,25 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 | **Exclusion des joueurs "non-geeks"** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. |
 | **Décalage entre lore et mécanique** | Le Prisme fait du lore une règle. La philosophie du monde devient la façon de lire les dés. |
 
-### Pourquoi vous, game designer, devriez l'adopter :
+### Pourquoi vous, game designer, devriez l'adopter?
 
-1. **Vous n'êtes plus un équilibreur de chiffres.** Vous êtes un architecte de réalités. Votre travail consiste à créer du lore, des prismes et des facteurs cadres. Le reste, le moteur le gère.
+**1. Parce que votre univers repose sur des croyances antagonistes.**
+Que vos personnages soient des dieux en conflit, des schizophrènes dans un monde fragmenté, ou des êtres traversant des plans d'existence contradictoires (*Sandman*, *L'Incal*), Résonance est le seul moteur où la philosophie du personnage **change littéralement la mécanique**. Un dieu de la guerre ne résout pas un conflit comme un dieu des rêves. Le Prisme incarne cette différence.
 
-2. **Votre univers sera joué, pas seulement lu.** Les joueurs ressentiront physiquement, à travers les dés, ce qui rend votre monde unique. Un joueur ne *croit* pas en la magie de votre univers ; il la *pratique* à chaque tirage.
+**2. Parce que vous voulez que le système soit le miroir du lore.**
+Plus de décalage entre "ce que dit le texte" et "ce que fait le joueur". Dans Résonance, le lore n'est pas un décor plaqué sur des règles génériques. Il est la règle. Les mythes, les runes, les interdits, les esprits : tout ce qui compose votre univers devient une Mise ou un Prisme. Le joueur ne lit pas le lore pour s'imprégner ; il le **joue** à chaque tirage.
 
-3. **Vous touchez un public plus large.** Les joueurs débutants, les amateurs d'improvisation, les personnes rebutées par les calculs abscons trouveront dans Résonance un système qui les inclut sans les contraindre.
+**3. Parce que vous voulez éliminer le "gaming the system".**
+Fini le meta-jeu de la recherche de bonus, l'optimisation de personnage, les combos de talents. Dans Résonance, il n'y a pas de "bonne" construction de personnage. Il n'y a que des choix narratifs cohérents. Un joueur ne peut pas "casser" le système ; il ne peut que **trahir son personnage** en proposant une Mise qui n'a pas de sens dans la fiction. Le système éduque organiquement les joueurs à s'ancrer dans la fiction pure.
 
-4. **Vous éliminez le "gaming the system".** Dans Résonance, il n'y a pas d'optimisation de personnage. Il n'y a que des choix narratifs cohérents. Les joueurs cherchent des Mises dans le monde, pas dans les règles.
+**4. Vous n'êtes plus un équilibreur de chiffres.**
+Vous êtes un architecte de réalités. Votre travail consiste à créer du lore, des prismes et des facteurs cadres. Le reste, le moteur le gère.
+
+**5. Votre univers sera joué, pas seulement lu.**
+Les joueurs ressentiront physiquement, à travers les dés, ce qui rend votre monde unique. Un joueur ne *croit* pas en la magie de votre univers ; il la *pratique* à chaque tirage.
+
+**6. Vous touchez un public plus large.**
+Les joueurs débutants, les amateurs d'improvisation, les personnes rebutées par l'aspect technique trouveront dans Résonance un système qui les inclut sans les contraindre.
 
 ---
 
