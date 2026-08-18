@@ -67,22 +67,27 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 
 ---
 
-## Résonance face aux autres moteurs : un tableau comparatif
+## Résonance face aux autres moteurs : une grille d'analyse
 
-Pour comprendre pleinement l'apport de Résonance, comparons-le aux moteurs qui ont marqué l'histoire du JdR. Ce tableau montre ce que chaque système *standardise* — c'est-à-dire ce qu'il met au cœur de son fonctionnement.
+Pour comprendre pleinement l'apport de Résonance, comparons-le aux moteurs qui ont marqué l'histoire du JdR. Ce tableau montre ce que chaque système *standardise* — c'est-à-dire ce qu'il met au coeur de son fonctionnement, sa raison d'être mécanique.
 
-| Moteur | Standardise | Interface | Boucle de jeu | Immersion | Accessibilité |
-|--------|-------------|-----------|---------------|-----------|---------------|
-| **D20 System** (D&D) | **La probabilité** (le seuil de réussite, la CA, les jets de sauvegarde) | Feuille de stats, bonus chiffrés, niveaux | Je regarde ma feuille → Je calcule mon bonus → Je lance le d20 → Je compare au seuil | **Moyenne** (le joueur quitte la scène pour consulter sa feuille) | **Modérée** (les débutants apprennent, mais le crunch peut rebuter) |
-| **BRP** (RuneQuest, Call of Cthulhu) | **La compétence** (le pourcentage de réussite, la physique du monde) | Feuille de compétences en %, malus/bonus contextuels | Je choisis une compétence → Je lance le d100 → Je compare au seuil | **Bonne** (le monde est dangereux, chaque action compte) | **Moyenne** (le pourcentage est intuitif, mais la gestion des modificateurs est lourde) |
-| **PbtA** (Apocalypse World) | **La structure narrative** (les Moves, les coups durs, l'échec partiel) | Stats (-1 à +3), listes de Moves | Je déclenche un Move → Je lance 2d6 + stat → J'interprète le résultat (10+, 7-9, 6-) | **Bonne** (le jeu est tourné vers le récit, mais les Moves créent un cadre) | **Élevée** (les règles sont simples, mais la logique des Moves demande un apprentissage) |
-| **FATE** | **L'aspect** (ce qui caractérise le personnage et la scène) | Aspects, Points de Destin, Bonus +2 | Je crée un avantage → Je dépense un Point de Destin → J'obtiens un bonus → Je lance 4dF | **Bonne** (les Aspects sont narratifs, mais le méta-jeu des Points de Destin reste présent) | **Moyenne** (les Aspects sont intuitifs, mais la gestion des Points de Destin est un méta-ressource) |
-| **RÉSONANCE** | **La pertinence** (ce qui pèse dans la balance, ici et maintenant) | **Aucune statistique.** Feuille = carnet de bord (biographie, souvenirs, liens). | J'observe la scène → Je pose des Mises (arguments narratifs) → Je lance les dés → Le Prisme les lit → J'interprète le résultat | **Très forte** (le joueur ne quitte jamais la scène. La mécanique EST le regard porté sur le monde) | **Élevée pour les débutants** (le processus est naturel). **Difficile pour les vétérans** (ils doivent désapprendre le réflexe du bonus). |
+| Moteur | Standardise | Ce qu'il simule | Ce qu'il ne fait pas |
+|--------|-------------|-----------------|----------------------|
+| **D20 System** (D&D) | **La progression par niveau et la puissance** | L'escalade héroïque. Les PV augmentent, les sorts deviennent dévastateurs, les ennemis s'adaptent au niveau du groupe. | Il ne simule pas le danger réel. Un paysan restera toujours un paysan. La puissance est absolue, pas contextuelle. |
+| **BRP** (RuneQuest, Call of Cthulhu) | **La simulation du "réel"** | La physique du monde : la gravité, la pénétration d'une armure, les compétences qui s'améliorent par l'usage. Le monde est dangereux, la mort est probable. | Il ne simule pas la perception subjective. Un humain reste un humain, qu'il soit chaman ou chevalier. Le système est le même pour tous. |
+| **PbtA** (Apocalypse World) | **Les tropes et les genres narratifs** | Les codes du cinéma, de la série, du roman. Chaque Move est un cliché du genre. Le jeu est taillé pour un style précis et ne s'en écarte pas. | Il ne simule pas un monde ouvert. Il est un **cadre**, parfois une prison dorée : le jeu fonctionne tant qu'on reste dans le genre prévu. |
+| **FATE** | **La négociation et le compromis narratif** | La dynamique de table : les joueurs et le MJ marchandent sur ce qui est important via les Aspects et les Points de Destin. Le système récompense les prises de risque et les complications. | Il ne simule ni un monde physique ni un genre précis. Il standardise **la conversation**, pas l'univers. Le lore est un décor, pas une mécanique. |
+| **RÉSONANCE** | **La pertinence** (ce qui pèse dans la balance, ici et maintenant) | La cognition d'un personnage face à un monde qui lui répond selon ce qu'il est. Le système ne dit pas "tu es fort", il dit "ce que tu es compte dans cette situation précise". | Il ne standardise pas de progression, ni de genre, ni de physique. Il est un **miroir** : le monde dicte les règles, pas le système. |
 
-### Ce que ce tableau révèle :
+### Ce que ce tableau révèle sur Résonance :
 
-- **D20, BRP, PbtA et FATE** placent une couche (chiffres, Moves, Points de Destin) entre le joueur et la fiction.
-- **Résonance** supprime cette couche. Le joueur interagit directement avec le monde. Les dés ne font que cristalliser l'attention qu'il lui porte.
+- **D20** dit : "Plus tu avances, plus tu es puissant."
+- **BRP** dit : "Le monde est dangereux ; sois compétent."
+- **PbtA** dit : "Joue selon les codes du genre."
+- **FATE** dit : "Négocie avec le MJ pour que l'histoire soit intéressante."
+- **Résonance** dit : "Regarde le monde, comprends qui tu es, et le reste suivra."
+
+> *Résonance ne standardise ni une courbe de progression, ni une physique, ni un genre, ni une négociation. Il standardise **l'immersion** : la capacité du joueur à être pleinement dans la scène, sans interface.*
 
 > *"Résonance ne standardise ni une probabilité, ni une compétence, ni une structure narrative. Il standardise l'immersion elle-même."*
 
