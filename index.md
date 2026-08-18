@@ -1,40 +1,36 @@
 ---
-title: Résonance - SRD
+title: Résonance Game Design - SRD
 ---
 
 ![Resonance](content/assets/header.png)
 
-# Résonance : Moteur de Résolution Cognitive pour Jeux de Rôle
+# Résonance Game Design pour Jeux de Rôle
 
 ## Qu'est-ce que Résonance ?
 
-**Résonance n'est pas un jeu de rôle.** C'est une **architecture de résolution cognitive**, un moteur générique conçu pour être adapté à n'importe quel univers.
+**Résonance n'est pas un jeu de rôle.** C'est une **proposition** de game design pour créer des jeux de rôles plus immersifs, avec des règles immédiatement accessibles mais capables d'appréhender la complexité de votre monde.
 
-Pour le dire autrement : si le **D20 System** standardise la *probabilité* (le seuil de réussite), si le **PbtA** standardise la *structure narrative* (les Moves et les coups durs), et si le **BRP** standardise la *compétence* (le pourcentage), alors **Résonance standardise la pertinence**.
+Elle s'inscrit dans la lignée des jeux narrativistes mais possède aussi intrinsèquement une part de simulationnisme.
 
-Il répond à cette question fondamentale :
+Le moteur est très accessible quand une incertitude, une bifurcation narrative apparaît, un obstacle, ou autre et peut se résumer en une phrase:
 
 > *"De tout ce qui constitue ton personnage et cette scène, qu'est-ce qui pèse vraiment dans la balance, maintenant ?"*
 
----
-
-## Ce que Résonance standardise : l'immersion par la pertinence
-
-Le moteur repose sur une idée simple : **la règle ne doit pas être une interface entre le joueur et le monde. Elle doit être un prolongement de son regard.**
+En effet Resonance repose sur l'idée que  **la règle ne doit pas être une interface entre le joueur et le monde. Elle doit être un prolongement de son regard.**
 
 Dans la vraie vie, personne n'aborde un problème en se disant qu'il a "75% de chances de réussir". Face à un obstacle, on évalue instinctivement ses forces, ses faiblesses, son environnement, son état émotionnel. Cette évaluation n'est pas un chiffre froid, c'est un **espoir** ou une **crainte**.
 
 **Résonance** capture ce processus naturel :
 
-- Le joueur observe la scène (la diégèse).
+- Le joueur observe la scène
 - Il identifie ce qui, dans cette situation, joue en sa faveur.
 - Il confronte ces éléments à ceux de l'adversaire ou de l'obstacle.
-- Un tirage cristallise l'incertitude.
-- La table interprète le résultat.
+- Un tirage ensuite cristallise l'incertitude a travers un Prisme
+- On interprète le résultat.
 
 **Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai. Des joueurs totalement  impliqués.**
 
-## Pourquoi choisir Résonance ? Le "Kick" du Game Designer
+## Pourquoi choisir Résonance pour son jeu?
 
 En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrations :
 
@@ -52,7 +48,7 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 | **Méta-jeu et calculs** | Plus de pourcentages, plus de modificateurs. Le joueur observe la scène, pas sa feuille. |
 | **Combats longs** | Un tirage ou quelques jets tranchent l'issue. On interprète le résultat, on passe à la suite. |
 | **Recherche de règles** | La règle est dans la fiction. Si c'est cohérent, c'est une Mise. Sinon, ce n'en est pas une. La règle c'est votre bon sens et votre culture. Pas besoin de règle spécifique sur le vol spatial, les batailles rangées, les jeux d'alcool, les longues négociations, etc... Elles sont deja incluses dans le système selon le zoom de précision que vous voulez. |
-| **Exclusion des joueurs "non-geeks"** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. |
+| **Exclusion des joueurs non geeks** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. On peut donc espérer créer un jeu pour un public différent et éloigné du JdR |
 | **Décalage entre lore et mécanique** | Le Prisme fait du lore une règle. La philosophie du monde devient la façon de lire les dés. |
 
 ### Pourquoi vous, game designer, devriez l'adopter?
@@ -97,13 +93,14 @@ Pour comprendre pleinement l'apport de Résonance, comparons-le aux moteurs qui 
 - **FATE** dit : "Négocie avec le MJ pour que l'histoire soit intéressante."
 - **Résonance** dit : "Regarde le monde, comprends qui tu es, et le reste suivra."
 
-> *Résonance ne standardise ni une courbe de progression, ni une physique, ni un genre, ni une négociation. Il standardise **l'immersion** : la capacité du joueur à être pleinement dans la scène, sans interface.*
+> *Résonance ne standardise ni une courbe de progression, ni une physique, ni un genre, ni une négociation. Il aide à améliorer **l'immersion** : la capacité du joueur à être pleinement dans la scène, sans interface.*
+
 
 ---
 
-## Le coeur du moteur : les trois piliers de Résonance
+## Les trois piliers de Résonance
 
-Pour qu'un jeu fonctionne avec Résonance, le game designer doit définir trois piliers. Ce sont eux qui donnent sa couleur à l'univers.
+Pour qu'un jeu fonctionne avec Résonance, le game designer doit définir trois piliers. Ce sont eux qui donneront sa couleur à son jeu. 
 
 ### 1. L'Intention diégétique (les Mises)
 
@@ -208,6 +205,10 @@ Si un joueur argumente que son casque terrifiant lui accorde une Mise, le MJ peu
 
 **C'est un jeu à somme nulle.** Chaque avantage trouvé par un camp peut devenir un avantage pour l'autre. Les joueurs apprennent vite : chercher des avantages futiles ne fait que donner des munitions narratives au MJ.
 
+En pratique, les pools sont souvent très équilibrés car quand une mise est avancée, souvent la mise contraire l'est aussi. 
+
+La difficulté n'est peut être pas de tuer le Dragon mais d'arriver jusqu'à lui et jusqu'au bon moment où sa flèche trouvera la faille dans ses écailles. 
+
 ---
 
 ## Les Outils du Game Designer
@@ -225,6 +226,16 @@ Pour adapter Résonance à un nouvel univers, le game designer doit répondre à
 - **Règle normale** : pairs = réussite.
 - **Appel à l'entropie** : le joueur peut ignorer son tirage et obtenir un Exploit automatique.
 - **Le prix** : il doit rayer définitivement un trait, un lien ou un être cher de sa fiche.
+
+
+1. Qu'est-ce que votre univers considère comme une vérité pertinente ?
+2. Qu'est-ce qu'un personnage peut invoquer comme Mise ?
+3. Quelles choses ne devraient jamais être des Mises ?
+4. Comment votre Prisme transforme-t-il la sensation du hasard ?
+5. Qu'est-ce que votre système veut encourager les joueurs à remarquer ?
+6. Qu'est-ce qu'il veut rendre dangereux ?
+7. Quelle forme de narration collective voulez-vous favoriser ?
+
 
 ### Changer la forme des dés
 
@@ -360,20 +371,13 @@ Face à l'avertissement, le joueur peut opter pour un **recul stratégique** et 
 
 ---
 
-## Conclusion : Une ligne directe entre l'âme du joueur et le monde
+## Conclusion : on espère que vous arriverez a construire des jeux intéressants, plus accessibles et immersifs grace a Résonance. 
 
-**Résonance** replace le jeu de rôle dans ce qu'il aurait toujours dû être :
 
-> *Une ligne directe, sans interférence et sans méta-jeu, entre l'âme du joueur et le monde qu'il arpente.*
-
-En supprimant l'interface mathématique, le système détruit la barrière qui éloigne le joueur de l'immersion. Il ne calcule plus. Il observe. Il doute. Il espère. Exactement comme son personnage.
-
-Et c'est là que se produit la vraie magie : **la résonance**.
-
-Le système ne simule pas seulement le monde. Il simule la manière dont le personnage et le joueur comprennent le monde.
+Votre jeu ne doit pas se limiter à simuler seulement le monde. Il doit aussi simuler la manière dont le personnage et le joueur comprennent le monde.
 
 ---
 
 **Document SRD - Résonance v1.0**
-*Moteur de résolution cognitive pour jeux de rôle.*
+*Résonance Game Design pour jeux de rôle.*
 *Découvrez l'implémentation complète dans [Glorantha Perspectives](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf).*
