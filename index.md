@@ -50,7 +50,7 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 | Problème | Solution Résonance |
 |----------|-------------------|
 | **Méta-jeu et calculs** | Plus de pourcentages, plus de modificateurs. Le joueur observe la scène, pas sa feuille. |
-| **Combats longs** | Un tirage tranche l'issue. On interprète le résultat, on passe à la suite. |
+| **Combats longs** | Un tirage ou quelques jets tranchent l'issue. On interprète le résultat, on passe à la suite. |
 | **Recherche de règles** | La règle est dans la fiction. Si c'est cohérent, c'est une Mise. Sinon, ce n'en est pas une. |
 | **Exclusion des joueurs "non-geeks"** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. |
 | **Décalage entre lore et mécanique** | Le Prisme fait du lore une règle. La philosophie du monde devient la façon de lire les dés. |
