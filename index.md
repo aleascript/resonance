@@ -12,7 +12,7 @@ title: Résonance Game Design - SRD
 
 Elle s'inscrit dans la lignée des jeux narrativistes mais possède aussi intrinsèquement une part de simulationnisme.
 
-Le moteur est très accessible quand une incertitude, une bifurcation narrative apparaît, un obstacle, ou autre et peut se résumer en une phrase:
+Le moteur est très accessible quand une incertitude, une bifurcation narrative, un obstacle, ou autre apparaît et peut se résumer en une phrase:
 
 > *"De tout ce qui constitue ton personnage et cette scène, qu'est-ce qui pèse vraiment dans la balance, maintenant ?"*
 
