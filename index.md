@@ -20,15 +20,26 @@ En effet Resonance repose sur l'idée que  **la règle ne doit pas être une int
 
 Dans la vraie vie, personne n'aborde un problème en se disant qu'il a "75% de chances de réussir". Face à un obstacle, on évalue instinctivement ses forces, ses faiblesses, son environnement, son état émotionnel. Cette évaluation n'est pas un chiffre froid, c'est un **espoir** ou une **crainte**.
 
-**Résonance** capture ce processus naturel :
+Résonance est bien adapté pour les jeux qui veulent explorer des mondes denses et deja bien fournis au niveau du lore (romans, films, etc...). 
+
+**Résonance** capture le processus naturel :
 
 - Le joueur observe la scène
-- Il identifie ce qui, dans cette situation, joue en sa faveur.
+- Il identifie ce qui, dans cette situation, joue en sa faveur ou en sa défaveur
 - Il confronte ces éléments à ceux de l'adversaire ou de l'obstacle.
-- Un tirage ensuite cristallise l'incertitude a travers un Prisme
-- On interprète le résultat.
+- Un tirage est ensuite réalisé mais son résultat dépend du ou des prismes spécifiques au monde et a votre jeu. 
+- On interprète ensuite le résultat pour faire rebondir l'histoire.
 
 **Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai. Des joueurs totalement  impliqués.**
+
+
+**Résonance fait aussi résonner notre part d'enfance: le jeu comme le pratiquaient les enfants dans la cour de récréation.**
+
+> *Deux enfants jouent aux cow-boys. L'un dit : "J'ai mon pistolet et je suis caché derrière le rocher." L'autre répond : "J'ai mon bouclier en fer et mon frère arrive en renfort." Ils n'ont pas besoin de règles. Ils ont besoin d'un accord sur ce qui est juste. Résonance est le gardien de cet accord.*
+
+
+Mais avec la maturité d'un adulte donc une exigence de pertinence.
+
 
 ## Pourquoi choisir Résonance pour son jeu?
 
@@ -307,9 +318,6 @@ Son travail consiste à :
 - Cesser de fouiller leur feuille de personnage.
 - Réapprendre, tout simplement, à regarder le monde.
 
-**Résonance est un retour à l'essentiel : le jeu comme le pratiquaient les enfants dans la cour de récréation.**
-
-> *Deux enfants jouent aux cow-boys. L'un dit : "J'ai mon pistolet et je suis caché derrière le rocher." L'autre répond : "J'ai mon bouclier en fer et mon frère arrive en renfort." Ils n'ont pas besoin de règles. Ils ont besoin d'un accord sur ce qui est juste. Résonance est le gardien de cet accord.*
 
 ---
 
