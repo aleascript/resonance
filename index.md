@@ -61,7 +61,7 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 
 2. **Votre univers sera joué, pas seulement lu.** Les joueurs ressentiront physiquement, à travers les dés, ce qui rend votre monde unique. Un joueur ne *croit* pas en la magie de votre univers ; il la *pratique* à chaque tirage.
 
-3. **Vous touchez un public plus large.** Les joueurs débutants, les amateurs d'improvisation, les personnes rebutées par le "geek à lunettes" trouveront dans Résonance un système qui les inclut sans les contraindre.
+3. **Vous touchez un public plus large.** Les joueurs débutants, les amateurs d'improvisation, les personnes rebutées par les calculs abscons trouveront dans Résonance un système qui les inclut sans les contraindre.
 
 4. **Vous éliminez le "gaming the system".** Dans Résonance, il n'y a pas d'optimisation de personnage. Il n'y a que des choix narratifs cohérents. Les joueurs cherchent des Mises dans le monde, pas dans les règles.
 
