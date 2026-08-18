@@ -34,6 +34,58 @@ Dans la vraie vie, personne n'aborde un problème en se disant qu'il a "75% de c
 
 **Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai. Des joueurs totalement  impliqués.**
 
+## Pourquoi choisir Résonance ? Le "Kick" du Game Designer
+
+En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrations :
+
+- **Des combats interminables** où les joueurs et le MJ comptent des points de vie pendant 45 minutes, pendant que la tension narrative s'évapore.
+- **Des recherches de règles** sur un point de détail qui coupent net l'élan dramatique.
+- **Des joueurs qui jouent leur feuille de personnage** plutôt que la scène, cherchant le bonus optimal plutôt que l'action cohérente.
+- **Des amis rebutés** par l'aspect technique du JdR, qui se sentent exclus alors qu'ils auraient tant à apporter à la table.
+
+**Résonance répond à ces problèmes à la racine.**
+
+### Ce qu'il résout :
+
+| Problème | Solution Résonance |
+|----------|-------------------|
+| **Méta-jeu et calculs** | Plus de pourcentages, plus de modificateurs. Le joueur observe la scène, pas sa feuille. |
+| **Combats longs** | Un tirage tranche l'issue. On interprète le résultat, on passe à la suite. |
+| **Recherche de règles** | La règle est dans la fiction. Si c'est cohérent, c'est une Mise. Sinon, ce n'en est pas une. |
+| **Exclusion des joueurs "non-geeks"** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. |
+| **Décalage entre lore et mécanique** | Le Prisme fait du lore une règle. La philosophie du monde devient la façon de lire les dés. |
+
+### Pourquoi vous, game designer, devriez l'adopter :
+
+1. **Vous n'êtes plus un équilibreur de chiffres.** Vous êtes un architecte de réalités. Votre travail consiste à créer du lore, des prismes et des facteurs cadres. Le reste, le moteur le gère.
+
+2. **Votre univers sera joué, pas seulement lu.** Les joueurs ressentiront physiquement, à travers les dés, ce qui rend votre monde unique. Un joueur ne *croit* pas en la magie de votre univers ; il la *pratique* à chaque tirage.
+
+3. **Vous touchez un public plus large.** Les joueurs débutants, les amateurs d'improvisation, les personnes rebutées par le "geek à lunettes" trouveront dans Résonance un système qui les inclut sans les contraindre.
+
+4. **Vous éliminez le "gaming the system".** Dans Résonance, il n'y a pas d'optimisation de personnage. Il n'y a que des choix narratifs cohérents. Les joueurs cherchent des Mises dans le monde, pas dans les règles.
+
+---
+
+## Résonance face aux autres moteurs : un tableau comparatif
+
+Pour comprendre pleinement l'apport de Résonance, comparons-le aux moteurs qui ont marqué l'histoire du JdR. Ce tableau montre ce que chaque système *standardise* — c'est-à-dire ce qu'il met au cœur de son fonctionnement.
+
+| Moteur | Standardise | Interface | Boucle de jeu | Immersion | Accessibilité |
+|--------|-------------|-----------|---------------|-----------|---------------|
+| **D20 System** (D&D) | **La probabilité** (le seuil de réussite, la CA, les jets de sauvegarde) | Feuille de stats, bonus chiffrés, niveaux | Je regarde ma feuille → Je calcule mon bonus → Je lance le d20 → Je compare au seuil | **Moyenne** (le joueur quitte la scène pour consulter sa feuille) | **Modérée** (les débutants apprennent, mais le crunch peut rebuter) |
+| **BRP** (RuneQuest, Call of Cthulhu) | **La compétence** (le pourcentage de réussite, la physique du monde) | Feuille de compétences en %, malus/bonus contextuels | Je choisis une compétence → Je lance le d100 → Je compare au seuil | **Bonne** (le monde est dangereux, chaque action compte) | **Moyenne** (le pourcentage est intuitif, mais la gestion des modificateurs est lourde) |
+| **PbtA** (Apocalypse World) | **La structure narrative** (les Moves, les coups durs, l'échec partiel) | Stats (-1 à +3), listes de Moves | Je déclenche un Move → Je lance 2d6 + stat → J'interprète le résultat (10+, 7-9, 6-) | **Bonne** (le jeu est tourné vers le récit, mais les Moves créent un cadre) | **Élevée** (les règles sont simples, mais la logique des Moves demande un apprentissage) |
+| **FATE** | **L'aspect** (ce qui caractérise le personnage et la scène) | Aspects, Points de Destin, Bonus +2 | Je crée un avantage → Je dépense un Point de Destin → J'obtiens un bonus → Je lance 4dF | **Bonne** (les Aspects sont narratifs, mais le méta-jeu des Points de Destin reste présent) | **Moyenne** (les Aspects sont intuitifs, mais la gestion des Points de Destin est un méta-ressource) |
+| **RÉSONANCE** | **La pertinence** (ce qui pèse dans la balance, ici et maintenant) | **Aucune statistique.** Feuille = carnet de bord (biographie, souvenirs, liens). | J'observe la scène → Je pose des Mises (arguments narratifs) → Je lance les dés → Le Prisme les lit → J'interprète le résultat | **Très forte** (le joueur ne quitte jamais la scène. La mécanique EST le regard porté sur le monde) | **Élevée pour les débutants** (le processus est naturel). **Difficile pour les vétérans** (ils doivent désapprendre le réflexe du bonus). |
+
+### Ce que ce tableau révèle :
+
+- **D20, BRP, PbtA et FATE** placent une couche (chiffres, Moves, Points de Destin) entre le joueur et la fiction.
+- **Résonance** supprime cette couche. Le joueur interagit directement avec le monde. Les dés ne font que cristalliser l'attention qu'il lui porte.
+
+> *"Résonance ne standardise ni une probabilité, ni une compétence, ni une structure narrative. Il standardise l'immersion elle-même."*
+
 ---
 
 ## Le coeur du moteur : les trois piliers de Résonance
