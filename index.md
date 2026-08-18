@@ -89,8 +89,6 @@ Pour comprendre pleinement l'apport de Résonance, comparons-le aux moteurs qui 
 
 > *Résonance ne standardise ni une courbe de progression, ni une physique, ni un genre, ni une négociation. Il standardise **l'immersion** : la capacité du joueur à être pleinement dans la scène, sans interface.*
 
-> *"Résonance ne standardise ni une probabilité, ni une compétence, ni une structure narrative. Il standardise l'immersion elle-même."*
-
 ---
 
 ## Le coeur du moteur : les trois piliers de Résonance
