@@ -370,6 +370,8 @@ En supprimant l'interface mathématique, le système détruit la barrière qui �
 
 Et c'est là que se produit la vraie magie : **la résonance**.
 
+Le système ne simule pas seulement le monde. Il simule la manière dont le personnage et le joueur comprennent le monde.
+
 ---
 
 **Document SRD - Résonance v1.0**
