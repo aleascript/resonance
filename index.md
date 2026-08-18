@@ -32,11 +32,11 @@ Dans la vraie vie, personne n'aborde un problème en se disant qu'il a "75% de c
 - Un tirage cristallise l'incertitude.
 - La table interprète le résultat.
 
-**Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai.**
+**Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai. Des joueurs totalement  impliqués.**
 
 ---
 
-## Le cœur du moteur : les trois piliers de Résonance
+## Le coeur du moteur : les trois piliers de Résonance
 
 Pour qu'un jeu fonctionne avec Résonance, le game designer doit définir trois piliers. Ce sont eux qui donnent sa couleur à l'univers.
 
