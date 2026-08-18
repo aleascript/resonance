@@ -1,194 +1,234 @@
 ---
-title: Résonance
+title: Résonance - SRD
 ---
 
 ![Resonance](../assets/resonance.png)
 
-# Résonance : pour un système cognitif et diégétique dans les JDR
+# Résonance : Moteur de Résolution Cognitive pour Jeux de Rôle
 
-## 1. Le constat 
+## Qu'est-ce que Résonance ?
 
-Depuis cinquante ans, les systèmes des JdR ont hérité du passé (les wargames), ont tenté de simuler la physique (la gravité, les dommages d'une arme) ou se sont focalisés sur la narration (les arcs dramatiques). Mais ils imposent généralement le même moteur de résolution à un hacker, un chaman ou un chevalier ou alors crée un système réduit à des archétypes (comme dans le PbtA).
+**Résonance n'est pas un jeu de rôle.** C'est une **architecture de résolution cognitive**, un moteur générique conçu pour être adapté à n'importe quel univers.
 
-Le système apparaît alors comme une surcouche universelle, un meta-jeu qui éloigne le joueur d'une immersion totale. En effet, l'interface ludique (les pourcentages, les modificateurs) crée une barrière étanche entre l'esprit du joueur et celui du personnage.
+Pour le dire autrement : si le **D20 System** standardise la *probabilité* (le seuil de réussite), si le **PbtA** standardise la *structure narrative* (les Moves et les coups durs), et si le **BRP** standardise la *compétence* (le pourcentage), alors **Résonance standardise la pertinence**.
 
-Je pense comme Ron Edwards que le système compte: "System does matter". 
+Il répond à cette question fondamentale :
 
-## 2. Le changement de paradigme
+> *"De tout ce qui constitue ton personnage et cette scène, qu'est-ce qui pèse vraiment dans la balance, maintenant ?"*
 
-**Résonance** postule que la mécanique de résolution doit:
-- être la plus naturelle possible
-- et refléter les spécificités du monde
+---
 
-Les règles ne doivent pas simplement simuler si une action réussit, elles doivent simuler la manière dont la réalité de cet univers précis réagit à la conscience du personnage. Changer de philosophie intime ou de plan d'existence, c'est changer littéralement de mécanique de jeu.
+## Ce que Résonance standardise : l'immersion par la pertinence
 
-## 3. Les principes
+Le moteur repose sur une idée simple : **la règle ne doit pas être une interface entre le joueur et le monde. Elle doit être un prolongement de son regard.**
 
-Le système ne repose plus sur des probabilités froides, mais sur l'alignement de trois éléments fondamentaux :
+Dans la vraie vie, personne n'aborde un problème en se disant qu'il a "75% de chances de réussir". Face à un obstacle, on évalue instinctivement ses forces, ses faiblesses, son environnement, son état émotionnel. Cette évaluation n'est pas un chiffre froid, c'est un **espoir** ou une **crainte**.
 
-* **L'intention diégétique:** Le monde est complexe et le joueur doit y trouver un sens. En s'immergeant dans la diégèse, il extrait des éléments tangibles (mots-clés, culture, environnement, émotions) pour pouvoir formuler une approche claire et justifiée dans TOUTE situation. 
+**Résonance** capture ce processus naturel :
 
-* **Le Prisme:** Le monde évalue cette approche à travers sa propre vérité. Les dés ne sont plus des générateurs de probabilités aveugles : ils doivent représenter la réalité telle que vécue par le personnage. Si la règle résonne avec le monde, elle résonnera avec celui qui l'explore. En supprimant l'interface mathématique (les bonus, les scores), le système détruit le méta-jeu. Le joueur ne fouille plus sa feuille de personnage, il fouille la réalité de la scène. La mécanique force alors le joueur à penser, douter et espérer exactement comme son personnage.
+- Le joueur observe la scène (la diégèse).
+- Il identifie ce qui, dans cette situation, joue en sa faveur.
+- Il confronte ces éléments à ceux de l'adversaire ou de l'obstacle.
+- Un tirage cristallise l'incertitude.
+- La table interprète le résultat.
 
+**Aucun calcul. Aucune recherche de bonus. Juste une attention portée au monde et à ce qui le rend vrai.**
 
-# Comment rendre la mécanique de résolution naturelle?
+---
 
-## Les mises et l'approche cognitive
+## Le cœur du moteur : les trois piliers de Résonance
 
-### La fin de l'illusion mathématique et du méta-jeu
+Pour qu'un jeu fonctionne avec Résonance, le game designer doit définir trois piliers. Ce sont eux qui donnent sa couleur à l'univers.
 
-Dans la vraie vie, aucun être humain n'aborde un problème en estimant qu'il a "75 % de chances de réussir". Face à un obstacle, un individu évalue instinctivement ses forces, ses faiblesses, son environnement et son état émotionnel. Cette évaluation n'est pas un chiffre froid, c'est un espoir ou une crainte.
+### 1. L'Intention diégétique (les Mises)
 
-**Resonance** supprime intégralement ces statistiques abstraites. Il propose un système purement diégétique (ancré dans la narration) où la mécanique n'est plus une surcouche qui sort le joueur de l'immersion, mais un prolongement direct de sa propre conscience.
+Le monde est complexe. Le joueur doit y trouver du sens. Pour agir, il extrait de la scène des éléments tangibles :
 
-### Un nouveau simulationnisme : Le raisonnement naturel
+- Des mots-clés (son passé, sa culture, ses blessures).
+- Des éléments d'environnement (la pluie, une falaise, une foule).
+- Des émotions (la peur, la colère, l'amour).
+- Des relations (un allié, un ennemi, une dette).
 
-Historiquement, le simulationnisme s'est focalisé sur la physique du combat (calculer la pénétration d'une armure ou la trajectoire d'une flèche). Ici, nous proposons un **simulationnisme cognitif et universel**. Il ne s'applique pas qu'au combat, mais à n'importe quel domaine (une négociation politique, une escalade périlleuse, la création d'une œuvre d'art), sous réserve que la table prenne la peine d'étudier la scène à la loupe.
+Chaque élément ainsi identifié devient une **Mise** : un argument narratif qui pèse dans la balance.
 
-Au lieu de s'appuyer sur des mécaniques artificielles, le système reproduit le fonctionnement de l'esprit humain. Un individu évalue le poids des éléments qui l'entourent pour comprendre un contexte et agir en conséquence. Dans ce système, le PJ et le MJ font exactement la même chose. Face à une situation, chaque camp rassemble des **Mises** : des arguments narratifs justifiés par la fiction. Il peut s'agir d'une arme héritée de ses ancêtres, d'une bourrasque de vent providentielle, d'une haine viscérale, ou d'une discipline de fer. Il n'y a plus de tables, de mathématiques, de statistiques : MJ et PJ observent et exploitent la réalité de la scène, du monde et du récit qu'ils explorent. 
+> **Important :** La Mise n'est pas un bonus. C'est un fragment de vérité diégétique. Elle dit : "Mon personnage EST ceci, il a VÉCU cela, il porte CET objet." Le système ne valide que ce que la fiction justifie.
 
-### La mécanique : focus, facteurs cadres et mises
+### 2. Le Prisme (la règle de lecture)
 
-Lorsqu'un conflit éclate, ou que le récit arrive à la possibilité d'une bifurcation narrative, la résolution passe alors par l'analyse minutieuse de la situation.
+Une fois les Mises posées, on lance les dés. Mais **la manière de lire ces dés dépend du monde**.
 
-* **L'établissement des camps :** Les Mises du camp A sont constituées de tout ce qui favorise son objectif, plus les éléments qui viennent contrecarrer le camp B (et inversement pour le camp B).
-* **Le focus :** On ne jette pas tous les traits de sa fiche de personnage sur la table. La table définit ce qui est *réellement* important à cet instant précis. Dans un pur débat philosophique, la maîtrise de l'épée longue d'un PJ n'entre pas dans le Focus et ne donne aucune Mise.
-* **Les facteurs cadres :** L'environnement peut imposer un élément tellement écrasant qu'il dicte ce qu'il est ontologiquement impossible de tenter. Exemple : Si une scène se déroule dans un sanctuaire divin dédié à la paix absolue, toute tentative d'agression ou d'intimidation est métaphysiquement étouffée. Le Facteur Cadre force les Mises à s'aligner sur d'autres approches (comme l'éloquence ou la prière).
+Dans un univers "agnostique" (physique, sans magie), la règle est binaire :
 
-### L'auto-équilibrage pour le MJ : Le jeu "à somme nulle"
+- **Pair (2, 4, 6)** = 1 réussite.
+- **Impair (1, 3, 5)** = échec.
 
-L'une des craintes face à un système narratif est de voir les joueurs justifier tout et n'importe quoi pour "grappiller" des dés. C'est ici qu'intervient la règle d'or du système : le MJ n'est pas l'adversaire des joueurs, il est le gardien de la cohérence de l'univers.
+C'est la réalité fondamentale, matérielle et indifférente.
 
-L'affrontement repose sur un équilibrage diégétique naturel, un **jeu à somme nulle**. Si un joueur argumente que son casque terrifiant doit lui accorder une Mise supplémentaire, le MJ a le droit de l'accepter. Mais en validant ce détail, le joueur vient d'augmenter le niveau de "zoom" de la scène. Le MJ (qui gère l'opposition) est alors tout à fait légitime pour trouver, dans ce nouveau niveau de détail, une Mise en retour pour le PNJ adverse (par exemple, la vision perturbante des cicatrices du PNJ qui déstabilise le PJ en retour).
+Mais le game designer peut altérer cette règle pour qu'elle devienne le miroir de la philosophie de son univers. C'est ce qu'on appelle le **Prisme**.
 
-Cette mécanique éduque organiquement les joueurs : chercher des avantages avec des arguments futiles ne fera que donner des munitions narratives supplémentaires au MJ. L'histoire en sort toujours gagnante.
+**Exemples de prismes :**
 
-### La cristallisation : le tirage
+- **Le Théisme** (Glorantha) : les pairs réussissent, mais les *6 explosent* et relancent les impairs. La foi transforme l'échec en miracle.
+- **L'Animisme** (Glorantha) : les pairs réussissent, mais les *doubles impairs* (deux 3, deux 5) entrent en résonance et forment une réussite. On pactise avec l'errance des esprits.
+- **La Logique** (Glorantha) : on additionne tous les dés, on divise par 5. Rien n'est laissé au hasard. Tout se calcule.
+- **Le Mysticisme** (Glorantha) : les *1 annihilent les 6* adverses. La victoire matérielle est une illusion.
 
-Jusque là, chaque joueur est dans son personnage (PJ, PNJ, obstacle, ...) avec une approche naturelle, presque littéraire, littérale.
+**Le Prisme est le cœur philosophique du jeu.** Il incarne la réponse du monde à la question : "Qui es-tu ?"
 
-Voyons maintenant comment **Resonance** propose d'aller plus loin. 
+### 3. Le Facteur Cadre (ce qui est ontologiquement impossible)
 
-En effet, une fois le nombre de Mises défini pour chaque camp, le système bascule dans une logique d'observation et de résolution.
+Certaines situations imposent des limites si puissantes qu'elles ne peuvent être contournées. Ce sont les **Facteurs Cadres** :
 
-Avant le tirage, l'issue de la scène est un nuage d'incertitudes. La victoire, la défaite, l'exploit ou la catastrophe existent simultanément sous forme de potentiels. Le nombre de Mises rassemblées par le joueur ne garantit pas la réussite ; il ne fait que sculpter et étirer ces potentiels en sa faveur.
+- Un sanctuaire dédié à la paix absolue : toute agression est métaphysiquement étouffée.
+- Un champ de gravité extrême : nul ne peut s'envoler.
+- La présence du Chaos : les règles ordinaires sont suspendues.
 
-Puis, les dés roulent. C'est le moment de l'observation. À cet instant précis, le lien mental entre le détail narratif (la Mise) et le dé qu'il a apporté disparaît. L'incertitude se cristallise pour ne laisser qu'une seule réalité mathématique : le nombre final de réussites. Le chaos du hasard se fige pour dicter la nouvelle vérité de la fiction, qui sera ensuite interprétée par la table.
+Le Facteur Cadre ne donne pas de Mises. Il **interdit** certaines approches ou **force** les Mises à s'aligner sur d'autres logiques.
 
-Et ca sera la différence de réussites entre les deux camps qui indique l'ampleur du succès ou de l'échec.
+---
 
-C'est la que le Game Designer d'un jeu Resonance intervient: la façon dont on détermine le nombre de réussites pour un tirage donné dépend du jeu qu'on veut créer. 
+## La mécanique de résolution (étape par étape)
 
-**Comment l'univers détermine-t-il le nombre de réussites à partir de ces dés ?**
+### 1. Déterminer les camps et les Mises
 
-Dans un monde strictement physique et dénué de magie (le référentiel "agnostique"), la règle par défaut est d'une simplicité binaire : **un résultat pair (2, 4, 6) génère 1 réussite, un résultat impair (1, 3, 5) est un échec**. C'est la réalité fondamentale, matérielle et indifférente.
+Chaque camp (PJ, PNJ, obstacle) rassemble ses Mises :
 
-Mais le véritable défi du *game designer* commence ici : il s'agit d'altérer cette règle de lecture pour qu'elle devienne le miroir parfait de la réalité (ou de la philosophie) dans laquelle il veut immerger ses joueurs. La façon de lire les dés doit *résonner* avec le monde exploré dans le jeu par les joueurs. 
+- Les éléments qui favorisent son objectif.
+- Les éléments qui contrecarrent l'objectif adverse.
 
-### Proof of concept : Les cadres de pensée dans Glorantha Perspectives
+**Exemple :** Un Orlanthi charge un légionnaire lunaire.
 
-Pour illustrer ce concept, le jeu [Glorantha Perspectives](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf) propose une démonstration magistrale. Dans ce monde, la magie n'est pas une liste de sorts, c'est un prisme à travers lequel on appréhende l'univers. La mécanique mute donc selon la philosophie de celui qui lance les dés :
+- **Orlanthi** : Vent providentiel (+1), Épée héritée (+1), Lame de Foudre (+1).
+- **Lunaire** : Discipline de phalange (+1), Grand bouclier (+1), Bénédiction de la Lune Rouge (+1).
 
-* **Le Théisme :** L'initié s'en remet aux Dieux. Les pairs sont des réussites, mais les "6" explosent et permettent de relancer les dés impairs. La mécanique simule littéralement le miracle : la foi transforme l'échec en victoire.
-* **L'Animisme :** Le chaman vit entouré d'esprits erratiques. Les pairs réussissent, mais le joueur doit chercher des paires parmi ses échecs (par exemple, deux "3" ou deux "5"). Ces "doubles impairs" entrent en résonance pour former 1 réussite, simulant le pacte noué à la volée avec un esprit local.
-* **La Logique :** Le savant rejette la magie de l'instant. Il n'y a plus de pairs ou d'impairs : le joueur additionne la valeur de *tous* ses dés, puis divise la somme totale par 5. C'est froid, mesurable, et dépourvu de tout miracle.
-* **Le Mysticisme :** Le mystique sait que le monde est une illusion. S'il obtient des "1", ceux-ci annihilent purement et simplement les "6" du camp adverse. La mécanique démontre la futilité de la force brute matérielle.
+**3 Mises contre 3 Mises.**
 
-### L'horizon du game designer : concevoir ses propres prismes
+### 2. Le Focus
 
-Le *game design* diégétique ouvre des portes infinies. Le créateur n'est plus limité à changer des valeurs de difficulté ; il peut manipuler la matière même du hasard pour faire ressentir son univers.
+On ne jette pas tous les traits de la fiche sur la table. La table définit ce qui est *réellement* important à cet instant précis.
 
-Voici comment **Resonance** peut être étendu et hacké :
+Dans un débat politique, la maîtrise de l'épée longue ne donne aucune Mise. Dans une escalade, le talent d'orfèvre est inutile.
 
-**1. Changer la forme des dés pour simuler une autre conscience**
-Pourquoi se limiter à des D6 ? Dans *Glorantha Perspectives*, la métaphysique insondable des Dragonewts est simulée en utilisant des **D8**, car leur réalité est liée aux 8 Runes de Pouvoir. Les motifs qui apparaissent lors du tirage forcent le joueur à un dilemme déchirant : utiliser la magie pour écraser l'adversaire mais régresser spirituellement (le Wyrm), ou sacrifier sa victoire matérielle pour s'élever vers l'illumination (l'Utuma). Le type de dé dicte l'expérience cognitive.
+Le Focus est un **accord tacite** sur la nature de la scène.
 
-**2. Donner une sémantique aux couleurs**
-Les Mises peuvent avoir des origines différentes, justifiant l'utilisation de dés de couleurs variées.
+### 3. Le tirage (la cristallisation)
 
-* *Exemple pour un univers de Space Opera :* Les Mises issues de l'entraînement (dés blancs) obéissent à la règle standard, tandis que les Mises issues de la colère (dés rouges) explosent sur des 6, mais provoquent des dommages collatéraux sur des 1, simulant l'attraction inéluctable du "Côté Obscur".
+Chaque camp lance un nombre de dés égal à ses Mises.
 
-**3. Des règles dictées par l'environnement (La mutation ontologique)**
-Le prisme de résolution peut dépendre de la philosophie du personnage, mais aussi du *plan d'existence* dans lequel il évolue.
+Le lien mental entre chaque Mise et le dé qu'elle a apporté disparaît. L'incertitude se cristallise en un seul nombre : **le total de réussites** (selon le Prisme du camp).
 
-* *Exemple Cyberpunk :* Dans le monde physique, les règles sont classiques. Mais lorsqu'un hacker se connecte à la Matrice, la réalité devient du code. La règle de résolution change instantanément pour tout le groupe : on ne cherche plus des valeurs paires, mais des "suites" (1-2-3, 4-5-6) pour simuler l'alignement d'algorithmes et le cassage de pare-feu.
-* *Exemple d'Horreur Cosmique :* Faire appel à l'entropie absolue (le Chaos) permet de s'affranchir totalement du lancer de dés pour obtenir une réussite écrasante automatique. Le prix mécanique ? Le joueur doit rayer définitivement un trait ou un être cher de sa fiche, simulant la corruption de son âme.
+### 4. L'interprétation
 
+On compare les totaux :
 
-## Conclusion: une immersion augmengtée, des joueurs impliqués
+| Écart | Résultat |
+|-------|----------|
+| **+2 ou plus** | Exploit (ou Fiasco pour le perdant) |
+| **+1** | Victoire (ou Défaite) |
+| **0** | Status Quo (surenchère possible) |
 
-**Resonance** replace le créateur de jeu dans son véritable rôle : celui d'un architecte de réalités. En modelant la façon dont les dés réagissent aux Mises narratives, le *game designer* ne se contente plus de fournir un arbitre neutre à sa table ; il offre aux joueurs la possibilité de toucher, de manipuler et de ressentir physiquement les lois métaphysiques de l'univers.
+La table interprète le résultat narrativement. L'ampleur du succès ou de l'échec est dictée par l'écart.
 
-Mais la véritable proposition de ce *game design*, c'est la résonance finale : celle qui s'opère dans l'esprit de la table. En forçant le joueur à utiliser la diégèse comme seule munition mécanique, le jeu cesse d'être un exercice de comptabilité pour redevenir ce qu'il aurait toujours dû être. Une ligne directe, sans interférence et sans méta-jeu, entre l'âme du joueur et le monde qu'il arpente.
+---
 
-### Une évidence pour les débutants, un défi pour les vétérans
+## L'auto-équilibrage : le jeu à somme nulle
 
-Longtemps, le jeu de rôle a renvoyé au grand public l'image d'un loisir réservé à des initiés jonglant avec des calculs abscons, masquant ainsi la véritable richesse créative et narrative de ce médium. Et quel joueur n'a pas été sorti de l'immersion par une procédure de jeu complexe, ou nécessitant de chercher dans le manuel la référence exacte ?
+L'une des craintes face à un système narratif est de voir les joueurs justifier tout et n'importe quoi pour accumuler des Mises.
 
-**Resonance** a été conçu pour briser cette barrière. Je pense même que ce sont les joueurs débutants qui se sentiront le plus à l'aise et désinhibés face à ce système. La raison en est simple : la création des Mises reproduit avec exactitude le fonctionnement cognitif naturel de n'importe quel être humain. Dans la vraie vie, personne ne calcule un pourcentage ; tout le monde évalue instinctivement ses forces, ses faiblesses ou son environnement. Un néophyte décrira spontanément en quoi la pluie battante ou son courage l'aident à surmonter l'obstacle.
+**Résonance** résout ce problème par un équilibrage diégétique naturel.
 
-À l'inverse, ce sont les vétérans du jeu de rôle qui peuvent se retrouver momentanément déroutés : pour maîtriser ce système, ils doivent désapprendre des décennies de réflexes mécaniques, abandonner la recherche d'un bonus chiffré sur leur feuille, et réapprendre, tout simplement, à regarder le monde.
+Si un joueur argumente que son casque terrifiant lui accorde une Mise, le MJ peut l'accepter. Mais en validant ce détail, le joueur augmente le "zoom" de la scène. Le MJ est alors légitime pour trouver, dans ce nouveau niveau de détail, une Mise en retour :
 
-# Quelques précisions
+> *"Le Broo est intrigué par ton casque (+1 pour toi), mais tu es perturbé par les organes purulents qui sortent de son ventre (+1 pour lui)."*
 
-## Le zoom de résolution : action, séquence ou script
+**C'est un jeu à somme nulle.** Chaque avantage trouvé par un camp peut devenir un avantage pour l'autre. Les joueurs apprennent vite : chercher des avantages futiles ne fait que donner des munitions narratives au MJ.
 
-Une opposition peut couvrir une action isolée (un assaut, une plaidoirie) comme toute une série d’actions étalées dans le temps (un plan). On parle de zoom de résolution, et le choix de ce zoom est souvent implicite. En cas d’ambiguïté, c’est le protagoniste impliqué qui choisit le niveau.
+---
 
-- L’action : C’est l’opposition par défaut, une action locale et unique.
-- La séquence : Une série d’actions résolue en un seul tirage pour couvrir toute une scène (un raid, une cérémonie, une traversée).
-- Le script : Une suite d’actions ou de scènes connus à l’avance menant à un résultat (une quête héroïque, une succession d’épreuves).
+## Les Outils du Game Designer
 
-Jouer une séquence : On joue l’opposition en un seul tirage pour connaitre le résultat global. On peut appliquer une séquence pour résoudre un simple vol dans une maison, une négociation ou un combat mais aussi une immense bataille qui met en scène plusieurs armées.
+### Créer son propre Prisme
 
-Résoudre un script : On décompose l’obstacle en étapes (des actions pour une séquence, des scènes pour un script) et chaque étape représente une ou plusieurs étapes clés à franchir. On rassemble ensuite les mises de chaque camp et l’on procède au tirage normal. En cas d’échec, on compte le nombre de réussites obtenues par le camp protagoniste pour localiser l’étape qui a échoué (une réussite = une étape franchie). En cas de succès, on est nécessairement allé au bout. La suite peut ensuite être narrée collectivement.
+Pour adapter Résonance à un nouvel univers, le game designer doit répondre à trois questions :
 
-## Les obstacles à clés : résoudre un problème
+1. **Quelle est la philosophie du monde ?** (Ce que les personnages croient, ce qui structure leur réalité.)
+2. **Comment cette philosophie affecte-t-elle le hasard ?** (Quelle règle de lecture des dés ?)
+3. **Quel est le prix à payer pour transgresser cette philosophie ?** (Le Chaos, la folie, la corruption, le sacrilège.)
 
-Certains obstacles sont de véritables problèmes à résoudre : une énigme, une enquête, une fabrication complexe, quelque chose à réparer. Côté obstacle, on définit alors un certain nombre de clés qu’il faudra découvrir ou franchir pour réussir. Exemples : une enquête (le coupable, le mobile, le mode opératoire) ou une potion à fabriquer (le laboratoire, les ingrédients, la recette).
+**Exemple d'un prisme "Horreur Cosmique" :**
 
-L’opposition se fait alors face au nombre de clés à découvrir.
+- **Règle normale** : pairs = réussite.
+- **Appel à l'entropie** : le joueur peut ignorer son tirage et obtenir un Exploit automatique.
+- **Le prix** : il doit rayer définitivement un trait, un lien ou un être cher de sa fiche.
 
-## Résolution, interprétation et rétributions
+### Changer la forme des dés
 
-Graduation du Résultat:
+Pourquoi se limiter aux D6 ?
 
-- Différence de 2 réussites ou plus : L’action se solde par un Exploit (ou un Fiasco).
-- Différence de 1 réussite : L’action se solde par une Victoire/Succès (ou une Défaite/Échec).
-- Égalité : L’action aboutit à un Status-quo (ou Revers). S’il est impossible de rester sur un status quo narratif, chaque camp rajoute une mise supplémentaire symbolisant la surenchère, et l’on procède à un nouveau tirage.
+- **D8** (Glorantha, Dragonewts) : les 8 Runes de Pouvoir dictent la lecture des dés.
+- **D10** (univers cyberpunk) : les suites (1-2-3, 4-5-6) deviennent des réussites pour simuler le code.
+- **D12** (mythologie sumérienne) : chaque face correspond à un dieu ; le résultat est une intercession.
 
-Les Rétributions et l’Évolution :
+Le type de dé dicte l'expérience cognitive.
 
-Le système évite au maximum le méta-jeu : il n’y a pas de bonus ou de malus mécaniques de fin de partie. Les personnages évoluent de manière purement diégétique. C’est bel et bien la narration qui sert de moteur exclusif à l’évolution.
+### Donner une sémantique aux couleurs
 
-Comment évolue-t-on ? L’évolution passe par la dynamique des mots-clés du personnage : l’ajout de nouveaux mots-clés, la suppression de traits obsolètes, ou la modification d’éléments existants. À cela s’ajoutent les rétributions accordées par le MJ, telles que de nouveaux liens, des attaches, des cadeaux, un nouveau pouvoir ou une prise de conscience.
+Les Mises peuvent avoir des origines différentes :
 
-Quand évolue-t-on ? Cette évolution ne survient pas à la fin d’un scénario. Elle intervient de manière organique lors d’un Fiasco ou d’un Exploit (qui se traduisent par une différence de 2 réussites ou plus lors d’un tirage), ou tout simplement quand l’histoire l’exige.
+- **Dés blancs** (entraînement) : règle standard.
+- **Dés rouges** (colère) : explosent sur 6, mais provoquent des dégâts collatéraux sur 1.
 
-## Les tirages sans opposition : mesurer l’ampleur
+### Utiliser d'autres supports que les dés
 
-Puisque le système est intégralement narratif, il arrive que le but d’un tirage ne soit pas d’obtenir une victoire face à une adversité directe. Parfois, l’enjeu est simplement d’évaluer l’envergure d’une action pour en mesurer le niveau de réussite ou le niveau d’échec.
+Les Mises sont des arguments narratifs. Elles peuvent être matérialisées par :
 
-- Mesurer l’échec : Ce cas est idéal dans un "scénario toboggan" (une structure fréquente dans les aventures old school) où l’échec final est de toute façon inéluctable. Le tirage détermine alors la gravité de la chute et ses conséquences.
+- **Des cartes** (chaque Mise est une carte posée sur la table).
+- **Des perles ou des jetons** (on les accumule avant le tirage).
+- **Des objets** (un dé pour chaque élément physique du décor).
 
-- Mesurer la réussite : Parfait lorsqu’il s’agit de quantifier la puissance d’une préparation minutieuse, comme l’exécution d’un rituel complexe pour pénétrer dans le plan des héros.
+L'important est que la Mise soit *tangible* : elle existe dans la fiction avant d'exister dans la mécanique.
 
-La résolution :
+---
 
-Dans ces cas précis, le camp actif rassemble ses mises et effectue un tirage standard, mais sans aucune opposition adverse. Il suffit alors de connaître le nombre total de réussites obtenues et de l’interpréter selon la situation dramatique en cours.
+## Le Rôle du Game Designer : Architecte de Réalités
 
-N’obtenir aucune réussite lors de ce type de tirage doit être interprété comme un réel problème pour les joueurs, plongeant immédiatement le récit dans la crise.
+Avec Résonance, le *game designer* n'est plus un simple équilibreur de chiffres. Il est un **architecte de réalités**.
 
-## Gérer la léthalité
+Son travail consiste à :
 
-Cela peut être défini dans le contrat social du jeu. Mais dans tous les cas, pour préserver l’immersion tout en évitant la frustration d’une "mort stupide" sur un mauvais tirage, le MJ doit toujours prévenir le joueur en cas de risque létal.
+1. **Créer du lore** : des mythes, des cultures, des philosophies qui donnent du sens au monde.
+2. **Définir les Mises possibles** : qu'est-ce qui, dans cet univers, peut être invoqué comme un atout ? (Les runes, les esprits, les dettes de sang, les artefacts.)
+3. **Concevoir les Prismes** : quelle règle de lecture des dés incarne la philosophie du monde ?
+4. **Écrire les Facteurs Cadres** : qu'est-ce qui est ontologiquement impossible ou sacrilège ?
 
-Voici des degrés d’avertissement narratifs que le MJ peut employer :
+**Le système ne fait pas le jeu. C'est le lore qui fait le jeu.** Résonance n'est que le miroir qui le reflète.
 
-"Ceci pourrait vous coûter cher" : risque de blessure grave, perte d’un objet précieux ou d’un allié.
+---
 
-"Un échec pourrait être fatal" : mort possible et définitive du personnage.
+## Pourquoi Résonance est accessible aux débutants (et déroutant pour les vétérans)
 
-"La contamination vous guette" : risque de transformation irréversible ou de souillure permanente.
+**Les débutants** sont naturellement à l'aise avec Résonance. La création des Mises reproduit exactement le fonctionnement cognitif de n'importe quel être humain. Un néophyte décrira spontanément en quoi la pluie battante ou son courage l'aident à surmonter un obstacle.
 
-Face à cet avertissement, le joueur a le droit d’opter pour un recul stratégique. Il peut modifier son objectif diégétique et on regarde les mises applicables pour ce nouvel objectif. 
+**Les vétérans**, en revanche, doivent désapprendre des décennies de réflexes mécaniques :
+
+- Abandonner la recherche d'un bonus chiffré.
+- Cesser de fouiller leur feuille de personnage.
+- Réapprendre, tout simplement, à regarder le monde.
+
+**Résonance est un retour à l'essentiel : le jeu comme le pratiquaient les enfants dans la cour de récréation.**
+
+> *Deux enfants jouent aux cow-boys. L'un dit : "J'ai mon pistolet et je suis caché derrière le rocher." L'autre répond : "J'ai mon bouclier en fer et mon frère arrive en renfort." Ils n'ont pas besoin de règles. Ils ont besoin d'un accord sur ce qui est juste. Résonance est le gardien de cet accord.*
+
+---
+
+## Conclusion : Une ligne directe entre l'âme du joueur et le monde
+
+**Résonance** replace le jeu de rôle dans ce qu'il aurait toujours dû être :
+
+> *Une ligne directe, sans interférence et sans méta-jeu, entre l'âme du joueur et le monde qu'il arpente.*
+
+En supprimant l'interface mathématique, le système détruit la barrière qui éloigne le joueur de l'immersion. Il ne calcule plus. Il observe. Il doute. Il espère. Exactement comme son personnage.
+
+Et c'est là que se produit la vraie magie : **la résonance**.
+
+
