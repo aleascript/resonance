@@ -2,7 +2,7 @@
 title: Résonance - SRD
 ---
 
-![Resonance](../assets/resonance.png)
+![Resonance](content/assets/header.png)
 
 # Résonance : Moteur de Résolution Cognitive pour Jeux de Rôle
 
@@ -68,10 +68,10 @@ Mais le game designer peut altérer cette règle pour qu'elle devienne le miroir
 
 **Exemples de prismes :**
 
-- **Le Théisme** (Glorantha) : les pairs réussissent, mais les *6 explosent* et relancent les impairs. La foi transforme l'échec en miracle.
-- **L'Animisme** (Glorantha) : les pairs réussissent, mais les *doubles impairs* (deux 3, deux 5) entrent en résonance et forment une réussite. On pactise avec l'errance des esprits.
-- **La Logique** (Glorantha) : on additionne tous les dés, on divise par 5. Rien n'est laissé au hasard. Tout se calcule.
-- **Le Mysticisme** (Glorantha) : les *1 annihilent les 6* adverses. La victoire matérielle est une illusion.
+- **Le Théisme** : les pairs réussissent, mais les *6 explosent* et relancent les impairs. La foi transforme l'échec en miracle.
+- **L'Animisme** : les pairs réussissent, mais les *doubles impairs* (deux 3, deux 5) entrent en résonance et forment une réussite. On pactise avec l'errance des esprits.
+- **La Logique** : on additionne tous les dés, on divise par 5. Rien n'est laissé au hasard. Tout se calcule.
+- **Le Mysticisme** : les *1 annihilent les 6* adverses. La victoire matérielle est une illusion.
 
 **Le Prisme est le cœur philosophique du jeu.** Il incarne la réponse du monde à la question : "Qui es-tu ?"
 
@@ -165,9 +165,9 @@ Pour adapter Résonance à un nouvel univers, le game designer doit répondre à
 
 Pourquoi se limiter aux D6 ?
 
-- **D8** (Glorantha, Dragonewts) : les 8 Runes de Pouvoir dictent la lecture des dés.
+- **D8** (pour une cosmogonie à 8 runes) : les motifs de dés identiques ou les extrêmes (1 et 8) créent des dilemmes.
 - **D10** (univers cyberpunk) : les suites (1-2-3, 4-5-6) deviennent des réussites pour simuler le code.
-- **D12** (mythologie sumérienne) : chaque face correspond à un dieu ; le résultat est une intercession.
+- **D12** (mythologie) : chaque face correspond à un dieu ; le résultat est une intercession.
 
 Le type de dé dicte l'expérience cognitive.
 
@@ -187,6 +187,22 @@ Les Mises sont des arguments narratifs. Elles peuvent être matérialisées par 
 - **Des objets** (un dé pour chaque élément physique du décor).
 
 L'important est que la Mise soit *tangible* : elle existe dans la fiction avant d'exister dans la mécanique.
+
+---
+
+## Proof of Concept : Glorantha Perspectives
+
+Pour une démonstration complète et opérationnelle du moteur, le jeu **[Glorantha Perspectives](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)** est l'illustration parfaite de ce que Résonance peut produire.
+
+Dans cet univers, la magie n'est pas une liste de sorts, c'est un prisme à travers lequel on appréhende le monde. La mécanique mute donc selon la philosophie de celui qui lance les dés :
+
+- **Le Théisme** : L'initié s'en remet aux Dieux. Les pairs sont des réussites, mais les "6" explosent et permettent de relancer les dés impairs. La foi transforme l'échec en victoire.
+- **L'Animisme** : Le chaman vit entouré d'esprits erratiques. Les pairs réussissent, mais le joueur doit chercher des paires parmi ses échecs (ex: deux "3" ou deux "5"). Ces "doubles impairs" forment 1 réussite, simulant un pacte noué à la volée.
+- **La Logique** : Le savant rejette la magie de l'instant. Il additionne la valeur de *tous* ses dés, puis divise la somme par 5. C'est froid, mesurable, sans miracle.
+- **Le Mysticisme** : Le mystique sait que le monde est une illusion. Ses "1" annihilent purement et simplement les "6" du camp adverse.
+- **La Pensée Draconique** (avec des D8) : les motifs (dés identiques, 1 et 8) forcent le joueur à choisir entre la puissance matérielle (Wyrm) et l'élévation spirituelle (Utuma).
+
+*Glorantha Perspectives* est à Résonance ce qu'*Apocalypse World* est au PbtA : **la preuve qu'en changeant les prismes, on change l'expérience vécue du joueur, sans toucher au reste du moteur.**
 
 ---
 
@@ -221,6 +237,64 @@ Son travail consiste à :
 
 ---
 
+# Règles Complémentaires (Précisions techniques)
+
+Cette section détaille les ajustements pratiques pour adapter le moteur à différentes situations de jeu.
+
+## Le zoom de résolution : Action, Séquence ou Script
+
+Une opposition peut couvrir une action isolée comme toute une série d'actions étalées dans le temps. Le choix du zoom est implicite ; en cas d'ambiguïté, c'est le protagoniste impliqué qui choisit.
+
+- **L'Action** : L'opposition par défaut, une action locale et unique (un assaut, une plaidoirie).
+- **La Séquence** : Une série d'actions résolue en un seul tirage pour couvrir toute une scène (un raid, une cérémonie, une traversée). On joue l'opposition en un seul tirage pour connaître le résultat global.
+- **Le Script** : Une suite d'actions ou de scènes connues à l'avance menant à un résultat (une quête héroïque, une succession d'épreuves). On décompose l'obstacle en étapes. En cas d'échec, le nombre de réussites du camp protagoniste indique l'étape qui a échoué (1 réussite = 1 étape franchie). En cas de succès, on est allé au bout.
+
+## Les obstacles à clés : résoudre un problème
+
+Certains obstacles sont de véritables problèmes à résoudre (enquête, énigme, fabrication complexe). Côté obstacle, on définit un certain nombre de **clés** à découvrir ou franchir pour réussir.
+
+*Exemples :* Une enquête (le coupable, le mobile, le mode opératoire) ou une potion (le laboratoire, les ingrédients, la recette).
+
+L'opposition se fait alors face au nombre de clés à découvrir.
+
+## Résolution, interprétation et rétributions
+
+**Graduation du Résultat :**
+
+- **Différence de 2+** : Exploit (ou Fiasco).
+- **Différence de 1** : Victoire/Succès (ou Défaite/Échec).
+- **Égalité** : Status Quo. S'il est impossible de rester sur un status quo narratif, chaque camp rajoute une mise (surenchère) et l'on procède à un nouveau tirage.
+
+**Rétributions et Évolution :**
+
+Le système évite les bonus/malus mécaniques de fin de partie. Les personnages évoluent de manière purement diégétique :
+
+- **Comment ?** Par l'ajout, la suppression ou la modification de mots-clés, de liens ou d'attaches.
+- **Quand ?** Lors d'un Fiasco ou d'un Exploit (écart de 2+), ou quand l'histoire l'exige.
+
+## Les tirages sans opposition : mesurer l'ampleur
+
+Parfois, le but n'est pas de vaincre une adversité directe, mais d'évaluer l'envergure d'une action.
+
+- **Mesurer l'échec** : Idéal pour un "scénario toboggan" où l'échec est inéluctable. Le tirage détermine la gravité de la chute.
+- **Mesurer la réussite** : Pour quantifier la puissance d'une préparation (ex: rituel complexe).
+
+**Résolution :** Le camp actif rassemble ses Mises et effectue un tirage standard sans opposition. On interprète le nombre total de réussites selon la situation dramatique. **0 réussite = un réel problème**, plongeant le récit dans la crise.
+
+## Gérer la léthalité
+
+La léthalité relève du contrat social de la table. Mais pour préserver l'immersion et éviter une "mort stupide", le MJ doit toujours prévenir le joueur en cas de risque létal.
+
+**Degrés d'avertissement narratifs :**
+
+- *"Ceci pourrait vous coûter cher"* : blessure grave, perte d'un objet précieux ou d'un allié.
+- *"Un échec pourrait être fatal"* : mort possible et définitive.
+- *"La contamination vous guette"* : transformation irréversible ou souillure permanente.
+
+Face à l'avertissement, le joueur peut opter pour un **recul stratégique** et modifier son objectif diégétique. On évalue alors les nouvelles Mises applicables.
+
+---
+
 ## Conclusion : Une ligne directe entre l'âme du joueur et le monde
 
 **Résonance** replace le jeu de rôle dans ce qu'il aurait toujours dû être :
@@ -231,4 +305,8 @@ En supprimant l'interface mathématique, le système détruit la barrière qui �
 
 Et c'est là que se produit la vraie magie : **la résonance**.
 
+---
 
+**Document SRD - Résonance v1.0**
+*Moteur de résolution cognitive pour jeux de rôle.*
+*Découvrez l'implémentation complète dans [Glorantha Perspectives](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf).*
