@@ -51,7 +51,7 @@ En tant que créateur de jeu, vous vous êtes sans doute heurté à ces frustrat
 |----------|-------------------|
 | **Méta-jeu et calculs** | Plus de pourcentages, plus de modificateurs. Le joueur observe la scène, pas sa feuille. |
 | **Combats longs** | Un tirage ou quelques jets tranchent l'issue. On interprète le résultat, on passe à la suite. |
-| **Recherche de règles** | La règle est dans la fiction. Si c'est cohérent, c'est une Mise. Sinon, ce n'en est pas une. |
+| **Recherche de règles** | La règle est dans la fiction. Si c'est cohérent, c'est une Mise. Sinon, ce n'en est pas une. La règle c'est votre bon sens et votre culture. Pas besoin de règle spécifique sur le vol spatial, les batailles rangées, les jeux d'alcool, les longues négociations, etc... Elles sont deja incluses dans le système selon le zoom de précision que vous voulez. |
 | **Exclusion des joueurs "non-geeks"** | Le système récompense l'attention, l'imagination et la sensibilité, pas la mémoire des tables. |
 | **Décalage entre lore et mécanique** | Le Prisme fait du lore une règle. La philosophie du monde devient la façon de lire les dés. |
 
