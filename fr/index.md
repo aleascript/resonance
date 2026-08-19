@@ -2,7 +2,7 @@
 title: Manifeste de Resonance
 ---
 
-![Resonance](content/assets/header.png)
+![Resonance](../content/assets/header.png)
 
 # Resonance
 
