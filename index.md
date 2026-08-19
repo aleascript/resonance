@@ -100,40 +100,43 @@ It provides something simpler:
 
 **a way to turn what matters in a fictional situation into a resolution.**
 
-This is where Resonance introduces one of its fundamental concepts: the **Mise**.
+This is where Resonance introduces one of its fundamental concepts: the **Bet**.
 
 ---
 
-## The Mise
+## The Bets
 
 Resonance uses a specific term for the fictional elements that can influence a resolution:
 
-**Mise**.
+A bet is not an abstract modifier attached to a character sheet.
 
-The plural is **Mises**.
+**It is something that exists in the fiction before it exists in the mechanics.**
 
-The word comes from the French idea of *placing something into the balance*.
+A Bet is a fictional element that a player chooses to put into the balance of a resolution.
 
-A **Mise** is a piece of fictional truth that is relevant to the current situation and can be brought into the resolution.
+It can be anything that matters in the current situation:
 
-It can be:
-
+- a skill;
 - an experience;
-- a relationship;
 - an object;
-- an environmental condition;
+- a relationship;
 - an emotion;
-- a belief;
-- a wound;
+- an environmental condition;
+- a weakness;
 - a cultural trait;
 - an advantage created by the situation;
 - or any other element that genuinely matters in the fiction.
 
-A Mise is **not a bonus**.
+A skill is not automatically a Bet.
+An advantage is not automatically a Bet.
 
-It is not an abstract modifier attached to a character sheet.
+It becomes a Bet when the player chooses to rely on it **here and now**.
 
-**It is something that exists in the fiction before it exists in the mechanics.**
+Each Bet contributes to the resolution pool.
+
+You are not calculating how good your character is.
+
+You are deciding **what you are betting matters.**
 
 For example:
 
@@ -147,19 +150,19 @@ For example:
 
 > *It is raining.*
 
-If that fact genuinely matters to the situation, it can become a Mise.
+If that fact genuinely matters to the situation, it can become a Bet.
 
-### Mise is not the same as stakes.
+### Bet is not the same as stakes.
 
 The **stakes** are what is at risk or what can be gained or lost in the situation.
 
-A **Mise** is something from the fiction that is placed into the balance because it is relevant to those stakes.
+A **Bet** is something from the fiction that is placed into the balance because it is relevant to those stakes. It is narrower to a hope.
 
 For example:
 
 > **Stakes:** Cross the river before the guards arrive.
 
-> **Mises:** The character knows the river, the current is unusually strong, their companion is injured, and night is falling.
+> **Bets:** The character knows the river, the current is unusually strong, their companion is injured, and night is falling.
 
 This distinction is important.
 
@@ -188,7 +191,7 @@ This is the **Focus**.
 
 Each side identifies the elements of the fiction that support its objective or hinder the opposing objective.
 
-These elements become **Mises**.
+These elements become **Bets**.
 
 The process is not about finding every possible advantage.
 
@@ -208,7 +211,7 @@ That relationship might be.
 
 ## 3. Resolve
 
-The relevant Mises determine the size of the resolution pool.
+The relevant Bets determine the size of the resolution pool.
 
 The dice are rolled.
 
@@ -265,7 +268,7 @@ Perhaps:
 - they are carrying an injured companion;
 - the enemy has spotted them.
 
-Those elements can become Mises.
+Those elements can become Bets.
 
 The player is not searching their character sheet for a number.
 
@@ -412,7 +415,7 @@ This is the purpose of Resonance Prisms in practice:
 
 ### Explore the implementation
 
-**Resonance: Glorantha** is the proof of concept and the detailed implementation of the framework.
+**Glorantha Perspectives** is the proof of concept and the detailed implementation of the framework.
 
 [Read the Glorantha Perspectives SRD →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
 
@@ -467,7 +470,7 @@ metaphysics.**
 
 ## You define what can matter.
 
-What can become a Mise?
+What can become a Bet?
 
 What should never become one?
 
