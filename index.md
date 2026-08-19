@@ -22,7 +22,7 @@ Resonance asks:
 
 The player looks at the scene.
 
-They identify what is at stake.
+They identify what matters.
 
 They bring the relevant elements of the fiction into the resolution.
 
@@ -36,7 +36,7 @@ The rule becomes an extension of the player's perception.
 
 ---
 
-## The idea behind Resonance
+# The idea behind Resonance
 
 Most roleplaying games put a mechanical system between the player and the fictional world.
 
@@ -52,7 +52,7 @@ And eventually, a result tells us what happens.
 
 Resonance takes a different approach.
 
-### The fiction comes first.
+## The fiction comes first.
 
 When a character attempts something, the player naturally considers:
 
@@ -100,7 +100,75 @@ It provides something simpler:
 
 **a way to turn the elements of a fictional situation into a resolution.**
 
-### 1. See the situation
+---
+
+## The Mise
+
+Resonance uses a specific term for the fictional elements that can influence a resolution:
+
+**Mise**.
+
+The plural is **Mises**.
+
+The word comes from the French idea of *placing something into the balance*.
+
+A **Mise** is a piece of fictional truth that is relevant to the current situation and can be brought into the resolution.
+
+It can be:
+
+- an experience;
+- a relationship;
+- an object;
+- an environmental condition;
+- an emotion;
+- a belief;
+- a wound;
+- a cultural trait;
+- an advantage created by the situation;
+- or any other element that genuinely matters in the fiction.
+
+A Mise is **not a bonus**.
+
+It is not an abstract modifier attached to a character sheet.
+
+**It is something that exists in the fiction before it exists in the mechanics.**
+
+For example:
+
+> *My character is wounded.*
+
+> *The bridge is collapsing.*
+
+> *I know this language.*
+
+> *The enemy is afraid.*
+
+> *It is raining.*
+
+If that fact genuinely matters to the situation, it can become a Mise.
+
+### Mise is not the same as stakes.
+
+The **stakes** are what is at risk or what can be gained or lost in the situation.
+
+A **Mise** is something from the fiction that is placed into the balance because it is relevant to those stakes.
+
+For example:
+
+> **Stakes:** Cross the river before the guards arrive.
+
+> **Mises:** The character knows the river, the current is unusually strong, their companion is injured, and night is falling.
+
+This distinction is important.
+
+**Stakes define what matters.  
+Mises define what can weigh on the resolution.**
+
+From this point onward, **Mise** is a specific Resonance game-design term.
+
+---
+
+## 1. See the situation
 
 The table establishes what is happening.
 
@@ -114,43 +182,29 @@ This is the **Focus**.
 
 ---
 
-### 2. Identify the stakes
+## 2. Identify the Mises
 
-Each side identifies the elements of the fiction that support its objective.
+Each side identifies the elements of the fiction that support its objective or hinder the opposing objective.
 
-These are **Mises**.
+These elements become **Mises**.
 
-A Mise can be almost anything that is genuinely present in the fiction:
+The process is not about finding every possible advantage.
 
-- an experience;
-- a relationship;
-- an object;
-- an environmental condition;
-- an emotion;
-- a belief;
-- a wound;
-- a cultural trait;
-- an advantage created by the situation.
+It is about identifying what genuinely matters in the current situation.
 
-A Mise is not a bonus.
+A character may have exceptional swordsmanship.
 
-**It is a piece of fictional truth.**
+But if the current conflict is a political negotiation, that ability may not be a Mise.
 
-> *My character is wounded.*
+A character may have a debt to the person they are negotiating with.
 
-> *The bridge is collapsing.*
+That relationship might be.
 
-> *I know this language.*
-
-> *The enemy is afraid.*
-
-> *It is raining.*
-
-If that fact matters to the situation, it can matter to the resolution.
+**The Focus determines what enters the resolution.**
 
 ---
 
-### 3. Resolve
+## 3. Resolve
 
 The relevant Mises determine the size of the resolution pool.
 
@@ -164,7 +218,7 @@ This is where Resonance becomes capable of adapting to radically different world
 
 ---
 
-### 4. Interpret
+## 4. Interpret
 
 The result is not an isolated number.
 
@@ -186,7 +240,7 @@ The resolution exists to answer the dramatic question and move the story forward
 
 ---
 
-## A resolution without an interface
+# A resolution without an interface
 
 Imagine a character trying to cross a dangerous battlefield.
 
@@ -209,7 +263,7 @@ Perhaps:
 - they are carrying an injured companion;
 - the enemy has spotted them.
 
-Those elements become part of the resolution.
+Those elements can become Mises.
 
 The player is not searching their character sheet for a number.
 
@@ -280,7 +334,7 @@ The lore is no longer merely something players read.
 
 ---
 
-## One engine. Different realities.
+# One engine. Different realities.
 
 The Core can remain fundamentally unchanged while the Prism transforms the experience.
 
@@ -397,7 +451,7 @@ You do not primarily have to design:
 
 Instead, you design the things that make your world unique.
 
-### You create the fiction.
+## You create the fiction.
 
 Its:
 
@@ -409,7 +463,7 @@ myths.
 taboos.  
 metaphysics.**
 
-### You define what can matter.
+## You define what can matter.
 
 What can become a Mise?
 
@@ -417,7 +471,7 @@ What should never become one?
 
 What does the game want players to notice?
 
-### You design the Prisms.
+## You design the Prisms.
 
 How does this world respond to uncertainty?
 
@@ -425,7 +479,7 @@ How does its philosophy alter resolution?
 
 What happens when a character acts against the fundamental logic of the world?
 
-### You define the boundaries.
+## You define the boundaries.
 
 What is impossible?
 
@@ -437,4 +491,73 @@ These are the design decisions that give a Resonance game its identity.
 
 ---
 
-# What Resonance is trying to
+# What Resonance is trying to change
+
+Roleplaying games have become extraordinarily good at modelling different things.
+
+Some systems model progression.
+
+Some model physical reality.
+
+Some model genres.
+
+Some model dramatic negotiation.
+
+Resonance focuses on something different:
+
+## **Relevance.**
+
+What matters to this character,
+
+in this situation,
+
+right now?
+
+That sounds simple.
+
+But it changes the player's behaviour.
+
+Players stop asking:
+
+> *What is my best modifier?*
+
+and start asking:
+
+> **What can I see?**
+
+> **What do I know?**
+
+> **What does my character believe?**
+
+> **What is happening around me?**
+
+> **What is actually at stake?**
+
+And that is the experience Resonance is built to support.
+
+---
+
+# Resonance
+
+### One framework.  
+### One Core.  
+### Many Prisms.  
+### Infinite worlds.
+
+**Resonance** is a framework for cognitive resolution and diegetic game design.
+
+**Resonance Core** provides the generic engine.
+
+**Resonance Prisms** transform that engine into the logic of a particular world.
+
+**Glorantha Perspectives** demonstrates one complete implementation.
+
+The system does not define the world.
+
+**The world defines the system.**
+
+And when the mechanics become an extension of the fiction,
+
+**the player no longer plays the rules.**
+
+**They play the world.**
