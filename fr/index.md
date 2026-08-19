@@ -416,4 +416,190 @@ Ces variations ne sont pas cosmétiques.
 
 Elles créent des expériences cognitives différentes.
 
-**Le joueur ne se contente pas d
+**Le joueur ne se contente pas d'apprendre le lore du monde.  
+Il pense à travers sa philosophie.**
+
+---
+
+# Resonance: Glorantha
+
+## Une implémentation concrète.
+
+Un framework devient intéressant lorsqu'il peut sortir de la page.
+
+**Resonance: Glorantha** montre ce qui se produit lorsque Resonance est pleinement intégré à un univers fictionnel spécifique.
+
+Glorantha ne reçoit pas simplement un système de résolution générique.
+
+Sa cosmologie, ses religions et ses différentes manières de comprendre la réalité deviennent elles-mêmes partie intégrante de la résolution.
+
+Le même moteur sous-jacent peut donc produire des expériences radicalement différentes selon que le personnage appréhende la réalité à travers :
+
+**le Théisme.**
+
+**l'Animisme.**
+
+**la Logique.**
+
+**le Mysticisme.**
+
+Ou d'autres manières de comprendre le monde.
+
+C'est le rôle des Prismes de Resonance en pratique :
+
+> **Le système ne se contente pas de décrire le monde.  
+> Il fait vivre au joueur le monde à travers sa propre logique.**
+
+### Découvrir l'implémentation
+
+**Glorantha Perspectives** est la preuve de concept et l'implémentation détaillée du framework.
+
+[Lire le SRD de Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
+
+---
+
+# Conçu pour les mondes qui comptent
+
+Resonance est particulièrement adapté aux jeux dans lesquels le monde lui-même est important.
+
+Des mondes avec :
+
+- un lore profond ;
+- des philosophies antagonistes ;
+- des cultures significatives ;
+- des métaphysiques étranges ;
+- des relations fortes ;
+- des environnements symboliques ;
+- des univers où *la manière dont vous comprenez la réalité* compte autant que ce que vous êtes physiquement capable de faire.
+
+Parce que les mécaniques n'ont pas besoin d'encoder chaque action possible séparément, le même Core peut gérer :
+
+**un duel, une négociation, une enquête, un rituel, une poursuite, une bataille, un voyage ou un conflit politique.**
+
+La résolution change parce que la **fiction change**, et non parce qu'il faut apprendre un nouveau sous-système.
+
+---
+
+# Conçu pour les game designers
+
+Resonance change le rôle du game designer.
+
+Vous n'avez plus principalement besoin de concevoir :
+
+- des centaines de modificateurs ;
+- des listes exhaustives de compétences ;
+- des règles pour chaque situation possible ;
+- des sous-systèmes de combat toujours plus complexes.
+
+Vous concevez plutôt les éléments qui rendent votre monde unique.
+
+## Vous créez la fiction.
+
+Ses :
+
+**lore.  
+croyances.  
+cultures.  
+relations.  
+mythes.  
+tabous.  
+métaphysiques.**
+
+## Vous définissez ce qui peut compter.
+
+Qu'est-ce qui peut devenir une Mise ?
+
+Qu'est-ce qui ne devrait jamais en devenir une ?
+
+Qu'est-ce que le jeu veut que les joueurs remarquent ?
+
+## Vous concevez les Prismes.
+
+Comment ce monde répond-il à l'incertitude ?
+
+Comment sa philosophie transforme-t-elle la résolution ?
+
+Que se passe-t-il lorsqu'un personnage agit contre la logique fondamentale du monde ?
+
+## Vous définissez les limites.
+
+Qu'est-ce qui est impossible ?
+
+Qu'est-ce qui est interdit ?
+
+Qu'est-ce qui ne peut pas simplement être surmonté en ajoutant un nouvel argument ?
+
+Ce sont ces choix de design qui donnent son identité à un jeu Resonance.
+
+---
+
+# Ce que Resonance cherche à changer
+
+Les jeux de rôle sont devenus extraordinairement efficaces pour modéliser différentes choses.
+
+Certains systèmes modélisent la progression.
+
+Certains modélisent la réalité physique.
+
+Certains modélisent les genres.
+
+Certains modélisent la négociation dramatique.
+
+Resonance se concentre sur quelque chose de différent :
+
+## **La pertinence.**
+
+Qu'est-ce qui compte pour ce personnage,
+
+dans cette situation,
+
+maintenant ?
+
+Cela semble simple.
+
+Mais cela change le comportement du joueur.
+
+Les joueurs cessent de demander :
+
+> *Quel est mon meilleur modificateur ?*
+
+et commencent à demander :
+
+> **Qu'est-ce que je vois ?**
+
+> **Qu'est-ce que je sais ?**
+
+> **Qu'est-ce que mon personnage croit ?**
+
+> **Que se passe-t-il autour de moi ?**
+
+> **Quels sont réellement les Enjeux ?**
+
+Et c'est l'expérience que Resonance cherche à produire.
+
+---
+
+# Resonance
+
+### Un framework.  
+### Un Core.  
+### De nombreux Prismes.  
+### Des mondes infinis.
+
+**Resonance** est un framework de résolution cognitive et de game design diégétique.
+
+**Resonance Core** fournit le moteur générique.
+
+**Resonance Prisms** transforment ce moteur pour l'adapter à la logique d'un monde particulier.
+
+**Glorantha Perspectives** démontre une implémentation complète.
+
+Le système ne définit pas le monde.
+
+**Le monde définit le système.**
+
+Et lorsque les mécaniques deviennent une extension de la fiction,
+
+**le joueur ne joue plus les règles.**
+
+**Il joue le monde.**
