@@ -108,7 +108,9 @@ This is where Resonance introduces one of its fundamental concepts: the **Bet**.
 
 Resonance uses a specific term for the fictional elements that can influence a resolution:
 
-A bet is not an abstract modifier attached to a character sheet.
+**Bet**.
+
+A Bet is not an abstract modifier attached to a character sheet.
 
 **It is something that exists in the fiction before it exists in the mechanics.**
 
@@ -128,6 +130,7 @@ It can be anything that matters in the current situation:
 - or any other element that genuinely matters in the fiction.
 
 A skill is not automatically a Bet.
+
 An advantage is not automatically a Bet.
 
 It becomes a Bet when the player chooses to rely on it **here and now**.
@@ -136,7 +139,17 @@ Each Bet contributes to the resolution pool.
 
 You are not calculating how good your character is.
 
-You are deciding **what you are betting matters.**
+You are deciding **what you are betting matters**.
+
+In that sense, a Bet is a hypothesis about what will matter in the situation.
+
+You may hope that your experience with the spear will give you the upper hand.
+
+You may fear that your injured leg will weigh against you.
+
+You may believe that the enemy's fear will make them hesitate.
+
+The dice then test those bets against the opposing side's bets.
 
 For example:
 
@@ -152,11 +165,11 @@ For example:
 
 If that fact genuinely matters to the situation, it can become a Bet.
 
-### Bet is not the same as stakes.
+### Bets are not the same as stakes.
 
 The **stakes** are what is at risk or what can be gained or lost in the situation.
 
-A **Bet** is something from the fiction that is placed into the balance because it is relevant to those stakes. It is narrower to a hope.
+A **Bet** is something from the fiction that is placed into the balance because it may influence those stakes.
 
 For example:
 
@@ -164,12 +177,26 @@ For example:
 
 > **Bets:** The character knows the river, the current is unusually strong, their companion is injured, and night is falling.
 
+**Stakes define what can be won or lost.  
+Bets define what each side believes may influence the outcome.**
+
 This distinction is important.
 
-**Stakes define what matters.  
-Mises define what can weigh on the resolution.**
+A Bet is not necessarily an advantage.
 
-From this point onward, **Mise** is a specific Resonance game-design term.
+It can be something that helps you or something that works against you.
+
+You can bet on your own strength.
+
+You can bet on an opponent's weakness.
+
+You can even bet on a dangerous circumstance if you believe it will influence the resolution in your favor.
+
+The important question is not whether something is objectively good or bad.
+
+The question is:
+
+> **Are you betting that it matters?**
 
 ---
 
@@ -187,7 +214,7 @@ This is the **Focus**.
 
 ---
 
-## 2. Identify the Mises
+## 2. Identify the Bets
 
 Each side identifies the elements of the fiction that support its objective or hinder the opposing objective.
 
@@ -199,7 +226,7 @@ It is about identifying what genuinely matters in the current situation.
 
 A character may have exceptional swordsmanship.
 
-But if the current conflict is a political negotiation, that ability may not be a Mise.
+But if the current conflict is a political negotiation, that ability may not be a Bet.
 
 A character may have a debt to the person they are negotiating with.
 
@@ -268,11 +295,21 @@ Perhaps:
 - they are carrying an injured companion;
 - the enemy has spotted them.
 
-Those elements can become Bets.
+Those elements can become Bets — if the player chooses to rely on them.
 
 The player is not searching their character sheet for a number.
 
 **They are looking at the world.**
+
+They may hope that their knowledge of the battlefield will help.
+
+They may fear that carrying an injured companion will slow them down.
+
+They may decide that the enemy having spotted them is actually useful because it draws attention away from their companions.
+
+The player is not calculating probabilities.
+
+**They are making a judgment about what matters.**
 
 That is the cognitive experience Resonance is designed to create.
 
