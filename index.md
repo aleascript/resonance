@@ -84,7 +84,7 @@ That is the fundamental idea behind **Resonance Core**.
 
 # Resonance Core
 
-## A generic engine for cognitive resolution through stakes.
+## A generic engine for resolving uncertainty through fiction.
 
 Resonance Core is the generic resolution engine at the heart of Resonance.
 
@@ -98,7 +98,9 @@ It does not tell you what magic looks like, how combat works, or what the world 
 
 It provides something simpler:
 
-**a way to turn the elements of a fictional situation into a resolution.**
+**a way to turn what matters in a fictional situation into a resolution.**
+
+This is where Resonance introduces one of its fundamental concepts: the **Mise**.
 
 ---
 
