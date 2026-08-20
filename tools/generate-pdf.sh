@@ -4,6 +4,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 TEMPLATE="$SCRIPT_DIR/template-resonance.tex"
+METADATA="$SCRIPT_DIR/srd-metadata.conf"
 SRD_DIR="$PROJECT_DIR/srd"
 
 if [ $# -lt 1 ]; then
@@ -24,6 +25,14 @@ if [ ! -f "$TEMPLATE" ]; then
     exit 1
 fi
 
+if [ ! -f "$METADATA" ]; then
+    echo "Erreur: Fichier de métadonnées non trouvé: $METADATA" >&2
+    exit 1
+fi
+
+# shellcheck source=srd-metadata.conf
+source "$METADATA"
+
 if [ $# -ge 2 ]; then
     OUTPUT="$2"
 else
@@ -38,6 +47,18 @@ fi
 
 mkdir -p "$(dirname "$OUTPUT")"
 
+# Détecter la langue depuis le chemin source
+if echo "$SOURCE" | grep -q "content/fr/"; then
+    LANG="fr"
+    BABEL_LANG="french"
+elif echo "$SOURCE" | grep -q "content/en/"; then
+    LANG="en"
+    BABEL_LANG="english"
+else
+    LANG="fr"
+    BABEL_LANG="french"
+fi
+
 TMPFILE=$(mktemp /tmp/resonance-XXXXXX.md)
 trap "rm -f $TMPFILE" EXIT
 
@@ -46,17 +67,26 @@ sed '/^---$/,/^---$/d' "$SOURCE" | sed '/!\[.*\](\.\.\/assets\/.*\.png)/d' > "$T
 sed -i "s|/content/assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
 sed -i "s|\.\./assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
 
-IMAGE_PATH="${PROJECT_DIR}/content/assets/resonance.png"
+# Construire les options Pandoc
+PANDOC_OPTS=(
+    --pdf-engine=xelatex
+    --template="$TEMPLATE"
+    -V "lang=$LANG"
+    -V "babel-lang=$BABEL_LANG"
+    -V "author=$AUTHOR"
+    -V "version=$VERSION"
+    -V "mail=$MAIL"
+    --resource-path="$PROJECT_DIR"
+    --toc
+    --toc-depth=4
+)
+
+# Ajouter le flag pour l'en-tête bilingue
+if [ "$LANG" = "en" ]; then
+    PANDOC_OPTS+=(-V "lang-en=true")
+fi
 
 echo "Génération du PDF: $OUTPUT"
-pandoc "$TMPFILE" \
-    --pdf-engine=xelatex \
-    --template="$TEMPLATE" \
-    -V image_path="$IMAGE_PATH" \
-    -V lang=fr \
-    --resource-path="$PROJECT_DIR" \
-    --toc \
-    --toc-depth=4 \
-    -o "$OUTPUT"
+pandoc "$TMPFILE" "${PANDOC_OPTS[@]}" -o "$OUTPUT"
 
 echo "PDF généré: $OUTPUT"

@@ -2,7 +2,7 @@
 
 \usepackage{fontspec}
 \setmainfont{TeX Gyre Pagella}
-\usepackage[french]{babel}
+\usepackage[$babel-lang$]{babel}
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{hyperref}
@@ -33,8 +33,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\color{accent} Résonance}
-\fancyhead[R]{\small\color{accent} Le Principe de Résonance}
+\fancyhead[L]{\small\color{accent} Resonance}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -44,13 +43,24 @@
 
 % Page de couverture
 \thispagestyle{empty}
+\vspace*{3cm}
 \begin{center}
-\vspace*{\fill}
-$if(image_path)$
-\includegraphics[width=0.8\textwidth]{$image_path$}
-$endif$
-\vspace*{\fill}
+\includegraphics[width=0.7\textwidth]{content/assets/resonance.png}
 \end{center}
+\vfill
+\begin{center}
+\begin{minipage}[b]{0.45\textwidth}
+\includegraphics[width=2.0cm]{content/assets/licence.png}
+\end{minipage}%
+\hfill
+\begin{minipage}[b]{0.45\textwidth}
+\raggedleft
+{\large\color{resonance}$author$}\\[6pt]
+{\small\color{accent}$mail$}\\[2pt]
+{\small\color{accent}Rev: $version$}\\[2pt]
+\end{minipage}
+\end{center}
+\vspace{2cm}
 \newpage
 
 % Table des matières
