@@ -9,6 +9,28 @@ permalink: /en/
 
 # Resonance
 
+## TL;DR
+
+**Resonance** is a framework for cognitive resolution and diegetic game design.
+
+**Resonance Core** provides the generic engine.
+
+**Resonance Prisms** transform that engine into the logic of a particular world.
+
+**Glorantha Perspectives** demonstrates one complete implementation.
+
+The system does not define the world.
+
+**The world defines the system.**
+
+And when the mechanics become an extension of the fiction,
+
+**the player no longer plays the rules.**
+
+**They play the world.**
+
+---
+
 ## A framework for cognitive resolution and diegetic game design.
 
 **Resonance is not a roleplaying game.**
@@ -582,27 +604,3 @@ And that is the experience Resonance is built to support.
 
 ---
 
-# Resonance
-
-### One framework.  
-### One Core.  
-### Many Prisms.  
-### Infinite worlds.
-
-**Resonance** is a framework for cognitive resolution and diegetic game design.
-
-**Resonance Core** provides the generic engine.
-
-**Resonance Prisms** transform that engine into the logic of a particular world.
-
-**Glorantha Perspectives** demonstrates one complete implementation.
-
-The system does not define the world.
-
-**The world defines the system.**
-
-And when the mechanics become an extension of the fiction,
-
-**the player no longer plays the rules.**
-
-**They play the world.**
