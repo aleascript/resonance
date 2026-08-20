@@ -13,12 +13,6 @@
 </head>
 <body>
   <nav class="site-nav">
-    {% assign other_lang = "en" %}
-    {% if page.lang == "en" %}
-      {% assign other_lang = "fr" %}
-    {% endif %}
-    {% assign other_page = site.pages | where: "lang", other_lang | first %}
-    {% if other_page %}
     <span class="lang-switcher">
       {% for lang in site.languages %}
         {% if lang == page.lang %}
@@ -31,7 +25,9 @@
         {% endif %}
       {% endfor %}
     </span>
-    {% endif %}
+    <span class="lang-switcher">
+      <a class="pdf-link" href="{{ '/srd/resonance-' | append: page.lang | append: '.pdf' | relative_url }}">SRD</a>
+    </span>
   </nav>
   <main class="main-content">
     {{ content }}

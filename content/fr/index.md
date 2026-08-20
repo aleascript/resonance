@@ -604,27 +604,3 @@ Et c'est l'expérience que Resonance cherche à produire.
 
 ---
 
-# Resonance
-
-### Un framework.  
-### Un Core.  
-### De nombreux Prismes.  
-### Des mondes infinis.
-
-**Resonance** est un framework de résolution cognitive et de game design diégétique.
-
-**Resonance Core** fournit le moteur générique.
-
-**Resonance Prisms** transforment ce moteur pour l'adapter à la logique d'un monde particulier.
-
-**Glorantha Perspectives** démontre une implémentation complète.
-
-Le système ne définit pas le monde.
-
-**Le monde définit le système.**
-
-Et lorsque les mécaniques deviennent une extension de la fiction,
-
-**le joueur ne joue plus les règles.**
-
-**Il joue le monde.**

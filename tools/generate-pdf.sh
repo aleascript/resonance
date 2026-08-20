@@ -62,7 +62,7 @@ fi
 TMPFILE=$(mktemp /tmp/resonance-XXXXXX.md)
 trap "rm -f $TMPFILE" EXIT
 
-awk 'BEGIN{c=0} /^---$/{c++; if(c<=2) next} {print}' "$SOURCE" | sed '/!\[.*\](\.\.\/assets\/.*\.png)/d' > "$TMPFILE"
+awk 'BEGIN{c=0;skip=0} /^---$/{c++; if(c==1){skip=1;next} if(c==2){skip=0;next}} !skip' "$SOURCE" | sed '/!\[.*\](\.\.\/assets\/.*\.png)/d' > "$TMPFILE"
 
 sed -i "s|/content/assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
 sed -i "s|\.\./assets/|${PROJECT_DIR}/content/assets/|g" "$TMPFILE"
