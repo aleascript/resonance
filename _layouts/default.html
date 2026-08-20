@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% seo %}
+  {% for lang in site.languages %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ site.baseurl }}/{{ lang }}/">
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/en/">
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
+  <nav class="site-nav">
+    {% assign other_lang = "en" %}
+    {% if page.lang == "en" %}
+      {% assign other_lang = "fr" %}
+    {% endif %}
+    {% assign other_page = site.pages | where: "lang", other_lang | first %}
+    {% if other_page %}
+    <span class="lang-switcher">
+      {% for lang in site.languages %}
+        {% if lang == page.lang %}
+          <span class="lang-link lang-active">{{ lang | upcase }}</span>
+        {% else %}
+          {% assign lang_page = site.pages | where: "lang", lang | first %}
+          {% if lang_page %}
+          <a class="lang-link" href="{{ lang_page.url | relative_url }}">{{ lang | upcase }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </span>
+    {% endif %}
+  </nav>
   <main class="main-content">
     {{ content }}
     <footer class="site-footer">
       <span class="site-footer-owner">
-          Résonance par <a href="https://github.com/aleascript">AleaScript</a>
+          {% if page.lang == "fr" %}
+            Résonance par <a href="https://github.com/aleascript">AleaScript</a>
+          {% else %}
+            Resonance by <a href="https://github.com/aleascript">AleaScript</a>
+          {% endif %}
       </span>
     </footer>
   </main>
+  <script>
+    (function () {
+      var STORAGE_KEY = "resonance-lang";
+      var btns = document.querySelectorAll(".lang-link[href]");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var m = this.getAttribute("href").match(/\/([a-z]{2})\/$/);
+          if (m) { try { localStorage.setItem(STORAGE_KEY, m[1]); } catch (e) {} }
+        });
+      }
+    })();
+  </script>
 </body>
 </html>

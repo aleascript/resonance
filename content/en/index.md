@@ -1,8 +1,11 @@
 ---
+layout: default
 title: Resonance Manifesto
+lang: en
+permalink: /en/
 ---
 
-![Resonance](content/assets/header.png)
+![Resonance]({{ "/content/assets/header.png" | relative_url }})
 
 # Resonance
 

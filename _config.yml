@@ -1,11 +1,13 @@
 title: Resonance
-description: Système cognitif et diégétique pour les JDR
+description: Cognitive and diegetic framework for TTRPGs
 baseurl: "/resonance"
 url: "https://aleascript.github.io"
 permalink: pretty
 theme: jekyll-theme-cayman
-lang: fr
+lang: en
 author: AleaScript
+
+languages: ["en", "fr"]
 
 twitter:
   card: summary
@@ -31,3 +33,11 @@ defaults:
     values:
       layout: default
       image: /content/assets/resonance.png
+  - scope:
+      path: "content/en"
+    values:
+      lang: en
+  - scope:
+      path: "content/fr"
+    values:
+      lang: fr
