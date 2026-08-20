@@ -5,7 +5,7 @@ lang: fr
 permalink: /fr/
 ---
 
-![Resonance]({{ "/content/assets/header.png" | relative_url }})
+![Resonance](../assets/header.png)
 
 # Resonance
 
