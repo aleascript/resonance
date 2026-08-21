@@ -200,7 +200,7 @@ Si cet élément compte réellement dans la situation, il peut devenir une Mise.
 
 **C'est le MJ (ou la table) qui valide si la mise est valable ou pas.**
 
-### Les Mises ne sont pas la même chose que les enjeux.
+### Mises et enjeux
 
 Les **Enjeux** sont ce qui peut être gagné, perdu ou modifié dans la situation.
 
@@ -233,6 +233,8 @@ La question est :
 
 > **Misez-vous sur le fait que cela compte ?**
 
+Par contre, pour les jeux avec léthalité, ou un risque de blessure, le MJ devrait indiquer aux joueurs quand l'opposition présente un risque ou pas. Cela permet au joueur de revoir son objectif ou son plan pour se mettre dans une situation plus sûre.
+
 ### Le rôle du MJ
 
 Puisque la charge technique est minime, le MJ se concentre uniquement sur ce qui rend le monde vivant et interactif :
@@ -244,7 +246,7 @@ Puisque la charge technique est minime, le MJ se concentre uniquement sur ce qui
 
 # Concrètement
 
-## 1. Voir la situation
+## Voir la situation
 
 La table établit ce qui est en train de se passer.
 
@@ -256,9 +258,7 @@ Le groupe détermine ce qui est pertinent **maintenant**.
 
 C'est le **Focus**.
 
-
-
-## 2. Identifier les Mises
+## Identifier les Mises
 
 Chaque camp identifie les éléments de la fiction qui soutiennent son objectif ou entravent l'objectif adverse.
 
@@ -282,9 +282,7 @@ En pratique, on observe que les mises sont finalement assez équilibrées quand 
 
 La difficulté d'un obstacle n'est souvent pas lié à l'équilibre de l'opposition mais au fait qu'il faille souvent plusieurs oppositions pour en venir à bout. Chaque victoire étant un petit pas vers la victoire finale, ou l'échec final. 
 
-
-
-## 3. Résoudre
+## Résoudre
 
 Les Mises pertinentes déterminent la taille du pool de résolution.
 
@@ -296,9 +294,7 @@ Mais les dés ne décident pas de tout à eux seuls.
 
 C'est ce qui permet à Resonance de s'adapter à des univers radicalement différents.
 
-
-
-## 4. Interpréter
+## Interpréter
 
 Le résultat n'est pas un nombre isolé.
 
@@ -319,7 +315,6 @@ La résolution sert à répondre à la question dramatique et à faire avancer l
 **Lancer → interpréter → la fiction change.**
 
 On verra dans la section des Prismes qu'il y a un prisme générique, matérialiste, agnostique qu'on peut utiliser par défaut. On peut même jouer dans n'importe quel univers avec ce simple prisme. Il est auto-suffisant pour orienter la fiction de manière aléatoire mais réaliste, en restant ancré dans la fiction. 
-
 
 
 # Une résolution sans interface
