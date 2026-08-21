@@ -811,11 +811,9 @@ This way:
 2. You preserve the mystery of asymmetric interpretation (your twist).
 3. You take the pressure off: they'll reach for their keywords to earn dice instead of dumbly trying to "optimize" the action.
 
-###
+## The different prisms
 
-# The different prisms
-
-## **The Clumsy Duo: The Draw Without Opposition**
+### **The Clumsy Duo: The Draw Without Opposition**
 
 The world doesn't oppose them — they oppose themselves!
 
@@ -823,14 +821,14 @@ The world doesn't oppose them — they oppose themselves!
 - *Interpretation:* The result just indicates the *scale of chaos* they generate. If they score lots of successes, their flight is so chaotic it destroys the monster's hiding spot.
 - Together they are stronger: the GM adds pairs of odd numbers when comparing the two draws. But they still don't merge into a common pool. If Sammy rolls two 3s, it doesn't count as a success. It only counts if Scooby-Doo also rolls a 3. That incentivizes them to stay together.
 
-## **Brainiac: The Draw With Opposition (Logic)**
+### **Brainiac: The Draw With Opposition (Logic)**
 
 She is the only one anchored in reality. She plays a "normal" RPG.
 
 - *Gameplay:* She lays down her Bets, the GM lays down theirs. This is classic resolution, where the dice confront Bets against the opposing camp.
 - *Interpretation:* Rational. If she wins, she finds a clue. If she loses, she loses her glasses or gets it wrong.
 
-## **Pretty Boy: The Offset and the Reversal**
+### **Pretty Boy: The Offset and the Reversal**
 
 A draw that "resonates" crooked is excellent for emulating his trope.
 
@@ -839,23 +837,23 @@ A draw that "resonates" crooked is excellent for emulating his trope.
     - *If he wins:* His plan works *exactly* as intended... but on the wrong target (the net falls on the Clumsy Duo). He believes he succeeded, but narratively it's a disaster.
     - *If he loses (GM exploit):* The plan collapses miserably... and it's precisely the pulley coming loose that knocks out the ghost. The player curses his dice, but the GM announces total victory!
 
-## **Lovely Klutz: The Magnet**
+### **Lovely Klutz: The Magnet**
 
-#### The Klutz could play with pink dice, if you have some.
+The Klutz could play with pink dice, if you have some.
 
-#### Involuntary Charm (Crossed Pairs)
+**Involuntary Charm (Crossed Pairs)**
 
 - **The Rule:** If one of her pink dice forms an exact pair with the GM's highest die (or a "6"), the monster is awestruck, charmed, or completely distracted by her.
 - **The Fiction:** The monster stops mid-roar to pick up the mirror she dropped. Or she looks at it wide-eyed and says: *"But... you're the museum curator, not a werewolf!"*, creating an awkward silence. The opposition is literally neutralized by seduction or innocence, without any fight.
 
-#### The Plot "Oops" (Runs)
+**The Plot "Oops" (Runs)**
 
 Tell the Klutz that her goal is to form runs (or identical numbers), because they're pretty. That encourages her to take simple actions with few Bets: her klutzy side — no elaborate schemes.
 
 - **The Rule:** If her dice form a run (e.g., 2-3-4 or 3-4-5 or 1-1-1 etc.), regardless of whether she succeeds or fails against adversity, she triggers an "Oops."
 - **The Fiction:** She tips the story in a notable way. She leans against a fake bookshelf to retie her lace and opens the secret lair. She presses the red button thinking she's turning on the light and disables the force field. She finds the plot shortcut by pure accident.
 
-### Otherwise, nothing happens?
+**Otherwise, nothing happens?**
 
 If she makes neither a run nor a pair with the monster, and "misses" her roll, the consequence for her is never violence or death (this is Scooby-Doo).
 

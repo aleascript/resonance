@@ -809,11 +809,9 @@ De cette façon :
 2. Vous préservez le mystère de l'interprétation asymétrique (votre twist de décalage).
 3. Vous les décomplexez : ils vont chercher à jouer leurs mots-clés pour obtenir des dés, sans essayer "d'optimiser" bêtement l'action.
 
-### 
+## Les différents prismes
 
-# 2. Les différents prismes
-
-## **Le Duo Maladroit : Le Tirage sans Opposition**
+### **Le Duo Maladroit : Le Tirage sans Opposition**
 
 Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes ! 
 
@@ -821,14 +819,14 @@ Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
 - *L'interprétation :* Le résultat indique juste *l'ampleur du chaos* qu'ils génèrent. S'ils font beaucoup de réussites, leur fuite est tellement chaotique qu'elle détruit la cachette du monstre.
 - A deux ils sont plus forts, le MJ rajoutent les paires d’impairs en comparant les 2 tirages. Mais ils ne font pas pool commun pour autant. Si Sammy tire deux 3, ca ne compte pas comme une réussite. Ca ne compte que si Scooby-Doo tire aussi un 3. Ca les incite à rester ensemble.
 
-## **L'Intello : Le Tirage avec Opposition (La Logique)**
+### **L'Intello : Le Tirage avec Opposition (La Logique)**
 
 Elle est la seule ancrée dans le réel. Elle joue à un jeu de rôle "normal".
 
 - *Le Gameplay :* Elle pose ses mises, le MJ pose les siennes. C'est la méthode de résolution classique où les dés confrontent les mises à celles du camp adverse.
 - *L'interprétation :* C'est rationnel. Si elle gagne, elle trouve un indice. Si elle perd, elle perd ses lunettes ou se trompe.
 
-## **Le Beau Gosse : Le Décalage et l'Inversion**
+### **Le Beau Gosse : Le Décalage et l'Inversion**
 
 Un tirage qui "résonne" de travers est excellente pour émuler son trope.
 
@@ -837,23 +835,23 @@ Un tirage qui "résonne" de travers est excellente pour émuler son trope.
     - *S'il gagne :* Son plan fonctionne *exactement* comme prévu... mais sur la mauvaise cible (le filet tombe sur le Duo Maladroit). Il croit avoir réussi, mais narrativement c'est une catastrophe.
     - *S'il perd (Exploit du MJ) :* Le plan s'effondre lamentablement... et c'est justement la poulie qui se détache qui assomme le fantôme. Le joueur peste contre ses dés, mais le MJ lui annonce une victoire totale !
 
-## **La Belle Nunuche : L'Aimant**
+### **La Belle Nunuche : L'Aimant**
 
-#### La Nunuche pourrait jouer avec des dés roses si vous en avez.
+La Nunuche pourrait jouer avec des dés roses si vous en avez.
 
-#### Le Charme Involontaire (Les Paires croisées)
+**Le Charme Involontaire (Les Paires croisées)**
 
 - **La Règle :** Si l'un de ses dés roses fait une paire exacte avec le dé le plus élevé (ou un "6") du MJ, le monstre est subjugué, charmé, ou totalement distrait par elle.
 - **La Fiction :** Le monstre s'arrête en plein rugissement pour ramasser le miroir qu'elle a fait tomber. Ou bien, elle le regarde avec de grands yeux et dit : *"Mais... vous êtes le gardien du musée, pas un loup-garou !"* créant un blanc gênant. L'opposition est littéralement neutralisée par la séduction ou la candeur, sans aucun combat.
 
-#### Le "Oops" Scénaristique (Les Suites)
+**Le "Oops" Scénaristique (Les Suites)**
 
 On dit a la nunuche que son but c’est de faire des suites (ou des chiffres identiques), parce que c’est joli. Donc ca l’incite a faire des actions simples avec peu de mises: son coté nunuche: pas de truc élaboré. 
 
 - **La Règle :** Si ses dés forment une suite (ex: 2-3-4 ou 3-4-5 ou 1-1-1 etc…), peu importe qu'elle réussisse ou échoue face à l'adversité, elle déclenche un "Oops".
 - **La Fiction :** Elle fait basculer l'histoire de manière notable. Elle s'adosse à une fausse bibliothèque pour refaire son lacet et ouvre le repaire secret. Elle appuie sur le bouton rouge en pensant allumer la lumière et désactive le champ de force. Elle trouve le raccourci scénaristique par pur accident.
 
-### Sinon, il ne se passe rien ?
+**Sinon, il ne se passe rien ?**
 
 Si elle ne fait ni suite, ni paire avec le monstre, et qu'elle "rate" son jet, la conséquence pour elle n'est jamais la violence ou la mort (on est dans Scooby-Doo).
 
