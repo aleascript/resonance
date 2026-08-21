@@ -200,7 +200,7 @@ If that element genuinely matters in the situation, it can become a Bet.
 
 **It is the GM (or the table) who validates whether the bet is valid or not.**
 
-### Bets are not the same thing as stakes.
+### Bets and stakes.
 
 **Stakes** are what can be won, lost or changed in the situation.
 
@@ -232,6 +232,8 @@ So the important question is not whether something is objectively good or bad.
 The question is:
 
 > **Are you betting that it matters?**
+
+On the other hand, for high-lethal games or those with a risk of injury, the GM should let players know whether an encounter poses a risk or not. This allows the player to adjust their goal or plan to get into a safer situation.
 
 ### The GM's role
 
@@ -683,7 +685,6 @@ What is forbidden?
 What cannot simply be overcome by adding another argument?
 
 These are the design choices that give a Resonance game its identity.
-
 
 
 # What Resonance seeks to change
