@@ -746,7 +746,7 @@ Sauf qu'à chaque fois que vous vous arrêtez pour faire le plein ou manger un b
 
 Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés suggérés : ils gardent ceux qui les font rire, rayent ceux qu'ils n'aiment pas, et en inventent de nouveaux s'ils sont inspirés.
 
-### 1. Le Beau Gosse (au plan foireux)
+### Le Beau Gosse (au plan foireux)
 
 *Le leader autoproclamé, charismatique mais souvent à côté de la plaque. Il adore donner des ordres qui n'ont aucun sens.*
 
@@ -754,7 +754,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Obsédé par les pièges complexes, Rube Goldberg, "Séparons-nous en deux groupes", Permis de conduire.
 - **Liens suggérés :** Secrètement amoureux de la Belle Nunuche (qui l'ignore), ou se regarde un peu trop dans le rétroviseur.
 
-### 2. La Belle Nunuche
+### La Belle Nunuche
 
 *Celle qui attire les ennuis comme un aimant. Elle semble fragile, mais son sac à main défie les lois de la physique.*
 
@@ -762,7 +762,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Sac à main magique (contient tout et n'importe quoi), Maquillage tactique, Ceinture noire de shopping, Crochetage avec une épingle à cheveux.
 - **Liens suggérés :** Amoureuse de personne (trop indépendante) ou flirte avec le monstre sans s'en rendre compte.
 
-### 3. L'Intello
+### L'Intello
 
 *Le cerveau du groupe. Sceptique, sarcastique, elle est la seule à lire des encyclopédies pendant les vacances.*
 
@@ -770,7 +770,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Déduction implacable, Trouver l'interrupteur caché, Jargon scientifique incompréhensible, Ramper par terre.
 - **Liens suggérés :** Secrètement amoureuse du Beau Gosse, ou méprise secrètement le niveau intellectuel du groupe.
 
-### 4. Le Duo Maladroit (Joué par 2 joueurs !)
+### Le Duo Maladroit (Joué par 2 joueurs !)
 
 *Les poltrons magnifiques. Ils ne pensent qu'à manger et fuir, et c'est souvent ça qui sauve la situation.*
 
@@ -793,7 +793,6 @@ Le van est le cœur de l'équipe. Toute la table choisit ses mots-clés ensemble
 # Les règles du jeu
 
 > *"Dans ce jeu, on ne va pas chercher des modificateurs sur une feuille, la mécanique est dans la situation*
-> 
 > 
 > *. Vous allez me dire ce que vous faites en vous appuyant sur vos Mots-Clés.*
 > 
@@ -900,7 +899,7 @@ Le monstre rôde dans le motel. Le groupe cherche des indices (les 3 Clés).
 Maintenant que le groupe a compris qu'il se trame quelque chose, ils doivent capturer le fantôme.
 
 - **La Scène :** Le Beau Gosse élabore un plan avec des chariots à bagages, de la sauce tomate et un ventilateur géant.
-- **Mécaniques attendues :** C'est son moment de gloire. Il fait son jet en opposition avec décalage. Si le groupe veut pimenter l'action, c'est le moment d'intégrer le fameux **"Dé Cliché" (le pacte du diable)** : un des joueurs fait un truc totalement stupide (comme le Duo Maladroit qui mange l'appât du piège). Le MJ ajoute un dé rouge à son propre pool : sur un 6, le monstre glisse sur la flaque de sauce tomate, détruit le piège du Beau Gosse, mais s'assomme contre la porte du frigo !
+- **Mécaniques attendues :** C'est son moment de gloire. Il fait son jet en opposition avec décalage. Le monstre glisse sur la flaque de sauce tomate, détruit le piège du Beau Gosse, mais s'assomme contre la porte du frigo !
 
 ### L'Épilogue
 
@@ -908,7 +907,9 @@ On arrache le masque en plastique : *"Monsieur Zellani?!”*
 
 *“Et j'aurais réussi si vous n'étiez pas là, vous et ce satané chien !"*
 
-### 1. Choix des personnages et du Van : ~15 à 20 minutes
+### Timeline
+
+#### Choix des personnages et du Van : ~15 à 20 minutes
 
 C'est la phase "brise-glace".
 
@@ -916,7 +917,7 @@ C'est la phase "brise-glace".
 - Les joueurs passent 10 minutes à s'approprier les mots-clés (en rayer, en ajouter un ou deux) et à définir leurs liens (qui aime qui, qui méprise qui).
 - La création du Van prend 5 minutes de débat collectif (pour décider s'il est rouillé ou s'il sent la pizza froide).
 
-### 2. Le "Pitch" des règles : ~5 minutes
+#### 2. Le "Pitch" des règles : ~5 minutes
 
 C'est le grand avantage de votre approche diégétique : la charge mentale est de votre côté.
 
@@ -924,7 +925,7 @@ C'est le grand avantage de votre approche diégétique : la charge mentale est d
 - Vous annoncez le contrat social (le MJ est garant de la fiction, les mots-clés donnent des dés, les chiffres pairs sont des réussites).
 - Vous placez le *teasing* sur le fait que l'univers réagira différemment à chacun. C'est expédié très vite.
 
-### 3. La Partie (Le Scénario) : ~1h30 à 2h00
+#### La Partie (Le Scénario) : ~1h30 à 2h00
 
 Le rythme d'une enquête cartoonesque doit être soutenu, sinon la blague s'essouffle.
 

@@ -245,7 +245,7 @@ Since the technical load is minimal, the GM can focus entirely on what makes the
 
 # Concretely
 
-## 1. See the situation
+## See the situation
 
 The table establishes what is happening.
 
@@ -259,7 +259,7 @@ This is the **Focus**.
 
 
 
-## 2. Identify the Bets
+## Identify the Bets
 
 Each camp identifies the elements of the fiction that support its objective or hinder the opposing objective.
 
@@ -285,7 +285,7 @@ An obstacle's difficulty often has little to do with how evenly matched the oppo
 
 
 
-## 3. Resolve
+## Resolve
 
 The relevant Bets determine the size of the resolution pool.
 
@@ -299,7 +299,7 @@ This is what allows Resonance to adapt to radically different worlds.
 
 
 
-## 4. Interpret
+## Interpret
 
 The result is not an isolated number.
 
@@ -748,7 +748,7 @@ Except that every time you stop for gas or a burger, you run into an incompetent
 
 Players pick an archetype. They browse a list of suggested keywords: keeping the ones that make them laugh, crossing out the ones they dislike, and inventing new ones if inspired.
 
-### 1. Pretty Boy (Fred)
+### Pretty Boy (Fred)
 
 *The self-proclaimed leader, charismatic but usually off target. He loves giving orders that make no sense.*
 
@@ -756,7 +756,7 @@ Players pick an archetype. They browse a list of suggested keywords: keeping the
 - **Action keywords:** Obsessed with elaborate traps, Rube Goldberg, "Let's split up into two groups", Driver's license.
 - **Suggested bonds:** Secretly in love with the Lovely Klutz (who doesn't notice), or admires himself a little too much in the rearview mirror.
 
-### 2. Lovely Klutz (Daphne)
+### Lovely Klutz (Daphne)
 
 *The one who attracts trouble like a magnet. She seems fragile, but her handbag defies the laws of physics.*
 
@@ -764,7 +764,7 @@ Players pick an archetype. They browse a list of suggested keywords: keeping the
 - **Action keywords:** Magic handbag (holds anything and everything), Tactical makeup, Black belt in shopping, Lockpicking with a bobby pin.
 - **Suggested bonds:** In love with no one (too independent), or unknowingly flirts with the monster.
 
-### 3. Brainiac (Velma)
+### Brainiac (Velma)
 
 *The brains of the group. Skeptical, sarcastic, she is the only one reading encyclopedias over summer break.*
 
@@ -772,7 +772,7 @@ Players pick an archetype. They browse a list of suggested keywords: keeping the
 - **Action keywords:** Relentless deduction, Finding the hidden light switch, Unintelligible scientific jargon, Crawling on the floor.
 - **Suggested bonds:** Secretly in love with Pretty Boy, or privately misjudges the group's intellectual level.
 
-### 4. The Clumsy Duo (Played by 2 players!)
+### The Clumsy Duo (Played by 2 players!)
 
 *Magnificent cowards. All they think about is eating and running away — and that's often what saves the day.*
 
@@ -782,7 +782,7 @@ Players pick an archetype. They browse a list of suggested keywords: keeping the
     - *Keywords:* Talking dog (or raccoon, giant iguana...), Human mannerisms, Competitive scaredy-cat, Easily bribed (for a treat), Sniffs out trouble.
 - **Shared bond:** They are inseparable, have their own language, and often get mistaken for one another.
 
-## The 5th Member: The Vehicle Sheet
+## The 6th Member: The Vehicle Sheet
 
 The van is the heart of the team. The whole table picks its keywords together. It generates diegetic problems before the monster even shows up.
 
@@ -795,7 +795,6 @@ The van is the heart of the team. The whole table picks its keywords together. I
 # The rules of the game
 
 > *"In this game, we won't go looking for modifiers on a sheet — the mechanics live in the situation itself.*
->
 >
 > *. You tell me what you do, leaning on your Keywords.*
 >
@@ -814,7 +813,7 @@ This way:
 
 ###
 
-# 2. The different prisms
+# The different prisms
 
 ## **The Clumsy Duo: The Draw Without Opposition**
 
@@ -902,7 +901,7 @@ The monster prowls the motel. The group searches for clues (the 3 Keys).
 Now that the group understands something is going on, they must capture the ghost.
 
 - **The Scene:** Pretty Boy devises a plan involving luggage carts, tomato sauce and a giant fan.
-- **Expected mechanics:** This is his moment of glory. He makes his opposed draw with reversal. If the group wants to spice things up, this is the moment to bring in the famous **"Cliché Die" (the pact with the devil)**: one player does something totally stupid (like the Clumsy Duo eating the trap bait). The GM adds a red die to their own pool: on a 6, the monster slips on the puddle of tomato sauce, destroys Pretty Boy's trap, but knocks itself out against the fridge door!
+- **Expected mechanics:** This is his moment of glory. He makes his opposed draw with reversal. The monster slips on the puddle of tomato sauce, destroys Pretty Boy's trap, but knocks itself out against the fridge door!
 
 ### Epilogue
 
@@ -910,7 +909,9 @@ We rip off the plastic mask: *"Mr. Zellani?!”*
 
 *"And I would have gotten away with it if it weren't for you and that blasted dog!"*
 
-### 1. Character and Van selection: ~15 to 20 minutes
+### Timeline
+
+#### Character and Van selection: ~15 to 20 minutes
 
 This is the icebreaker phase.
 
@@ -918,7 +919,7 @@ This is the icebreaker phase.
 - Players spend 10 minutes making the keywords their own (crossing some out, adding one or two) and defining their bonds (who loves whom, who despises whom).
 - Creating the Van takes 5 minutes of collective debate (deciding whether it's rusty or smells of cold pizza).
 
-### 2. The rules "pitch": ~5 minutes
+#### The rules "pitch": ~5 minutes
 
 This is the great advantage of your diegetic approach: the mental load sits with you.
 
@@ -926,7 +927,7 @@ This is the great advantage of your diegetic approach: the mental load sits with
 - You announce the social contract (the GM guarantees the fiction, keywords yield dice, even numbers are successes).
 - You drop a teaser about how the universe will react differently to each of them. It goes by very fast.
 
-### 3. The Session (the scenario): ~1h30 to 2h00
+#### The Session (the scenario): ~1h30 to 2h00
 
 The pace of a cartoon-style mystery must stay brisk, or the joke wears thin.
 
@@ -934,7 +935,7 @@ The pace of a cartoon-style mystery must stay brisk, or the joke wears thin.
 - **Act 2 - Exploring (45 to 60 min):** This is the heart of the game. Fred splits the group. We cut from the Brainiac searching for clues to the Klutch opening secret passages by mistake, while the Clumsy Duo raids the kitchen. As soon as you have dealt out the 3 Keys (the Motive, the Trickery, the Culprit), cut it short and move to the finale.
 - **Act 3 - The botched trap and the reveal (20 to 30 min):** Planning the scheme, rolling dice (with those famous reversals), the absurd capture, and the unmasked villain's monologue.
 
-### The slowdown factor (the Reality Check)
+#### The slowdown factor (the Reality Check)
 
 At a real table, what eats time with narrative games is **negotiating the Bets**.
 Players will try to bend the fiction to justify dice. To keep the 2-hour window, your job as GM is to rule fast, always favoring humor: *"No, your turtleneck doesn't help you run faster, but if you tell me you trip because of your myopia, I'll give you the die."*
