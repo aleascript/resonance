@@ -27,7 +27,7 @@ fi
 
 echo "Modification de contenu détectée, génération des PDFs..."
 
-for FILE in $PDF_NEEDED; do
+for FILE in "${PDF_NEEDED[@]}"; do
     SOURCE="$PROJECT_DIR/$FILE"
 
     if echo "$FILE" | grep -q "content/fr/"; then
