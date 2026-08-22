@@ -537,7 +537,7 @@ L'objectif ici est de rendre la présence d'alliés mécaniquement pénalisante,
 
 ### Les Prismes de la Synergie (La Gestalt)
 
-Ici, l'individu n'est rien sans le groupe. La réussite n'est plus individuelle, elle émerge de l'intersection des actions. Cela s'inspire un peu de la mécanique de la "Paire croisée" de la Nunuche avec le monstre, mais appliquée entre joueurs.
+Ici, l'individu n'est rien sans le groupe. La réussite n'est plus individuelle, elle émerge de l'intersection des actions. 
 
 - **L'Abstraction Mécanique (La Résonance Croisée) :** Le joueur lance ses N Mises. Les nombres pairs classiques ne comptent pas. Une réussite n'est générée *que* si l'un de ses dés affiche exactement la même valeur qu'un dé lancé par un allié lors de ce même tour/conflit.
 

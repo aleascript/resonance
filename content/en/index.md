@@ -545,7 +545,7 @@ The goal here is to make the presence of allies mechanically penalizing, pushing
 
 ### The Prisms of Synergy (Gestalt)
 
-Here, the individual is nothing without the group. Success is no longer individual; it emerges from the intersection of actions. This draws some inspiration from the "Crossed Pair" mechanic of the Lovely Klutz with the monster, but applied between players.
+Here, the individual is nothing without the group. Success is no longer individual; it emerges from the intersection of actions. 
 
 - **Mechanical Abstraction (Crossed Resonance):** The player rolls their N Bets. Standard even numbers don't count. A success is generated *only* if one of their dice shows exactly the same value as a die rolled by an ally during that same round/conflict.
 
