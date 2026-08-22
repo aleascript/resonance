@@ -199,6 +199,14 @@ If that element genuinely matters in the situation, it can become a Bet.
 
 **It is the GM (or the table) who validates whether the bet is valid or not.**
 
+## The GM's role
+
+Since the technical load is minimal, the GM can focus entirely on what makes the world alive and interactive:
+
+- **Guaranteeing coherence (the Focus):** The GM listens to the players' Bets and rules on them to preserve the setting. They apply the "Reality Check" to maintain the tone of the trope being played, or impose a *Frame Factor* (such as the impossibility of violence in a sacred place).
+- **Zero-sum play:** This is the most interesting exercise for the GM. If a player brilliantly leans on the fiction to justify an extra Bet, the GM uses that same level of detail to lay down an organic opposing Bet.
+- **Managing scale (the Zoom):** Without any heavy mathematical interface, the GM can decide whether a conflict resolves at the scale of a single action, a full sequence, or a whole script. This gives them total control over the pacing of the session.
+
 ## The Fate Gauge as a safety net
 
 For groups that are not familiar with each other, we recommend using a Fate Gauge as a safety net.
@@ -238,7 +246,7 @@ For a table with strangers: "We don't yet know how everyone views the fictional 
 
 And gradually, if the table builds this trust, they can even decide: "We don't need it anymore."
 
-### Bets and stakes.
+## Bets and stakes.
 
 **Stakes** are what can be won, lost or changed in the situation.
 
@@ -272,15 +280,6 @@ The question is:
 > **Are you betting that it matters?**
 
 On the other hand, for high-lethal games or those with a risk of injury, the GM should let players know whether an encounter poses a risk or not. This allows the player to adjust their goal or plan to get into a safer situation.
-
-### The GM's role
-
-Since the technical load is minimal, the GM can focus entirely on what makes the world alive and interactive:
-
-- **Guaranteeing coherence (the Focus):** The GM listens to the players' Bets and rules on them to preserve the setting. They apply the "Reality Check" to maintain the tone of the trope being played, or impose a *Frame Factor* (such as the impossibility of violence in a sacred place).
-- **Zero-sum play:** This is the most interesting exercise for the GM. If a player brilliantly leans on the fiction to justify an extra Bet, the GM uses that same level of detail to lay down an organic opposing Bet.
-- **Managing scale (the Zoom):** Without any heavy mathematical interface, the GM can decide whether a conflict resolves at the scale of a single action, a full sequence, or a whole script. This gives them total control over the pacing of the session.
-
 
 
 # Concretely

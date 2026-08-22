@@ -198,6 +198,14 @@ Si cet élément compte réellement dans la situation, il peut devenir une Mise.
 
 **C'est le MJ (ou la table) qui valide si la mise est valable ou pas.**
 
+## Le rôle du MJ
+
+Puisque la charge technique est minime, le MJ se concentre uniquement sur ce qui rend le monde vivant et interactif :
+
+- **Garantir la cohérence (Le Focus) :** Le MJ écoute les Mises des joueurs et tranche pour préserver l'univers. Il applique le "Reality Check" pour maintenir le ton du trope joué, ou impose un *Facteur Cadre* (comme l'impossibilité de la violence dans un lieu sacré).
+- **Jeu à somme nulle :** C'est la gymnastique la plus intéressante pour le MJ. Si un joueur s'appuie brillamment sur la fiction pour justifier une Mise supplémentaire, le MJ utilise ce même niveau de détail pour poser une Mise adverse organique.
+- **Gérer l'échelle (Le Zoom) :** Sans interface mathématique lourde, le MJ peut décider si un conflit se résout à l'échelle d'une simple action, d'une séquence complète ou d'un script. Cela lui donne un contrôle total sur le rythme de la partie.
+
 ## La jauge de Destin comme filet de sécurité
 
 Pour les groupes qui ne connaissent pas, nous conseillons d'utiliser une jauge de Destin comme filet de sécurité.
@@ -216,7 +224,7 @@ Exemples:
   Le MJ prend 2 dés rouges, ie le nombre de dés adversité qu'il aurait dû poser pour équilibrer l'opposition. 
   On joue l'oppsition 5 vs 3 et peu importe le résultat. 
   Plus tard le MJ a donc 2 dés rouges a dépenser en faveur d'un obstacle. 
-  
+
 * Opposition suivante: 2 Mises pour les PJ et 5 Mises pour le MJ.  On prend 3 dés bleus.
   Les paires dé bleu/dé rouge s'annulent. 
   Si la jauge contenait 1 dé rouge, il reste donc 2 dés bleus dans la jauge. 
@@ -237,7 +245,7 @@ Pour une table avec des inconnus : "On ne sait pas encore comment chacun conçoi
 
 Et progressivement, si la table acquiert cette confiance, elle peut même décider : "On n'en a plus besoin."
 
-### Mises et enjeux
+## Mises et enjeux
 
 Les **Enjeux** sont ce qui peut être gagné, perdu ou modifié dans la situation.
 
@@ -271,14 +279,6 @@ La question est :
 > **Misez-vous sur le fait que cela compte ?**
 
 Par contre, pour les jeux avec léthalité, ou un risque de blessure, le MJ devrait indiquer aux joueurs quand l'opposition présente un risque ou pas. Cela permet au joueur de revoir son objectif ou son plan pour se mettre dans une situation plus sûre.
-
-### Le rôle du MJ
-
-Puisque la charge technique est minime, le MJ se concentre uniquement sur ce qui rend le monde vivant et interactif :
-
-- **Garantir la cohérence (Le Focus) :** Le MJ écoute les Mises des joueurs et tranche pour préserver l'univers. Il applique le "Reality Check" pour maintenir le ton du trope joué, ou impose un *Facteur Cadre* (comme l'impossibilité de la violence dans un lieu sacré).
-- **Jeu à somme nulle :** C'est la gymnastique la plus intéressante pour le MJ. Si un joueur s'appuie brillamment sur la fiction pour justifier une Mise supplémentaire, le MJ utilise ce même niveau de détail pour poser une Mise adverse organique.
-- **Gérer l'échelle (Le Zoom) :** Sans interface mathématique lourde, le MJ peut décider si un conflit se résout à l'échelle d'une simple action, d'une séquence complète ou d'un script. Cela lui donne un contrôle total sur le rythme de la partie.
 
 
 # Concrètement
