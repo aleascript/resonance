@@ -678,15 +678,7 @@ Vous concevez plutôt les éléments qui rendent votre monde unique.
 
 ## Vous créez la fiction.
 
-Ses :
-
-**lore.  
-croyances.  
-cultures.  
-relations.  
-mythes.  
-tabous.  
-métaphysiques.**
+Ses : **lore, croyances, cultures, relations, mythes, tabous, métaphysiques...**
 
 ## Vous définissez ce qui peut compter.
 

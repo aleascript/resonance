@@ -687,15 +687,7 @@ Instead, you design the elements that make your world unique.
 
 ## You create the fiction.
 
-Its:
-
-**lore.  
-beliefs.  
-cultures.  
-relationships.  
-myths.  
-taboos.  
-metaphysics.**
+Its: **lore, beliefs, cultures, relationships, myths, taboos, metaphysics...**
 
 ## You define what can matter.
 
