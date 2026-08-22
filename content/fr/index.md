@@ -139,9 +139,7 @@ C'est ici que Resonance introduit l'un de ses concepts fondamentaux : la **Mise*
 
 ## Les Mises
 
-Resonance utilise un terme spécifique pour désigner les éléments fictionnels qui peuvent influencer une résolution :
-
-**Mise**.
+Resonance utilise un terme spécifique pour désigner les éléments fictionnels qui peuvent influencer une résolution : **les Mises**.
 
 Une Mise n'est pas un modificateur abstrait attaché à une feuille de personnage.
 
@@ -199,6 +197,45 @@ Par exemple :
 Si cet élément compte réellement dans la situation, il peut devenir une Mise.
 
 **C'est le MJ (ou la table) qui valide si la mise est valable ou pas.**
+
+## La jauge de Destin comme filet de sécurité
+
+Pour les groupes qui ne connaissent pas, nous conseillons d'utiliser une jauge de Destin comme filet de sécurité.
+
+Elle permet de garder trace des déséquilibres. La jauge peut être positive en faveur des protagonistes (les PJ) ou négative en faveur de l'adversité (le MJ).
+
+Elle se matérialise très facilement par des dés bleu pour les PJ ou rouges pour les MJ. 
+
+Elle est commune pour le groupe. Elle appartient à l'économie générale de la fiction. C'est une sorte de thermomètre pour mesurer l'orientation que peut prendre potentiellement le récit. 
+
+La jauge évolue dans les oppositions avant le tirage: 
+
+Exemples:
+
+* Opposition pouvant se résumer par 5 Mises pour le ou les PJ contre 3 Mises pour le MJ. 
+  Le MJ prend 2 dés rouges, ie le nombre de dés adversité qu'il aurait dû poser pour équilibrer l'opposition. 
+  On joue l'oppsition 5 vs 3 et peu importe le résultat. 
+  Plus tard le MJ a donc 2 dés rouges a dépenser en faveur d'un obstacle. 
+  
+* Opposition suivante: 2 Mises pour les PJ et 5 Mises pour le MJ.  On prend 3 dés bleus.
+  Les paires dé bleu/dé rouge s'annulent. 
+  Si la jauge contenait 1 dé rouge, il reste donc 2 dés bleus dans la jauge. 
+
+Ce n'est pas forcément l'obstacle suivant mais la fiction se régule comme ça.
+
+C'est le consensus de la table acceptée par le contrat social.
+
+On n'a donc plus besoin de faire une confiance aveugle au MJ pour équilibrer chaque scène. Le système garde une trace des déséquilibres.
+
+Mais cet artifice peut disparaitre pour les tables qui se connaissent bien.
+
+Pour résumer, la jauge de destin est un dispositif de sécurité pour certaines configurations sociales.
+
+Pour une table qui se connaît : "On sait jouer ensemble." → pas forcément besoin de filet.
+
+Pour une table avec des inconnus : "On ne sait pas encore comment chacun conçoit le contrat de fiction." → Jauge active.
+
+Et progressivement, si la table acquiert cette confiance, elle peut même décider : "On n'en a plus besoin."
 
 ### Mises et enjeux
 

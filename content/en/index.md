@@ -136,7 +136,6 @@ It provides something simpler:
 This is where Resonance introduces one of its fundamental concepts: the **Bet**.
 
 
-
 ## Bets
 
 Resonance uses a specific term for the fictional elements that can influence a resolution:
@@ -199,6 +198,45 @@ For example:
 If that element genuinely matters in the situation, it can become a Bet.
 
 **It is the GM (or the table) who validates whether the bet is valid or not.**
+
+The Fate Gauge as a safety net
+
+For groups that are not familiar with each other, we recommend using a Fate Gauge as a safety net.
+
+It allows you to keep track of imbalances. The gauge can be positive in favor of the protagonists (the PCs) or negative in favor of the opposition (the GM).
+
+It can be very easily represented by blue dice for the PCs or red dice for the GM.
+
+It is shared by the group. It belongs to the general economy of the fiction. It is a sort of thermometer to measure the potential direction the narrative might take.
+
+The gauge evolves during oppositions before the roll:
+
+Examples:
+
+* An opposition that can be summarized as 5 Bets for the PC(s) against 3 Bets for the GM. 
+  The GM takes 2 red dice, i.e., the number of opposition dice they should have placed to balance the opposition.
+  The 5 vs 3 opposition is played out, regardless of the result.
+  Later on, the GM therefore has 2 red dice to spend in favor of an obstacle.
+
+* Next opposition: 2 Bets for the PCs and 5 Bets for the GM. 3 blue dice are taken.
+  Blue die/red die pairs cancel each other out.
+  If the gauge contained 1 red die, 2 blue dice therefore remain in the gauge.
+
+It doesn't necessarily apply to the very next obstacle, but the fiction regulates itself this way.
+
+It is the consensus of the table, accepted via the social contract.
+
+Therefore, there is no longer a need to place blind trust in the GM to balance every scene. The system keeps track of imbalances.
+
+But this mechanic can disappear for tables where players know each other well.
+
+To summarize, the fate gauge is a safety device for certain social configurations.
+
+For a table that knows each other well: "We know how to play together." → a safety net is not necessarily needed.
+
+For a table with strangers: "We don't yet know how everyone views the fictional contract." → Active gauge.
+
+And gradually, if the table builds this trust, they can even decide: "We don't need it anymore."
 
 ### Bets and stakes.
 
