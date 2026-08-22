@@ -199,7 +199,7 @@ If that element genuinely matters in the situation, it can become a Bet.
 
 **It is the GM (or the table) who validates whether the bet is valid or not.**
 
-The Fate Gauge as a safety net
+## The Fate Gauge as a safety net
 
 For groups that are not familiar with each other, we recommend using a Fate Gauge as a safety net.
 
