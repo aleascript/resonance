@@ -914,9 +914,11 @@ Un framework devient intéressant lorsqu'il peut sortir de la page.
 
 **Resonance: Glorantha** montre ce qui se produit lorsque Resonance est pleinement intégré à un univers fictionnel spécifique.
 
-Glorantha ne reçoit pas simplement un système de résolution générique.
+Dans **Glorantha Perspectives**, les **Prismes** de Resonance sont appelés **visions du monde**, afin de reprendre le terme employé dans Glorantha. Il s'agit du même concept de design : seul le vocabulaire de l'implémentation change.
 
-Sa cosmologie, ses religions et ses différentes manières de comprendre la réalité deviennent elles-mêmes partie intégrante de la résolution.
+Dans Glorantha, le système de résolution ne se contente pas d'appliquer des règles génériques : il traduit la cosmologie de cet univers en conséquences de jeu.
+
+Dans Glorantha, la cosmologie, les religions et les différentes manières de comprendre la réalité deviennent donc des systèmes de résolution.
 
 Le même moteur sous-jacent peut donc produire des expériences radicalement différentes selon que le personnage appréhende la réalité à travers :
 
@@ -970,7 +972,7 @@ Le jeu permet de jouer le moment d'Illumination de manière réaliste et dans la
 
 #### Les Quêtes héroïques
 
-Le jeu encourage même les joueurs à chercher de nouveaux Prismes. Trouveront-ils le Prisme qui changera la face du monde, tout comme la Lune Rouge le fit dans sa jeunesse?
+Le jeu permet même aux joueurs de chercher, trouver, créer une nouvelle vision du monde. Trouveront-ils la nouvelle vision qui changera la face du monde, tout comme la Lune Rouge le fit dans sa jeunesse?
 
 Ces variations ne sont pas cosmétiques. Elles créent des expériences cognitives différentes.
 

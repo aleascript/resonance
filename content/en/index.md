@@ -914,11 +914,11 @@ A framework becomes interesting when it can step off the page.
 
 **Resonance: Glorantha** shows what happens when Resonance is fully embedded in a specific fictional universe.
 
-Glorantha is not simply handed a generic resolution system.
+In **Glorantha Perspectives**, Resonance **Prisms** are called **worldviews**, adopting the term used within Glorantha itself. This is the same design concept; only the implementation's terminology changes.
 
-Its cosmology, religions, and various ways of understanding reality themselves become integral parts of resolution.
+In Glorantha, cosmology, religions, and different ways of understanding reality thus become resolution systems.
 
-The same underlying engine can therefore produce radically different experiences depending on whether the character apprehends reality through:
+The same underlying engine can therefore produce radically different experiences depending on whether the character perceives reality through :
 
 #### Theism
 
@@ -970,7 +970,7 @@ The game makes it possible to play the moment of Illumination realistically and 
 
 #### Hero Quests
 
-The game even encourages players to seek out new Prisms. Will they find the Prism that will change the face of the world, just as the Red Moon did in her youth?
+The game even allows players to search for, find, and create a new vision of the world. Will they find the new vision that will change the face of the world, just as the Red Moon did in its youth?
 
 These variations are not cosmetic. They create different cognitive experiences.
 
