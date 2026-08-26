@@ -894,7 +894,7 @@ et commencent à demander :
 
 > **Que se passe-t-il autour de moi ?**
 
-> **Quels sont réellement les Enjeux ?**
+> **Quels sont réellement les enjeux ?**
 
 Le joueur cesse alors de chercher la règle qui décrit le monde.
 
