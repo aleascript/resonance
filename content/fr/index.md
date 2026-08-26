@@ -914,6 +914,8 @@ Un framework devient intéressant lorsqu'il peut sortir de la page.
 
 **Resonance: Glorantha** montre ce qui se produit lorsque Resonance est pleinement intégré à un univers fictionnel spécifique.
 
+Dans **Glorantha Perspectives**, les **Prismes** de Resonance sont appelés **visions du monde**, afin de reprendre le terme employé dans Glorantha. Il s'agit du même concept de design : seul le vocabulaire de l'implémentation change.
+
 Glorantha ne reçoit pas simplement un système de résolution générique.
 
 Sa cosmologie, ses religions et ses différentes manières de comprendre la réalité deviennent elles-mêmes partie intégrante de la résolution.
