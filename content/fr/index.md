@@ -19,15 +19,9 @@ permalink: /fr/
 
 **Glorantha Perspectives** démontre une implémentation complète.
 
-Le système ne définit pas le monde.
+Le système ne définit pas le monde. **le monde définit le système.**
 
-**Le monde définit le système.**
-
-Et lorsque les mécaniques deviennent une extension de la fiction,
-
-**le joueur ne joue plus les règles.**
-
-**Il joue le monde.**
+Et lorsque les mécaniques deviennent une extension de la fiction, **le joueur ne joue plus les règles. Il joue le monde.**
 
 Resonance part ainsi du game design diégétique et le pousse jusqu'à la résolution perspectiviste : non seulement la fiction détermine ce qui compte, mais la manière dont un personnage habite le réel peut déterminer comment ce réel se résout.
 
@@ -503,7 +497,7 @@ Pour une table avec des inconnus : "On ne sait pas encore comment chacun conçoi
 
 Et progressivement, si la table acquiert cette confiance, elle peut même décider : "On n'en a plus besoin."
 
-# Concevoir ce qui compte
+# Concevoir ce qui compte //TODO: reflechir a l'imbrication Core / Prismes. La ca arrive entre deux. C'est bizarre.
 
 La pertinence n'est pas seulement un arbitrage de table. Elle constitue aussi un outil de game design.
 
@@ -657,7 +651,7 @@ Les Réussites constituent ensuite la langue commune de la résolution.
 
 Un Prisme n'est donc pas conçu comme une manière différente d'obtenir davantage de Réussites, mais comme **une manière différente pour le hasard de faire sens**.
 
-# Le Prisme générique (par défaut)
+## Le Prisme générique (par défaut)
 
 Comme indiqué dans la partie Resonance Core, il existe un Prisme agnostique, matérialiste qui est très simple à comprendre et à utiliser.
 
@@ -693,11 +687,11 @@ Cette piste est explorée dans Glorantha Perspectives avec les modes héroïques
 
 On peut imaginer des Prismes modifiés ou complétement uniques dans un monde CyberPunk dès qu'on rentre dans la Matrice par exemple.
 
-# Un moteur. Des réalités différentes.
+# Un moteur. Des réalités différentes. //TODO: niveau trop élévé (H1) et ca semble faire la jonction entre Core et Prismes mais c'est bizarre ici
 
 Le Core est donc le noyau qui permet de s'immerger de manière naturelle et intuitive dans la fiction et dans son personnage tandis que le Prisme a comme objectif de rapprocher le gameplay du roleplay, voire de l'influencer.
 
-# Concevoir des Prismes
+# Concevoir des Prismes //TODO: conseils pour concevoir des Prismes? Et probleme de level (H2 au lieu de H1 et donc adapter ensuite en dessous les autres titres)
 
 ## Partir de la fiction
 
@@ -836,9 +830,9 @@ Ce sont ces choix de design qui donnent son identité à un jeu Resonance.
 
 # Études de cas
 
-# Resonance: Glorantha
+## Resonance: Glorantha
 
-## Une implémentation concrète
+#### Une implémentation concrète
 
 Un framework devient intéressant lorsqu'il peut sortir de la page.
 
@@ -850,7 +844,7 @@ Sa cosmologie, ses religions et ses différentes manières de comprendre la réa
 
 Le même moteur sous-jacent peut donc produire des expériences radicalement différentes selon que le personnage appréhende la réalité à travers :
 
-### Théisme
+#### Théisme
 
 Les nombres pairs sont des réussites.
 
@@ -858,7 +852,7 @@ Les 6 peuvent produire des résultats extraordinaires et interagir avec les rés
 
 **La foi change la signification de l'échec.**
 
-### Animisme
+#### Animisme
 
 Les nombres pairs sont des réussites.
 
@@ -866,7 +860,7 @@ Certains motifs parmi les dés échoués peuvent devenir des réussites.
 
 **Le monde est peuplé de possibilités qui ne se comportent pas comme une causalité ordinaire.**
 
-### Logique
+#### Logique
 
 Les dés ne sont pas interprétés comme de simples réussites ou échecs.
 
@@ -874,31 +868,31 @@ Leurs valeurs sont additionnées et traitées selon une règle déterministe.
 
 **L'incertitude devient calcul.**
 
-### Mysticisme
+#### Mysticisme
 
 Certains résultats peuvent annuler les réussites apparentes d'un adversaire.
 
 **La victoire matérielle devient secondaire face à une réalité plus profonde.**
 
-### Draconisme
+#### Draconisme
 
 Les mises sont matérialisés par des D8 pour montrer la différence. Certains motifs dans le résultat (l'Ouroboros ou la stase de l'oeuf) produisent des réussites supplémentaires mais elles ont un prix à payer.
 
 **Le choix entre le Wyrm ou l'Utuma**
 
-## L'influence lunaire
+#### L'influence lunaire
 
 Pour les adeptes de la Lune Rouge, la nouvelle ou la pleine lune modifie le Prisme du personnage (qu'il soit animiste, théiste ou logicien).
 
 **Cette modification crée un focus sur le 1 (le petit, le rien) qui prépare les Lunaires à une potentielle Illumination**
 
-## L'Illumination
+#### L'Illumination
 
 Le jeu permet de jouer le moment d'Illumination de manière réaliste et dans la fiction. Le personnage va réellement être illuminé dans le gameplay et dans le jeu.
 
 **Le personnage comprent que l'univers est une vaste blague.**
 
-## Les Quêtes héroïques
+#### Les Quêtes héroïques
 
 Le jeu encourage même les joueurs à chercher de nouveaux Prismes. Trouveront-ils le Prisme qui changera la face du monde, tout comme la Lune Rouge le fit dans sa jeunesse?
 
@@ -914,23 +908,23 @@ Il pense à travers sa philosophie. Et même le joueur lance les dés ou tire le
 
 [Lire le SRD de Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
 
-# Resonance: Scooby Doo
+## Resonance: Scooby Doo
 
 Je me suis amusé à créer un petit jeu léger rapidement en utilisant le game design de Resonance. Voici le résultat.
 
 C'est plus un POC qu'autre chose. Cela n'a pas la profondeur de Glorantha Perspectives.
 
-## Le Lore
+### Le Lore
 
 **Le point de départ est simple :** Vous êtes une bande de copains de fac. Vous n'avez pas de lourd passé tragique, pas de dettes, pas d'arcs narratifs complexes. Ce sont les vacances d'été, vous avez retapé un vieux van, et vous sillonnez les routes des États-Unis en écoutant de la musique.
 
 Sauf qu'à chaque fois que vous vous arrêtez pour faire le plein ou manger un burger, vous tombez sur un shérif incompétent, un parc d'attractions abandonné et un monstre en plastique.
 
-## La Création de Personnage (Les Archétypes)
+### La Création de Personnage (Les Archétypes)
 
 Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés suggérés : ils gardent ceux qui les font rire, rayent ceux qu'ils n'aiment pas, et en inventent de nouveaux s'ils sont inspirés.
 
-### Le Beau Gosse (au plan foireux)
+#### Le Beau Gosse (au plan foireux)
 
 *Le leader autoproclamé, charismatique mais souvent à côté de la plaque. Il adore donner des ordres qui n'ont aucun sens.*
 
@@ -938,7 +932,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Obsédé par les pièges complexes, Rube Goldberg, "Séparons-nous en deux groupes", Permis de conduire.
 - **Liens suggérés :** Secrètement amoureux de la Belle Nunuche (qui l'ignore), ou se regarde un peu trop dans le rétroviseur.
 
-### La Belle Nunuche
+#### La Belle Nunuche
 
 *Celle qui attire les ennuis comme un aimant. Elle semble fragile, mais son sac à main défie les lois de la physique.*
 
@@ -946,7 +940,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Sac à main magique (contient tout et n'importe quoi), Maquillage tactique, Ceinture noire de shopping, Crochetage avec une épingle à cheveux.
 - **Liens suggérés :** Amoureuse de personne (trop indépendante) ou flirte avec le monstre sans s'en rendre compte.
 
-### L'Intello
+#### L'Intello
 
 *Le cerveau du groupe. Sceptique, sarcastique, elle est la seule à lire des encyclopédies pendant les vacances.*
 
@@ -954,7 +948,7 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
 - **Mots-clés d'action :** Déduction implacable, Trouver l'interrupteur caché, Jargon scientifique incompréhensible, Ramper par terre.
 - **Liens suggérés :** Secrètement amoureuse du Beau Gosse, ou méprise secrètement le niveau intellectuel du groupe.
 
-### Le Duo Maladroit (Joué par 2 joueurs !)
+#### Le Duo Maladroit (Joué par 2 joueurs !)
 
 *Les poltrons magnifiques. Ils ne pensent qu'à manger et fuir, et c'est souvent ça qui sauve la situation.*
 
@@ -964,17 +958,17 @@ Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés sug
     - *Mots-clés :* Chien parlant (ou raton-laveur, iguane géant...), Mimiques humaines, Trouillard de compétition, Corruption facile (pour une friandise), Flairs pour les ennuis.
 - **Lien partagé :** Ils sont inséparables, ont leur propre langage, et se font souvent passer l'un pour l'autre.
 
-## Le 5ème Membre : La Fiche du Véhicule
+### Le 5ème Membre : La Fiche du Véhicule
 
 Le van est le cœur de l'équipe. Toute la table choisit ses mots-clés ensemble. C'est lui qui va générer des problèmes diégétiques avant même que le monstre n'arrive.
 
-### Le Van (Modèle à définir)
+#### Le Van (Modèle à définir)
 
 - **Son allure :** Peinture psychédélique, Rouille dissimulée sous des autocollants, Phare droit qui clignote tout seul.
 - **Son fonctionnement :** Moteur qui tousse quand on panique, Plus d'essence au milieu de nulle part, Démarre au quart de tour (mais seulement s'il a le temps de chauffer).
 - **Son aménagement :** Réserve secrète et infinie de snacks, Matelas douteux, Équipement de sonorisation digne d'un festival de rock des 70s, Laboratoire de chimie improvisé par l'Intello.
 
-# Les règles du jeu
+## Les règles du jeu
 
 > *"Dans ce jeu, on ne va pas chercher des modificateurs sur une feuille, la mécanique est dans la situation*
 >
@@ -993,9 +987,9 @@ De cette façon :
 2. Vous préservez le mystère de l'interprétation asymétrique (votre twist de décalage).
 3. Vous les décomplexez : ils vont chercher à jouer leurs mots-clés pour obtenir des dés, sans essayer "d'optimiser" bêtement l'action.
 
-## Les différents Prismes
+### Les différents Prismes
 
-### **Le Duo Maladroit : Le Tirage sans Opposition**
+#### **Le Duo Maladroit : Le Tirage sans Opposition**
 
 Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
 
@@ -1003,14 +997,14 @@ Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
 - *L'interprétation :* Le résultat indique juste *l'ampleur du chaos* qu'ils génèrent. S'ils font beaucoup de réussites, leur fuite est tellement chaotique qu'elle détruit la cachette du monstre.
 - A deux ils sont plus forts, le MJ rajoutent les paires d’impairs en comparant les 2 tirages. Mais ils ne font pas pool commun pour autant. Si Sammy tire deux 3, ca ne compte pas comme une réussite. Ca ne compte que si Scooby-Doo tire aussi un 3. Ca les incite à rester ensemble.
 
-### **L'Intello : Le Tirage avec Opposition (La Logique)**
+#### **L'Intello : Le Tirage avec Opposition (La Logique)**
 
 Elle est la seule ancrée dans le réel. Elle joue à un jeu de rôle "normal".
 
 - *Le Gameplay :* Elle pose ses mises, le MJ pose les siennes. C'est la méthode de résolution classique où les dés confrontent les mises à celles du camp adverse.
 - *L'interprétation :* C'est rationnel. Si elle gagne, elle trouve un indice. Si elle perd, elle perd ses lunettes ou se trompe.
 
-### **Le Beau Gosse : Le Décalage et l'Inversion**
+#### **Le Beau Gosse : Le Décalage et l'Inversion**
 
 Un tirage qui "résonne" de travers est excellente pour émuler son trope.
 
@@ -1019,7 +1013,7 @@ Un tirage qui "résonne" de travers est excellente pour émuler son trope.
     - *S'il gagne :* Son plan fonctionne *exactement* comme prévu... mais sur la mauvaise cible (le filet tombe sur le Duo Maladroit). Il croit avoir réussi, mais narrativement c'est une catastrophe.
     - *S'il perd (Exploit du MJ) :* Le plan s'effondre lamentablement... et c'est justement la poulie qui se détache qui assomme le fantôme. Le joueur peste contre ses dés, mais le MJ lui annonce une victoire totale !
 
-### **La Belle Nunuche : L'Aimant**
+#### **La Belle Nunuche : L'Aimant**
 
 La Nunuche pourrait jouer avec des dés roses si vous en avez.
 
@@ -1043,16 +1037,16 @@ Si elle ne fait ni suite, ni paire avec le monstre, et qu'elle "rate" son jet, l
 
 # 🍔 Le Mystère du Motel de la Dernière Frite
 
-### Le Pitch (La scène d'introduction)
+## Le Pitch (La scène d'introduction)
 
 C'est la nuit, il pleut à verse. Le Van tombe en panne (le MJ utilise les mots-clés de la fiche du Van pour justifier la fumée noire sous le capot). L'équipe est forcée de s'arrêter au **"Bates Burger & Motel"**, un relais routier miteux des années 50, perdu sur une route abandonnée.
 Le gérant, le vieux Monsieur Grossi, les accueille en tremblant : *"Fuyez... Le fantôme du Cuisinier Fou est de retour ! Il hante les cuisines avec sa spatule fluorescente !"*
 
-### Le Monstre
+## Le Monstre
 
 **Le Fantôme du Cuisinier Fou :** Un spectre recouvert de graisse luisante, hurlant des recettes de cuisine terrifiantes, qui traverse les murs (en apparence).
 
-### L'Obstacle Principal : Résoudre le Mystère
+## L'Obstacle Principal : Résoudre le Mystère
 
 Pour démasquer le monstre, l'équipe doit rassembler **3 Clés** (le MJ garde le secret sur leur nature exacte jusqu'à ce que les joueurs les découvrent via leurs actions) :
 
@@ -1060,23 +1054,23 @@ Pour démasquer le monstre, l'équipe doit rassembler **3 Clés** (le MJ garde l
 2. **Le Trucage :** Des pots de peinture phosphorescente et un plan du réseau de monte-plats (qui permet au fantôme de disparaître d'un étage à l'autre).
 3. **Le Coupable :** C'est en fait le promoteur immobilier local, Monsieur Zellani, qui veut terrifier le vieux Grossi pour lui racheter le motel une misère.
 
-### Les 3 Actes (Comment faire briller vos Prismes)
+## Les 3 Actes (Comment faire briller vos Prismes)
 
-#### Acte 1 : Le Premier Contact (Autour d'un burger froid)
+### Acte 1 : Le Premier Contact (Autour d'un burger froid)
 
 - **La Scène :** Le groupe s'installe pour manger pendant que le Van refroidit. Soudain, les lumières grésillent et le Cuisinier Fou surgit du frigo de la cuisine en hurlant !
 - **Mécaniques attendues :**
     - C'est le moment idéal pour un *Tirage sans opposition* du **Duo Maladroit**, qui tente de fuir avec le plus gros sandwich possible.
     - **Le Beau Gosse** va sûrement crier : *"Séparons-nous pour encercler la cuisine !"* (Il justifie son mot-clé).
 
-#### Acte 2 : L'Exploration du Motel (La chasse aux Clés)
+### Acte 2 : L'Exploration du Motel (La chasse aux Clés)
 
 Le monstre rôde dans le motel. Le groupe cherche des indices (les 3 Clés).
 
 - **La chambre 13 (La Belle Nunuche) :** Elle va se remaquiller dans une chambre abandonnée. Le fantôme surgit ! Si elle fait une suite avec ses dés roses (le *Oops* scénaristique), elle s'appuie sur le porte-manteau en hurlant, ce qui fait pivoter le mur et révèle le réseau de monte-plats (Clé n°2 trouvée !).
 - **La chaufferie (L'Intello) :** En examinant la tuyauterie, le monstre l'attaque. Elle fait son choix : elle perd ses lunettes (le jet échoue, elle est couverte de suie), mais en tâtant le sol, elle trouve un ticket de pressing au nom de M. Costard (Clé n°3 trouvée !).
 
-#### Acte 3 : Le Grand Piège (Le Climax)
+### Acte 3 : Le Grand Piège (Le Climax)
 
 Maintenant que le groupe a compris qu'il se trame quelque chose, ils doivent capturer le fantôme.
 
@@ -1089,9 +1083,9 @@ On arrache le masque en plastique : *"Monsieur Zellani?!”*
 
 *“Et j'aurais réussi si vous n'étiez pas là, vous et ce satané chien !"*
 
-### Timeline
+## Timeline
 
-#### Choix des personnages et du Van : ~15 à 20 minutes
+**Choix des personnages et du Van : ~15 à 20 minutes**
 
 C'est la phase "brise-glace".
 
@@ -1099,7 +1093,7 @@ C'est la phase "brise-glace".
 - Les joueurs passent 10 minutes à s'approprier les mots-clés (en rayer, en ajouter un ou deux) et à définir leurs liens (qui aime qui, qui méprise qui).
 - La création du Van prend 5 minutes de débat collectif (pour décider s'il est rouillé ou s'il sent la pizza froide).
 
-#### 2. Le "Pitch" des règles : ~5 minutes
+**Le "Pitch" des règles : ~5 minutes**
 
 C'est le grand avantage de votre approche diégétique : la charge mentale est de votre côté.
 
@@ -1107,7 +1101,7 @@ C'est le grand avantage de votre approche diégétique : la charge mentale est d
 - Vous annoncez le contrat social (le MJ est garant de la fiction, les mots-clés donnent des dés, les chiffres pairs sont des réussites).
 - Vous placez le *teasing* sur le fait que l'univers réagira différemment à chacun. C'est expédié très vite.
 
-#### La Partie (Le Scénario) : ~1h30 à 2h00
+**La Partie (Le Scénario) : ~1h30 à 2h00**
 
 Le rythme d'une enquête cartoonesque doit être soutenu, sinon la blague s'essouffle.
 
@@ -1115,14 +1109,14 @@ Le rythme d'une enquête cartoonesque doit être soutenu, sinon la blague s'esso
 - **Acte 2 - L'exploration (45 à 60 min) :** C'est le cœur du jeu. Fred sépare le groupe. On passe de l'Intello qui cherche des indices à la Nunuche qui ouvre des passages secrets par erreur, pendant que le Duo Maladroit pille les cuisines. Dès que vous avez distribué les 3 Clés (le Mobile, le Trucage, le Coupable), vous coupez court et passez à la fin.
 - **Acte 3 - Le Piège foireux et la révélation (20 à 30 min) :** L'élaboration du plan, le lancer de dés (avec les fameux retournements de situation), la capture absurde, et le monologue du méchant démasqué.
 
-### Le facteur de ralentissement (Le Reality Check)
+**Le facteur de ralentissement (Le Reality Check)**
 
 Dans la réalité d'une table, ce qui prend du temps avec les jeux narratifs, c'est **la négociation des Mises**.
 Les joueurs vont essayer de tordre la fiction pour justifier des dés. Pour tenir le délai de 2 heures, votre rôle de MJ sera de trancher très vite, en favorisant toujours l'humour : *"Non, ton pull à col roulé ne t'aide pas à courir plus vite, mais si tu me dis que tu trébuches à cause de ta myopie, je te donne le dé."*
 
-# Ce que Resonance cherche à changer
+# Ce que Resonance cherche à changer //TODO: intérêt de cette section? Ca fait un peu redite et réclame non?
 
-Les jeux de rôle sont devenus extraordinairement efficaces pour modéliser différentes choses.
+Les jeux de rôle sont devenus extraordinairement efficaces pour modéliser différentes choses. //TODO: je n'aime pas la formulation
 
 Certains systèmes modélisent la progression.
 
