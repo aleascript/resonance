@@ -914,6 +914,8 @@ A framework becomes interesting when it can step off the page.
 
 **Resonance: Glorantha** shows what happens when Resonance is fully embedded in a specific fictional universe.
 
+In **Glorantha Perspectives**, Resonance **Prisms** are called **worldviews**, adopting the term used within Glorantha itself. This is the same design concept; only the implementation's terminology changes.
+
 Glorantha is not simply handed a generic resolution system.
 
 Its cosmology, religions, and various ways of understanding reality themselves become integral parts of resolution.
