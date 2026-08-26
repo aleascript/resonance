@@ -894,7 +894,7 @@ and start asking:
 
 > **What is happening around me?**
 
-> **What are the real Stakes?**
+> **What are the real stakes?**
 
 The player then stops searching for the rule that describes the world.
 
