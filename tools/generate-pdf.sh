@@ -78,7 +78,7 @@ PANDOC_OPTS=(
     -V "mail=$MAIL"
     --resource-path="$PROJECT_DIR"
     --toc
-    --toc-depth=4
+    --toc-depth=2
 )
 
 # Ajouter le flag pour l'en-tête bilingue
