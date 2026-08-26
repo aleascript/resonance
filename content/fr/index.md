@@ -47,9 +47,9 @@ Il fait entrer les éléments pertinents de la fiction dans la résolution.
 
 Puis les dés répondent.
 
-**Aucun calcul sur la feuille de personnage.  
-Aucune recherche du modificateur optimal.  
-Aucune interface mécanique entre le joueur et le monde.**
+**Aucun calcul sur la feuille de personnage.**  
+**Aucune recherche du modificateur optimal.**  
+**Aucune interface mécanique entre le joueur et le monde.**
 
 La règle devient une extension du regard du joueur.
 
@@ -87,13 +87,9 @@ Ces éléments sont déjà porteurs de sens.
 
 **Resonance leur donne simplement un poids mécanique.**
 
-La question n'est pas :
+La question n'est pas : *À quel point es-tu bon dans ce domaine ?*
 
-> *À quel point es-tu bon dans ce domaine ?*
-
-C'est :
-
-> **Qu'est-ce qui te donne du levier ici ?**
+C'est : **Qu'est-ce qui te donne du levier ici ?**
 
 C'est l'idée fondamentale de **Resonance Core**.
 
