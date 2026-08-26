@@ -497,75 +497,6 @@ Pour une table avec des inconnus : "On ne sait pas encore comment chacun conçoi
 
 Et progressivement, si la table acquiert cette confiance, elle peut même décider : "On n'en a plus besoin."
 
-# Concevoir ce qui compte //TODO: reflechir a l'imbrication Core / Prismes. La ca arrive entre deux. C'est bizarre.
-
-La pertinence n'est pas seulement un arbitrage de table. Elle constitue aussi un outil de game design.
-
-## Vérité fictionnelle, Mise recevable, Mise pertinente
-
-On peut distinguer trois niveaux :
-
-1. **Vrai dans la fiction** : un fait, une relation, un objet, une émotion ou une contrainte existe dans le monde.
-2. **Recevable dans ce jeu** : le game design reconnaît cette catégorie de vérité comme susceptible de peser dans la fiction.
-3. **Pertinent ici** : le Focus et la situation rendent effectivement cette vérité importante pour la résolution présente.
-
-Toutes les vérités fictionnelles ne sont donc pas automatiquement des Mises.
-
-## Une grammaire de pertinence
-
-Le game designer peut définir ce que son jeu invite les joueurs à remarquer :
-
-- relations et obligations ;
-- honneur, réputation ou honte ;
-- appartenance à un clan, une communauté ou une institution ;
-- passions et attachements ;
-- connaissance, discipline ou entraînement ;
-- statut social ;
-- territoire et environnement ;
-- sacré, tabou, présage ou cosmologie ;
-- peur, corruption, désir, culpabilité ;
-- ou toute autre catégorie de causalité propre au monde ou au genre.
-
-Ces catégories ne sont pas nécessairement une liste fermée de capacités. Elles définissent plutôt **ce que le jeu apprend à regarder**.
-
-La question du designer devient :
-
-> **Parmi tout ce qui est vrai dans la fiction, quelles vérités ce jeu reconnaît-il comme pertinentes ?**
-
-## Trope et pertinence
-
-Un jeu peut produire un genre non seulement en définissant les actions significatives, mais aussi en définissant les raisons qui peuvent avoir du poids dans la fiction.
-
-Des approches comme les PbtA encodent fortement le genre par des Moves, leurs déclencheurs et des archétypes. Resonance agit à un autre niveau : il peut laisser l'espace des actions largement ouvert tout en orientant l'espace des pertinences.
-
-**PbtA peut contraindre fortement les formes d'action significatives ; Resonance peut contraindre les formes de pertinence significatives.**
-
-Resonance ne dit donc pas nécessairement au joueur quoi faire pour produire le trope ; il lui apprend **quoi regarder et quelles raisons reconnaître** pour que le trope puisse émerger de ses propres actions.
-
-## Le personnage et son espace de pertinence
-
-Cette approche ouvre aussi une progression qui n'est pas uniquement quantitative.
-
-Un personnage peut évoluer parce que les raisons capables de peser pour lui changent.
-
-Un jeune guerrier peut commencer avec une grammaire dominée par le clan, le maître, le devoir, la réputation et l'obéissance, puis voir apparaître la compassion, l'amour personnel, le doute, la vérité ou le refus d'un ordre injuste.
-
-Le personnage ne gagne pas nécessairement une capacité. **Son espace de pertinence se transforme.**
-
-## Continuité entre trope, Facteur Cadre, Focus, Mises et Prisme
-
-On peut résumer l'architecture ainsi :
-
-> **Le jeu et son trope déterminent ce qui peut peser.**
->
-> **Le Facteur Cadre transforme ce qui peut peser ici.**
->
-> **Le Focus détermine ce qui pèse maintenant.**
->
-> **Les Mises expriment pourquoi cela pèse.**
->
-> **Le Prisme détermine comment le monde répond.**
-
 # Resonance Prismes
 
 ## De la diégèse à l'ontologie mécanique
@@ -687,81 +618,11 @@ Cette piste est explorée dans Glorantha Perspectives avec les modes héroïques
 
 On peut imaginer des Prismes modifiés ou complétement uniques dans un monde CyberPunk dès qu'on rentre dans la Matrice par exemple.
 
-# Un moteur. Des réalités différentes. //TODO: niveau trop élévé (H1) et ca semble faire la jonction entre Core et Prismes mais c'est bizarre ici
+## Un moteur. Des réalités différentes.
 
-Le Core est donc le noyau qui permet de s'immerger de manière naturelle et intuitive dans la fiction et dans son personnage tandis que le Prisme a comme objectif de rapprocher le gameplay du roleplay, voire de l'influencer.
+Le Core détermine ce qui entre dans la résolution. Le Prisme détermine comment ce qui y entre devient conséquence.
 
-# Concevoir des Prismes //TODO: conseils pour concevoir des Prismes? Et probleme de level (H2 au lieu de H1 et donc adapter ensuite en dessous les autres titres)
-
-## Partir de la fiction
-
-Un Prisme n'est pas d'abord un gimmick de dés.
-
-Le point de départ est l'expérience cognitive, philosophique ou ontologique que le jeu veut produire : quelle manière d'habiter le monde doit devenir sensible dans le geste de résolution ?
-
-La règle vient ensuite.
-
-## Exemples de Prismes possibles (et non exhaustifs)
-
-C'est à vous d'inventer les Prismes pour votre jeu. Voici quelques pistes.
-
-Note: vous trouverez aussi des exemples d'autres Prismes avec des variantes dans Glorantha Perspectives.
-
-### Manipuler les Motifs et les Probabilités
-
-- **Le Prisme de la Prophétie (L'Engagement) :** Avant de lancer, le joueur doit annoncer *le nombre exact* de réussites (ex: les nombres pairs) qu'il va obtenir. Tomber juste génère un exploit absolu. Tout autre résultat est un échec. *Diégèse : Oracles, prescience, mages temporels. Le joueur est incité à s'auto-saboter (réduire ses Mises) pour garantir sa propre prédiction.*
-
-- **Le Prisme de l'Équilibre (La Dualité) :** Le joueur doit diviser ses Mises en deux pools distincts (ex: dés blancs et dés noirs). La réussite ne dépend pas du résultat brut, mais de la *faible différence* entre la somme des deux pools. Plus l'écart s'approche de zéro, plus la réussite est pure. *Diégèse : Moines de l'équilibre, manipulation du Yin/Yang, ou forces élémentaires opposées.*
-
-### Interaction Directe avec l'Adversité
-
-- **Le Prisme de la Symbiose (Le Mimétisme) :** Un dé du joueur n'est une réussite *que* s'il affiche exactement la même valeur qu'un dé dans le pool adverse. On ne gagne pas en écrasant l'obstacle, mais en entrant en résonance avec lui. *Diégèse : Télépathie, diplomatie absolue, assimilation alien ou hacking neuronal.*
-
-- **Le Prisme du Parasite (La Corruption) :** Les "1" du joueur lui permettent d'échanger physiquement ses propres dés avec les dés les plus élevés de l'adversaire avant l'interprétation finale. *Diégèse : Horreur, nécromancie, malédictions où l'on se nourrit de la force de l'autre.*
-
-### La Nature des Composants
-
-- **Le Prisme du Tisserand (Cartes à jouer) :** Chaque Mise permet de piocher une carte. Les combinaisons (paires, suites) définissent le nombre de réussites, mais la *couleur* majoritaire de la main (Pique, Cœur, Carreau, Trèfle) dicte la conséquence narrative (blessure, dette morale, révélation). *Diégèse : Manipulateurs du destin, illusionnistes.*
-
-- **Le Prisme de l'Ascension (Dés variables) :** Les Mises justifient la *taille* des dés (ex: D4 pour un petit détail, D12 pour un atout majeur). Pour obtenir un Exploit, le joueur doit former une suite croissante (ex: 2-3-4) en utilisant des dés de tailles obligatoirement différentes (D4, D6, D8). *Diégèse : Entités en constante évolution, mutants, ou héros brisant leurs limites (shōnen).*
-
-### Les Prismes de l'Isolement (La Singularité)
-
-L'objectif ici est de rendre la présence d'alliés mécaniquement pénalisante, poussant le personnage à agir en loup solitaire ou à s'isoler pour libérer son plein potentiel.
-
-- **L'Abstraction Mécanique (La Dilution) :** Avant le lancer, le joueur rassemble ses N Mises. Pour chaque allié physiquement présent dans la scène (ou impliqué dans le conflit), le joueur doit défausser l'un de ses dés, ou annuler sa meilleure réussite après le lancer.
-
-- **L'Abstraction Mécanique Inverse (L'Éveil du Vide) :** Si et seulement si le personnage est le seul protagoniste de la scène, tous ses dés impairs (normalement des échecs) peuvent être relancés, ou bien ses échecs annulent les réussites adverses.
-
-- **Traductions Diégétiques :**
-    - *Le Berserker Maudit :* Sa rage est une tempête aveugle. S'il y a des alliés autour, il doit retenir ses coups (Mises perdues). Seul, il devient une machine à tuer absolue.
-    - *L'Assassin de l'Ombre :* Sa magie repose sur le silence de la trame. La présence d'autres âmes "fait du bruit" et perturbe ses probabilités.
-    - *Le Gardien du Secret :* Son pouvoir implique un savoir interdit. Si un allié est témoin de son action, le pouvoir se tarit pour préserver le secret.
-
-### Les Prismes de la Synergie (La Gestalt)
-
-Ici, l'individu n'est rien sans le groupe. La réussite n'est plus individuelle, elle émerge de l'intersection des actions.
-
-- **L'Abstraction Mécanique (La Résonance Croisée) :** Le joueur lance ses N Mises. Les nombres pairs classiques ne comptent pas. Une réussite n'est générée *que* si l'un de ses dés affiche exactement la même valeur qu'un dé lancé par un allié lors de ce même tour/conflit.
-
-- **L'Abstraction Mécanique (Le Réseau) :** La taille du pool de base est fixe, mais chaque allié présent dans la scène permet au joueur de transformer automatiquement un dé échoué en réussite, ou de modifier la parité (ex: à 3 alliés, les 1, 3 et 5 deviennent aussi des réussites).
-
-- **Traductions Diégétiques :**
-    - *La Conscience Collective :* Des extraterrestres, des jumeaux télépathes ou des intelligences artificielles connectées en réseau. Ils ne pensent pas "Je", ils pensent "Nous".
-    - *La Phalange Parfaite :* Une escouade militaire d'élite (comme les hoplites Lunaires) où la survie de chacun dépend exclusivement du bouclier de son voisin.
-    - *Le Chœur Magique :* Des mages dont les incantations nécessitent d'harmoniser leurs fréquences pour altérer la réalité.
-
-### Les Prismes Parasitaires (La Dépendance Toxique)
-
-La collaboration est forcée, mais elle est asymétrique. Un personnage brille, mais son succès se fait au détriment direct des alliés présents.
-
-- **L'Abstraction Mécanique (Le Drain) :** Le personnage génère des réussites automatiques ou obtient des Mises supplémentaires *en les volant* physiquement dans les pools de Mises des alliés présents dans la scène.
-
-- **L'Abstraction Mécanique (Le Bouclier Humain) :** Chaque résultat de "1" obtenu par ce joueur annule sa propre défaite, mais supprime instantanément la meilleure réussite d'un allié à proximité. S'il n'y a pas d'allié, le "1" se retourne contre le joueur.
-
-- **Traductions Diégétiques :**
-    - *Le Vampire Psychique / Le Nécromancien :* Il aspire l'énergie vitale de ses compagnons pour alimenter ses propres miracles.
-    - *Le Chef Toxique / Le Noble Arrogant :* Un commandant qui s'approprie les mérites de ses subordonnés et les jette sous le bus au moindre problème.
+Le Core reste ainsi le noyau commun, tandis que les Prismes permettent à des réalités vécues différentes de produire des grammaires de résolution différentes.
 
 # Concevoir un jeu avec Resonance
 
@@ -828,11 +689,230 @@ Qu'est-ce qui ne peut pas simplement être surmonté en ajoutant un nouvel argum
 
 Ce sont ces choix de design qui donnent son identité à un jeu Resonance.
 
+## Concevoir ce qui compte
+
+La pertinence n'est pas seulement un arbitrage de table. Elle constitue aussi un outil de game design.
+
+### Vérité fictionnelle, Mise recevable, Mise pertinente
+
+On peut distinguer trois niveaux :
+
+1. **Vrai dans la fiction** : un fait, une relation, un objet, une émotion ou une contrainte existe dans le monde.
+2. **Recevable dans ce jeu** : le game design reconnaît cette catégorie de vérité comme susceptible de peser dans la fiction.
+3. **Pertinent ici** : le Focus et la situation rendent effectivement cette vérité importante pour la résolution présente.
+
+Toutes les vérités fictionnelles ne sont donc pas automatiquement des Mises.
+
+### Une grammaire de pertinence
+
+Le game designer peut définir ce que son jeu invite les joueurs à remarquer :
+
+- relations et obligations ;
+- honneur, réputation ou honte ;
+- appartenance à un clan, une communauté ou une institution ;
+- passions et attachements ;
+- connaissance, discipline ou entraînement ;
+- statut social ;
+- territoire et environnement ;
+- sacré, tabou, présage ou cosmologie ;
+- peur, corruption, désir, culpabilité ;
+- ou toute autre catégorie de causalité propre au monde ou au genre.
+
+Ces catégories ne sont pas nécessairement une liste fermée de capacités. Elles définissent plutôt **ce que le jeu apprend à regarder**.
+
+La question du designer devient :
+
+> **Parmi tout ce qui est vrai dans la fiction, quelles vérités ce jeu reconnaît-il comme pertinentes ?**
+
+### Trope et pertinence
+
+Un jeu peut produire un genre non seulement en définissant les actions significatives, mais aussi en définissant les raisons qui peuvent avoir du poids dans la fiction.
+
+Des approches comme les PbtA encodent fortement le genre par des Moves, leurs déclencheurs et des archétypes. Resonance agit à un autre niveau : il peut laisser l'espace des actions largement ouvert tout en orientant l'espace des pertinences.
+
+**PbtA peut contraindre fortement les formes d'action significatives ; Resonance peut contraindre les formes de pertinence significatives.**
+
+Resonance ne dit donc pas nécessairement au joueur quoi faire pour produire le trope ; il lui apprend **quoi regarder et quelles raisons reconnaître** pour que le trope puisse émerger de ses propres actions.
+
+### Le personnage et son espace de pertinence
+
+Cette approche ouvre aussi une progression qui n'est pas uniquement quantitative.
+
+Un personnage peut évoluer parce que les raisons capables de peser pour lui changent.
+
+Un jeune guerrier peut commencer avec une grammaire dominée par le clan, le maître, le devoir, la réputation et l'obéissance, puis voir apparaître la compassion, l'amour personnel, le doute, la vérité ou le refus d'un ordre injuste.
+
+Le personnage ne gagne pas nécessairement une capacité. **Son espace de pertinence se transforme.**
+
+### Continuité entre trope, Facteur Cadre, Focus, Mises et Prisme
+
+On peut résumer l'architecture ainsi :
+
+> **Le jeu et son trope déterminent ce qui peut peser.**
+>
+> **Le Facteur Cadre transforme ce qui peut peser ici.**
+>
+> **Le Focus détermine ce qui pèse maintenant.**
+>
+> **Les Mises expriment pourquoi cela pèse.**
+>
+> **Le Prisme détermine comment le monde répond.**
+
+## Concevoir des Prismes
+
+### Partir de l'expérience fictionnelle
+
+Un Prisme n'est pas d'abord un gimmick de dés.
+
+Le point de départ est l'expérience fictionnelle, cognitive ou ontologique que le jeu veut produire : quelle manière d'habiter le monde doit devenir sensible dans le geste de résolution ?
+
+La règle vient ensuite.
+
+### Identifier la logique du Prisme
+
+Avant de choisir une mécanique, identifiez ce qui caractérise cette perspective : relations, accumulation, transcendance, intervention, équilibre, motifs, déterminisme, sacrifice, contamination, réciprocité ou toute autre logique propre au monde.
+
+La question est moins « quel effet de dés serait original ? » que :
+
+> **Quelle logique du réel doit devenir perceptible quand le joueur résout une incertitude ?**
+
+### Traduire cette logique en opération mécanique
+
+Une fois cette logique identifiée, choisissez les opérations qui peuvent la rendre sensible : pairs et impairs, sommes, motifs, annulations, relances, changement de taille de dés, cartes, couleurs, interactions entre pools ou autres composants.
+
+Le choix du composant vient après le sens qu'il doit produire.
+
+### Vérifier ce que le Prisme fait jouer
+
+Un bon Prisme ne se contente pas de représenter une idée. Il influence ce que le joueur remarque, espère, craint ou recherche au moment de résoudre.
+
+Le test peut se résumer à une question :
+
+> **Est-ce que jouer efficacement ce Prisme pousse le joueur à regarder le monde comme son personnage ?**
+
+### Vérifier la comparabilité
+
+Des Prismes radicalement différents doivent pouvoir participer à la même résolution.
+
+Leur grammaire interne peut varier, mais ils doivent produire une sortie comparable par le moteur commun — généralement les **Réussites**.
+
+> **Mises → grammaire du Prisme → Réussites → comparaison → conséquence**
+
+### Éviter le gimmick
+
+Un Prisme n'est pas « les 6 explosent parce que c'est amusant ».
+
+Les 6 explosent si cette propriété mécanique exprime quelque chose de la réalité vécue par le personnage et produit l'expérience recherchée à la table.
+
+La mécanique n'est pas décorée par le lore : **elle en devient une opération.**
+
+### Exemples de Prismes possibles (et non exhaustifs)
+
+C'est à vous d'inventer les Prismes pour votre jeu. Voici quelques pistes.
+
+Note: vous trouverez aussi des exemples d'autres Prismes avec des variantes dans Glorantha Perspectives.
+
+#### Manipuler les Motifs et les Probabilités
+
+- **Le Prisme de la Prophétie (L'Engagement) :** Avant de lancer, le joueur doit annoncer *le nombre exact* de réussites (ex: les nombres pairs) qu'il va obtenir. Tomber juste génère un exploit absolu. Tout autre résultat est un échec. *Diégèse : Oracles, prescience, mages temporels. Le joueur est incité à s'auto-saboter (réduire ses Mises) pour garantir sa propre prédiction.*
+
+- **Le Prisme de l'Équilibre (La Dualité) :** Le joueur doit diviser ses Mises en deux pools distincts (ex: dés blancs et dés noirs). La réussite ne dépend pas du résultat brut, mais de la *faible différence* entre la somme des deux pools. Plus l'écart s'approche de zéro, plus la réussite est pure. *Diégèse : Moines de l'équilibre, manipulation du Yin/Yang, ou forces élémentaires opposées.*
+
+#### Interaction Directe avec l'Adversité
+
+- **Le Prisme de la Symbiose (Le Mimétisme) :** Un dé du joueur n'est une réussite *que* s'il affiche exactement la même valeur qu'un dé dans le pool adverse. On ne gagne pas en écrasant l'obstacle, mais en entrant en résonance avec lui. *Diégèse : Télépathie, diplomatie absolue, assimilation alien ou hacking neuronal.*
+
+- **Le Prisme du Parasite (La Corruption) :** Les "1" du joueur lui permettent d'échanger physiquement ses propres dés avec les dés les plus élevés de l'adversaire avant l'interprétation finale. *Diégèse : Horreur, nécromancie, malédictions où l'on se nourrit de la force de l'autre.*
+
+#### La Nature des Composants
+
+- **Le Prisme du Tisserand (Cartes à jouer) :** Chaque Mise permet de piocher une carte. Les combinaisons (paires, suites) définissent le nombre de réussites, mais la *couleur* majoritaire de la main (Pique, Cœur, Carreau, Trèfle) dicte la conséquence narrative (blessure, dette morale, révélation). *Diégèse : Manipulateurs du destin, illusionnistes.*
+
+- **Le Prisme de l'Ascension (Dés variables) :** Les Mises justifient la *taille* des dés (ex: D4 pour un petit détail, D12 pour un atout majeur). Pour obtenir un Exploit, le joueur doit former une suite croissante (ex: 2-3-4) en utilisant des dés de tailles obligatoirement différentes (D4, D6, D8). *Diégèse : Entités en constante évolution, mutants, ou héros brisant leurs limites (shōnen).*
+
+#### Les Prismes de l'Isolement (La Singularité)
+
+L'objectif ici est de rendre la présence d'alliés mécaniquement pénalisante, poussant le personnage à agir en loup solitaire ou à s'isoler pour libérer son plein potentiel.
+
+- **L'Abstraction Mécanique (La Dilution) :** Avant le lancer, le joueur rassemble ses N Mises. Pour chaque allié physiquement présent dans la scène (ou impliqué dans le conflit), le joueur doit défausser l'un de ses dés, ou annuler sa meilleure réussite après le lancer.
+
+- **L'Abstraction Mécanique Inverse (L'Éveil du Vide) :** Si et seulement si le personnage est le seul protagoniste de la scène, tous ses dés impairs (normalement des échecs) peuvent être relancés, ou bien ses échecs annulent les réussites adverses.
+
+- **Traductions Diégétiques :**
+    - *Le Berserker Maudit :* Sa rage est une tempête aveugle. S'il y a des alliés autour, il doit retenir ses coups (Mises perdues). Seul, il devient une machine à tuer absolue.
+    - *L'Assassin de l'Ombre :* Sa magie repose sur le silence de la trame. La présence d'autres âmes "fait du bruit" et perturbe ses probabilités.
+    - *Le Gardien du Secret :* Son pouvoir implique un savoir interdit. Si un allié est témoin de son action, le pouvoir se tarit pour préserver le secret.
+
+#### Les Prismes de la Synergie (La Gestalt)
+
+Ici, l'individu n'est rien sans le groupe. La réussite n'est plus individuelle, elle émerge de l'intersection des actions.
+
+- **L'Abstraction Mécanique (La Résonance Croisée) :** Le joueur lance ses N Mises. Les nombres pairs classiques ne comptent pas. Une réussite n'est générée *que* si l'un de ses dés affiche exactement la même valeur qu'un dé lancé par un allié lors de ce même tour/conflit.
+
+- **L'Abstraction Mécanique (Le Réseau) :** La taille du pool de base est fixe, mais chaque allié présent dans la scène permet au joueur de transformer automatiquement un dé échoué en réussite, ou de modifier la parité (ex: à 3 alliés, les 1, 3 et 5 deviennent aussi des réussites).
+
+- **Traductions Diégétiques :**
+    - *La Conscience Collective :* Des extraterrestres, des jumeaux télépathes ou des intelligences artificielles connectées en réseau. Ils ne pensent pas "Je", ils pensent "Nous".
+    - *La Phalange Parfaite :* Une escouade militaire d'élite (comme les hoplites Lunaires) où la survie de chacun dépend exclusivement du bouclier de son voisin.
+    - *Le Chœur Magique :* Des mages dont les incantations nécessitent d'harmoniser leurs fréquences pour altérer la réalité.
+
+#### Les Prismes Parasitaires (La Dépendance Toxique)
+
+La collaboration est forcée, mais elle est asymétrique. Un personnage brille, mais son succès se fait au détriment direct des alliés présents.
+
+- **L'Abstraction Mécanique (Le Drain) :** Le personnage génère des réussites automatiques ou obtient des Mises supplémentaires *en les volant* physiquement dans les pools de Mises des alliés présents dans la scène.
+
+- **L'Abstraction Mécanique (Le Bouclier Humain) :** Chaque résultat de "1" obtenu par ce joueur annule sa propre défaite, mais supprime instantanément la meilleure réussite d'un allié à proximité. S'il n'y a pas d'allié, le "1" se retourne contre le joueur.
+
+- **Traductions Diégétiques :**
+    - *Le Vampire Psychique / Le Nécromancien :* Il aspire l'énergie vitale de ses compagnons pour alimenter ses propres miracles.
+    - *Le Chef Toxique / Le Noble Arrogant :* Un commandant qui s'approprie les mérites de ses subordonnés et les jette sous le bus au moindre problème.
+
+# Conclusion — La pertinence
+
+Resonance part d'une idée simple : un monde fictionnel contient toujours plus de vérités qu'une résolution ne peut en prendre en compte.
+
+Jouer consiste donc d'abord à déterminer **ce qui compte**.
+
+Pas ce que la feuille de personnage autorise.  
+Pas quel modificateur est le plus avantageux.  
+Mais ce qui, pour ce personnage, dans cette situation et face à cette intention, possède réellement du poids.
+
+**C'est la pertinence.**
+
+Resonance Core transforme cette pertinence en résolution.
+
+Les Prismes déterminent comment cette résolution prend sens depuis une perspective vécue.
+
+Les joueurs cessent de demander :
+
+> *Quel est mon meilleur modificateur ?*
+
+et commencent à demander :
+
+> **Qu'est-ce que je vois ?**
+
+> **Qu'est-ce que je sais ?**
+
+> **Qu'est-ce que mon personnage croit ?**
+
+> **Que se passe-t-il autour de moi ?**
+
+> **Quels sont réellement les Enjeux ?**
+
+Le joueur cesse alors de chercher la règle qui décrit le monde.
+
+**Il regarde le monde pour découvrir la règle qui s'applique.**
+
+La pertinence est le cœur cognitif de Resonance. Les Prismes en sont le prolongement ontologique et perspectiviste : ils ne disent pas seulement ce qui compte, mais comment ce qui compte devient conséquence depuis une manière située d'habiter le réel.
+
+**Le monde définit le système. Le regard sélectionne ce qui compte. Le Prisme détermine comment le monde répond.**
+
 # Études de cas
 
 ## Resonance: Glorantha
 
-#### Une implémentation concrète
+### Une implémentation concrète
 
 Un framework devient intéressant lorsqu'il peut sortir de la page.
 
@@ -968,7 +1048,7 @@ Le van est le cœur de l'équipe. Toute la table choisit ses mots-clés ensemble
 - **Son fonctionnement :** Moteur qui tousse quand on panique, Plus d'essence au milieu de nulle part, Démarre au quart de tour (mais seulement s'il a le temps de chauffer).
 - **Son aménagement :** Réserve secrète et infinie de snacks, Matelas douteux, Équipement de sonorisation digne d'un festival de rock des 70s, Laboratoire de chimie improvisé par l'Intello.
 
-## Les règles du jeu
+### Les règles du jeu
 
 > *"Dans ce jeu, on ne va pas chercher des modificateurs sur une feuille, la mécanique est dans la situation*
 >
@@ -987,9 +1067,9 @@ De cette façon :
 2. Vous préservez le mystère de l'interprétation asymétrique (votre twist de décalage).
 3. Vous les décomplexez : ils vont chercher à jouer leurs mots-clés pour obtenir des dés, sans essayer "d'optimiser" bêtement l'action.
 
-### Les différents Prismes
+#### Les différents Prismes
 
-#### **Le Duo Maladroit : Le Tirage sans Opposition**
+##### **Le Duo Maladroit : Le Tirage sans Opposition**
 
 Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
 
@@ -997,14 +1077,14 @@ Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
 - *L'interprétation :* Le résultat indique juste *l'ampleur du chaos* qu'ils génèrent. S'ils font beaucoup de réussites, leur fuite est tellement chaotique qu'elle détruit la cachette du monstre.
 - A deux ils sont plus forts, le MJ rajoutent les paires d’impairs en comparant les 2 tirages. Mais ils ne font pas pool commun pour autant. Si Sammy tire deux 3, ca ne compte pas comme une réussite. Ca ne compte que si Scooby-Doo tire aussi un 3. Ca les incite à rester ensemble.
 
-#### **L'Intello : Le Tirage avec Opposition (La Logique)**
+##### **L'Intello : Le Tirage avec Opposition (La Logique)**
 
 Elle est la seule ancrée dans le réel. Elle joue à un jeu de rôle "normal".
 
 - *Le Gameplay :* Elle pose ses mises, le MJ pose les siennes. C'est la méthode de résolution classique où les dés confrontent les mises à celles du camp adverse.
 - *L'interprétation :* C'est rationnel. Si elle gagne, elle trouve un indice. Si elle perd, elle perd ses lunettes ou se trompe.
 
-#### **Le Beau Gosse : Le Décalage et l'Inversion**
+##### **Le Beau Gosse : Le Décalage et l'Inversion**
 
 Un tirage qui "résonne" de travers est excellente pour émuler son trope.
 
@@ -1013,7 +1093,7 @@ Un tirage qui "résonne" de travers est excellente pour émuler son trope.
     - *S'il gagne :* Son plan fonctionne *exactement* comme prévu... mais sur la mauvaise cible (le filet tombe sur le Duo Maladroit). Il croit avoir réussi, mais narrativement c'est une catastrophe.
     - *S'il perd (Exploit du MJ) :* Le plan s'effondre lamentablement... et c'est justement la poulie qui se détache qui assomme le fantôme. Le joueur peste contre ses dés, mais le MJ lui annonce une victoire totale !
 
-#### **La Belle Nunuche : L'Aimant**
+##### **La Belle Nunuche : L'Aimant**
 
 La Nunuche pourrait jouer avec des dés roses si vous en avez.
 
@@ -1035,18 +1115,18 @@ Si elle ne fait ni suite, ni paire avec le monstre, et qu'elle "rate" son jet, l
 
 - L'échec pour elle, c'est simplement : elle se casse un ongle, elle est séparée du groupe, ou elle se fait enfermer dans une pièce VIP avec un plateau de petits fours en attendant d'être secourue. Le monstre ne lui fait jamais de mal, il la met juste "de côté".
 
-# 🍔 Le Mystère du Motel de la Dernière Frite
+### 🍔 Le Mystère du Motel de la Dernière Frite
 
-## Le Pitch (La scène d'introduction)
+#### Le Pitch (La scène d'introduction)
 
 C'est la nuit, il pleut à verse. Le Van tombe en panne (le MJ utilise les mots-clés de la fiche du Van pour justifier la fumée noire sous le capot). L'équipe est forcée de s'arrêter au **"Bates Burger & Motel"**, un relais routier miteux des années 50, perdu sur une route abandonnée.
 Le gérant, le vieux Monsieur Grossi, les accueille en tremblant : *"Fuyez... Le fantôme du Cuisinier Fou est de retour ! Il hante les cuisines avec sa spatule fluorescente !"*
 
-## Le Monstre
+#### Le Monstre
 
 **Le Fantôme du Cuisinier Fou :** Un spectre recouvert de graisse luisante, hurlant des recettes de cuisine terrifiantes, qui traverse les murs (en apparence).
 
-## L'Obstacle Principal : Résoudre le Mystère
+#### L'Obstacle Principal : Résoudre le Mystère
 
 Pour démasquer le monstre, l'équipe doit rassembler **3 Clés** (le MJ garde le secret sur leur nature exacte jusqu'à ce que les joueurs les découvrent via leurs actions) :
 
@@ -1054,36 +1134,36 @@ Pour démasquer le monstre, l'équipe doit rassembler **3 Clés** (le MJ garde l
 2. **Le Trucage :** Des pots de peinture phosphorescente et un plan du réseau de monte-plats (qui permet au fantôme de disparaître d'un étage à l'autre).
 3. **Le Coupable :** C'est en fait le promoteur immobilier local, Monsieur Zellani, qui veut terrifier le vieux Grossi pour lui racheter le motel une misère.
 
-## Les 3 Actes (Comment faire briller vos Prismes)
+#### Les 3 Actes (Comment faire briller vos Prismes)
 
-### Acte 1 : Le Premier Contact (Autour d'un burger froid)
+##### Acte 1 : Le Premier Contact (Autour d'un burger froid)
 
 - **La Scène :** Le groupe s'installe pour manger pendant que le Van refroidit. Soudain, les lumières grésillent et le Cuisinier Fou surgit du frigo de la cuisine en hurlant !
 - **Mécaniques attendues :**
     - C'est le moment idéal pour un *Tirage sans opposition* du **Duo Maladroit**, qui tente de fuir avec le plus gros sandwich possible.
     - **Le Beau Gosse** va sûrement crier : *"Séparons-nous pour encercler la cuisine !"* (Il justifie son mot-clé).
 
-### Acte 2 : L'Exploration du Motel (La chasse aux Clés)
+##### Acte 2 : L'Exploration du Motel (La chasse aux Clés)
 
 Le monstre rôde dans le motel. Le groupe cherche des indices (les 3 Clés).
 
 - **La chambre 13 (La Belle Nunuche) :** Elle va se remaquiller dans une chambre abandonnée. Le fantôme surgit ! Si elle fait une suite avec ses dés roses (le *Oops* scénaristique), elle s'appuie sur le porte-manteau en hurlant, ce qui fait pivoter le mur et révèle le réseau de monte-plats (Clé n°2 trouvée !).
 - **La chaufferie (L'Intello) :** En examinant la tuyauterie, le monstre l'attaque. Elle fait son choix : elle perd ses lunettes (le jet échoue, elle est couverte de suie), mais en tâtant le sol, elle trouve un ticket de pressing au nom de M. Costard (Clé n°3 trouvée !).
 
-### Acte 3 : Le Grand Piège (Le Climax)
+##### Acte 3 : Le Grand Piège (Le Climax)
 
 Maintenant que le groupe a compris qu'il se trame quelque chose, ils doivent capturer le fantôme.
 
 - **La Scène :** Le Beau Gosse élabore un plan avec des chariots à bagages, de la sauce tomate et un ventilateur géant.
 - **Mécaniques attendues :** C'est son moment de gloire. Il fait son jet en opposition avec décalage. Le monstre glisse sur la flaque de sauce tomate, détruit le piège du Beau Gosse, mais s'assomme contre la porte du frigo !
 
-### L'Épilogue
+##### L'Épilogue
 
 On arrache le masque en plastique : *"Monsieur Zellani?!”*
 
 *“Et j'aurais réussi si vous n'étiez pas là, vous et ce satané chien !"*
 
-## Timeline
+#### Timeline
 
 **Choix des personnages et du Van : ~15 à 20 minutes**
 
@@ -1113,51 +1193,3 @@ Le rythme d'une enquête cartoonesque doit être soutenu, sinon la blague s'esso
 
 Dans la réalité d'une table, ce qui prend du temps avec les jeux narratifs, c'est **la négociation des Mises**.
 Les joueurs vont essayer de tordre la fiction pour justifier des dés. Pour tenir le délai de 2 heures, votre rôle de MJ sera de trancher très vite, en favorisant toujours l'humour : *"Non, ton pull à col roulé ne t'aide pas à courir plus vite, mais si tu me dis que tu trébuches à cause de ta myopie, je te donne le dé."*
-
-# Ce que Resonance cherche à changer //TODO: intérêt de cette section? Ca fait un peu redite et réclame non?
-
-Les jeux de rôle sont devenus extraordinairement efficaces pour modéliser différentes choses. //TODO: je n'aime pas la formulation
-
-Certains systèmes modélisent la progression.
-
-Certains modélisent la réalité physique.
-
-Certains modélisent les genres.
-
-Certains modélisent la négociation dramatique.
-
-Resonance se concentre sur quelque chose de différent :
-
-## **La pertinence.**
-
-Qu'est-ce qui compte pour ce personnage,
-
-dans cette situation,
-
-maintenant ?
-
-Cela semble simple.
-
-Mais cela change le comportement du joueur.
-
-Les joueurs cessent de demander :
-
-> *Quel est mon meilleur modificateur ?*
-
-et commencent à demander :
-
-> **Qu'est-ce que je vois ?**
-
-> **Qu'est-ce que je sais ?**
-
-> **Qu'est-ce que mon personnage croit ?**
-
-> **Que se passe-t-il autour de moi ?**
-
-> **Quels sont réellement les Enjeux ?**
-
-Et c'est l'expérience que Resonance cherche à produire.
-
-La pertinence est le cœur cognitif de Resonance. Les Prismes en sont le prolongement ontologique et perspectiviste : ils ne disent pas seulement ce qui compte, mais comment ce qui compte devient conséquence depuis une manière située d'habiter le réel.
-
-**Le monde définit le système. Le regard sélectionne ce qui compte. Le Prisme détermine comment le monde répond.**
