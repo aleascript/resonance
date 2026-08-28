@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resonance Manifesto
+title: Resonance — SRD
 lang: en
 permalink: /en/
 ---
@@ -9,109 +9,31 @@ permalink: /en/
 
 # Resonance
 
-## TL;DR
+**Resonance is a game design framework for role-playing games in which fiction determines what enters resolution and can also determine how that resolution works.**
 
-**Resonance** is a framework for cognitive resolution and diegetic game design whose distinctive feature is ontological and perspectival resolution.
+At the same time, it provides a **fully playable standard configuration**. You do not need to design your own game in order to use Resonance.
 
-**Resonance Core** provides the generic engine: it turns what matters in a fictional situation into resolution.
+You can simply play.
 
-**Resonance Prisms** determine how that resolution takes on meaning from a lived perspective of the world.
+Or you can go further and make resolution resonate with a particular world, culture, cosmology, genre, trope, or perspective.
 
-**Glorantha Perspectives** demonstrates one complete implementation.
+> **Resonance is complete for play and open for design.**
 
-The system does not define the world. **The world defines the system.**
+The useful distinction is not between a core engine and additional modules, but between three levels:
 
-And when mechanics become an extension of the fiction, **the player no longer plays the rules. They play the world.**
+- **the invariants of Resonance**, which define the framework's fundamental gesture;
+- **the standard configuration**, which provides simple, immediately playable choices;
+- **design choices**, which a game can keep or transform in order to express its world.
 
-Resonance therefore starts from diegetic game design and pushes it toward perspectival resolution: not only does fiction determine what matters, but the way a character inhabits reality can determine how that reality is resolved.
+> **Resonance defines what must be decided.**  
+> **The standard configuration provides a default decision.**  
+> **A Resonance game can keep or transform those decisions.**
 
-## A framework for cognitive resolution and ontological, perspectival game design
+---
 
-**Resonance is not a roleplaying game.**
+# 1. Discovering Resonance
 
-It is a framework for designing roleplaying games in which **resolution emerges directly from the fiction**.
-
-Instead of asking:
-
-> *What is my character's percentage chance of success?*
-
-Resonance asks:
-
-> **In this character and in this situation, what truly matters right now?**
-
-The player looks at the scene.
-
-They identify what matters.
-
-They bring the relevant elements of the fiction into the resolution.
-
-Then the dice answer.
-
-**No calculations on the character sheet.**  
-**No hunting for the optimal modifier.**  
-**No mechanical interface between the player and the world.**
-
-The rule becomes an extension of the player's perception.
-
-## The idea behind Resonance
-
-Most roleplaying games place a mechanical system between the player and the fictional world.
-
-A character has attributes.
-
-Those attributes become numbers.
-
-Numbers become modifiers.
-
-Modifiers interact with probabilities.
-
-And eventually, a result tells us what happens.
-
-Resonance proposes a different approach.
-
-### The fiction comes first
-
-When a character attempts something, the player naturally considers:
-
-- who the character is;
-- what they have lived through;
-- what they know;
-- what they are carrying;
-- who is helping them;
-- what the environment is doing;
-- what they fear;
-- what they want;
-- what stands in their way.
-
-These elements are already meaningful.
-
-**Resonance simply gives them mechanical weight.**
-
-The question is not: *How good are you at this?*
-
-It is: **What gives you leverage here?**
-
-That is the fundamental idea behind **Resonance Core**.
-
-## Two complementary dimensions
-
-Resonance rests on two distinct but inseparable operations.
-
-**Resonance Core** selects the relevant reality: among everything that exists in the fiction, what matters for this intention, in this situation, right now?
-
-**Resonance Prisms** determine how that relevant reality becomes consequence from a lived perspective.
-
-The loop can be summarized as follows:
-
-> **World → Relevance → Perspective → Resolution → Transformed world**
-
-There is therefore not necessarily any privileged mechanical reality outside the fiction: mechanics can become the local translation of a relationship to reality.
-
-# Playing with Resonance
-
-Before explaining the concepts, here is the gesture at the table.
-
-## An example in a few seconds
+## A scene in a few seconds
 
 > **GM:** The stone door is beginning to close. What do you do?
 >
@@ -123,7 +45,7 @@ Before explaining the concepts, here is the gesture at the table.
 >
 > **GM:** Yes. But the floor is covered in rubble.
 >
-> **Player:** Ah. And my leg is injured.
+> **Player:** And my leg is injured.
 >
 > **GM:** Exactly. Anything else?
 >
@@ -131,1061 +53,1334 @@ Before explaining the concepts, here is the gesture at the table.
 >
 > **GM:** Then let's see what happens.
 
-That is Resonance.
+That is the fundamental gesture of Resonance.
 
-The fictional world contains an infinity of potential details. The table has just selected a few of them because they matter to a precise intention.
+The fictional world always contains more detail than a resolution can take into account. The table selects what matters to the question at hand, puts those elements into play, resolves the uncertainty, then uses the result to transform the fiction.
 
-## 1. Intention
+Resonance therefore does not begin by asking:
 
-The player states what they are actually trying to achieve.
+> *Which value on my character sheet applies? What bonus can I add?*
 
-No dice yet.
+It begins by asking:
+
+> **What matters here?**
+
+The rule does not try to replace the player's view of the scene.
+
+**It extends that view.**
+
+## The resolution loop
+
+A Resonance resolution follows a simple loop:
+
+1. **State what you want to achieve.**
+2. **Frame the question and its scale.**
+3. **Make important consequences explicit when necessary.**
+4. **Identify what matters to that question.**
+5. **Discard what is irrelevant or redundant at that scale.**
+6. **Resolve the uncertainty.**
+7. **Read the form of the result.**
+8. **Interpret that result from what was put into play.**
+9. **Continue from the transformed world.**
+
+This loop is the heart of Resonance. The way uncertainty is materialized or read can vary from one game to another; to learn how to play, we will begin with the **standard configuration**.
+
+## The table contract comes before the mechanics
+
+Resonance regularly asks the table to judge what matters in the fiction. That freedom requires a shared frame.
+
+Before play, the table should at least know:
+
+- what world and tone it is trying to bring to life;
+- what degree of danger it accepts;
+- who arbitrates when there is disagreement about a Bet;
+- what limits or sensitivities must be respected;
+- whether some consequences should always be announced before a player exposes their character to them;
+- what optional coherence or safety tools it wants to use.
+
+The social contract does not replace the rules. It provides the context in which judgments of relevance can function without becoming a permanent negotiation.
+
+---
+
+# 2. Framing a resolution
+
+## Intention: what are you actually trying to achieve?
+
+The player begins by stating what they are trying to accomplish in the fiction.
 
 > *I want to stop the guard from reaching the door.*
 
-## 2. Focus
+An **Intention** is not an ability, a standardized action, or a menu entry.
 
-The table clarifies the question that the resolution will decide.
+It is what the character is actually trying to obtain.
 
-> *Do you manage to stop them before they raise the alarm?*
+The same Intention can be pursued in many ways. Resonance does not first ask which rule corresponds to the action. It asks what, in the fiction, will actually bear on what the character is trying to do.
 
-The **Focus** defines the relevant world for this resolution.
+## Important consequences must be visible
 
-Not everything on the character sheet matters.
+The word **stakes** can still be used in its ordinary sense for what may be gained, lost, or transformed, but it is not a distinct mechanical concept in Resonance.
 
-Not everything in the world matters.
+What matters is simpler: **players should be able to know the significant consequences they are exposing themselves to when those consequences are not already obvious.**
 
-The group determines what is relevant **now**.
+> **Player:** I jump from the roof to the other building.
+>
+> **GM:** All right. At this distance, if you fall, the drop could kill you. Do you still do it?
 
-## 3. Identify the Bets
+The necessary level of precision depends on the table contract and the game being played.
 
-Each side identifies the elements of the fiction that support its objective or hinder the opposing objective.
+The goal is not to announce everything that might happen, but to let the player make an informed decision **from their character's situation**.
 
-Those elements become **Bets**.
+## Focus: what question are we resolving?
 
-This is not about finding every possible advantage.
+The table then clarifies the question the resolution is meant to answer.
 
-It is about identifying what genuinely matters in the current situation.
+> *Do you manage to stop the guard before they raise the alarm?*
 
-A character may be exceptional with a sword.
+That question defines the **Focus**.
 
-But if the current conflict is a political negotiation, that skill may not be a Bet.
+The Focus does not describe everything happening in the scene. It determines **what this resolution is looking at**.
 
-The character may, however, owe a debt to the person they are negotiating with.
+Not everything on the character sheet is necessarily relevant.
 
-That relationship might be one.
+Not everything in the world is necessarily relevant.
 
-**The Focus determines what enters the resolution.**
+Even something important to the story may not matter to this particular resolution.
 
-## 4. Follow-up and opposing Bets
+## Zoom: at what scale?
 
-A Bet can immediately reveal another relevant element.
+The Focus has a scale. Resonance calls this property the **Zoom**.
+
+> **The Focus says what we are resolving.**  
+> **The Zoom says at what scale we are resolving it.**
+
+Choosing the Focus therefore also means choosing how broad a question we are asking of the fiction.
+
+### Action Zoom
+
+The Focus concerns a single act or precise moment.
+
+> *Get through the door before it closes.*
+
+The space of Bets is naturally restricted. Several formulations of the same advantage tend to be redundant because the resolution is looking at a narrow instant.
+
+### Sequence Zoom
+
+The Focus concerns a coherent succession of actions.
+
+> *Cross the rooftops and lose the guards before reaching the temple.*
+
+Elements that would have been redundant in a single action can become distinct because they concern different dimensions or stages of the sequence: endurance, knowledge of the neighborhood, help from an accomplice, rain making the tiles slippery, fear of being recognized.
+
+### Script Zoom
+
+The Focus covers a broader whole: a journey, investigation, military campaign, prolonged negotiation, or complex project.
+
+> *Get a caravan through to the besieged city.*
+
+The character or group can then bring several genuinely distinct dimensions into play: relationships, logistics, reputation, knowledge, endurance, wealth, political protection, preparation, or sacrifice.
+
+These are not "more bonuses because the conflict lasts longer."
+
+**They are more relevant dimensions because the question being asked is broader.**
+
+Zoom therefore lets the table control pacing without inventing a subsystem for every type of scene.
+
+---
+
+# 3. Putting fiction in the balance
+
+## The character sheet: a memory of fiction
+
+Resonance uses a character sheet, but it is not organized around levels, classes, or numerical values to be increased.
+
+It is primarily **literary and meaningful**: keywords, relationships, states, objects, affiliations, convictions, symbols, injuries, oaths, reputations, or other elements specific to the game world.
+
+For example:
+
+- *Veteran of the Northern War*;
+- *Oath to the Red House*;
+- *Injured leg*;
+- a religious symbol;
+- the name of an ally or rival;
+- a Rune, title, debt, or mark that matters to the game.
+
+The sheet is one of the persistent memories of what is true about the character.
+
+It is neither the only source of Bets nor a catalogue of automatic bonuses.
+
+> **Reading your sheet is not about looking for what gives you a die.**  
+> **It is about remembering who the character is and what is true about them.**
+
+A keyword on the sheet can be perfectly true without being relevant to the current Focus.
+
+Conversely, a decisive truth in the scene can become a Bet even if it has never been written on any sheet.
+
+## The character's relevance space
+
+The sheet also describes part of the character's current **relevance space**: the lasting truths that constitute them and that the fiction may eventually make relevant.
+
+This space is neither a power level nor a list of activatable abilities.
+
+It describes what the character has become: what they know, what they believe, what they belong to, what they love or hate, what they carry, what they have suffered, the ties that bind them, and the symbols that mean something to them.
+
+A young warrior might begin with:
+
+> *Clan* — *Master* — *Duty* — *Reputation* — *Obedience*
+
+Then their story might bring forth:
+
+> *Compassion* — *Personal love* — *Doubt* — *Truth* — *Refusal of an unjust order*
+
+Some truths are added. Others disappear. Others are transformed:
+
+> *Obedient to my master* → *Doubtful of my master* → *Betrayed by my master*
+
+The character has not necessarily gained an ability.
+
+**Their relevance space has changed.**
+
+This is how Resonance approaches progression: not as an intrinsic numerical climb, but as a transformation of the truths that can matter.
+
+> **To progress in Resonance is to transform what can matter.**
+
+## Bets
+
+The elements the table decides matter become **Bets**.
+
+> **A Bet is a fictional truth that the game and the table make relevant to the current Focus.**
+
+A Bet exists in the fiction before it exists in the mechanics.
+
+It can come, among other things, from:
+
+- the character or their sheet: experience, ability, state, reputation, fear, conviction;
+- their relationships: ally, debt, rivalry, oath, love, loyalty;
+- the situation: position, preparation, surprise, urgency;
+- the environment: rain, darkness, terrain, crowd, fire;
+- the adversity: weakness, advantage, discipline, numbers, knowledge;
+- the world: custom, taboo, status, magic, cosmology, or a particular constraint;
+- anything else the game and situation make genuinely significant.
+
+This list is not exhaustive.
+
+A Bet is therefore not an abstract bonus attached to the character.
+
+But not everything that is true in the fiction automatically becomes a Bet.
+
+The question is not:
+
+> *Can I find a justification for adding this?*
+
+The question is:
+
+> **Does this genuinely matter to the resolution we are looking at?**
+
+The movement can be summarized as follows:
+
+> **Fiction proposes. Focus selects. The Bet makes it operative.**
+
+## A Bet can help or hinder
+
+A Bet is not necessarily favorable to the character who brings it up.
+
+> *I know this forest perfectly.*
+
+may work in their favor.
+
+> *My leg is injured.*
+
+may work against them.
+
+But their relevance always depends on the Focus **and on the game the table is trying to bring to life**.
+
+An injury may be central in a game that constantly foregrounds physical vulnerability and remain in the background in another game that is more concerned with political drama or relationships.
+
+A Bet is therefore not "objectively important" in the abstract.
+
+It becomes important here, in this game, for this resolution.
+
+## A Bet is also a choice of attention
+
+Relevance is not only causal.
+
+In fiction, we never pay equal attention to every possible detail. The game, the scene, and the table bring some things to the foreground.
+
+The mischievous look of an old sage may matter because the story has taught us to recognize their wisdom in it.
+
+The storm around a duel may matter because this game gives special importance to signs from the world.
+
+The imminent arrival of an enemy may matter because the entire scene is shaped by that urgency.
+
+A character's legendary clumsiness may matter because it has become a motif of the fiction.
+
+The participants do not merely observe what would be causally important.
+
+**They also choose what this fiction deserves to focus on right now.**
+
+That selection is not arbitrary: it is guided by the world, genre, tropes, rules of the game, and what the table has learned to treat as meaningful.
+
+## Relevance and non-redundancy
+
+A rich world almost always lets us formulate several closely related reasons for the same advantage.
+
+> *I am an excellent swordsman.*  
+> *I have trained since childhood.*  
+> *I am a veteran of three wars.*
+
+All three facts may be true without constituting three distinct Bets.
+
+The question is:
+
+> **At the scale of this Focus, do they really represent several different things that the resolution wants to put into play?**
+
+If all three formulations simply mean "they are very experienced with a sword" in an exchange lasting a few seconds, they are probably redundant.
+
+In a broader resolution, they could instead become distinct if they genuinely affect different dimensions of the situation.
+
+Non-redundancy is therefore not an accounting rule.
+
+It depends on the Focus and its Zoom.
+
+## Closing the Bets
+
+The table does not need to find everything that could theoretically matter.
+
+In a rich world, that search would never end.
+
+The criterion is simpler:
+
+> **When nobody immediately sees anything else that matters and does not repeat what has already been established, resolve.**
+
+A Bet should not be the result of exhaustively searching the character sheet, the lore, or the scene.
+
+> **You do not search for a Bet. You notice it.**
+
+The table ritual can remain extremely light:
+
+> **What matters here?**  
+> **Anything else?**  
+> *Silence.*  
+> **Then let's see what happens.**
+
+The conversation exists to make the situation clear enough to resolve, not to maximize a pool.
+
+## Opposition and counter-Bets
+
+A Bet can naturally reveal a truth that favors the other side.
 
 > **Player:** I'm already between him and the door.
 >
 > **GM:** He knows this barracks perfectly.
 >
-> **Player:** Exactly, and he has to get around me in this narrow corridor.
+> **Player:** Exactly. He has to get around me in this narrow corridor.
 >
 > **GM:** But two soldiers are coming up behind you.
 
-The conversation is not about artificially accumulating bonuses. It gradually makes the situation clear enough to resolve.
+This conversation is not a negotiation over bonuses. It gradually reveals the different elements the fiction makes relevant.
 
-This dynamic also explains why oppositions tend to balance organically: a Bet can reveal an opposing Bet or shift the Focus.
+This is also why oppositions can tend to balance organically: looking at a situation more closely often reveals new elements for several sides.
 
-## 5. Close the Bets
+That does not mean every opposition should be balanced.
 
-The question is not whether there is still something that *could* be added. In a rich fictional world, there are always more facts.
+A real fictional advantage should remain a real fictional advantage.
 
-The criterion is simpler:
+Counter-Bets are an **organic counterweight** produced by exploring the fiction, not a mathematical obligation to make every pool equal.
 
-> **When nobody immediately sees anything else that still matters, roll the dice.**
+---
 
-**You do not search for a Bet. You notice it.**
+# 4. Resolving and interpreting
 
-If someone has to comb through their character sheet, review every ability, or laboriously build a justification, they are probably leaving the Focus in order to search for a mechanical advantage.
+## The standard configuration
 
-The conversational ritual can be as simple as:
+Resonance's standard configuration lets you play immediately with six-sided dice.
 
-> **What matters here?**
->
-> **Anything else?**
->
-> *Silence.*
->
-> **Then let's see what happens.**
+For each side:
 
-## 6. Resolve
+- each retained Bet contributes **one D6** to its pool;
+- each **even** result counts as a **Success**;
+- each **odd** result produces no Success;
+- the number of Successes obtained is then compared.
 
-The relevant Bets determine the size of the resolution pool.
+This operation turns uncertainty into a comparable mechanical signal: a number of Successes.
 
-The dice are rolled.
+> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
 
-But the dice do not decide everything on their own.
+## The standard result scale
 
-**How the dice are interpreted depends on the game's Prisms.**
+### Tie: Status quo or escalation
 
-Each Prism transforms its own pool according to its own logic and produces a common unit: **Successes**.
+If both sides obtain the same number of Successes, neither side clearly prevails.
 
-Those Successes are then compared, not the raw dice of different Prisms.
+The standard result is a **Status quo**.
 
-## 7. Interpret
+Depending on the fiction, it can be narrated as a literal continuation of the situation, a **Yes, but...** or a **No, but...**.
 
-The result is not an isolated number.
+If the sides refuse to leave it there, the standard configuration also allows **escalation**:
 
-It is a change in the fiction.
+- keep the Bets already in play;
+- each side adds a Bet representing its **determination to finish this**;
+- resolve again with the enlarged pools.
 
-A narrow victory.
+Escalation makes mechanically present the fact that the sides choose to push a confrontation beyond a balance at which it could have stopped.
 
-A decisive victory.
+A game designed with Resonance can choose another philosophy for ties. What matters is that it knows what a tie means in its own fiction.
 
-A failure.
+### Positive difference: Victory / Defeat
 
-A catastrophe.
+If one side obtains more Successes than the other, it gains a **Victory** and the other side suffers a **Defeat**.
 
-A stalemate.
+For the winning side's Intention, this usually reads as **Yes**.
 
-Resolution exists to answer the dramatic question and move the story forward.
+For the losing side's Intention, this usually reads as **No**.
 
-**Roll → interpret → the fiction changes.**
+### Dominance: amplifying the result
 
-The transformed world then becomes the starting point for the next situation.
+In the standard configuration, a result is **dominated** when both of the following conditions are met:
 
-# Resonance Core
-
-## Immersion as the Engine
-
-Resonance Core is **cognitive** because players simply immerse themselves in their character, and whether what they do generates valid Bets flows from that alone.
-
-The player is no longer the accountant of their own statistics. Their only "workload" is to be present in the scene, embody their character, and pay attention to their surroundings. If their roleplay rings true and their reading of the situation is coherent, Bets emerge naturally without any calculation. That is the very definition of a reduced cognitive load.
-
-And players only need to keep in mind the rules of their Prism, which resonates with their character and therefore with their roleplay.
-
-## A generic engine for resolving uncertainty through fiction
-
-Resonance Core is the generic resolution engine at the heart of Resonance.
-
-It does not define a setting.
-
-It does not define a genre.
-
-It does not define how characters progress.
-
-It does not tell you what magic looks like, how combat works, or what the world believes.
-
-It provides something simpler:
-
-**a way to turn what matters in a fictional situation into a resolution.**
-
-This is where Resonance introduces one of its fundamental concepts: the **Bet**.
-
-## Bets
-
-Resonance uses a specific term for the fictional elements that can influence a resolution: **Bets**.
-
-A Bet is not an abstract modifier attached to a character sheet.
-
-**It is something that exists in the fiction before it exists in the mechanics.**
-
-A Bet is a fictional element that the player chooses to place on the balance of the resolution.
-
-It can be anything that matters in the current situation:
-
-- a skill;
-- an experience;
-- an object;
-- a relationship;
-- an emotion;
-- an environmental condition;
-- a weakness;
-- a cultural trait;
-- an advantage created by the situation;
-- or any other element that genuinely matters in the fiction.
-
-A skill is not automatically a Bet.
-
-An advantage is not automatically a Bet.
-
-It becomes one when the player chooses to rely on it **here and now**.
-
-Each Bet contributes to the resolution pool.
-
-You are not calculating how competent your character is.
-
-You are deciding **what you are betting on**.
-
-In that sense, a Bet is a hypothesis about what will matter in the situation.
-
-You may hope that your experience with the spear will give you the upper hand.
-
-You may fear that your injured leg will weigh you down.
-
-You may think that your opponent's fear will make them hesitate.
-
-The dice then confront those Bets with those of the opposing side.
-
-For example:
-
-> *My character is wounded.*
-
-> *The bridge is collapsing.*
-
-> *I know this language.*
-
-> *The enemy is afraid.*
-
-> *It's raining.*
-
-If that element genuinely matters in the situation, it can become a Bet.
-
-## Bets and Stakes
-
-**Stakes** are what can be won, lost, or changed in the situation.
-
-A **Bet** is an element of the fiction placed on the balance because it may influence those Stakes.
-
-For example:
-
-> **Stakes:** Cross the river before the guards arrive.
-
-> **Bets:** The character knows the river, the current is particularly strong, their companion is injured, and night is falling.
-
-**Stakes define what can be won or lost.  
-Bets define what each side believes can influence the outcome.**
-
-This distinction matters.
-
-A Bet is not necessarily an advantage.
-
-It can be something that helps you or something that works against you.
-
-You can bet on your own strength.
-
-You can bet on your opponent's weakness.
-
-You can even bet on a dangerous circumstance if you believe it will influence the resolution in your favor.
-
-So the important question is not whether something is objectively good or bad.
-
-The question is:
-
-> **Are you betting that it matters?**
-
-For games with lethality or a risk of injury, however, the GM should tell players whether an opposition presents a risk or not. This allows the player to reconsider their objective or plan and put themselves in a safer situation.
-
-## Resolution without an interface
-
-Imagine a character trying to cross a dangerous battlefield.
-
-A traditional system might ask:
-
-**What is your movement score?  
-What is the difficulty?  
-Do you have a bonus?  
-What is your final modifier?**
-
-Resonance asks something else:
-
-**What matters here?**
-
-For example:
-
-- the character knows how armies move;
-- their brother is waiting on the other side;
-- artillery is falling around them;
-- they are carrying an injured companion;
-- the enemy has spotted them.
-
-Those elements can become Bets — if the player chooses to lean on them.
-
-The player is not searching their character sheet for a number.
-
-**They are looking at the world.**
-
-They may hope their knowledge of the battlefield will help.
-
-They may fear that carrying an injured companion will slow them down.
-
-They may decide that being spotted by the enemy is actually useful, because it draws attention away from their companions.
-
-The player is not calculating probabilities.
-
-**They are making a judgment about what matters.**
-
-That is the cognitive experience Resonance seeks to produce.
-
-## Opposition and organic balance
-
-In practice, Bets turn out to be fairly balanced when two sides or two opponents face off.
-
-If a player brilliantly leans on the fiction to justify an extra Bet, that same level of detail often reveals an organic opposing Bet.
-
-The difficulty of an obstacle often has less to do with the balance of a single opposition than with the fact that several oppositions may be required to overcome it. Each victory can be a small step toward final victory, or each failure toward final failure.
-
-## Zoom
-
-Without a heavy mathematical interface, the GM can decide whether a conflict resolves at the scale of a single action, a complete sequence, or an entire script.
-
-The same engine can therefore resolve a single gesture, a whole negotiation, a duel, or a larger sequence depending on the chosen **Zoom**.
-
-This gives the table direct control over the pacing of play.
-
-## Frame Factor
-
-Not everything that is true in the fiction can necessarily be placed on the balance as though the world had no limits.
-
-A **Frame Factor** expresses a constraint that transforms the space of what can matter in a scene: the impossibility of violence in a sacred place, the protocol of a royal audience, extreme gravity, the presence of Chaos, a cultural prohibition, or another strong boundary.
-
-It can make some Bets irrelevant and make others central.
-
-The Frame Factor is therefore not merely an additional difficulty. It locally defines the reality within which the Focus operates.
-
-## The role of the GM and the table
-
-**The GM or the table validates whether a Bet is relevant or not.**
-
-That validation should not, however, rest solely on the GM's personal taste.
-
-The game and its game design define which categories of truths can become relevant; the table knows them; the GM arbitrates their relevance in the present situation.
-
-Since the technical load is minimal, the GM can focus on what makes the world alive and interactive:
-
-- **Guaranteeing coherence (the Focus):** the GM listens to the players' Bets and rules on them to preserve the setting and the play contract. They apply the "Reality Check" to maintain the tone of the trope being played, or impose a *Frame Factor*.
-- **Zero-sum play:** if a player brilliantly leans on the fiction to justify an extra Bet, the GM uses that same level of detail to lay down an organic opposing Bet when the fiction justifies it.
-- **Managing scale (the Zoom):** the GM helps the table determine the scale at which the resolution should operate.
-
-## The Fate Gauge as a safety net
-
-For groups that do not know each other, we recommend using a Fate Gauge as a safety net.
-
-It allows you to keep track of imbalances. The gauge can be positive in favor of the protagonists (the PCs) or negative in favor of adversity (the GM).
-
-It can be represented very simply by blue dice for the PCs or red dice for the GM.
-
-It is shared by the group. It belongs to the general economy of the fiction. It is a kind of thermometer measuring the direction the narrative may potentially take.
-
-The gauge evolves during oppositions before the roll:
+1. the difference is **strictly greater than 1 Success**;
+2. the winning side obtains **strictly more than twice** as many Successes as the losing side.
 
 Examples:
 
-* An opposition that can be summarized as 5 Bets for the PC(s) against 3 Bets for the GM.
-  The GM takes 2 red dice, i.e. the number of adversity dice they would have had to add to balance the opposition.
-  The 5 vs 3 opposition is played out, regardless of the result.
-  Later, the GM therefore has 2 red dice to spend in favor of an obstacle.
+- `2–0` → dominated result;
+- `3–1` → dominated result;
+- `4–2` → simple Victory / Defeat;
+- `5–2` → dominated result;
+- `6–3` → simple Victory / Defeat.
 
-* Next opposition: 2 Bets for the PCs and 5 Bets for the GM. 3 blue dice are taken.
-  Blue die/red die pairs cancel each other out.
-  If the gauge contained 1 red die, 2 blue dice therefore remain in the gauge.
+Dominance expresses a **strong asymmetry in the result**, not merely a large absolute difference.
 
-It does not necessarily apply to the very next obstacle, but the fiction regulates itself this way.
+It opens the possibility of fictional amplification:
 
-It is the consensus of the table, accepted through the social contract.
+- the winning side may achieve an **Exploit**, read as **Yes, and...**;
+- the losing side may suffer a **Fiasco**, read as **No, and...**.
 
-There is therefore no longer any need to place blind trust in the GM to balance every scene. The system keeps track of imbalances.
+Exploit and Fiasco are not automatically symmetrical.
 
-But this device can disappear for tables whose players know each other well.
+A spectacular success for one side does not necessarily turn the other side's failure into a catastrophe. Conversely, a Defeat may have particularly serious consequences without the victor accomplishing anything beyond their own Intention.
 
-To summarize, the Fate Gauge is a safety device for certain social configurations.
+**Dominance indicates that amplification is available; the fiction determines what it means for each side.**
 
-For a table that knows each other: "We know how to play together." → a safety net is not necessarily needed.
+## Interpreting: the Bets return to the fiction
 
-For a table with strangers: "We don't yet know how everyone understands the fictional contract." → Gauge active.
+Bets do not merely build the pool before the roll.
 
-And gradually, if the table builds that trust, it can even decide: "We don't need it anymore."
+**They also provide the material for interpretation after the roll.**
 
-# Resonance Prisms
+Once the result is known, the table already has:
 
-## From diegesis to mechanical ontology
+- the Intention;
+- the Focus and its Zoom;
+- any important consequences that were announced;
+- what mattered in the fiction;
+- the direction given by the resolution.
 
-The Core deliberately leaves something open:
+There is therefore no need to invent an arbitrary consequence from an abstract number.
 
-**How does reality become mechanically accessible from a character's lived perspective?**
+Imagine a mountain crossing in which the Bets are:
 
-That is the role of **Prisms**.
+- *the driving rain*;
+- *the fear that the pursuers will arrive*;
+- *the character's experience with mountain passes*;
+- *their companion's trust*.
 
-A Prism is not simply a thematic way of coloring the same roll. It defines a resolution grammar that expresses a lived conception of reality.
+On a Defeat, the rain may make the pass impassable, urgency may cause a bad decision, experience may prevent a worse consequence, or the companion may stay behind so the others can continue.
 
-> **The Prism does not describe what you do. It describes the world in which you think you are doing it.**
+The dice provide a direction.
 
-The same Core can therefore produce radically different experiences.
+**The Bets give the table the material through which that direction becomes fiction.**
 
-A materialist world may treat the dice as indifferent physical probability.
+The words **Yes**, **No**, **And**, and **But** are a practical vocabulary for interpretation. They are not mechanics unique to Resonance.
 
-A world ruled by gods may allow faith to alter outcomes.
+## When resolution writes on the character sheet
 
-An animist world may allow spirits to intervene.
+A lasting consequence can add, transform, or remove an element of the sheet when the fiction justifies it.
 
-A mystical world may treat apparent success and failure as illusions.
+For example:
 
-A technological world may turn patterns, sequences, or calculations into meaningful elements.
+- *Injured leg* may appear after a serious fall;
+- *Companion's trust* may become *Companion's mistrust*;
+- an oath may be broken or replaced;
+- a reputation may be earned;
+- an object, symbol, or mark may be lost;
+- a new truth may appear as a consequence of an **And** or a **But**.
 
-**The Core selects what matters.  
-The Prism determines how what matters becomes consequence.**
+The sheet therefore does not merely recall what could matter before the roll.
 
-## Same world, different perspectives
+**It can also preserve what resolution has changed.**
 
-Two characters can observe the same phenomenon, possess the same information, use the same object, or perform the same procedure without cognitively inhabiting the same world.
+This writing does not need to be systematic. Many consequences remain local to the scene or the world.
 
-The Prism therefore represents neither a profession, nor a cognitive skill, nor a temporary method selected because it gives a better dice effect.
+But when a change becomes lasting and is now part of what the character is, owns, believes, suffers, or represents, the sheet can become its memory.
 
-It represents a lived perspective deep enough to become operative in resolution.
+The full loop then becomes:
 
-## The Prism represents the world's reaction when you try to learn the outcome of your Bets
+> **fiction / sheet → Intention → Focus / Zoom → Bets → resolution → direction → interpretation → transformed fiction / sheet**
 
-A good Prism answers questions such as:
+---
 
-**Is gameplay a reflection of the roleplay we want to bring out?**
+# 5. What maintains coherence
 
-**What does this universe consider true?**
+At first glance, Resonance may seem dangerously permissive: if almost any fictional truth can become a Bet, why couldn't the table simply invoke everything until the pools grow without limit?
 
-**What does it consider possible?**
+The answer is not one single mechanism.
 
-**What does it reward?**
+Resonance relies on **several layers of coherence that act at different points**:
 
-**What does it punish?**
+1. **The table contract** defines how the group plays together and what authority is entrusted to each participant.
+2. **The grammar of relevance** indicates the families of meaning toward which the game directs the table's attention.
+3. **Frame Factors** close off some possibilities.
+4. **The Focus and its Zoom** determine what the resolution is looking at here and now.
+5. **Relevance and non-redundancy** determine what can actually become a distinct Bet.
+6. **Opposition and counter-Bets** reveal the counterweights already present in the fiction.
+7. **The Fate Gauge**, when used, remembers the imbalances that persist across successive oppositions.
 
-**What does it make dangerous?**
+These tools do not perform the same job and should not be confused with one another.
 
-**How does the world's philosophy affect uncertainty?**
+## Frame Factors: what closes the space of possibilities
 
-The result is a powerful inversion of traditional game design.
+The Focus selects what matters, but it cannot abolish fundamental constraints of the world or situation.
 
-Instead of:
+A **Frame Factor** expresses a proposition strong enough to alter the very space of possible Intentions, available means, or admissible Bets.
 
-> **Rules → fiction**
+It does not provide a bonus or penalty.
 
-Resonance aims to produce:
+**It closes a possibility or makes a means inadmissible until the fiction changes.**
 
-> **Fiction → rules**
+### World-level Frame Factor
 
-And, more precisely:
+> *Time travel does not exist in this world.*
 
-> **World → Relevance → Perspective → Resolution → Transformed world**
+This is not a very difficult action. It simply does not belong to the normal space of possibilities.
 
-Lore is no longer merely something players read.
+### Structural Frame Factor
 
-**It becomes something they use.**
+> *You cannot kill a dragon with a toothpick simply by accumulating relevant Bets.*
 
-## Different Prisms, a common output
+The problem is not the size of the pool. The proposed means does not allow this resolution to be opened in that form.
 
-Dice from different Prisms are not compared directly.
+### Local Frame Factor
 
-Each Prism has its own grammar for transforming Bets into **Successes**.
+> *This reception requires formal dress. In shorts, you are not getting through the front door.*
 
-Successes then become the common language of resolution.
+The character can change plans, find another entrance, acquire suitable clothing, or transform the situation.
 
-> **Bets → Prism → Successes → comparison → consequence**
+A Frame Factor therefore does not necessarily block play.
 
-A Prism is therefore not designed as a different way to obtain more Successes, but as **a different way for chance to make sense**.
+**It requires the fiction to change before some Intentions or means become admissible.**
 
-## The generic Prism (default)
+## The grammar of relevance: what the game teaches you to notice
 
-As mentioned in the Resonance Core section, there is an agnostic, materialist Prism that is very simple to understand and use.
+The grammar of relevance moves almost in the opposite direction.
 
-* A Bet is represented by a die.
-* Each side rolls its dice together.
-* We no longer track which element each Bet was based on.
-* Count the even numbers.
-* An even die counts as one Success.
-* Compare each side's number of Successes:
-    - Tie: stalemate or minor setback.
-    - Difference of 1: victory or defeat depending on the side.
-    - Difference of 2 or more: exploit or fiasco.
+It does not close the space of possibilities. It indicates **where the game directs attention so that the table can discover truths likely to become Bets**.
 
-You can even play in any universe with this single Prism. It is self-sufficient for steering the fiction in a random yet realistic way while remaining grounded in the fiction.
+It can take the form of nested semantic families.
 
-## Outbidding
+For example:
 
-When a stalemate is impossible or unwanted (a tie), both sides may reroll their dice, adding 1 Bet per side to simulate the determination to settle things once and for all, repeating until a clear outcome emerges.
+> **Relationships**  
+> → oaths, debts, loves, rivalries  
+> → specific people or bonds  
+> → currently relevant truths  
+> → possible Bets
 
-Once the pools of Bets grow substantial enough, stalemates become rarer and rarer.
+Or:
 
-## A pool spanning several Prisms
+> **Cultural identity**  
+> → belonging, customs, taboos, values, symbols  
+> → specific keywords of the character and world  
+> → elements the Focus may make relevant
 
-It is possible to calculate the result of a side containing several Prisms. Imagine the PCs jointly facing an obstacle (negotiation, combat): each forms their own pool and calculates their number of Successes, which are then added together and compared against adversity's total. In case of fiasco or defeat, whoever obtained the fewest Successes is affected first.
+A character sheet can materialize part of that grammar.
 
-## Characters with several Prisms
+But the grammar is broader than the sheet: it also exists in lore, non-player characters, institutions, places, magic, tropes, and genre conventions.
 
-Generally speaking, characters have only one Prism, the one that resonates with their roleplay and lived perspective.
+It is not an exhaustive list of allowed Bets.
 
-But one can imagine games that modify the Prism depending on the environment or certain contexts, provided that this modification genuinely expresses a transformation in the relationship to the world rather than simply an opportunistic choice of mechanics.
+**It is an organization of attention.**
 
-This avenue is explored in Glorantha Perspectives with heroic modes and weakened modes.
+## Adjudicating a Bet
 
-One can imagine modified or completely unique Prisms in a CyberPunk world as soon as characters enter the Matrix, for example.
+The table shares responsibility for bringing forth what matters, but it must know how to decide when there is disagreement.
 
-## One engine. Different realities.
+In a classic configuration:
 
-The Core determines what enters the resolution. The Prism determines how what enters it becomes consequence.
+- players propose the elements they see as relevant;
+- the GM embodies adversity and the world;
+- the table tests those proposals against the Focus, Zoom, Frame Factors, and the game's grammar;
+- the GM makes the final call if the table contract gives them that responsibility.
 
-The Core thus remains the common kernel, while Prisms allow different lived realities to produce different resolution grammars.
+That validation should not rest on the adjudicator's personal preference alone.
 
-# Designing a game with Resonance
+> **A good adjudicator is not the person who decides whatever suits them. A good adjudicator maintains the coherence of the world, the game, and the shared Focus.**
 
-## Designed for worlds that matter
+## The Fate Gauge: remembering imbalances
 
-Resonance is particularly suited to games where the world itself matters.
+Oppositions do not need to be balanced one by one.
 
-Worlds with:
+A character who is genuinely advantaged in the fiction should benefit from that advantage.
 
-- deep lore;
-- competing philosophies;
-- meaningful cultures;
-- strange metaphysics;
-- strong relationships;
-- symbolic environments;
-- universes where *how you understand reality* matters as much as what you are physically capable of.
+For tables that nevertheless want to keep track of successive imbalances, Resonance offers an optional **Fate Gauge** shared by the group.
 
-Because the mechanics do not need to encode every possible action separately, the same Core can handle:
+It can be represented by:
 
-**a duel, a negotiation, an investigation, a ritual, a chase, a battle, a journey, or a political conflict.**
+- **blue** dice in favor of the protagonists;
+- **red** dice in favor of adversity.
 
-Resolution changes because the **fiction changes**, not because a new subsystem must be learned.
+Before the roll, if the pools are unequal, the difference feeds the Gauge in favor of the side currently at a disadvantage.
 
-## Designed for game designers
+> The protagonists have 5 Bets and adversity has 3.  
+> The opposition remains **5 versus 3**.  
+> The Gauge receives **2 red dice**.
 
-Resonance changes the role of the game designer.
+Later:
 
-You no longer primarily need to design:
+> The protagonists have 2 Bets and adversity has 5.  
+> The Gauge should receive **3 blue dice**.  
+> One blue die and one red die cancel first: if 1 red die remained, the Gauge now contains 2 blue dice.
 
-- hundreds of modifiers;
-- exhaustive skill lists;
-- rules for every possible situation;
-- ever more complex combat subsystems.
+The Gauge therefore does not immediately correct each imbalance.
 
-Instead, you design the elements that make your world unique.
+**It preserves a mechanical memory of the way the fiction has leaned.**
 
-### You create the fiction
+Available dice can be spent later according to the authority agreed upon by the table. In a configuration where the GM controls adversity, for example, they can draw on red dice to strengthen a future opposition.
 
-Its: **lore, beliefs, cultures, relationships, myths, taboos, metaphysics...**
+They do not have to spend them on the next obstacle, nor use them automatically.
 
-### You define what can matter
+The Gauge is particularly useful for a table that wants a visible safety net. A table sufficiently confident in its adjudication can choose not to use it.
 
-What can become a Bet?
+---
 
-What should never become one?
+# 6. Varying and designing Resonance
 
-What does the game want players to notice?
+The standard configuration is enough to play.
 
-### You design the Prisms
+But Resonance was designed for another possibility: when a world has a sufficiently strong logic, **the mechanics can stop being generic and start expressing it**.
 
-How does this world respond to uncertainty?
+## Invariants and design choices
 
-How do its philosophy, archetype, or trope transform resolution?
+The following elements constitute the gesture of Resonance:
 
-What happens when a character acts against the fundamental logic of the world?
+- begin from a fictional Intention;
+- define a Focus and its Zoom;
+- make important consequences visible when the table contract requires it;
+- select what matters;
+- avoid redundancy at the chosen scale;
+- confront the Bets with some form of uncertainty;
+- produce a form of result that fiction can use;
+- interpret that result from the fiction that was put into play;
+- begin again from the transformed world.
 
-### You define the boundaries
+Other elements belong to the standard configuration and can be transformed:
 
-What is impossible?
+- using D6s;
+- associating one Bet with one die;
+- reading even numbers as Successes;
+- opposing two pools;
+- using the same physical representation for every Bet;
+- using the standard result scale;
+- using escalation;
+- using the Fate Gauge.
 
-What is forbidden?
+Variation is not something added from outside the framework.
 
-What cannot simply be overcome by adding another argument?
+**It is part of its design.**
 
-These are the design choices that give a Resonance game its identity.
+## A standard chain of responsibilities
 
-## Designing what matters
+In the standard configuration — and in implementations that oppose sides — the operations can be separated as follows:
 
-Relevance is not only a matter of table arbitration. It is also a game design tool.
+> **Bets → uncertainty medium → Prism → mechanical signals → result scale → interpretation → transformed fiction**
 
-### Fictional truth, eligible Bet, relevant Bet
+In the standard configuration:
 
-Three levels can be distinguished:
+> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
 
-1. **True in the fiction:** a fact, relationship, object, emotion, or constraint exists in the world.
-2. **Eligible in this game:** the game design recognizes that category of truth as something that may carry weight in the fiction.
-3. **Relevant here:** the Focus and the situation make that truth actually matter to the present resolution.
+This separation avoids asking a single mechanic to do everything.
 
-Not every fictional truth is therefore automatically a Bet.
+The **Prism** transforms uncertainty into mechanical signals.
 
-### A grammar of relevance
+The **result scale** then transforms those signals into a direction.
 
-The game designer can define what the game invites players to notice:
+**Interpretation** finally transforms that direction into fiction from the Bets and the situation.
 
-- relationships and obligations;
-- honor, reputation, or shame;
-- belonging to a clan, community, or institution;
-- passions and attachments;
-- knowledge, discipline, or training;
-- social status;
-- territory and environment;
-- the sacred, taboo, omens, or cosmology;
-- fear, corruption, desire, guilt;
-- or any other category of causality specific to the world or genre.
+This chain is a reference architecture, not a universal obligation. A light implementation can use a Prism whose result is directly usable without passing through an opposition between two pools.
 
-These categories do not necessarily form a closed list of abilities. Rather, they define **what the game teaches players to look at**.
+## Prisms: how a perspective transforms uncertainty
 
-The designer's question becomes:
+Resonance calls a **Prism**:
 
-> **Among everything that is true in the fiction, which truths does this game recognize as relevant?**
+> **the logic by which a perspective on the world transforms uncertainty into a result the game can use mechanically.**
 
-### Trope and relevance
+In opposed-pool implementations, this often means producing **Successes** or other comparable signals.
 
-A game can produce a genre not only by defining significant actions, but also by defining the reasons that can carry weight in the fiction.
+A Prism is therefore not simply "counting the dice differently" to create an aesthetic variation.
 
-Approaches such as PbtA strongly encode genre through Moves, their triggers, and archetypes. Resonance operates at another level: it can leave the space of actions largely open while orienting the space of relevance.
+It can modify:
 
-**PbtA can strongly constrain the forms of meaningful action; Resonance can constrain the forms of meaningful relevance.**
+- which results count;
+- which patterns become meaningful;
+- which dice can be rerolled or transformed;
+- which results cancel one another;
+- what costs are attached to certain results;
+- relationships between several pools;
+- the media being used;
+- the very form of the result.
 
-Resonance therefore does not necessarily tell the player what to do in order to produce the trope; it teaches them **what to look at and which reasons to recognize** so that the trope can emerge from their own actions.
+The concrete mechanism is the expression of a more fundamental question:
 
-### The character and their space of relevance
+> **What does uncertainty mean from this way of inhabiting the world?**
 
-This approach also opens up a form of progression that is not only quantitative.
+### The standard Prism
 
-A character can evolve because the reasons capable of carrying weight for them change.
+The standard configuration has a Prism too.
 
-A young warrior may begin with a grammar dominated by clan, master, duty, reputation, and obedience, then see compassion, personal love, doubt, truth, or refusal of an unjust order emerge.
+The **standard Prism** treats every D6 identically: even, it produces a Success; odd, it does not.
 
-The character does not necessarily gain an ability. **Their space of relevance changes.**
+It does not claim to represent the "true" structure of chance.
 
-### Continuity between trope, Frame Factor, Focus, Bets, and Prism
+It simply provides a discreet reading when the game does not want perspective itself to become a particular mechanical issue.
 
-The architecture can be summarized as follows:
+It is a **design zero point**, not a norm that other Prisms should resemble.
 
-> **The game and its trope determine what can carry weight.**
->
-> **The Frame Factor transforms what can carry weight here.**
->
-> **The Focus determines what carries weight now.**
->
-> **The Bets express why it carries weight.**
->
-> **The Prism determines how the world responds.**
+### Common outputs for different perspectives
 
-## Designing Prisms
+When several Prisms need to coexist in the same opposition, the game benefits from defining a common interface.
 
-### Start from the fictional experience
+In current opposed-pool implementations, that interface is generally the **Success**: each Prism produces Successes according to its own logic, then the result scale compares the sides.
 
-A Prism is not, first of all, a dice gimmick.
+This common output is an interoperability contract for games that need one.
 
-The starting point is the fictional, cognitive, or ontological experience the game wants to produce: what way of inhabiting the world should become perceptible in the act of resolution?
+**It neither defines the Prism nor is mandatory for every Resonance implementation.**
 
-The rule comes afterward.
+## When should you create another Prism?
 
-### Identify the logic of the Prism
+A particular Prism becomes relevant when changing resolution lets the player feel something that description alone would convey less effectively.
 
-Before choosing a mechanic, identify what characterizes this perspective: relations, accumulation, transcendence, intervention, balance, patterns, determinism, sacrifice, contamination, reciprocity, or any other logic specific to the world.
+A game might want:
 
-The question is less "what dice effect would be original?" than:
+- divine favor to transform some failures;
+- spirits to make patterns or repetitions meaningful;
+- a logical discipline to aggregate results rather than count them;
+- a mystical path to cancel an apparently secured Success;
+- cyclical thought to make forms emerge rather than independent successes.
+
+The right design question is therefore not:
+
+> *What original mechanic can I invent?*
+
+but:
+
+> **What relationship to the world genuinely deserves to transform the way uncertainty is experienced?**
+
+## Designing a Prism
+
+### 1. Begin with a relationship to the world
+
+Before choosing a mechanic, identify the logic the game wants to make perceptible: accumulation, transcendence, intervention, balance, sacrifice, contamination, reciprocity, prediction, symbiosis, determinism, chance, or something else.
 
 > **What logic of reality should become perceptible when the player resolves uncertainty?**
 
-### Translate that logic into a mechanical operation
+### 2. Ask what the player should feel or notice
 
-Once that logic has been identified, choose the operations that can make it perceptible: evens and odds, sums, patterns, cancellations, rerolls, changes in die size, cards, colors, interactions between pools, or other components.
+A good Prism does not merely represent an idea.
 
-The choice of component comes after the meaning it is meant to produce.
+It influences what the player hopes for, fears, watches, or seeks during resolution.
 
-### Check what the Prism makes the player play
+> **Does playing this Prism push the player to look at the world the way their character does?**
 
-A good Prism does not merely represent an idea. It influences what the player notices, hopes for, fears, or seeks when resolving uncertainty.
+### 3. Translate that relationship into a mechanical operation
 
-The test can be summarized in one question:
+Only then choose what can make that logic perceptible:
 
-> **Does playing this Prism effectively push the player to look at the world as their character does?**
+- even or odd results;
+- sums;
+- patterns;
+- cancellations;
+- rerolls;
+- die sizes;
+- cards, colors, or symbols;
+- interactions between pools;
+- changes to adversity;
+- another uncertainty medium.
 
-### Check comparability
+The medium comes after the meaning it is meant to produce.
 
-Radically different Prisms must be able to participate in the same resolution.
+### 4. Decide what form of result to produce
 
-Their internal grammar can vary, but they must produce an output that can be compared through the common engine — generally **Successes**.
+If several Prisms must take part in the same opposition, a common output such as Successes may be desirable.
 
-> **Bets → Prism grammar → Successes → comparison → consequence**
+But a light game can use a standalone result if that better serves the intended experience.
 
-### Avoid the gimmick
+### 5. Check that the mechanic is not merely decorated with lore
 
-A Prism is not "sixes explode because that is fun."
+A Prism is not "6s explode because that is fun."
 
-Sixes explode if that mechanical property expresses something about the reality lived by the character and produces the desired experience at the table.
+Sixes explode if that property expresses something about the reality lived by the character and produces the intended experience at the table.
 
-The mechanic is not decorated by the lore: **it becomes an operation of the lore.**
+A useful test is to mentally remove the theme: if the mechanic could be arbitrarily reskinned without losing anything in how it feels, the link between Prism and fiction probably needs to be strengthened.
 
-### Examples of possible Prisms (non-exhaustive)
+> **The mechanic is not decorated by the lore: it becomes an operation of the lore.**
 
-It is up to you to invent Prisms for your game. Here are some leads.
+### 6. Check its cognitive cost
 
-Note: you will also find examples of other Prisms with variants in Glorantha Perspectives.
+A Prism can be strange without becoming opaque.
 
-#### Manipulating Patterns and Probabilities
+The goal is not to move attention away from complex modifiers only to replace them with another equally intrusive form of technical manipulation.
 
-- **The Prism of Prophecy (Commitment):** Before rolling, the player must announce *the exact number* of Successes (e.g. even numbers) they will obtain. Hitting it exactly generates an absolute exploit. Any other result is a failure. *Diegesis: Oracles, prescience, time mages. The player is incentivized to sabotage themselves (reduce their Bets) to guarantee their own prediction.*
+Ideally, the Prism should make its perspective more perceptible than its procedure is cumbersome.
 
-- **The Prism of Balance (Duality):** The player must split their Bets into two distinct pools (e.g. white dice and black dice). Success depends not on the raw result, but on the *small difference* between the sums of the two pools. The closer the gap to zero, the purer the success. *Diegesis: Monks of balance, Yin/Yang manipulation, or opposed elemental forces.*
+## The media can resonate too
 
-#### Direct Interaction with Adversity
+A Bet does not have to be represented by a D6 identical to every other one.
 
-- **The Prism of Symbiosis (Mimicry):** One of the player's dice counts as a Success *only* if it shows exactly the same value as a die in the opposing pool. You do not win by crushing the obstacle, but by entering into resonance with it. *Diegesis: Telepathy, absolute diplomacy, alien assimilation, or neural hacking.*
+A game can use:
 
-- **The Parasite Prism (Corruption):** The player's "1"s allow them to physically swap their own dice with the opponent's highest dice before the final interpretation. *Diegesis: Horror, necromancy, curses where one feeds on the strength of another.*
+- dice of different sizes;
+- colors with fictional meaning;
+- cards;
+- tokens;
+- coins;
+- stones or beads;
+- particular objects;
+- any other medium whose manipulation serves the intended experience.
 
-#### The Nature of Components
+Changing the medium is not interesting in itself.
 
-- **The Weaver's Prism (Playing cards):** Each Bet lets you draw a card. Combinations (pairs, runs) define the number of Successes, but the majority *suit* of the hand (Spades, Hearts, Diamonds, Clubs) dictates the narrative consequence (injury, moral debt, revelation). *Diegesis: Manipulators of fate, illusionists.*
+The medium becomes relevant when it extends something the character or world already makes the player feel.
 
-- **The Prism of Ascension (Variable dice):** Bets justify the *size* of the dice (e.g. D4 for a minor detail, D12 for a major asset). To score an Exploit, the player must form an ascending run (e.g. 2-3-4) using dice of necessarily different sizes (D4, D6, D8). *Diegesis: Ever-evolving entities, mutants, or heroes breaking through their limits (shōnen).*
+The goal remains the same:
 
-#### The Prisms of Isolation (Singularity)
+> **reduce the distance between what the player manipulates and what their character experiences.**
 
-The goal here is to make the presence of allies mechanically penalizing, pushing the character to act as a lone wolf or isolate themselves to unlock their full potential.
+## Designing relevance
 
-- **Mechanical Abstraction (Dilution):** Before rolling, the player gathers their N Bets. For each ally physically present in the scene (or involved in the conflict), the player must discard one of their dice, or cancel their best Success after the roll.
+Prisms are only one of Resonance's design points.
 
-- **Inverse Mechanical Abstraction (Awakening of the Void):** If and only if the character is the sole protagonist in the scene, all of their odd dice (normally failures) may be rerolled, or their failures cancel opposing Successes.
+A game must also decide which families of fictional truths it wants to make visible and naturally available to the table's attention.
 
-- **Diegetic Translations:**
-    - *The Cursed Berserker:* Their rage is a blind storm. With allies around, they must hold back their blows (lost Bets). Alone, they become an absolute killing machine.
-    - *The Shadow Assassin:* Their magic relies on the silence of the weave. The presence of other souls "makes noise" and disrupts their probabilities.
-    - *The Keeper of Secrets:* Their power involves forbidden knowledge. If an ally witnesses their action, the power dries up to preserve the secret.
+This **grammar of relevance** can be organized around:
 
-#### The Prisms of Synergy (Gestalt)
+- cultures of the world;
+- magic;
+- social relationships;
+- institutions;
+- character states;
+- genre motifs;
+- tropes;
+- consequences accumulated in the fiction.
 
-Here, the individual is nothing without the group. Success is no longer individual; it emerges from the intersection of actions.
+The grammar resembles a **semantic map** more than a closed list.
 
-- **Mechanical Abstraction (Crossed Resonance):** The player rolls their N Bets. Standard even numbers do not count. A Success is generated *only* if one of their dice shows exactly the same value as a die rolled by an ally during that same round/conflict.
+Two games can use exactly the same Prism and still produce very different experiences because they do not teach the table to look at the same things.
 
-- **Mechanical Abstraction (The Network):** The size of the base pool is fixed, but each ally present in the scene allows the player to automatically turn one failed die into a Success, or alter parity (e.g. with 3 allies, 1s, 3s, and 5s also become Successes).
+Designing a Resonance game therefore does not consist only of writing a random procedure.
 
-- **Diegetic Translations:**
-    - *The Collective Consciousness:* Extraterrestrials, telepathic twins, or networked artificial intelligences. They do not think "I," they think "We."
-    - *The Perfect Phalanx:* An elite military squad (like Lunar hoplites) where each member's survival depends exclusively on their neighbor's shield.
-    - *The Magic Chorus:* Mages whose incantations require harmonizing their frequencies to alter reality.
+**It means deciding what the game teaches players to notice.**
 
-#### Parasitic Prisms (Toxic Dependence)
+## Trope and relevance
 
-Collaboration is forced, but asymmetric. One character shines, yet their success comes at the direct expense of the allies present.
+A game can produce a genre not only by giving mechanical structure to certain actions, but also by giving particular importance to the **reasons** that can weigh in the fiction.
 
-- **Mechanical Abstraction (Drain):** The character generates automatic Successes or gains extra Bets by *physically stealing them* from the Bet pools of allies present in the scene.
+Powered by the Apocalypse games provide a useful point of comparison.
 
-- **Mechanical Abstraction (Human Shield):** Each "1" rolled by this player cancels their own defeat, but instantly removes the best Success of a nearby ally. If there is no ally, the "1" turns against the player.
+Many PbtA games bring forth their genre by giving privileged mechanical structure to particular fictional triggers, consequences, Playbooks, or archetypes.
 
-- **Diegetic Translations:**
-    - *The Psychic Vampire / The Necromancer:* They siphon the life force of their companions to fuel their own miracles.
-    - *The Toxic Boss / The Arrogant Noble:* A commander who takes credit for subordinates' work and throws them under the bus at the first problem.
+Resonance can act at another level: it can leave the space of actions broadly open while orienting the families of truths the game teaches players to treat as significant.
 
-# Conclusion — Relevance
+The trope can then emerge because the game teaches the player **what to look at, what relationships to recognize, and what reasons to let carry weight** in their own actions.
 
-Resonance starts from a simple idea: a fictional world always contains more truths than a resolution can take into account.
+This difference does not mean that Resonance is "freer" than PbtA in every circumstance. It points to a different design lever:
 
-Playing therefore begins by determining **what matters**.
+> **orient what matters without necessarily prescribing what the character should attempt.**
 
-Not what the character sheet allows.  
-Not which modifier is most advantageous.  
-But what, for this character, in this situation, and in relation to this intention, genuinely carries weight.
+## Designing character evolution
 
-**That is relevance.**
+Because evolution happens through persistent truths, designing progression in a Resonance game does not mean drawing a level curve.
 
-Resonance Core transforms that relevance into resolution.
+The game designer should instead decide:
 
-Prisms determine how that resolution takes on meaning from a lived perspective.
+- which families of truths can appear on the sheet;
+- how an experience can create a new one;
+- when a truth can be reworded, replaced, or removed;
+- who has authority to write those transformations;
+- which changes require a resolution and which simply follow from an established fictional event;
+- how the game makes important transformations visible.
 
-Players stop asking:
+> **The grammar of relevance defines the possible language of evolution.**  
+> **The character's story progressively writes their relevance space in that language.**
 
-> *What is my best modifier?*
+Two characters who began with similar sheets can therefore diverge dramatically without either one being "higher level" than the other.
 
-and start asking:
+## Three levels not to confuse
 
-> **What do I see?**
+### Resonance
 
-> **What do I know?**
+The framework.
 
-> **What does my character believe?**
+It provides the general grammar of resolution, its concepts, and its points of variation.
 
-> **What is happening around me?**
+### The standard configuration
 
-> **What are the real stakes?**
+A fully playable reference implementation.
 
-The player then stops searching for the rule that describes the world.
+It lets you use Resonance immediately without any prior game design work.
 
-**They look at the world to discover the rule that applies.**
+### A game designed with Resonance
 
-Relevance is the cognitive heart of Resonance. Prisms are its ontological and perspectival extension: they do not merely say what matters, but how what matters becomes consequence from a situated way of inhabiting reality.
+An implementation that chooses what to keep and what to transform in order to produce an experience specific to its world.
 
-**The world defines the system. Perception selects what matters. The Prism determines how the world responds.**
+It can define, among other things:
 
-# Case Studies
+- its grammar of relevance;
+- the form of its sheets and fictional memories;
+- its Prisms;
+- its Frame Factors;
+- its media;
+- its game economies;
+- how its characters evolve;
+- its coherence or regulation tools;
+- how it interprets consequences.
 
-## Resonance: Glorantha
+## A design checklist
 
-### A concrete implementation
+When designing a game with Resonance, ask in particular:
 
-A framework becomes interesting when it can step off the page.
+1. **What does this world or genre teach players to notice?**
+2. **Which families of truths should be especially visible?**
+3. **How do the sheet, lore, or other media make these truths memorable without turning them into automatic bonuses?**
+4. **What makes two Bets distinct or redundant?**
+5. **Which Frame Factors genuinely close off possibilities?**
+6. **Which consequences must be explicit before a player exposes themselves to them?**
+7. **Is the standard configuration enough to express this world?**
+8. **If not, what perspective deserves a particular Prism?**
+9. **What should that Prism make the player feel rather than merely simulate?**
+10. **Does the game need opposed pools and a common output?**
+11. **Would another medium than a D6 make the experience more direct?**
+12. **Which consequences should return durably to the fiction or the sheet?**
+13. **How can the character's truths appear, transform, and disappear?**
+14. **What mechanisms maintain coherence when the table interprets relevance freely?**
+15. **What safeguards prevent the search for Bets from becoming mechanical optimization again?**
 
-**Resonance: Glorantha** shows what happens when Resonance is fully embedded in a specific fictional universe.
+Every variation should be able to answer one simple question:
 
-In **Glorantha Perspectives**, Resonance **Prisms** are called **worldviews**, adopting the term used within Glorantha itself. This is the same design concept; only the implementation's terminology changes.
+> **What does this rule let the player perceive, understand, or feel about the world?**
 
-In Glorantha, cosmology, religions, and different ways of understanding reality thus become resolution systems.
+---
 
-The same underlying engine can therefore produce radically different experiences depending on whether the character perceives reality through :
+# 7. Understanding Resonance
 
-#### Theism
+The concepts below describe different aspects of the same framework. They are not prerequisites for play.
+
+## Cognitive: where does the player's attention go?
+
+Resonance can be described as **cognitive** because its central operation is less about calculating a character value than about making a judgment of relevance about a fictional situation.
+
+The player observes the scene, remembers what their character knows and has lived through, perhaps rereads the keywords or symbols on their sheet, pays attention to relationships, environment, and circumstances, then identifies what matters.
+
+The technical load can therefore remain low even while the fiction remains rich.
+
+The term "cognitive" primarily describes **the mental interface between player, character, and world**.
+
+The goal is not to eliminate thought.
+
+It is to direct thought toward the fiction rather than toward manipulating an abstract model.
+
+## Diegetic: where do mechanical elements come from?
+
+Resonance can be described as **diegetic** when the elements manipulated by the rules remain attached to things that already have meaning in the fiction.
+
+An injury, oath, wind, reputation, or relationship is not first a modifier.
+
+It exists in the fictional world, then becomes mechanically present because it matters.
+
+This continuity can also concern the media being used: colors, dice, cards, or objects can extend a meaning already experienced in the fiction.
+
+> **The diegetic concerns continuity between what exists in the world and what the rules manipulate.**
+
+## Perspectival: who is looking at reality?
+
+Perspectivism adds another possibility.
+
+A diegetic design can give mechanical weight to what exists in the fiction while keeping the same procedure for every character.
+
+A perspectival design accepts that the same reality may produce a different resolution depending on how it is lived, understood, or inhabited.
+
+The point of view is no longer only narrated.
+
+**It becomes mechanically operative.**
+
+This is one of the things Prisms can do when they are tied to different ways of entering into relationship with the world.
+
+> **Diegetic: what exists in the fiction can become mechanical.**  
+> **Perspectival: the way the fiction is lived can transform the mechanics.**
+
+## Ontological: what reality do the mechanics assert?
+
+The term **ontological** becomes relevant when a game does not merely represent several subjective interpretations of an assumed neutral reality, but treats those relationships to reality as genuinely different ways in which the world exists or acts.
+
+The mechanics then no longer say only:
+
+> *this character understands the world this way.*
+
+They can go as far as saying:
+
+> **within this relationship to reality, the world actually works this way.**
+
+This distinction is especially important in worlds where several cosmologies or modes of existence are simultaneously true without being reducible to a single underlying mechanical model.
+
+You can therefore have:
+
+- a diegetic game without perspectivism;
+- a perspectival game without a strong ontological commitment;
+- a game in which perspective and ontology are deeply intertwined.
+
+These terms describe design possibilities. They are not mandatory labels for using Resonance.
+
+---
+
+# 8. Resonance in practice: two bounds of the design space
+
+The first two Resonance case studies deliberately occupy very different positions.
+
+**Glorantha Perspectives** tests depth: a dense world, several cosmologies, different relationships to reality, and a strong continuity between lore and mechanics.
+
+**Resonance: Scooby-Doo** tests compression: an immediately recognizable trope, character creation in a handful of keywords, strongly characterized Prisms, and minimal infrastructure.
+
+Together, they provide two useful bounds for the design space.
+
+## Glorantha Perspectives — the depth test
+
+**Glorantha Perspectives** is a complete implementation of Resonance.
+
+In that implementation, Prisms are called **worldviews**, using terminology specific to Glorantha. It is the same design concept; only the implementation's vocabulary changes.
+
+Glorantha is particularly well suited to Resonance because its cosmologies are not merely decorative opinions laid over a single mechanical physics.
+
+The way a character inhabits the world can change how that world becomes mechanically accessible.
+
+### Theism
 
 Even numbers are Successes.
 
-Sixes can produce extraordinary outcomes and interact with results that would otherwise be failures.
+Sixes can produce extraordinary effects and give some normally failed results another possibility.
 
-**Faith changes the meaning of failure.**
+**Faith transforms the meaning of failure.**
 
-#### Animism
+### Animism
 
 Even numbers are Successes.
 
-Certain patterns among failed dice can become Successes.
+Patterns among dice that would normally fail can become meaningful.
 
-**The world is populated by possibilities that do not behave like ordinary causality.**
+**The world remains populated by relationships and presences even within what seemed to produce nothing.**
 
-#### Logic
+### Logic
 
-Dice are not interpreted as mere Successes or failures.
+Dice are no longer read as independent successes.
 
-Their values are summed and processed according to a deterministic rule.
+Their values are aggregated according to a calculation rule.
 
 **Uncertainty becomes calculation.**
 
-#### Mysticism
+### Mysticism
 
-Certain results can negate an opponent's apparent Successes.
+Some results can cancel an opponent's apparent Successes.
 
-**Material victory becomes secondary to a deeper reality.**
+**Material victory can become secondary to a deeper reality.**
 
-#### Draconism
+### Draconic Thought
 
-Bets are represented by D8s to mark the difference. Certain patterns in the result (the Ouroboros or the egg's stasis) produce extra Successes, but they come at a price.
+Bets use D8s, and particular patterns can create choices between material accomplishment and spiritual transformation.
 
-**The choice between the Wyrm and Utuma.**
+**The result itself brings forth a tension proper to Draconic thought.**
 
-#### Lunar influence
+### Going beyond a list of Prisms
 
-For followers of the Red Moon, the new or full moon alters the character's Prism (whether animist, theist, or logician).
+Lunar influence can change the way some Prisms are experienced.
 
-**This change creates a focus on the 1 — the small, the nothing — preparing Lunars for potential Illumination.**
+Illumination can become a transformation genuinely lived by the player through the mechanics.
 
-#### Illumination
+Heroquests can go as far as allowing characters to seek, discover, or create a new way of understanding reality.
 
-The game makes it possible to play the moment of Illumination realistically and within the fiction. The character genuinely becomes illuminated in gameplay and in the game.
+At that point, the mechanics no longer merely illustrate the lore.
 
-**The character understands that the universe is one vast joke.**
+**They let the player think through it.**
 
-#### Hero Quests
+Glorantha Perspectives shows how:
 
-The game even allows players to search for, find, and create a new vision of the world. Will they find the new vision that will change the face of the world, just as the Red Moon did in its youth?
+- a grammar of relevance can emerge from a very dense world;
+- several Prisms can make different relationships to reality mechanically operative;
+- Frame Factors can express cosmological, social, or cultural truths;
+- an economy such as the Fate Gauge can act as a safety net;
+- lore can become material for play rather than a corpus consulted beside the rules.
 
-These variations are not cosmetic. They create different cognitive experiences.
+> **The system does not merely describe the world. It lets the player experience the world through its own logic.**
 
-**The player does not merely learn the lore of the world.  
-They think through its philosophy. And even when the player rolls dice or draws cards, their way of reading the result resonates with the character.**
+[Read Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/en/srd/glorantha-perspectives-en.pdf)
 
-> **The system does not merely describe the world.  
-> It makes the player experience the world through its own logic.**
+## Resonance: Scooby-Doo — the compression test
 
-**Glorantha Perspectives** is the proof of concept and the detailed implementation of the framework.
+At the other extreme, **Resonance: Scooby-Doo** shows how far the framework can be compressed without losing its central idea.
 
-[Read the Glorantha Perspectives SRD →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
+The design material is not an encyclopedic cosmology, but an immediately recognizable trope: a group of young people, a van, a monster that is probably fake, an absurd investigation, and a chase that descends into chaos.
 
-## Resonance: Scooby Doo
+### Character creation through keywords
 
-I had fun building a small, lightweight game quickly using Resonance's game design. Here is the result.
+Players choose an archetype and a few keywords that make it immediately playable.
 
-It is more a proof of concept than anything else. It does not have the depth of Glorantha Perspectives.
+For example:
 
-### The Lore
+- **The Handsome Guy with the terrible plan**: natural authority, obsession with elaborate traps, "let's split up," wildly disproportionate confidence in his own ideas;
+- **The Brain**: absolute skepticism, walking encyclopedia, severe myopia, relentless deduction;
+- **The Pretty Airhead**: danger-prone, piercing scream, improbable handbag, ability to discover important things by accident;
+- **The Clumsy Duo**: hunger, fear, flight, shared language, and an almost supernatural ability to produce chaos.
 
-**The starting point is simple:** You are a bunch of college friends. No tragic backstory, no debts, no complex narrative arcs. It is summer break, you have refurbished an old van, and you cruise the roads of the United States listening to music.
+Even the **Van** has a small shared sheet: psychedelic paint, temperamental engine, secret snack reserve, dubious equipment, or any other truth likely to return in the fiction.
 
-Except that every time you stop for gas or a burger, you run into an incompetent sheriff, an abandoned amusement park, and a plastic monster.
+This creation process directly illustrates Resonance's literary character sheet: keywords do not define what the character is allowed to do; they give the player memorable material that may become relevant.
 
-### Character Creation (The Archetypes)
+### Trope as a grammar of relevance
 
-Players pick an archetype. They browse a list of suggested keywords: keeping the ones that make them laugh, crossing out the ones they dislike, and inventing new ones if inspired.
+The game naturally makes the following visible:
 
-#### Pretty Boy (with the terrible plan)
+- fear;
+- appetite;
+- clues;
+- overcomplicated plans;
+- splitting up the group;
+- absurd coincidences;
+- the mask behind the monster;
+- each team member's relationships and gimmicks.
 
-*The self-proclaimed leader, charismatic but usually off target. He loves giving orders that make no sense.*
+Players remain free to attempt whatever they want, but the game quickly teaches them what kinds of reasons belong to this fiction.
 
-- **Physical/Mental keywords:** Square jaw, Ultra-bright smile, Self-assured, Natural authority, Boy Scout leader aura, IQ inversely proportional to his looks.
-- **Action keywords:** Obsessed with elaborate traps, Rube Goldberg, "Let's split up into two groups", Driver's license.
-- **Suggested bonds:** Secretly in love with the Lovely Klutz (who does not notice), or admires himself a little too much in the rearview mirror.
+### The Clumsy Duo: a standalone result
 
-#### Lovely Klutz
+Shaggy and Scooby do not necessarily play against an opposing pool.
 
-*The one who attracts trouble like a magnet. She seems fragile, but her handbag defies the laws of physics.*
+Each gathers their own Bets and rolls a separate pool.
 
-- **Physical/Mental keywords:** Always impeccable wardrobe, Refreshing naivety, Glass-shattering shriek, Danger-prone (attracts trapdoors and ghosts).
-- **Action keywords:** Magic handbag (holds anything and everything), Tactical makeup, Black belt in shopping, Lockpicking with a bobby pin.
-- **Suggested bonds:** In love with no one (too independent), or unknowingly flirts with the monster.
+Their even results count normally and their Successes are added together.
 
-#### Brainiac
+But their bond has an additional mechanical translation:
 
-*The brains of the group. Skeptical, sarcastic, she is the only one reading encyclopedias over summer break.*
+> **each cross-pair of matching odd results between their two rolls produces one additional Success.**
 
-- **Physical/Mental keywords:** Severe myopia ("My glasses!"), Suffocating turtleneck sweater, Absolute skepticism, Sarcastic, Walking encyclopedia.
-- **Action keywords:** Relentless deduction, Finding the hidden light switch, Unintelligible scientific jargon, Crawling on the floor.
-- **Suggested bonds:** Secretly in love with Pretty Boy, or privately looks down on the group's intellectual level.
+A `3` rolled by Shaggy does not resonate with another `3` rolled by Shaggy. A `3` must also appear in Scooby's roll.
 
-#### The Clumsy Duo (Played by 2 players!)
+They remain two characters with two distinct pools, but their clumsiness becomes more effective when they are together.
 
-*Magnificent cowards. All they think about is eating and running away — and that is often what saves the day.*
+The rule therefore pushes them mechanically toward their trope: **Shaggy and Scooby benefit from staying side by side.**
 
-- **Player A (The Spaced-Out Dude):**
-    - *Keywords:* Always high (or just spacey), Freakish metabolism, Olympic-level coward, "Not even in your dreams", Belly on legs, Destructive appetite.
-- **Player B (The Pet):**
-    - *Keywords:* Talking dog (or raccoon, giant iguana...), Human mannerisms, Competitive scaredy-cat, Easily bribed (for a treat), Sniffs out trouble.
-- **Shared bond:** They are inseparable, have their own language, and often pass for one another.
+The result directly describes **the scale of the chaos they produce**.
 
-### The 5th Member: The Vehicle Sheet
+This case shows that a Prism can produce a **standalone result**: Resonance does not force every implementation through "two pools → comparable Successes → opposition."
 
-The van is the heart of the team. The whole table picks its keywords together. It generates diegetic problems before the monster even shows up.
+### The Brain: the most conventional logic
 
-#### The Van (model TBD)
+The Brain instead uses an opposition close to the standard configuration.
 
-- **Its look:** Psychedelic paint job, Rust hidden under stickers, Right headlight that blinks on its own.
-- **How it runs:** Engine that coughs when people panic, Out of gas in the middle of nowhere, Starts right up (but only if it gets time to warm up).
-- **Its fittings:** Secret and infinite snack stash, Questionable mattress, Sound system worthy of a 70s rock festival, Chemistry lab improvised by the Brainiac.
+She searches for clues, confronts hypotheses with the world, and gets a resolution that reads in an almost rational way.
 
-### The rules of the game
+The contrast with the other characters is part of her identity.
 
-> *"In this game, we are not going to look for modifiers on a sheet — the mechanics live in the situation.*
->
-> *. You tell me what you do, leaning on your Keywords.*
->
-> *For every relevant and funny element, I give you a die (a Bet).*
->
-> *Golden rule for everyone: **even dice are successes, odd dice are failures**. You will always know how many successes you scored — except the Klutz, who just needs to roll pretty patterns ;).*
->
-> *BUT, the way the universe (and I, the GM) reacts to your successes depends on your character. Fred, you will find the universe has a particular sense of humor about your plans. Sammy, you will discover that running away screaming is a viable strategy. Do not worry about consequences, play your clichés to the fullest, count your evens, and I will handle the magic of video editing!"*
->
+### The Handsome Guy: misalignment
 
-This way:
+His Prism makes his plans resonate sideways.
 
-1. Players get a clear, mathematical mechanic to rely on (counting evens).
-2. You preserve the mystery of asymmetric interpretation (your twist).
-3. You take the pressure off: they will reach for their keywords to earn dice instead of dumbly trying to "optimize" the action.
+A plan can work exactly as intended but on the wrong target; an apparent failure can accidentally trigger the mechanism that actually captures the monster.
 
-#### The different Prisms
+The design goal is also to make his tendency to split up the group mechanically attractive: the trope should not merely be narrated, it should create an incentive in play.
 
-##### **The Clumsy Duo: The Draw Without Opposition**
+### The Pretty Airhead: meaningful accident
 
-The world does not oppose them — they oppose themselves!
+She can look for patterns, sequences, or particular correspondences instead of merely maximizing Successes.
 
-- *Gameplay:* They gather their fear-and-hunger Bets and roll their dice alone.
-- *Interpretation:* The result just indicates the *scale of chaos* they generate. If they score lots of Successes, their flight is so chaotic it destroys the monster's hiding spot.
-- Together they are stronger: the GM adds pairs of odd numbers when comparing the two draws. But they still do not merge into a common pool. If Sammy rolls two 3s, it does not count as a Success. It only counts if Scooby-Doo also rolls a 3. That incentivizes them to stay together.
+A pattern can trigger an "Oops": she leans on a bookshelf and opens a secret passage, presses the wrong button and shuts down the force field, or accidentally draws the monster's attention at the perfect moment.
 
-##### **Brainiac: The Draw With Opposition (Logic)**
+The game therefore teaches her player to seek a particular form of chance that is coherent with her trope.
 
-She is the only one anchored in reality. She plays a "normal" RPG.
+### Why this implementation matters
 
-- *Gameplay:* She lays down her Bets, the GM lays down theirs. This is classic resolution, where the dice confront Bets against the opposing side.
-- *Interpretation:* Rational. If she wins, she finds a clue. If she loses, she loses her glasses or gets it wrong.
+Scooby-Doo demonstrates that Resonance can work when:
 
-##### **Pretty Boy: The Offset and the Reversal**
+- the lore fits into a few paragraphs;
+- character creation takes a few minutes;
+- keywords are deliberately comic;
+- Prisms are asymmetric;
+- some results are standalone;
+- fidelity is about rhythm and trope more than complex cosmology.
 
-A draw that "resonates" crooked is excellent for emulating his trope.
+Glorantha tests how far Resonance can **descend into the depth of a world**.
 
-- *Gameplay:* He makes a draw with opposition against the GM.
-- *Interpretation (the secret Twist):* The outcome is **inverted**.
-    - *If he wins:* His plan works *exactly* as intended... but on the wrong target (the net falls on the Clumsy Duo). He believes he succeeded, but narratively it is a disaster.
-    - *If he loses (GM Exploit):* The plan collapses miserably... and it is precisely the pulley coming loose that knocks out the ghost. The player curses his dice, but the GM announces total victory!
+Scooby-Doo tests how far it can **rise toward simplicity without becoming generic**.
 
-##### **Lovely Klutz: The Magnet**
+The space between them remains open.
 
-The Klutz could play with pink dice, if you have some.
+[Read Resonance: Scooby-Doo →](https://aleascript.github.io/resonance/en/scooby-doo)
 
-**Involuntary Charm (Crossed Pairs)**
+---
 
-- **The Rule:** If one of her pink dice forms an exact pair with the GM's highest die (or a "6"), the monster is awestruck, charmed, or completely distracted by her.
-- **The Fiction:** The monster stops mid-roar to pick up the mirror she dropped. Or she looks at it wide-eyed and says: *"But... you are the museum curator, not a werewolf!"*, creating an awkward silence. The opposition is literally neutralized by seduction or innocence, without any fight.
+# 9. Prism Workshop
 
-**The Plot "Oops" (Runs)**
+This section is **not** a list of recommended rules or a catalogue of official Prisms.
 
-Tell the Klutz that her goal is to form runs (or identical numbers), because they are pretty. That encourages her to take simple actions with few Bets: her klutzy side — no elaborate schemes.
+It is a **game design workshop**.
 
-- **The Rule:** If her dice form a run (e.g. 2-3-4 or 3-4-5 or 1-1-1 etc.), regardless of whether she succeeds or fails against adversity, she triggers an "Oops."
-- **The Fiction:** She tips the story in a notable way. She leans against a fake bookshelf to retie her lace and opens the secret lair. She presses the red button thinking she is turning on the light and disables the force field. She finds the plot shortcut by pure accident.
+The proposals below are deliberately experimental. Their purpose is to explore what Resonance makes it possible to think about when we take seriously the idea that a relationship to the world can transform resolution itself.
 
-**Otherwise, nothing happens?**
+The right way to use this workshop is therefore not:
 
-If she makes neither a run nor a pair with the monster, and "misses" her roll, the consequence for her is never violence or death (this is Scooby-Doo).
+> *Which Prism should I copy?*
 
-- For her, failure simply means: she breaks a nail, gets separated from the group, or gets locked in a VIP room with a tray of petit fours while waiting to be rescued. The monster never harms her; it just puts her "aside."
+but:
 
-### 🍔 The Mystery of the Last Fry Motel
+> **What does this example teach me about the design space?**
 
-#### The Pitch (opening scene)
+## Transforming the relationship to prediction and probability
 
-It is night, pouring rain. The Van breaks down (the GM uses the Van sheet's keywords to justify black smoke under the hood). The team is forced to stop at the **"Bates Burger & Motel"**, a seedy 1950s roadside stop lost on an abandoned road.
-The manager, old Mr. Grossi, welcomes them trembling: *"Run... The Ghost of the Mad Cook is back! He haunts the kitchens with his fluorescent spatula!"*
+### Prophecy — Commitment
 
-#### The Monster
+Before rolling, the player announces the exact number of Successes they expect to obtain.
 
-**The Ghost of the Mad Cook:** A specter covered in glistening grease, shrieking terrifying recipes, walking through walls (apparently).
+Getting the prediction exactly right produces an exceptional result; missing it turns the test into a failure or strong consequence depending on the game.
 
-#### Main Obstacle: Solving the Mystery
+The player may be encouraged to **voluntarily reduce the number of Bets** they commit in order to make their own prophecy more credible.
 
-To unmask the monster, the team must gather **3 Keys** (the GM keeps their exact nature secret until the players uncover them through their actions):
+The game thus turns supposed knowledge of the future into present behavior.
 
-1. **The Motive:** Beneath the kitchen lies an old smuggling cellar full of Prohibition-era liquor worth a fortune.
-2. **The Trickery:** Jars of phosphorescent paint and a map of the dumbwaiter network (which lets the ghost vanish from floor to floor).
-3. **The Culprit:** It is actually the local real estate developer, Mr. Zellani, who wants to terrify old Grossi so he can buy the motel for next to nothing.
+**Possible diegetic expressions:** oracle, prescience, a calculator able to commit to a prediction.
 
-#### The 3 Acts (how to let your Prisms shine)
+### Balance — Duality
 
-##### Act 1: First Contact (around a cold burger)
+The player divides their Bets into two distinct sets.
 
-- **The Scene:** The group settles in to eat while the Van cools down. Suddenly, the lights flicker and the Mad Cook bursts out of the kitchen fridge screaming!
-- **Expected mechanics:**
-    - This is the perfect moment for a *Draw Without Opposition* by the **Clumsy Duo**, attempting to flee with the biggest sandwich they can carry.
-    - **Pretty Boy** will surely shout: *"Let's split up to surround the kitchen!"* (justifying his keyword).
+The quality of the result depends less on the raw total than on the proximity between the two sets: balance becomes mechanically desirable.
 
-##### Act 2: Exploring the Motel (hunting the Keys)
+**Possible diegetic expressions:** philosophy of the mean, complementary elemental forces, Yin-Yang discipline, balance between two natures of the character.
 
-The monster prowls the motel. The group searches for clues (the 3 Keys).
+## Transforming the relationship to adversity
 
-- **Room 13 (Lovely Klutz):** She goes to touch up her makeup in an abandoned room. The ghost appears! If she rolls a run with her pink dice (the plot *Oops*), she grabs the coat rack while screaming, pivoting the wall and revealing the dumbwaiter network (Key #2 found!).
-- **The boiler room (Brainiac):** While inspecting the pipes, the monster attacks her. She makes her choice: she loses her glasses (failed roll, covered in soot), but feeling along the floor, she finds a dry-cleaning ticket in the name of Mr. Costard (Key #3 found!).
+### Symbiosis — Mimicry
 
-##### Act 3: The Grand Trap (the climax)
+A player's die becomes a Success only if it shows exactly the same value as a die in the adversity pool.
 
-Now that the group understands something is going on, they must capture the ghost.
+You therefore do not win by simply producing more independent successes.
 
-- **The Scene:** Pretty Boy devises a plan involving luggage carts, tomato sauce, and a giant fan.
-- **Expected mechanics:** This is his moment of glory. He makes his opposed draw with reversal. The monster slips on the puddle of tomato sauce, destroys Pretty Boy's trap, but knocks itself out against the fridge door!
+You win by finding **a form of correspondence with what you are facing**.
 
-##### Epilogue
+**Possible diegetic expressions:** telepathy, absolute diplomacy, assimilation, neural hacking, magic based on attunement or copying.
 
-We rip off the plastic mask: *"Mr. Zellani?!"*
+### Parasite — Corruption
 
-*"And I would have gotten away with it if it weren't for you and that blasted dog!"*
+Some low results allow the player to take, move, or exchange elements of the opposing pool.
 
-#### Timeline
+The character's strength then literally comes from what they steal from the other side.
 
-**Character and Van selection: ~15 to 20 minutes**
+**Possible diegetic expressions:** necromancy, corruption, curse, parasitic organism.
 
-This is the icebreaker phase.
+## Transforming the nature of the medium
 
-- Reading the sheets is immediate.
-- Players spend 10 minutes making the keywords their own (crossing some out, adding one or two) and defining their bonds (who loves whom, who despises whom).
-- Creating the Van takes 5 minutes of collective debate (deciding whether it is rusty or smells of cold pizza).
+### Weaver — Cards
 
-**The rules "pitch": ~5 minutes**
+Each Bet lets the player draw a card instead of rolling a die.
 
-This is the great advantage of your diegetic approach: the mental load sits with you.
+Combinations — pairs, runs, suits, or colors — produce Successes or additional information.
 
-- You have no complex mechanics to explain.
-- You announce the social contract (the GM guarantees the fiction, keywords yield dice, even numbers are Successes).
-- You drop a teaser about how the universe will react differently to each of them. It goes by very fast.
+The medium itself becomes part of the perspective.
 
-**The Session (the scenario): ~1h30 to 2h00**
+### Ascension — variable dice
 
-The pace of a cartoon-style mystery must stay brisk, or the joke wears thin.
+Bets can justify dice of different sizes.
 
-- **Act 1 - Arrival and the first scare (20 to 30 min):** Time to set the mood, give voice to the old NPC manager, and trigger the monster's first appearance to send everyone running.
-- **Act 2 - Exploring (45 to 60 min):** This is the heart of the game. Fred splits the group. We cut from the Brainiac searching for clues to the Klutz opening secret passages by mistake, while the Clumsy Duo raids the kitchen. As soon as you have dealt out the 3 Keys (the Motive, the Trickery, the Culprit), cut it short and move to the finale.
-- **Act 3 - The botched trap and the reveal (20 to 30 min):** Planning the scheme, rolling dice (with those famous reversals), the absurd capture, and the unmasked villain's monologue.
+An important result may depend not only on high values but on the ability to make a progression appear across several die sizes.
 
-**The slowdown factor (the Reality Check)**
+The character is no longer merely trying to "roll high": they are trying to produce a form of transcendence.
 
-At a real table, what eats time with narrative games is **negotiating the Bets**.
-Players will try to bend the fiction to justify dice. To keep the 2-hour window, your job as GM is to rule fast, always favoring humor: *"No, your turtleneck doesn't help you run faster, but if you tell me you trip because of your myopia, I'll give you the die."*
+## Transforming the relationship to solitude
+
+### Isolation — Singularity
+
+The presence of allies reduces the character's power or disturbs the way they act.
+
+One version might remove a die or neutralize a Success for each directly involved ally.
+
+Conversely, when the character acts entirely alone, some failed results could be rerolled or transformed.
+
+**Possible diegetic expressions:** cursed berserker, assassin whose magic requires solitude, keeper of a secret who loses power in the presence of a witness.
+
+This kind of Prism can shape **the very composition of the scenes the player prefers to seek out**.
+
+## Transforming the relationship to the group
+
+### Synergy — Gestalt
+
+Success cannot be entirely individual.
+
+In a simple version, a Success exists only when one of the character's dice finds exactly the same value in an ally's roll.
+
+In another, every ally present lets the character turn one category of failure into a Success or opens an additional pattern.
+
+**Possible diegetic expressions:** collective consciousness, telepathic twins, networked artificial intelligences, military phalanx, magical choir.
+
+## Transforming collaboration into toxic dependence
+
+### Parasitic Prisms — Dependence
+
+Collaboration exists, but it is asymmetric: one character benefits by taking something away from the others.
+
+They may gain extra Successes by taking dice from allies' pools, or protect their own Defeat by destroying a nearby ally's Success.
+
+**Possible diegetic expressions:** psychic vampire, necromancer, toxic leader, noble whose status protects them at the expense of their servants.
+
+Here, the Prism does not merely simulate an unpleasant personality.
+
+It makes the group mechanically feel **the toxic relational structure** the character imposes on it.
+
+## What the Workshop is trying to show
+
+These prototypes do not claim to be balanced against one another or even compatible within the same game.
+
+They explore several directions:
+
+- transforming probability;
+- transforming what the player looks for in a roll;
+- transforming the relationship to adversity;
+- transforming the relationship to allies;
+- transforming the desired composition of a scene;
+- transforming the medium;
+- transforming the form of the result itself;
+- producing, when it serves the game, a standalone result without an opposing pool.
+
+> **The Workshop does not define Resonance's limits. It helps search for them.**
+
+---
+
+# In summary
+
+Resonance begins from a simple idea:
+
+> **Fiction determines what matters.**
+
+Its standard configuration lets you play immediately:
+
+> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
+
+But the framework does not stop there.
+
+The Focus selects the relevant reality.
+
+The grammar of relevance teaches the table where to look.
+
+Frame Factors close off what does not belong to the space of possibilities.
+
+Prisms can transform the way uncertainty becomes a result.
+
+The sheet preserves lasting truths that a future resolution may bring back into play.
+
+And resolution always returns to the fiction from which it began.
+
+> **You can play Resonance as it is.**  
+> **You can also design with Resonance so that the world transforms the rules that bring it to life.**

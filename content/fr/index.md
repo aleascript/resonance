@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Manifeste de Resonance
+title: Resonance — SRD
 lang: fr
 permalink: /fr/
 ---
@@ -9,121 +9,43 @@ permalink: /fr/
 
 # Resonance
 
-## En résumé
+**Resonance est un framework de game design pour jeux de rôle dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
 
-**Resonance** est un framework de résolution cognitive et de game design diégétique dont la spécificité est une résolution ontologique et perspectiviste.
+Il fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
 
-**Resonance Core** fournit le moteur générique : il transforme ce qui compte dans une situation fictionnelle en résolution.
+On peut simplement jouer.
 
-**Resonance Prismes** déterminent comment cette résolution prend sens depuis une perspective vécue du monde.
+Ou l’on peut aller plus loin et faire résonner la résolution avec un monde, une culture, une cosmologie, un genre, un trope ou une perspective particulière.
 
-**Glorantha Perspectives** démontre une implémentation complète.
+> **Resonance est complet pour jouer et ouvert pour concevoir.**
 
-Le système ne définit pas le monde. **le monde définit le système.**
+La distinction utile n’est pas entre un moteur de base et des modules supplémentaires, mais entre trois niveaux :
 
-Et lorsque les mécaniques deviennent une extension de la fiction, **le joueur ne joue plus les règles. Il joue le monde.**
+- **les invariants de Resonance**, qui définissent son geste fondamental ;
+- **la configuration standard**, qui fournit des choix simples et immédiatement jouables ;
+- **les choix de design**, qu’un jeu peut conserver ou transformer pour exprimer son monde.
 
-Resonance part ainsi du game design diégétique et le pousse jusqu'à la résolution perspectiviste : non seulement la fiction détermine ce qui compte, mais la manière dont un personnage habite le réel peut déterminer comment ce réel se résout.
+> **Resonance définit ce qui doit être décidé.**  
+> **La configuration standard fournit une décision par défaut.**  
+> **Un jeu Resonance peut conserver ou transformer ces décisions.**
 
-## Un framework de résolution cognitive et de game design ontologique et perspectiviste
+---
 
-**Resonance n'est pas un jeu de rôle.**
+# 1. Découvrir Resonance
 
-C'est un framework pour concevoir des jeux de rôle dans lesquels **la résolution émerge directement de la fiction**.
-
-Au lieu de demander :
-
-> *Quel est le pourcentage de réussite de mon personnage ?*
-
-Resonance demande :
-
-> **Dans ce personnage et dans cette situation, qu'est-ce qui compte vraiment, maintenant ?**
-
-Le joueur regarde la scène.
-
-Il identifie ce qui compte.
-
-Il fait entrer les éléments pertinents de la fiction dans la résolution.
-
-Puis les dés répondent.
-
-**Aucun calcul sur la feuille de personnage.**  
-**Aucune recherche du modificateur optimal.**  
-**Aucune interface mécanique entre le joueur et le monde.**
-
-La règle devient une extension du regard du joueur.
-
-## L'idée derrière Resonance
-
-La plupart des jeux de rôle placent un système mécanique entre le joueur et le monde fictionnel.
-
-Un personnage possède des caractéristiques.
-
-Ces caractéristiques deviennent des chiffres.
-
-Les chiffres deviennent des modificateurs.
-
-Les modificateurs interagissent avec des probabilités.
-
-Et finalement, un résultat nous dit ce qui se passe.
-
-Resonance propose une approche différente.
-
-### La fiction passe en premier
-
-Lorsqu'un personnage tente quelque chose, le joueur considère naturellement :
-
-- qui est le personnage ;
-- ce qu'il a vécu ;
-- ce qu'il sait ;
-- ce qu'il porte ;
-- qui l'aide ;
-- ce que fait l'environnement ;
-- ce qu'il craint ;
-- ce qu'il veut ;
-- ce qui se met en travers de son chemin.
-
-Ces éléments sont déjà porteurs de sens.
-
-**Resonance leur donne simplement un poids mécanique.**
-
-La question n'est pas : *À quel point es-tu bon dans ce domaine ?*
-
-C'est : **Qu'est-ce qui te donne du levier ici ?**
-
-C'est l'idée fondamentale de **Resonance Core**.
-
-## Deux dimensions complémentaires
-
-Resonance repose sur deux opérations distinctes mais inséparables.
-
-**Resonance Core** sélectionne le réel pertinent : parmi tout ce qui existe dans la fiction, qu'est-ce qui compte pour cette intention, dans cette situation, maintenant ?
-
-**Resonance Prismes** déterminent comment ce réel pertinent devient conséquence depuis une perspective vécue.
-
-On peut résumer la boucle ainsi :
-
-> **Monde → Pertinence → Perspective → Résolution → Monde transformé**
-
-Il n'existe donc pas nécessairement de réalité mécanique privilégiée extérieure à la fiction : la mécanique peut devenir la traduction locale d'une relation au réel.
-
-# Jouer avec Resonance
-
-Avant d'expliquer les concepts, voici le geste de table.
-
-## Un exemple en quelques secondes
+## Une scène en quelques secondes
 
 > **Meneur :** La porte de pierre commence à se refermer. Que fais-tu ?
 >
-> **Joueur :** Je cours pour passer avant qu'elle se ferme.
+> **Joueur :** Je cours pour passer avant qu’elle se ferme.
 >
-> **Meneur :** Très bien. Qu'est-ce qui compte ici ?
+> **Meneur :** Très bien. Qu’est-ce qui compte ici ?
 >
-> **Joueur :** Je suis rapide. Et j'avais déjà commencé à courir.
+> **Joueur :** Je suis rapide. Et j’avais déjà commencé à courir.
 >
 > **Meneur :** Oui. Mais le sol est couvert de gravats.
 >
-> **Joueur :** Ah. Et je suis blessé à la jambe.
+> **Joueur :** Et je suis blessé à la jambe.
 >
 > **Meneur :** Exact. Autre chose ?
 >
@@ -131,55 +53,320 @@ Avant d'expliquer les concepts, voici le geste de table.
 >
 > **Meneur :** Alors voyons ce qui arrive.
 
-Voilà Resonance.
+Voilà le geste fondamental de Resonance.
 
-Le monde fictionnel contient une infinité de détails potentiels. La table vient d'en sélectionner quelques-uns parce qu'ils comptent pour une intention précise.
+Le monde fictionnel contient toujours plus de détails qu’une résolution ne peut en prendre en compte. La table sélectionne ceux qui comptent pour la question présente, les met en jeu, résout l’incertitude, puis utilise le résultat pour transformer la fiction.
 
-## 1. Intention
+Resonance ne commence donc pas par demander :
 
-Le joueur dit ce qu'il cherche réellement à obtenir.
+> *Quelle valeur de ma feuille s’applique ? Quel bonus puis-je ajouter ?*
 
-On ne parle pas encore de dés.
+Il commence par demander :
 
-> *Je veux empêcher le garde d'atteindre la porte.*
+> **Qu’est-ce qui compte ici ?**
 
-## 2. Focus
+La règle ne cherche pas à remplacer le regard porté sur la scène.
 
-La table précise la question que la résolution va trancher.
+**Elle prolonge ce regard.**
 
-> *Est-ce que tu réussis à l'arrêter avant qu'il donne l'alerte ?*
+## La boucle de résolution
 
-Le **Focus** définit le monde pertinent pour cette résolution.
+Une résolution Resonance suit une boucle simple :
 
-Tout ce qui se trouve sur la feuille de personnage n'est pas important.
+1. **Dire ce que l’on veut obtenir.**
+2. **Cadrer la question et son échelle.**
+3. **Rendre explicites les conséquences importantes lorsque c’est nécessaire.**
+4. **Identifier ce qui compte pour cette question.**
+5. **Écarter ce qui est hors sujet ou redondant à cette échelle.**
+6. **Résoudre l’incertitude.**
+7. **Lire la forme du résultat.**
+8. **Interpréter ce résultat à partir de ce qui a été mis en jeu.**
+9. **Continuer depuis le monde transformé.**
 
-Tout ce qui existe dans le monde n'est pas important.
+Cette boucle constitue le cœur de Resonance. La manière de matérialiser ou de lire l’incertitude peut varier d’un jeu à l’autre ; pour apprendre à jouer, nous utiliserons d’abord la **configuration standard**.
 
-Le groupe détermine ce qui est pertinent **maintenant**.
+## Le contrat de table vient avant la mécanique
 
-## 3. Identifier les Mises
+Resonance demande régulièrement à la table de juger ce qui compte dans la fiction. Cette liberté suppose un cadre partagé.
 
-Chaque camp identifie les éléments de la fiction qui soutiennent son objectif ou entravent l'objectif adverse.
+Avant de jouer, la table devrait savoir au moins :
 
-Ces éléments deviennent des **Mises**.
+- quel monde et quel ton elle cherche à faire vivre ;
+- quel degré de danger elle accepte ;
+- qui arbitre en cas de désaccord sur une Mise ;
+- quelles limites ou sensibilités doivent être respectées ;
+- si certaines conséquences doivent toujours être annoncées avant qu’un joueur s’y expose ;
+- quels outils optionnels de cohérence ou de sécurité elle souhaite employer.
 
-Il ne s'agit pas de trouver tous les avantages possibles.
+Le contrat social ne remplace pas les règles. Il donne le contexte dans lequel les jugements de pertinence peuvent fonctionner sans devenir une négociation permanente.
 
-Il s'agit d'identifier ce qui compte réellement dans la situation actuelle.
+---
 
-Un personnage peut être exceptionnel à l'épée.
+# 2. Cadrer une résolution
 
-Mais si le conflit actuel est une négociation politique, cette compétence n'est peut-être pas une Mise.
+## L’Intention : qu’est-ce que tu essaies réellement d’obtenir ?
 
-Le personnage peut en revanche avoir une dette envers la personne avec laquelle il négocie.
+Le joueur commence par dire ce qu’il cherche à accomplir dans la fiction.
 
-Cette relation peut en être une.
+> *Je veux empêcher le garde d’atteindre la porte.*
 
-**Le Focus détermine ce qui entre dans la résolution.**
+L’**Intention** n’est pas une capacité, une action standardisée ou une entrée de menu.
 
-## 4. Relance et contre-Mises
+C’est ce que le personnage cherche réellement à obtenir.
 
-Une Mise peut faire apparaître immédiatement une autre pertinence.
+Une même Intention peut être poursuivie de nombreuses manières. Resonance ne demande pas d’abord quelle règle correspond à l’action. Il demande ce qui, dans la fiction, va réellement peser sur ce que le personnage tente de faire.
+
+## Les conséquences importantes doivent être visibles
+
+Le mot **enjeu** peut être utilisé dans son sens courant pour parler de ce qui risque d’être gagné, perdu ou transformé, mais il ne constitue pas un concept mécanique distinct de Resonance.
+
+Ce qui importe est plus simple : **les joueurs doivent pouvoir connaître les conséquences significatives auxquelles leur décision les expose lorsqu’elles ne sont pas évidentes.**
+
+> **Joueur :** Je saute du toit pour atteindre l’autre bâtiment.
+>
+> **Meneur :** D’accord. À cette distance, si tu tombes, la chute peut être mortelle. Tu le fais quand même ?
+
+La précision nécessaire dépend du contrat de table et du jeu utilisé.
+
+Le but n’est pas d’annoncer tout ce qui pourrait arriver, mais de permettre au joueur de prendre une décision éclairée **depuis la situation de son personnage**.
+
+## Le Focus : quelle question résolvons-nous ?
+
+La table précise ensuite la question à laquelle la résolution doit répondre.
+
+> *Est-ce que tu réussis à arrêter le garde avant qu’il donne l’alerte ?*
+
+Cette question définit le **Focus**.
+
+Le Focus ne décrit pas tout ce qui se passe dans la scène. Il détermine **ce que cette résolution regarde**.
+
+Tout ce qui existe sur la feuille de personnage n’est pas forcément pertinent.
+
+Tout ce qui existe dans le monde n’est pas forcément pertinent.
+
+Même un élément important dans l’histoire peut ne pas compter pour cette résolution précise.
+
+## Le Zoom : à quelle échelle ?
+
+Le Focus possède une échelle. Resonance appelle cette propriété le **Zoom**.
+
+> **Le Focus dit ce que nous résolvons.**  
+> **Le Zoom dit à quelle échelle nous le résolvons.**
+
+Choisir le Focus, c’est donc aussi choisir la largeur de la question posée à la fiction.
+
+### Zoom Action
+
+Le Focus porte sur un geste ou un moment précis.
+
+> *Passer la porte avant qu’elle se referme.*
+
+L’espace des Mises est naturellement restreint. Plusieurs formulations d’un même avantage tendent à être redondantes parce que la résolution observe un instant étroit.
+
+### Zoom Séquence
+
+Le Focus porte sur une succession cohérente d’actions.
+
+> *Traverser les toits et semer les gardes avant d’atteindre le temple.*
+
+Des éléments qui auraient été redondants dans une action ponctuelle peuvent devenir distincts parce qu’ils concernent différentes dimensions ou étapes de la séquence : endurance, connaissance du quartier, aide d’un complice, pluie qui rend les tuiles glissantes, peur d’être reconnu.
+
+### Zoom Script
+
+Le Focus couvre un ensemble plus large : voyage, enquête, campagne militaire, négociation prolongée, projet complexe.
+
+> *Faire parvenir une caravane jusqu’à la cité assiégée.*
+
+Le personnage ou le groupe peut alors mobiliser plusieurs dimensions réellement différentes : relations, logistique, réputation, savoir, endurance, richesse, protection politique, préparation ou sacrifices.
+
+Ce ne sont pas « plus de bonus parce que le conflit est plus long ».
+
+**Ce sont davantage de dimensions pertinentes parce que la question posée est plus vaste.**
+
+Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour chaque type de scène.
+
+---
+
+# 3. Mettre la fiction dans la balance
+
+## La feuille de personnage : une mémoire de la fiction
+
+Resonance utilise une feuille de personnage, mais celle-ci n’est pas organisée autour de niveaux, de classes ou de valeurs numériques à faire progresser.
+
+Elle est essentiellement **littéraire et signifiante** : mots-clés, relations, états, objets, appartenances, convictions, symboles, blessures, serments, réputations ou autres éléments propres à l’univers de jeu.
+
+Par exemple :
+
+- *Vétéran de la guerre du Nord* ;
+- *Serment envers la Maison Rouge* ;
+- *Jambe blessée* ;
+- un symbole religieux ;
+- le nom d’un allié ou d’un rival ;
+- une Rune, un titre, une dette ou une marque importante pour le jeu.
+
+La feuille est l’une des mémoires persistantes de ce qui est vrai au sujet du personnage.
+
+Elle n’est ni la seule source de Mises, ni un catalogue de bonus automatiques.
+
+> **Lire sa feuille ne consiste pas à chercher ce qui rapporte un dé.**  
+> **Cela consiste à se rappeler qui est le personnage et ce qui est vrai de lui.**
+
+Un mot-clé écrit sur la feuille peut être parfaitement vrai sans être pertinent dans le Focus présent.
+
+Inversement, une vérité décisive de la scène peut devenir une Mise alors qu’elle n’a jamais été inscrite sur aucune feuille.
+
+## L’espace de pertinence du personnage
+
+La feuille décrit aussi une partie de l’**espace de pertinence** actuel du personnage : les vérités durables qui le constituent et que la fiction pourra éventuellement rendre pertinentes.
+
+Cet espace n’est ni un niveau de puissance ni une liste de capacités activables.
+
+Il décrit ce que le personnage est devenu : ce qu’il sait, ce qu’il croit, ce à quoi il appartient, ce qu’il aime ou déteste, ce qu’il porte, ce qu’il a subi, les liens qui l’engagent et les symboles qui ont un sens pour lui.
+
+Un jeune guerrier peut par exemple commencer avec :
+
+> *Clan* — *Maître* — *Devoir* — *Réputation* — *Obéissance*
+
+Puis son histoire peut faire apparaître :
+
+> *Compassion* — *Amour personnel* — *Doute* — *Vérité* — *Refus d’un ordre injuste*
+
+Certaines vérités s’ajoutent. D’autres disparaissent. D’autres encore se transforment :
+
+> *Obéissance au maître* → *Doute envers le maître* → *Trahi par mon maître*
+
+Le personnage ne gagne pas nécessairement une capacité.
+
+**Son espace de pertinence se transforme.**
+
+C’est ainsi que Resonance pense la progression : non comme une montée numérique intrinsèque, mais comme la transformation des vérités capables de compter.
+
+> **Progresser, dans Resonance, c’est transformer ce qui peut compter.**
+
+## Les Mises
+
+Les éléments que la table fait compter deviennent des **Mises**.
+
+> **Une Mise est une vérité fictionnelle que le jeu et la table rendent pertinente pour le Focus présent.**
+
+Une Mise existe dans la fiction avant d’exister dans la mécanique.
+
+Elle peut provenir, entre autres :
+
+- du personnage ou de sa feuille : expérience, capacité, état, réputation, peur, conviction ;
+- de ses relations : allié, dette, rivalité, serment, amour, loyauté ;
+- de la situation : position, préparation, surprise, urgence ;
+- de l’environnement : pluie, obscurité, terrain, foule, incendie ;
+- de l’adversité : faiblesse, avantage, discipline, nombre, connaissance ;
+- du monde : coutume, tabou, statut, magie, cosmologie ou contrainte particulière ;
+- de tout autre élément que le jeu et la situation rendent réellement significatif.
+
+Cette liste n’est pas exhaustive.
+
+Une Mise n’est donc pas un bonus abstrait attaché au personnage.
+
+Mais tout élément vrai dans la fiction n’est pas automatiquement une Mise.
+
+La question n’est pas :
+
+> *Puis-je trouver une justification pour ajouter ceci ?*
+
+La question est :
+
+> **Est-ce que ceci compte vraiment dans la résolution que nous regardons ?**
+
+On peut résumer le mouvement ainsi :
+
+> **La fiction propose. Le Focus sélectionne. La Mise actualise.**
+
+## Une Mise peut aider ou nuire
+
+Une Mise n’est pas nécessairement favorable au personnage qui la formule.
+
+> *Je connais parfaitement cette forêt.*
+
+peut jouer en sa faveur.
+
+> *Je suis blessé à la jambe.*
+
+peut jouer contre lui.
+
+Mais leur pertinence dépend toujours du Focus **et du jeu que la table cherche à faire vivre**.
+
+Une blessure peut être centrale dans un jeu où la vulnérabilité physique est constamment mise en avant et rester en arrière-plan dans un autre jeu qui s’intéresse davantage au drame politique ou aux relations.
+
+Une Mise n’est donc pas « objectivement importante » dans l’absolu.
+
+Elle devient importante ici, dans ce jeu, pour cette résolution.
+
+## Une Mise est aussi un choix de regard
+
+La pertinence n’est pas seulement causale.
+
+Dans une fiction, nous ne prêtons jamais la même attention à tous les détails possibles. Le jeu, la scène et la table mettent certaines choses en avant.
+
+Le regard malicieux d’un vieux sage peut compter parce que le récit nous a appris à y reconnaître sa sagesse.
+
+L’orage autour d’un duel peut compter parce que ce jeu donne une importance particulière aux signes du monde.
+
+L’arrivée imminente d’un ennemi peut compter parce que toute la scène est traversée par cette urgence.
+
+La maladresse légendaire d’un personnage peut compter parce qu’elle est devenue un motif de la fiction.
+
+Les participants ne font donc pas que constater passivement ce qui serait causalement important.
+
+**Ils choisissent aussi ce que cette fiction mérite de regarder maintenant.**
+
+Cette sélection n’est pas arbitraire : elle est guidée par le monde, le genre, les tropes, les règles du jeu et ce que la table a appris à considérer comme significatif.
+
+## Pertinence et non-redondance
+
+Un monde riche permet presque toujours de formuler plusieurs raisons très proches pour expliquer le même avantage.
+
+> *Je suis un excellent épéiste.*  
+> *J’ai été entraîné depuis l’enfance.*  
+> *Je suis vétéran de trois guerres.*
+
+Ces trois faits peuvent être vrais sans constituer trois Mises distinctes.
+
+La question est :
+
+> **À l’échelle de ce Focus, représentent-ils réellement plusieurs choses différentes que la résolution veut mettre en jeu ?**
+
+Si les trois formulations disent simplement « il est très expérimenté à l’épée » dans un échange de quelques secondes, elles sont probablement redondantes.
+
+Dans une résolution plus vaste, elles pourraient au contraire devenir distinctes si elles interviennent dans des dimensions différentes de la situation.
+
+La non-redondance n’est donc pas une règle comptable.
+
+Elle dépend du Focus et de son Zoom.
+
+## Clore les Mises
+
+La table n’a pas besoin de trouver tout ce qui pourrait théoriquement compter.
+
+Dans un univers riche, cette recherche n’aurait pas de fin.
+
+Le critère est plus simple :
+
+> **Quand personne ne voit immédiatement quelque chose d’autre qui compte et qui ne répète pas ce qui a déjà été posé, on résout.**
+
+Une Mise ne devrait pas être le résultat d’une fouille exhaustive de la feuille, du lore ou de la scène.
+
+> **Une Mise ne se cherche pas. Elle se remarque.**
+
+Le rite de table peut rester extrêmement léger :
+
+> **Qu’est-ce qui compte ici ?**  
+> **Autre chose ?**  
+> *Silence.*  
+> **Alors voyons ce qui arrive.**
+
+La conversation sert à rendre la situation suffisamment claire pour être résolue, pas à maximiser un pool.
+
+## Opposition et contre-Mises
+
+Une Mise peut naturellement faire apparaître une vérité favorable à l’autre camp.
 
 > **Joueur :** Je suis déjà entre lui et la porte.
 >
@@ -189,1005 +376,1011 @@ Une Mise peut faire apparaître immédiatement une autre pertinence.
 >
 > **Meneur :** Mais deux soldats arrivent derrière toi.
 
-La conversation ne sert pas à accumuler artificiellement des bonus. Elle rend progressivement la situation suffisamment claire pour être résolue.
+Cette conversation n’est pas une négociation de bonus. Elle fait apparaître progressivement les différents éléments que la fiction rend pertinents.
 
-Cette dynamique explique aussi pourquoi les oppositions ont tendance à s'équilibrer organiquement : une Mise peut révéler une contre-Mise ou déplacer le Focus.
+C’est aussi pourquoi les oppositions peuvent tendre à s’équilibrer organiquement : regarder une situation de plus près révèle souvent des éléments nouveaux pour plusieurs camps.
 
-## 5. Clore les Mises
+Cela ne signifie pas que chaque opposition doit être équilibrée.
 
-La question n'est pas de savoir s'il existe encore quelque chose qui *pourrait* être ajouté. Dans un monde fictionnel riche, il existe toujours d'autres faits.
+Un avantage fictionnel réel doit rester un avantage fictionnel réel.
 
-Le critère est plus simple :
+Les contre-Mises sont un **contrepoids organique** produit par l’exploration de la fiction, pas une obligation mathématique de rendre tous les pools égaux.
 
-> **Quand personne ne voit immédiatement quelque chose qui compte encore, on lance les dés.**
+---
 
-**Une Mise ne se cherche pas. Elle se remarque.**
+# 4. Résoudre et interpréter
 
-Si quelqu'un doit fouiller sa feuille, passer en revue toutes ses capacités ou construire laborieusement une justification, il est probablement en train de quitter le Focus pour rechercher un avantage mécanique.
+## La configuration standard
 
-Le rite conversationnel peut être aussi simple que :
+La configuration standard de Resonance permet de jouer immédiatement avec des dés à six faces.
 
-> **Qu'est-ce qui compte ici ?**
->
-> **Autre chose ?**
->
-> *Silence.*
->
-> **Alors voyons ce qui arrive.**
+Pour chaque camp :
 
-## 6. Résoudre
+- chaque Mise retenue apporte **un D6** à son pool ;
+- chaque résultat **pair** compte comme une **Réussite** ;
+- chaque résultat **impair** ne produit pas de Réussite ;
+- on compare ensuite le nombre de Réussites obtenues.
 
-Les Mises pertinentes déterminent la taille du pool de résolution.
+Cette opération transforme l’incertitude en un signal mécanique comparable : un nombre de Réussites.
 
-Les dés sont lancés.
+> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
 
-Mais les dés ne décident pas de tout à eux seuls.
+## L’échelle standard de résultat
 
-**La manière dont les dés sont interprétés dépend des Prismes du jeu.**
+### Égalité : Statu quo ou surenchère
 
-Chaque Prisme transforme son propre pool selon sa propre logique et produit une unité commune : les **Réussites**.
+Si les deux camps obtiennent le même nombre de Réussites, aucun camp ne s’impose clairement.
 
-Ce sont les Réussites qui sont ensuite comparées, et non les dés bruts de Prismes différents.
+Le résultat standard est un **Statu quo**.
 
-## 7. Interpréter
+Selon la fiction, il peut être raconté comme un maintien réel de la situation, un **Oui, mais…** ou un **Non, mais…**.
 
-Le résultat n'est pas un nombre isolé.
+Si les camps refusent d’en rester là, la configuration standard permet également une **surenchère** :
 
-C'est un changement dans la fiction.
+- on conserve les Mises déjà présentes ;
+- chaque camp ajoute une Mise représentant sa **volonté d’en finir** ;
+- on résout de nouveau avec ces pools augmentés.
 
-Une victoire de justesse.
+La surenchère rend mécaniquement présent le fait que les camps choisissent de pousser plus loin une confrontation qui aurait pu s’arrêter sur un équilibre.
 
-Une victoire décisive.
+Un jeu conçu avec Resonance peut choisir une autre philosophie de l’égalité. Ce qui importe est qu’il sache ce que l’égalité signifie dans sa propre fiction.
 
-Un échec.
+### Différence positive : Victoire / Défaite
 
-Une catastrophe.
+Si un camp obtient plus de Réussites que l’autre, il obtient une **Victoire** et l’autre camp subit une **Défaite**.
 
-Un statu quo.
+Pour l’Intention du camp gagnant, cela se lit généralement comme **Oui**.
 
-La résolution sert à répondre à la question dramatique et à faire avancer l'histoire.
+Pour l’Intention du camp perdant, cela se lit généralement comme **Non**.
 
-**Lancer → interpréter → la fiction change.**
+### Domination : amplification du résultat
 
-Le monde transformé devient ensuite le point de départ de la situation suivante.
+Dans la configuration standard, un résultat est **dominé** lorsque les deux conditions suivantes sont réunies :
 
-# Resonance Core
+1. l’écart est **strictement supérieur à 1 Réussite** ;
+2. le camp gagnant obtient **strictement plus du double** des Réussites du camp perdant.
 
-## L'Immersion comme Moteur
+Exemples :
 
-Resonance Core est **cognitif** car les joueurs n'ont qu'à s'immerger dans leur personnage et ce qu'ils font génèrent ou pas des mises valides.
+- `2–0` → résultat dominé ;
+- `3–1` → résultat dominé ;
+- `4–2` → Victoire / Défaite simples ;
+- `5–2` → résultat dominé ;
+- `6–3` → Victoire / Défaite simples.
 
-Le joueur n'est plus le comptable de ses propres statistiques. Sa seule "charge de travail" est d'être présent dans la scène, d'incarner son personnage et de prêter attention à son environnement. Si son roleplay est juste et que sa lecture de la situation est cohérente, les Mises se génèrent naturellement sans aucun calcul. C'est la définition même d'une charge cognitive allégée.
+La domination exprime une **asymétrie forte du résultat**, pas seulement un grand écart absolu.
 
-Et les joueurs ont juste en tête les règles de leur Prisme qui résonne avec leur personnage et donc leur roleplay.
+Elle ouvre la possibilité d’une amplification fictionnelle :
 
-## Un moteur générique pour résoudre l'incertitude à travers la fiction
+- le camp gagnant peut obtenir un **Exploit**, lu comme **Oui, et…** ;
+- le camp perdant peut subir un **Fiasco**, lu comme **Non, et…**.
 
-Resonance Core est le moteur de résolution générique au cœur de Resonance.
+Exploit et Fiasco ne sont pas automatiquement symétriques.
 
-Il ne définit pas un univers.
+Une réussite spectaculaire pour un camp ne transforme pas nécessairement l’échec de l’autre en catastrophe. Inversement, une Défaite peut avoir des conséquences particulièrement graves sans que le vainqueur accomplisse davantage que sa propre Intention.
 
-Il ne définit pas un genre.
+**La domination indique qu’une amplification est disponible ; la fiction détermine ce qu’elle signifie pour chaque côté.**
 
-Il ne définit pas la progression des personnages.
+## Interpréter : les Mises reviennent dans la fiction
 
-Il ne dit pas à quoi ressemble la magie, comment fonctionne le combat ou ce que croit le monde.
+Les Mises ne servent pas seulement à construire le pool avant le jet.
 
-Il fournit quelque chose de plus simple :
+**Elles fournissent aussi la matière de l’interprétation après le jet.**
 
-**une manière de transformer ce qui compte dans une situation fictionnelle en une résolution.**
+Lorsque le résultat est connu, la table possède déjà :
 
-C'est ici que Resonance introduit l'un de ses concepts fondamentaux : la **Mise**.
+- l’Intention ;
+- le Focus et son Zoom ;
+- les conséquences importantes éventuellement annoncées ;
+- ce qui comptait dans la fiction ;
+- l’orientation donnée par la résolution.
 
-## Les Mises
+Il ne reste donc pas à inventer une conséquence arbitraire à partir d’un nombre abstrait.
 
-Resonance utilise un terme spécifique pour désigner les éléments fictionnels qui peuvent influencer une résolution : **les Mises**.
+Imaginons une traversée de montagne où les Mises sont :
 
-Une Mise n'est pas un modificateur abstrait attaché à une feuille de personnage.
+- *la pluie battante* ;
+- *la peur de voir arriver les poursuivants* ;
+- *l’expérience des cols du personnage* ;
+- *la confiance de son compagnon*.
 
-**C'est quelque chose qui existe dans la fiction avant d'exister dans la mécanique.**
+En cas de Défaite, la pluie peut rendre le passage impraticable, l’urgence provoquer une mauvaise décision, l’expérience éviter une conséquence plus grave ou le compagnon rester en arrière pour permettre aux autres de continuer.
 
-Une Mise est un élément fictionnel que le joueur choisit de placer dans la balance de la résolution.
+Les dés donnent une orientation.
 
-Elle peut être n'importe quel élément qui compte dans la situation :
+**Les Mises donnent à la table la matière avec laquelle cette orientation devient fiction.**
 
-- une compétence ;
-- une expérience ;
-- un objet ;
-- une relation ;
-- une émotion ;
-- une condition environnementale ;
-- une faiblesse ;
-- un trait culturel ;
-- un avantage créé par la situation ;
-- ou tout autre élément qui a réellement de l'importance dans la fiction.
+Les mots **Oui**, **Non**, **Et** et **Mais** sont un vocabulaire pratique d’interprétation. Ils ne constituent pas une mécanique propre à Resonance.
 
-Une compétence n'est pas automatiquement une Mise.
+## Quand la résolution écrit sur la feuille
 
-Un avantage n'est pas automatiquement une Mise.
-
-Elle le devient lorsque le joueur choisit de s'appuyer dessus **ici et maintenant**.
-
-Chaque Mise contribue au pool de résolution.
-
-Vous ne calculez pas à quel point votre personnage est compétent.
-
-Vous décidez **sur quoi vous misez**.
-
-En ce sens, une Mise est une hypothèse sur ce qui va compter dans la situation.
-
-Vous pouvez espérer que votre expérience de la lance vous donnera l'avantage.
-
-Vous pouvez craindre que votre jambe blessée vous handicape.
-
-Vous pouvez penser que la peur de votre adversaire le fera hésiter.
-
-Les dés vont ensuite confronter ces mises à celles du camp adverse.
+Une conséquence durable peut ajouter, transformer ou supprimer un élément de la feuille lorsque la fiction le justifie.
 
 Par exemple :
 
-> *Mon personnage est blessé.*
+- *Jambe blessée* peut apparaître après une chute grave ;
+- *Confiance du compagnon* peut devenir *Méfiance du compagnon* ;
+- un serment peut être brisé ou remplacé ;
+- une réputation peut être gagnée ;
+- un objet, un symbole ou une marque peut être perdu ;
+- une nouvelle vérité peut apparaître à la suite d’un **Et** ou d’un **Mais**.
 
-> *Le pont s'effondre.*
+La feuille ne sert donc pas seulement à rappeler ce qui pouvait compter avant le jet.
 
-> *Je connais cette langue.*
+**Elle peut aussi conserver ce que la résolution a changé.**
 
-> *L'ennemi a peur.*
+Cette écriture n’a pas besoin d’être systématique. Beaucoup de conséquences restent locales à la scène ou au monde.
 
-> *Il pleut.*
+Mais lorsqu’un changement devient durable et appartient désormais à ce que le personnage est, possède, croit, subit ou représente, la feuille peut en devenir la mémoire.
 
-Si cet élément compte réellement dans la situation, il peut devenir une Mise.
+La boucle complète devient alors :
 
-## Mises et Enjeux
+> **fiction / feuille → Intention → Focus / Zoom → Mises → résolution → orientation → interprétation → fiction / feuille transformées**
 
-Les **Enjeux** sont ce qui peut être gagné, perdu ou modifié dans la situation.
+---
 
-Une **Mise** est un élément de la fiction placé dans la balance parce qu'il peut influencer ces Enjeux.
+# 5. Ce qui maintient la cohérence
+
+À première lecture, Resonance peut sembler offrir une liberté dangereuse : si presque n’importe quelle vérité fictionnelle peut devenir une Mise, pourquoi la table ne pourrait-elle pas simplement tout invoquer jusqu’à faire grossir les pools sans limite ?
+
+La réponse n’est pas un mécanisme unique.
+
+Resonance repose sur **plusieurs niveaux de cohérence qui agissent à des endroits différents** :
+
+1. **Le contrat de table** définit la manière de jouer ensemble et l’autorité confiée aux participants.
+2. **La grammaire de pertinence** indique dans quelles familles de sens le jeu invite la table à regarder.
+3. **Les Facteurs Cadres** ferment certaines possibilités.
+4. **Le Focus et son Zoom** déterminent ce que la résolution regarde ici et maintenant.
+5. **La pertinence et la non-redondance** déterminent ce qui peut devenir une Mise distincte.
+6. **L’opposition et les contre-Mises** font apparaître les contrepoids que la fiction porte déjà en elle.
+7. **La Jauge de Destin**, lorsqu’elle est utilisée, garde la mémoire des déséquilibres successifs.
+
+Ces outils ne font pas le même travail et ne doivent pas être confondus.
+
+## Les Facteurs Cadres : ce qui ferme l’espace des possibles
+
+Le Focus sélectionne ce qui compte, mais il ne peut pas abolir les contraintes fondamentales du monde ou de la situation.
+
+Un **Facteur Cadre** exprime une proposition suffisamment forte pour modifier l’espace même des Intentions, des moyens possibles ou des Mises recevables.
+
+Il ne donne pas un bonus ou un malus.
+
+**Il ferme une possibilité ou rend un moyen irrecevable tant que la fiction n’a pas changé.**
+
+### Facteur Cadre du monde
+
+> *Le voyage dans le temps n’existe pas dans ce monde.*
+
+Ce n’est pas une action très difficile. Elle n’appartient simplement pas à l’espace normal des possibles.
+
+### Facteur Cadre structurel
+
+> *On ne tue pas un dragon avec un cure-dent simplement en accumulant des Mises pertinentes.*
+
+Le problème n’est pas la taille du pool. Le moyen proposé ne permet pas d’ouvrir cette résolution sous cette forme.
+
+### Facteur Cadre local
+
+> *Cette réception exige une tenue formelle. En short, tu n’entres pas par la porte principale.*
+
+Le personnage peut changer de plan, trouver une autre entrée, se procurer une tenue ou transformer la situation.
+
+Le Facteur Cadre ne bloque donc pas nécessairement le jeu.
+
+**Il oblige la fiction à changer avant que certaines Intentions ou certains moyens deviennent recevables.**
+
+## La grammaire de pertinence : ce que le jeu apprend à remarquer
+
+La grammaire de pertinence fait presque le mouvement inverse.
+
+Elle ne ferme pas l’espace des possibles. Elle indique **où le jeu invite l’attention à se porter pour découvrir des vérités susceptibles de devenir des Mises**.
+
+Elle peut prendre la forme de familles sémantiques imbriquées.
 
 Par exemple :
 
-> **Enjeu :** Traverser la rivière avant l'arrivée des gardes.
+> **Relations**  
+> → serments, dettes, amours, rivalités  
+> → personnes ou liens concrets  
+> → vérités actuellement pertinentes  
+> → Mises possibles
 
-> **Mises :** Le personnage connaît la rivière, le courant est particulièrement fort, son compagnon est blessé et la nuit tombe.
+Ou :
 
-**Les Enjeux définissent ce qui peut être gagné ou perdu.  
-Les Mises définissent ce que chaque camp pense pouvoir influencer l'issue.**
+> **Identité culturelle**  
+> → appartenance, coutumes, tabous, valeurs, symboles  
+> → mots-clés particuliers du personnage et du monde  
+> → éléments que le Focus peut rendre pertinents
 
-Cette distinction est importante.
+Une feuille peut matérialiser une partie de cette grammaire.
 
-Une Mise n'est pas nécessairement un avantage.
+Mais la grammaire reste plus large que la feuille : elle existe aussi dans le lore, les personnages non joueurs, les institutions, les lieux, la magie, les tropes et les conventions de genre.
 
-Elle peut être quelque chose qui vous aide ou quelque chose qui joue contre vous.
+Elle n’est pas une liste exhaustive de Mises autorisées.
 
-Vous pouvez miser sur votre propre force.
+**C’est une organisation du regard.**
 
-Vous pouvez miser sur la faiblesse de votre adversaire.
+## Arbitrer une Mise
 
-Vous pouvez même miser sur une circonstance dangereuse si vous pensez qu'elle influencera la résolution en votre faveur.
+La table partage la responsabilité de faire apparaître ce qui compte, mais elle doit savoir comment trancher lorsqu’elle n’est pas d’accord.
 
-La question importante n'est donc pas de savoir si quelque chose est objectivement bon ou mauvais.
+Dans une configuration classique :
 
-La question est :
+- les joueurs proposent les éléments qu’ils voient comme pertinents ;
+- le meneur fait vivre l’adversité et le monde ;
+- la table confronte ces propositions au Focus, au Zoom, aux Facteurs Cadres et à la grammaire du jeu ;
+- le meneur tranche en dernier recours si le contrat de table lui confie cette responsabilité.
 
-> **Misez-vous sur le fait que cela compte ?**
+Cette validation ne devrait pas reposer sur le seul goût personnel de l’arbitre.
 
-Par contre, pour les jeux avec léthalité, ou un risque de blessure, le MJ devrait indiquer aux joueurs quand l'opposition présente un risque ou pas. Cela permet au joueur de revoir son objectif ou son plan pour se mettre dans une situation plus sûre.
+> **Le bon arbitre n’est pas celui qui décide ce qui l’arrange. C’est celui qui maintient la cohérence du monde, du jeu et du Focus partagé.**
 
-## Une résolution sans interface
+## La Jauge de Destin : garder la mémoire des déséquilibres
 
-Imaginez un personnage qui tente de traverser un champ de bataille dangereux.
+Les oppositions n’ont pas besoin d’être équilibrées une par une.
 
-Un système traditionnel pourrait demander :
+Un personnage réellement avantagé dans la fiction doit pouvoir bénéficier de cet avantage.
 
-**Quelle est votre caractéristique de déplacement ?  
-Quelle est la difficulté ?  
-Avez-vous un bonus ?  
-Quel est votre modificateur final ?**
+Pour les tables qui souhaitent néanmoins garder une trace des déséquilibres successifs, Resonance propose une **Jauge de Destin** optionnelle, commune au groupe.
 
-Resonance demande autre chose :
+Elle peut être matérialisée par :
 
-**Qu'est-ce qui compte ici ?**
+- des dés **bleus** en faveur des protagonistes ;
+- des dés **rouges** en faveur de l’adversité.
 
-Par exemple :
+Avant le tirage, si les pools sont déséquilibrés, la différence alimente la Jauge en faveur du camp actuellement désavantagé.
 
-- le personnage sait comment se déplacent les armées ;
-- son frère l'attend de l'autre côté ;
-- l'artillerie tombe autour de lui ;
-- il transporte un compagnon blessé ;
-- l'ennemi l'a repéré.
+> Les protagonistes possèdent 5 Mises et l’adversité 3.  
+> L’opposition reste **5 contre 3**.  
+> La Jauge reçoit **2 dés rouges**.
 
-Ces éléments peuvent devenir des Mises — si le joueur choisit de s'appuyer dessus.
+Plus tard :
 
-Le joueur ne cherche pas un chiffre sur sa feuille de personnage.
+> Les protagonistes possèdent 2 Mises et l’adversité 5.  
+> La Jauge devrait recevoir **3 dés bleus**.  
+> Un dé bleu et un dé rouge s’annulent d’abord : s’il restait 1 dé rouge, la Jauge contient ensuite 2 dés bleus.
 
-**Il regarde le monde.**
+La Jauge ne corrige donc pas immédiatement chaque déséquilibre.
 
-Il peut espérer que sa connaissance du champ de bataille l'aidera.
+**Elle conserve la mémoire mécanique de la manière dont la fiction a penché.**
 
-Il peut craindre que le fait de transporter un compagnon blessé le ralentisse.
+Les dés disponibles peuvent être dépensés plus tard selon l’autorité convenue par la table. Dans une configuration où le meneur contrôle l’adversité, il peut par exemple puiser dans les dés rouges pour renforcer une opposition future.
 
-Il peut décider que le fait d'avoir été repéré par l'ennemi est en réalité utile, parce que cela détourne l'attention de ses compagnons.
+Il n’est pas obligé de les dépenser à l’obstacle suivant, ni de les utiliser automatiquement.
 
-Le joueur ne calcule pas des probabilités.
+La Jauge est particulièrement utile à une table qui souhaite un filet de sécurité visible. Une table suffisamment confiante dans son arbitrage peut décider de ne pas l’utiliser.
 
-**Il porte un jugement sur ce qui compte.**
+---
 
-C'est l'expérience cognitive que Resonance cherche à produire.
+# 6. Faire varier et concevoir Resonance
 
-## Opposition et équilibre organique
+La configuration standard suffit pour jouer.
 
-En pratique, on observe que les mises sont finalement assez équilibrées quand on oppose deux camps, deux adversaires.
+Mais Resonance a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
 
-Si un joueur s'appuie brillamment sur la fiction pour justifier une Mise supplémentaire, ce même niveau de détail révèle souvent une Mise adverse organique.
+## Invariants et choix de design
 
-La difficulté d'un obstacle n'est souvent pas liée à l'équilibre d'une opposition unique mais au fait qu'il faille plusieurs oppositions pour en venir à bout. Chaque victoire peut être un petit pas vers la victoire finale, ou chaque échec vers l'échec final.
+Les éléments suivants constituent le geste de Resonance :
 
-## Le Zoom
+- partir d’une Intention fictionnelle ;
+- définir un Focus et son Zoom ;
+- rendre visibles les conséquences importantes lorsque le contrat de table le demande ;
+- sélectionner ce qui compte ;
+- éviter les redondances à l’échelle choisie ;
+- confronter les Mises à une forme d’incertitude ;
+- produire une forme de résultat exploitable par la fiction ;
+- interpréter ce résultat à partir de la fiction mise en jeu ;
+- repartir du monde transformé.
 
-Sans interface mathématique lourde, le MJ peut décider si un conflit se résout à l'échelle d'une simple action, d'une séquence complète ou d'un script.
+D’autres éléments appartiennent à la configuration standard et peuvent être transformés :
 
-Le même moteur peut donc résoudre un geste ponctuel, une négociation entière, un duel ou une séquence plus vaste selon le **Zoom** choisi.
+- utiliser des D6 ;
+- associer une Mise à un dé ;
+- lire les nombres pairs comme des Réussites ;
+- opposer deux pools ;
+- utiliser la même représentation physique pour toutes les Mises ;
+- employer l’échelle standard de résultats ;
+- employer la surenchère ;
+- utiliser la Jauge de Destin.
 
-Cela donne à la table un contrôle direct sur le rythme de la partie.
+La variation n’est pas un ajout extérieur au framework.
 
-## Le Facteur Cadre
+**Elle fait partie de sa conception.**
 
-Tout ce qui est vrai dans la fiction ne peut pas forcément être mis en balance comme si le monde n'avait aucune limite.
+## Une chaîne standard de responsabilités
 
-Un **Facteur Cadre** exprime une contrainte qui transforme l'espace de ce qui peut compter dans une scène : impossibilité de la violence dans un lieu sacré, protocole d'une audience royale, gravité extrême, présence du Chaos, interdit culturel ou autre limite forte.
+Dans la configuration standard — et dans les implémentations qui opposent des camps — on peut séparer les opérations ainsi :
 
-Il peut rendre certaines Mises non pertinentes et en rendre d'autres centrales.
+> **Mises → support d’incertitude → Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
 
-Le Facteur Cadre n'est donc pas seulement une difficulté supplémentaire. Il délimite localement la réalité dans laquelle le Focus opère.
+Dans la configuration standard :
 
-## Le rôle du MJ et de la table
+> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
 
-**C'est le MJ ou la table qui valide si une Mise est pertinente ou pas.**
+Cette séparation évite de demander à une seule mécanique de tout faire.
 
-Cette validation ne devrait toutefois pas reposer sur le seul goût du MJ.
+Le **Prisme** transforme l’incertitude en signaux mécaniques.
 
-Le jeu et son game design définissent quelles catégories de vérités peuvent devenir pertinentes ; la table les connaît ; le MJ arbitre leur pertinence dans la situation présente.
+L’**échelle de résultat** transforme ensuite ces signaux en orientation.
 
-Puisque la charge technique est minime, le MJ se concentre sur ce qui rend le monde vivant et interactif :
+L’**interprétation** transforme enfin cette orientation en fiction à partir des Mises et de la situation.
 
-- **Garantir la cohérence (le Focus) :** le MJ écoute les Mises des joueurs et tranche pour préserver l'univers et le contrat de jeu. Il applique le "Reality Check" pour maintenir le ton du trope joué, ou impose un *Facteur Cadre*.
-- **Jeu à somme nulle :** si un joueur s'appuie brillamment sur la fiction pour justifier une Mise supplémentaire, le MJ utilise ce même niveau de détail pour poser une Mise adverse organique lorsque la fiction le justifie.
-- **Gérer l'échelle (le Zoom) :** le MJ aide la table à déterminer à quelle échelle la résolution doit porter.
+Cette chaîne est une architecture de référence, pas une obligation universelle. Une implémentation légère peut employer un Prisme dont le résultat est directement exploitable sans passer par une opposition entre deux pools.
 
-## La jauge de Destin comme filet de sécurité
+## Les Prismes : comment une perspective transforme l’incertitude
 
-Pour les groupes qui ne connaissent pas, nous conseillons d'utiliser une jauge de Destin comme filet de sécurité.
+Resonance appelle **Prisme** :
 
-Elle permet de garder trace des déséquilibres. La jauge peut être positive en faveur des protagonistes (les PJ) ou négative en faveur de l'adversité (le MJ).
+> **la logique par laquelle une perspective sur le monde transforme l’incertitude en un résultat mécaniquement exploitable par le jeu.**
 
-Elle se matérialise très facilement par des dés bleu pour les PJ ou rouges pour les MJ.
+Dans les implémentations à pools opposés, cela signifie souvent produire des **Réussites** ou d’autres signaux comparables.
 
-Elle est commune pour le groupe. Elle appartient à l'économie générale de la fiction. C'est une sorte de thermomètre pour mesurer l'orientation que peut prendre potentiellement le récit.
+Un Prisme ne consiste pas simplement à « compter les dés autrement » pour produire une variation esthétique.
 
-La jauge évolue dans les oppositions avant le tirage:
+Il peut modifier :
 
-Exemples:
+- les résultats qui comptent ;
+- les motifs qui deviennent significatifs ;
+- les dés qui peuvent être relancés ou transformés ;
+- les résultats qui s’annulent ;
+- les coûts attachés à certains résultats ;
+- les relations entre plusieurs pools ;
+- les supports utilisés ;
+- la forme même du résultat.
 
-* Opposition pouvant se résumer par 5 Mises pour le ou les PJ contre 3 Mises pour le MJ.
-  Le MJ prend 2 dés rouges, ie le nombre de dés adversité qu'il aurait dû poser pour équilibrer l'opposition.
-  On joue l'oppsition 5 vs 3 et peu importe le résultat.
-  Plus tard le MJ a donc 2 dés rouges a dépenser en faveur d'un obstacle.
+Le mécanisme concret est l’expression d’une question plus fondamentale :
 
-* Opposition suivante: 2 Mises pour les PJ et 5 Mises pour le MJ. On prend 3 dés bleus.
-  Les paires dé bleu/dé rouge s'annulent.
-  Si la jauge contenait 1 dé rouge, il reste donc 2 dés bleus dans la jauge.
+> **Que signifie l’incertitude depuis cette manière d’habiter le monde ?**
 
-Ce n'est pas forcément l'obstacle suivant mais la fiction se régule comme ça.
+### Le Prisme standard
 
-C'est le consensus de la table acceptée par le contrat social.
+La configuration standard possède elle aussi un Prisme.
 
-On n'a donc plus besoin de faire une confiance aveugle au MJ pour équilibrer chaque scène. Le système garde une trace des déséquilibres.
+Le **Prisme standard** traite chaque D6 de manière identique : pair, il produit une Réussite ; impair, il n’en produit pas.
 
-Mais cet artifice peut disparaitre pour les tables qui se connaissent bien.
+Il ne prétend pas représenter la « vraie » structure du hasard.
 
-Pour résumer, la jauge de destin est un dispositif de sécurité pour certaines configurations sociales.
+Il fournit simplement une lecture discrète lorsque le jeu ne souhaite pas faire de la perspective un enjeu mécanique particulier.
 
-Pour une table qui se connaît : "On sait jouer ensemble." → pas forcément besoin de filet.
+C’est un **point zéro de design**, pas une norme à laquelle les autres Prismes devraient ressembler.
 
-Pour une table avec des inconnus : "On ne sait pas encore comment chacun conçoit le contrat de fiction." → Jauge active.
+### Des sorties communes pour des perspectives différentes
 
-Et progressivement, si la table acquiert cette confiance, elle peut même décider : "On n'en a plus besoin."
+Lorsque plusieurs Prismes doivent coexister dans une même opposition, le jeu gagne à définir une interface commune.
 
-# Resonance Prismes
+Dans les implémentations actuelles à pools opposés, cette interface est généralement la **Réussite** : chaque Prisme produit ses Réussites selon sa propre logique, puis l’échelle de résultat compare les camps.
 
-## De la diégèse à l'ontologie mécanique
+Cette sortie commune est un contrat d’interopérabilité pour les jeux qui en ont besoin.
 
-Le Core laisse volontairement quelque chose d'ouvert :
+**Elle ne définit pas le Prisme et n’est pas obligatoire dans toutes les implémentations de Resonance.**
 
-**Comment le réel devient-il mécaniquement accessible depuis la perspective vécue d'un personnage ?**
+## Quand créer un autre Prisme ?
 
-C'est le rôle des **Prismes**.
+Un Prisme particulier devient pertinent lorsque modifier la résolution permet au joueur de ressentir quelque chose qu’une description seule transmettrait moins bien.
 
-Un Prisme n'est pas simplement une manière thématique de colorer le même jet. Il définit une grammaire de résolution qui exprime une conception vécue du réel.
+Un jeu pourrait vouloir que :
 
-> **Le Prisme ne décrit pas ce que vous faites. Il décrit le monde dans lequel vous pensez le faire.**
+- la faveur divine transforme certains échecs ;
+- les esprits rendent des motifs ou des répétitions significatifs ;
+- une discipline logique agrège les résultats plutôt qu’elle ne les compte ;
+- une voie mystique puisse annuler une réussite apparemment acquise ;
+- une pensée cyclique fasse émerger des formes plutôt que des succès indépendants.
 
-Le même Core peut ainsi produire des expériences radicalement différentes.
+La bonne question n’est pas :
 
-Un monde matérialiste peut considérer les dés comme une probabilité physique indifférente.
+> *Quelle mécanique originale puis-je inventer ?*
 
-Un monde gouverné par les dieux peut permettre à la foi de modifier les résultats.
+mais :
 
-Un monde animiste peut permettre aux esprits d'intervenir.
+> **Quelle relation au monde mérite réellement de transformer la manière dont l’incertitude est vécue ?**
 
-Un monde mystique peut considérer le succès et l'échec apparents comme des illusions.
+## Concevoir un Prisme
 
-Un monde technologique peut transformer les motifs, les séquences ou les calculs en éléments significatifs.
+### 1. Partir d’une relation au monde
 
-**Le Core sélectionne ce qui compte.  
-Le Prisme détermine comment ce qui compte devient conséquence.**
-
-## Même monde, perspectives différentes
-
-Deux personnages peuvent observer le même phénomène, posséder la même information, utiliser le même objet ou accomplir la même procédure sans habiter cognitivement le même monde.
-
-Le Prisme ne représente donc ni une profession, ni une compétence cognitive, ni une méthode momentanément choisie parce qu'elle donne un meilleur effet de dés.
-
-Il représente une perspective vécue suffisamment profonde pour devenir opératoire dans la résolution.
-
-## Le Prisme représente la réaction du monde quand vous tentez de connaitre le résultat de vos mises
-
-Un bon Prisme répond à des questions telles que :
-
-**Est-ce que le gameplay est un reflet du roleplay qu'on veut amener?**
-
-**Qu'est-ce que cet univers considère comme vrai ?**
-
-**Qu'est-ce qu'il considère comme possible ?**
-
-**Qu'est-ce qu'il récompense ?**
-
-**Qu'est-ce qu'il punit ?**
-
-**Qu'est-ce qu'il rend dangereux ?**
-
-**Comment la philosophie du monde affecte-t-elle l'incertitude ?**
-
-Le résultat est une inversion puissante du game design traditionnel.
-
-Au lieu de :
-
-> **Règles → fiction**
-
-Resonance cherche à produire :
-
-> **Fiction → règles**
-
-Et, plus précisément :
-
-> **Monde → Pertinence → Perspective → Résolution → Monde transformé**
-
-Le lore n'est plus simplement quelque chose que les joueurs lisent.
-
-**C'est quelque chose qu'ils utilisent.**
-
-## Des Prismes différents, une sortie commune
-
-Les dés de Prismes différents ne sont pas comparés directement.
-
-Chaque Prisme possède sa propre grammaire pour transformer les Mises en **Réussites**.
-
-Les Réussites constituent ensuite la langue commune de la résolution.
-
-> **Mises → Prisme → Réussites → comparaison → conséquence**
-
-Un Prisme n'est donc pas conçu comme une manière différente d'obtenir davantage de Réussites, mais comme **une manière différente pour le hasard de faire sens**.
-
-## Le Prisme générique (par défaut)
-
-Comme indiqué dans la partie Resonance Core, il existe un Prisme agnostique, matérialiste qui est très simple à comprendre et à utiliser.
-
-* Une Mise est représentée par un dé
-* Chaque camp tire les dés ensemble
-* On ne distingue plus ce qui a fait l'objet de la Mise
-* On compte les pairs
-* Un dé pair vaut pour une réussite
-* On compare le nombre de réussite de chaque camp:
-    - Egalité: status-quo ou simple revers
-    - Différence de 1: victoire ou défaite selon le camp
-    - Différence de 2 ou plus: exploit ou fiasco
-
-On peut même jouer dans n'importe quel univers avec ce simple Prisme. Il est auto-suffisant pour orienter la fiction de manière aléatoire mais réaliste, en restant ancré dans la fiction.
-
-## La surenchère
-
-En cas de status-quo impossible ou non désiré (égalité), on peut relancer les dés de l'opposition en rajoutant 1 Mise pour chaque camp pour simuler la volonté d'en finir et ceci jusqu'à ce qu'on aboutisse à un résultat net.
-
-Dès que les pools de Mises sont assez conséquents, les status-quo sont de plus en plus rares.
-
-## Un pool avec plusieurs Prismes
-
-Il est possible de calculer le résultat d'un camp contenant plusieurs Prismes. Imaginons que les PJ font face ensemble à un obstacle (négociation, combat), chacun forme son pool et calcule son nombre de réussites qu'on additionne pour comparer avec celui de l'adversité. En cas de fiasco, de défaite, c'est celui qui aura obtenu le moins de réussite qui sera affecté en priorité.
-
-## Personnages avec plusieurs Prismes
-
-En général les personnages n'ont qu'un seul Prisme qui résonne avec leur roleplay et leur perspective vécue.
-
-Mais on peut imaginer des jeux qui modifient le Prisme suivant l'environnement ou certains contextes, à condition que cette modification exprime réellement une transformation de la relation au monde et pas simplement le choix opportuniste d'une mécanique.
-
-Cette piste est explorée dans Glorantha Perspectives avec les modes héroïques et les modes affaiblis.
-
-On peut imaginer des Prismes modifiés ou complétement uniques dans un monde CyberPunk dès qu'on rentre dans la Matrice par exemple.
-
-## Un moteur. Des réalités différentes.
-
-Le Core détermine ce qui entre dans la résolution. Le Prisme détermine comment ce qui y entre devient conséquence.
-
-Le Core reste ainsi le noyau commun, tandis que les Prismes permettent à des réalités vécues différentes de produire des grammaires de résolution différentes.
-
-# Concevoir un jeu avec Resonance
-
-## Conçu pour les mondes qui comptent
-
-Resonance est particulièrement adapté aux jeux dans lesquels le monde lui-même est important.
-
-Des mondes avec :
-
-- un lore profond ;
-- des philosophies antagonistes ;
-- des cultures significatives ;
-- des métaphysiques étranges ;
-- des relations fortes ;
-- des environnements symboliques ;
-- des univers où *la manière dont vous comprenez la réalité* compte autant que ce que vous êtes physiquement capable de faire.
-
-Parce que les mécaniques n'ont pas besoin d'encoder chaque action possible séparément, le même Core peut gérer :
-
-**un duel, une négociation, une enquête, un rituel, une poursuite, une bataille, un voyage ou un conflit politique.**
-
-La résolution change parce que la **fiction change**, et non parce qu'il faut apprendre un nouveau sous-système.
-
-## Conçu pour les game designers
-
-Resonance change le rôle du game designer.
-
-Vous n'avez plus principalement besoin de concevoir :
-
-- des centaines de modificateurs ;
-- des listes exhaustives de compétences ;
-- des règles pour chaque situation possible ;
-- des sous-systèmes de combat toujours plus complexes.
-
-Vous concevez plutôt les éléments qui rendent votre monde unique.
-
-### Vous créez la fiction
-
-Ses : **lore, croyances, cultures, relations, mythes, tabous, métaphysiques...**
-
-### Vous définissez ce qui peut compter
-
-Qu'est-ce qui peut devenir une Mise ?
-
-Qu'est-ce qui ne devrait jamais en devenir une ?
-
-Qu'est-ce que le jeu veut que les joueurs remarquent ?
-
-### Vous concevez les Prismes
-
-Comment ce monde répond-il à l'incertitude ?
-
-Comment sa philosophie, son archetype, son trope transforme-t-elle la résolution ?
-
-Que se passe-t-il lorsqu'un personnage agit contre la logique fondamentale du monde ?
-
-### Vous définissez les limites
-
-Qu'est-ce qui est impossible ?
-
-Qu'est-ce qui est interdit ?
-
-Qu'est-ce qui ne peut pas simplement être surmonté en ajoutant un nouvel argument ?
-
-Ce sont ces choix de design qui donnent son identité à un jeu Resonance.
-
-## Concevoir ce qui compte
-
-La pertinence n'est pas seulement un arbitrage de table. Elle constitue aussi un outil de game design.
-
-### Vérité fictionnelle, Mise recevable, Mise pertinente
-
-On peut distinguer trois niveaux :
-
-1. **Vrai dans la fiction** : un fait, une relation, un objet, une émotion ou une contrainte existe dans le monde.
-2. **Recevable dans ce jeu** : le game design reconnaît cette catégorie de vérité comme susceptible de peser dans la fiction.
-3. **Pertinent ici** : le Focus et la situation rendent effectivement cette vérité importante pour la résolution présente.
-
-Toutes les vérités fictionnelles ne sont donc pas automatiquement des Mises.
-
-### Une grammaire de pertinence
-
-Le game designer peut définir ce que son jeu invite les joueurs à remarquer :
-
-- relations et obligations ;
-- honneur, réputation ou honte ;
-- appartenance à un clan, une communauté ou une institution ;
-- passions et attachements ;
-- connaissance, discipline ou entraînement ;
-- statut social ;
-- territoire et environnement ;
-- sacré, tabou, présage ou cosmologie ;
-- peur, corruption, désir, culpabilité ;
-- ou toute autre catégorie de causalité propre au monde ou au genre.
-
-Ces catégories ne sont pas nécessairement une liste fermée de capacités. Elles définissent plutôt **ce que le jeu apprend à regarder**.
-
-La question du designer devient :
-
-> **Parmi tout ce qui est vrai dans la fiction, quelles vérités ce jeu reconnaît-il comme pertinentes ?**
-
-### Trope et pertinence
-
-Un jeu peut produire un genre non seulement en définissant les actions significatives, mais aussi en définissant les raisons qui peuvent avoir du poids dans la fiction.
-
-Des approches comme les PbtA encodent fortement le genre par des Moves, leurs déclencheurs et des archétypes. Resonance agit à un autre niveau : il peut laisser l'espace des actions largement ouvert tout en orientant l'espace des pertinences.
-
-**PbtA peut contraindre fortement les formes d'action significatives ; Resonance peut contraindre les formes de pertinence significatives.**
-
-Resonance ne dit donc pas nécessairement au joueur quoi faire pour produire le trope ; il lui apprend **quoi regarder et quelles raisons reconnaître** pour que le trope puisse émerger de ses propres actions.
-
-### Le personnage et son espace de pertinence
-
-Cette approche ouvre aussi une progression qui n'est pas uniquement quantitative.
-
-Un personnage peut évoluer parce que les raisons capables de peser pour lui changent.
-
-Un jeune guerrier peut commencer avec une grammaire dominée par le clan, le maître, le devoir, la réputation et l'obéissance, puis voir apparaître la compassion, l'amour personnel, le doute, la vérité ou le refus d'un ordre injuste.
-
-Le personnage ne gagne pas nécessairement une capacité. **Son espace de pertinence se transforme.**
-
-### Continuité entre trope, Facteur Cadre, Focus, Mises et Prisme
-
-On peut résumer l'architecture ainsi :
-
-> **Le jeu et son trope déterminent ce qui peut peser.**
->
-> **Le Facteur Cadre transforme ce qui peut peser ici.**
->
-> **Le Focus détermine ce qui pèse maintenant.**
->
-> **Les Mises expriment pourquoi cela pèse.**
->
-> **Le Prisme détermine comment le monde répond.**
-
-## Concevoir des Prismes
-
-### Partir de l'expérience fictionnelle
-
-Un Prisme n'est pas d'abord un gimmick de dés.
-
-Le point de départ est l'expérience fictionnelle, cognitive ou ontologique que le jeu veut produire : quelle manière d'habiter le monde doit devenir sensible dans le geste de résolution ?
-
-La règle vient ensuite.
-
-### Identifier la logique du Prisme
-
-Avant de choisir une mécanique, identifiez ce qui caractérise cette perspective : relations, accumulation, transcendance, intervention, équilibre, motifs, déterminisme, sacrifice, contamination, réciprocité ou toute autre logique propre au monde.
-
-La question est moins « quel effet de dés serait original ? » que :
+Avant de choisir une mécanique, identifiez la logique que le jeu veut rendre sensible : accumulation, transcendance, intervention, équilibre, sacrifice, contamination, réciprocité, prédiction, symbiose, déterminisme, hasard ou autre.
 
 > **Quelle logique du réel doit devenir perceptible quand le joueur résout une incertitude ?**
 
-### Traduire cette logique en opération mécanique
+### 2. Demander ce que le joueur doit ressentir ou remarquer
 
-Une fois cette logique identifiée, choisissez les opérations qui peuvent la rendre sensible : pairs et impairs, sommes, motifs, annulations, relances, changement de taille de dés, cartes, couleurs, interactions entre pools ou autres composants.
+Un bon Prisme ne représente pas seulement une idée.
 
-Le choix du composant vient après le sens qu'il doit produire.
+Il influence ce que le joueur espère, craint, surveille ou recherche au moment du tirage.
 
-### Vérifier ce que le Prisme fait jouer
+> **Est-ce que jouer ce Prisme pousse le joueur à regarder le monde comme son personnage ?**
 
-Un bon Prisme ne se contente pas de représenter une idée. Il influence ce que le joueur remarque, espère, craint ou recherche au moment de résoudre.
+### 3. Traduire cette relation en opération mécanique
 
-Le test peut se résumer à une question :
+Choisissez ensuite ce qui peut rendre cette logique sensible :
 
-> **Est-ce que jouer efficacement ce Prisme pousse le joueur à regarder le monde comme son personnage ?**
+- pairs ou impairs ;
+- sommes ;
+- motifs ;
+- annulations ;
+- relances ;
+- tailles de dés ;
+- cartes, couleurs ou symboles ;
+- interactions entre pools ;
+- modifications de l’adversité ;
+- autre support d’incertitude.
 
-### Vérifier la comparabilité
+Le support vient après le sens qu’il doit produire.
 
-Des Prismes radicalement différents doivent pouvoir participer à la même résolution.
+### 4. Décider quelle forme de résultat produire
 
-Leur grammaire interne peut varier, mais ils doivent produire une sortie comparable par le moteur commun — généralement les **Réussites**.
+Si plusieurs Prismes doivent participer à une même opposition, une sortie commune comme les Réussites peut être souhaitable.
 
-> **Mises → grammaire du Prisme → Réussites → comparaison → conséquence**
+Mais un jeu léger peut employer un résultat autonome si cela sert mieux l’expérience recherchée.
 
-### Éviter le gimmick
+### 5. Vérifier que la mécanique n’est pas seulement décorée par le lore
 
-Un Prisme n'est pas « les 6 explosent parce que c'est amusant ».
+Un Prisme n’est pas « les 6 explosent parce que c’est amusant ».
 
-Les 6 explosent si cette propriété mécanique exprime quelque chose de la réalité vécue par le personnage et produit l'expérience recherchée à la table.
+Les 6 explosent si cette propriété exprime quelque chose de la réalité vécue par le personnage et produit l’expérience recherchée à la table.
 
-La mécanique n'est pas décorée par le lore : **elle en devient une opération.**
+Un test utile consiste à retirer mentalement le thème : si la mécanique pourrait être reskinnée arbitrairement sans rien perdre de sa sensation, le lien entre Prisme et fiction mérite probablement d’être renforcé.
 
-### Exemples de Prismes possibles (et non exhaustifs)
+> **La mécanique n’est pas décorée par le lore : elle en devient une opération.**
 
-C'est à vous d'inventer les Prismes pour votre jeu. Voici quelques pistes.
+### 6. Vérifier son coût cognitif
 
-Note: vous trouverez aussi des exemples d'autres Prismes avec des variantes dans Glorantha Perspectives.
+Un Prisme peut être étrange sans devenir opaque.
 
-#### Manipuler les Motifs et les Probabilités
+L’objectif n’est pas de déplacer l’attention depuis des modificateurs complexes vers une autre forme de manipulation technique tout aussi envahissante.
 
-- **Le Prisme de la Prophétie (L'Engagement) :** Avant de lancer, le joueur doit annoncer *le nombre exact* de réussites (ex: les nombres pairs) qu'il va obtenir. Tomber juste génère un exploit absolu. Tout autre résultat est un échec. *Diégèse : Oracles, prescience, mages temporels. Le joueur est incité à s'auto-saboter (réduire ses Mises) pour garantir sa propre prédiction.*
+Le Prisme devrait idéalement rendre sa perspective plus sensible qu’il ne rend sa procédure encombrante.
 
-- **Le Prisme de l'Équilibre (La Dualité) :** Le joueur doit diviser ses Mises en deux pools distincts (ex: dés blancs et dés noirs). La réussite ne dépend pas du résultat brut, mais de la *faible différence* entre la somme des deux pools. Plus l'écart s'approche de zéro, plus la réussite est pure. *Diégèse : Moines de l'équilibre, manipulation du Yin/Yang, ou forces élémentaires opposées.*
+## Les supports peuvent eux aussi résonner
 
-#### Interaction Directe avec l'Adversité
+Une Mise n’a pas besoin d’être représentée par un D6 identique aux autres.
 
-- **Le Prisme de la Symbiose (Le Mimétisme) :** Un dé du joueur n'est une réussite *que* s'il affiche exactement la même valeur qu'un dé dans le pool adverse. On ne gagne pas en écrasant l'obstacle, mais en entrant en résonance avec lui. *Diégèse : Télépathie, diplomatie absolue, assimilation alien ou hacking neuronal.*
+Un jeu peut utiliser :
 
-- **Le Prisme du Parasite (La Corruption) :** Les "1" du joueur lui permettent d'échanger physiquement ses propres dés avec les dés les plus élevés de l'adversaire avant l'interprétation finale. *Diégèse : Horreur, nécromancie, malédictions où l'on se nourrit de la force de l'autre.*
+- des dés de tailles différentes ;
+- des couleurs ayant une signification fictionnelle ;
+- des cartes ;
+- des jetons ;
+- des pièces ;
+- des pierres ou des perles ;
+- des objets particuliers ;
+- tout autre support dont la manipulation sert l’expérience recherchée.
 
-#### La Nature des Composants
+Changer de support n’est pas intéressant en soi.
 
-- **Le Prisme du Tisserand (Cartes à jouer) :** Chaque Mise permet de piocher une carte. Les combinaisons (paires, suites) définissent le nombre de réussites, mais la *couleur* majoritaire de la main (Pique, Cœur, Carreau, Trèfle) dicte la conséquence narrative (blessure, dette morale, révélation). *Diégèse : Manipulateurs du destin, illusionnistes.*
+Le support devient pertinent lorsqu’il prolonge quelque chose que le personnage ou le monde fait déjà ressentir.
 
-- **Le Prisme de l'Ascension (Dés variables) :** Les Mises justifient la *taille* des dés (ex: D4 pour un petit détail, D12 pour un atout majeur). Pour obtenir un Exploit, le joueur doit former une suite croissante (ex: 2-3-4) en utilisant des dés de tailles obligatoirement différentes (D4, D6, D8). *Diégèse : Entités en constante évolution, mutants, ou héros brisant leurs limites (shōnen).*
+L’objectif reste le même :
 
-#### Les Prismes de l'Isolement (La Singularité)
+> **réduire la distance entre ce que le joueur manipule et ce que son personnage vit.**
 
-L'objectif ici est de rendre la présence d'alliés mécaniquement pénalisante, poussant le personnage à agir en loup solitaire ou à s'isoler pour libérer son plein potentiel.
+## Concevoir la pertinence
 
-- **L'Abstraction Mécanique (La Dilution) :** Avant le lancer, le joueur rassemble ses N Mises. Pour chaque allié physiquement présent dans la scène (ou impliqué dans le conflit), le joueur doit défausser l'un de ses dés, ou annuler sa meilleure réussite après le lancer.
+Les Prismes ne sont qu’un des points de design de Resonance.
 
-- **L'Abstraction Mécanique Inverse (L'Éveil du Vide) :** Si et seulement si le personnage est le seul protagoniste de la scène, tous ses dés impairs (normalement des échecs) peuvent être relancés, ou bien ses échecs annulent les réussites adverses.
+Un jeu doit également décider quelles familles de vérités fictionnelles il souhaite rendre visibles et naturellement disponibles à l’attention de la table.
 
-- **Traductions Diégétiques :**
-    - *Le Berserker Maudit :* Sa rage est une tempête aveugle. S'il y a des alliés autour, il doit retenir ses coups (Mises perdues). Seul, il devient une machine à tuer absolue.
-    - *L'Assassin de l'Ombre :* Sa magie repose sur le silence de la trame. La présence d'autres âmes "fait du bruit" et perturbe ses probabilités.
-    - *Le Gardien du Secret :* Son pouvoir implique un savoir interdit. Si un allié est témoin de son action, le pouvoir se tarit pour préserver le secret.
+Cette **grammaire de pertinence** peut s’organiser à partir :
 
-#### Les Prismes de la Synergie (La Gestalt)
+- des cultures du monde ;
+- de la magie ;
+- des relations sociales ;
+- des institutions ;
+- des états du personnage ;
+- des motifs du genre ;
+- des tropes ;
+- des conséquences accumulées dans la fiction.
 
-Ici, l'individu n'est rien sans le groupe. La réussite n'est plus individuelle, elle émerge de l'intersection des actions.
+La grammaire ressemble moins à une liste fermée qu’à une **cartographie sémantique**.
 
-- **L'Abstraction Mécanique (La Résonance Croisée) :** Le joueur lance ses N Mises. Les nombres pairs classiques ne comptent pas. Une réussite n'est générée *que* si l'un de ses dés affiche exactement la même valeur qu'un dé lancé par un allié lors de ce même tour/conflit.
+Deux jeux peuvent utiliser exactement le même Prisme et produire des expériences très différentes parce qu’ils n’apprennent pas à la table à regarder les mêmes choses.
 
-- **L'Abstraction Mécanique (Le Réseau) :** La taille du pool de base est fixe, mais chaque allié présent dans la scène permet au joueur de transformer automatiquement un dé échoué en réussite, ou de modifier la parité (ex: à 3 alliés, les 1, 3 et 5 deviennent aussi des réussites).
+La conception d’un jeu Resonance ne consiste donc pas seulement à écrire une procédure aléatoire.
 
-- **Traductions Diégétiques :**
-    - *La Conscience Collective :* Des extraterrestres, des jumeaux télépathes ou des intelligences artificielles connectées en réseau. Ils ne pensent pas "Je", ils pensent "Nous".
-    - *La Phalange Parfaite :* Une escouade militaire d'élite (comme les hoplites Lunaires) où la survie de chacun dépend exclusivement du bouclier de son voisin.
-    - *Le Chœur Magique :* Des mages dont les incantations nécessitent d'harmoniser leurs fréquences pour altérer la réalité.
+**Elle consiste à décider ce que le jeu apprend aux joueurs à remarquer.**
 
-#### Les Prismes Parasitaires (La Dépendance Toxique)
+## Trope et pertinence
 
-La collaboration est forcée, mais elle est asymétrique. Un personnage brille, mais son succès se fait au détriment direct des alliés présents.
+Un jeu peut produire un genre non seulement en donnant une structure mécanique à certaines actions, mais aussi en donnant une importance particulière aux **raisons** qui peuvent peser dans la fiction.
 
-- **L'Abstraction Mécanique (Le Drain) :** Le personnage génère des réussites automatiques ou obtient des Mises supplémentaires *en les volant* physiquement dans les pools de Mises des alliés présents dans la scène.
+Les jeux Powered by the Apocalypse constituent un point de comparaison utile.
 
-- **L'Abstraction Mécanique (Le Bouclier Humain) :** Chaque résultat de "1" obtenu par ce joueur annule sa propre défaite, mais supprime instantanément la meilleure réussite d'un allié à proximité. S'il n'y a pas d'allié, le "1" se retourne contre le joueur.
+De nombreux PbtA font émerger leur genre en donnant une structure mécanique privilégiée à certains déclencheurs fictionnels, conséquences, Playbooks ou archétypes.
 
-- **Traductions Diégétiques :**
-    - *Le Vampire Psychique / Le Nécromancien :* Il aspire l'énergie vitale de ses compagnons pour alimenter ses propres miracles.
-    - *Le Chef Toxique / Le Noble Arrogant :* Un commandant qui s'approprie les mérites de ses subordonnés et les jette sous le bus au moindre problème.
+Resonance peut agir à un autre niveau : laisser l’espace des actions largement ouvert tout en orientant les familles de vérités que le jeu apprend à considérer comme significatives.
 
-# Conclusion — La pertinence
+Le trope peut alors émerger parce que le jeu apprend au joueur **quoi regarder, quelles relations reconnaître et quelles raisons laisser peser** dans ses propres actions.
 
-Resonance part d'une idée simple : un monde fictionnel contient toujours plus de vérités qu'une résolution ne peut en prendre en compte.
+Cette différence n’implique pas que Resonance soit « plus libre » qu’un PbtA en toute circonstance. Elle montre un levier de design différent :
 
-Jouer consiste donc d'abord à déterminer **ce qui compte**.
+> **orienter ce qui compte sans nécessairement prescrire ce que le personnage doit tenter.**
 
-Pas ce que la feuille de personnage autorise.  
-Pas quel modificateur est le plus avantageux.  
-Mais ce qui, pour ce personnage, dans cette situation et face à cette intention, possède réellement du poids.
+## Concevoir l’évolution du personnage
 
-**C'est la pertinence.**
+Puisque l’évolution passe par les vérités persistantes, concevoir la progression d’un jeu Resonance ne consiste pas à dessiner une courbe de niveaux.
 
-Resonance Core transforme cette pertinence en résolution.
+Le game designer doit plutôt décider :
 
-Les Prismes déterminent comment cette résolution prend sens depuis une perspective vécue.
+- quelles familles de vérités peuvent apparaître sur la feuille ;
+- comment une expérience peut en créer une nouvelle ;
+- quand une vérité peut être reformulée, remplacée ou supprimée ;
+- qui possède l’autorité pour écrire ces transformations ;
+- quels changements nécessitent une résolution et lesquels relèvent simplement d’un événement fictionnel établi ;
+- comment le jeu rend visibles les transformations importantes.
 
-Les joueurs cessent de demander :
+> **La grammaire de pertinence définit le langage possible de l’évolution.**  
+> **L’histoire du personnage écrit progressivement son espace de pertinence dans ce langage.**
 
-> *Quel est mon meilleur modificateur ?*
+Deux personnages ayant commencé avec des feuilles similaires peuvent ainsi diverger fortement sans qu’aucun soit « de niveau supérieur » à l’autre.
 
-et commencent à demander :
+## Trois niveaux à ne pas confondre
 
-> **Qu'est-ce que je vois ?**
+### Resonance
 
-> **Qu'est-ce que je sais ?**
+Le framework.
 
-> **Qu'est-ce que mon personnage croit ?**
+Il fournit la grammaire générale de résolution, ses concepts et ses points de variation.
 
-> **Que se passe-t-il autour de moi ?**
+### La configuration standard
 
-> **Quels sont réellement les enjeux ?**
+Une implémentation de référence entièrement jouable.
 
-Le joueur cesse alors de chercher la règle qui décrit le monde.
+Elle permet d’utiliser Resonance immédiatement sans travail préalable de game design.
 
-**Il regarde le monde pour découvrir la règle qui s'applique.**
+### Un jeu conçu avec Resonance
 
-La pertinence est le cœur cognitif de Resonance. Les Prismes en sont le prolongement ontologique et perspectiviste : ils ne disent pas seulement ce qui compte, mais comment ce qui compte devient conséquence depuis une manière située d'habiter le réel.
+Une implémentation qui choisit ce qu’elle conserve et ce qu’elle transforme pour produire une expérience propre à son univers.
 
-**Le monde définit le système. Le regard sélectionne ce qui compte. Le Prisme détermine comment le monde répond.**
+Elle peut définir notamment :
 
-# Études de cas
+- sa grammaire de pertinence ;
+- la forme de ses feuilles et de ses mémoires fictionnelles ;
+- ses Prismes ;
+- ses Facteurs Cadres ;
+- ses supports ;
+- ses économies de jeu ;
+- sa manière de faire évoluer les personnages ;
+- ses outils de cohérence ou de régulation ;
+- ses manières d’interpréter les conséquences.
 
-## Resonance: Glorantha
+## Une grille de conception
 
-### Une implémentation concrète
+Pour concevoir un jeu avec Resonance, demandez notamment :
 
-Un framework devient intéressant lorsqu'il peut sortir de la page.
+1. **Qu’est-ce que ce monde ou ce genre apprend aux joueurs à remarquer ?**
+2. **Quelles familles de vérités doivent être particulièrement visibles ?**
+3. **Comment la feuille, le lore ou d’autres supports rendent-ils ces vérités mémorables sans les transformer en bonus automatiques ?**
+4. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
+5. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
+6. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
+7. **La configuration standard suffit-elle à exprimer ce monde ?**
+8. **Si non, quelle perspective mérite un Prisme particulier ?**
+9. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
+10. **Le jeu a-t-il besoin de pools opposés et d’une sortie commune ?**
+11. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
+12. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
+13. **Comment les vérités du personnage peuvent-elles apparaître, se transformer et disparaître ?**
+14. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
+15. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
 
-**Resonance: Glorantha** montre ce qui se produit lorsque Resonance est pleinement intégré à un univers fictionnel spécifique.
+Chaque variation devrait pouvoir répondre à une question simple :
 
-Dans **Glorantha Perspectives**, les **Prismes** de Resonance sont appelés **visions du monde**, afin de reprendre le terme employé dans Glorantha. Il s'agit du même concept de design : seul le vocabulaire de l'implémentation change.
+> **Qu’est-ce que cette règle permet au joueur de percevoir, de comprendre ou de ressentir du monde ?**
 
-Dans Glorantha, le système de résolution ne se contente pas d'appliquer des règles génériques : il traduit la cosmologie de cet univers en conséquences de jeu.
+---
 
-Dans Glorantha, la cosmologie, les religions et les différentes manières de comprendre la réalité deviennent donc des systèmes de résolution.
+# 7. Comprendre Resonance
 
-Le même moteur sous-jacent peut donc produire des expériences radicalement différentes selon que le personnage appréhende la réalité à travers :
+Les notions qui suivent décrivent différents aspects du même framework. Elles ne sont pas des prérequis pour jouer.
 
-#### Théisme
+## Cognitif : où porte l’attention du joueur ?
 
-Les nombres pairs sont des réussites.
+Resonance peut être décrit comme **cognitif** parce que son opération centrale consiste moins à calculer une valeur de personnage qu’à porter un jugement de pertinence sur une situation fictionnelle.
 
-Les 6 peuvent produire des résultats extraordinaires et interagir avec les résultats normalement échoués.
+Le joueur observe la scène, se souvient de ce que son personnage sait et a vécu, relit éventuellement les mots-clés ou symboles de sa feuille, prête attention aux relations, à l’environnement et aux circonstances, puis identifie ce qui compte.
 
-**La foi change la signification de l'échec.**
+La charge technique peut ainsi rester faible alors que la fiction demeure riche.
 
-#### Animisme
+Le terme « cognitif » décrit avant tout **l’interface mentale entre le joueur, son personnage et le monde**.
 
-Les nombres pairs sont des réussites.
+L’objectif n’est pas l’absence de réflexion.
 
-Certains motifs parmi les dés échoués peuvent devenir des réussites.
+C’est de diriger cette réflexion vers la fiction plutôt que vers la manipulation d’un modèle abstrait.
 
-**Le monde est peuplé de possibilités qui ne se comportent pas comme une causalité ordinaire.**
+## Diégétique : d’où viennent les éléments mécaniques ?
 
-#### Logique
+Resonance peut être décrit comme **diégétique** lorsque les éléments manipulés par la règle restent attachés à des éléments qui possèdent déjà un sens dans la fiction.
 
-Les dés ne sont pas interprétés comme de simples réussites ou échecs.
+Une blessure, un serment, le vent, une réputation ou une relation ne sont pas d’abord des modificateurs.
 
-Leurs valeurs sont additionnées et traitées selon une règle déterministe.
+Ils existent dans le monde fictionnel, puis deviennent mécaniquement présents parce qu’ils comptent.
 
-**L'incertitude devient calcul.**
+Cette continuité peut également concerner les supports : couleurs, dés, cartes ou objets peuvent prolonger une signification déjà vécue dans la fiction.
 
-#### Mysticisme
+> **Le diégétique concerne la continuité entre ce qui existe dans le monde et ce que la règle manipule.**
 
-Certains résultats peuvent annuler les réussites apparentes d'un adversaire.
+## Perspectiviste : qui regarde le réel ?
 
-**La victoire matérielle devient secondaire face à une réalité plus profonde.**
+Le perspectivisme ajoute une possibilité supplémentaire.
 
-#### Draconisme
+Un design diégétique peut donner un poids mécanique à ce qui existe dans la fiction tout en conservant une même procédure pour tous les personnages.
 
-Les mises sont matérialisés par des D8 pour montrer la différence. Certains motifs dans le résultat (l'Ouroboros ou la stase de l'oeuf) produisent des réussites supplémentaires mais elles ont un prix à payer.
+Un design perspectiviste accepte qu’une même réalité puisse produire une résolution différente selon la manière dont elle est vécue, comprise ou habitée.
 
-**Le choix entre le Wyrm ou l'Utuma**
+Le point de vue n’est alors plus seulement raconté.
 
-#### L'influence lunaire
+**Il devient mécaniquement opérant.**
 
-Pour les adeptes de la Lune Rouge, la nouvelle ou la pleine lune modifie le Prisme du personnage (qu'il soit animiste, théiste ou logicien).
+C’est notamment ce que permettent les Prismes lorsqu’ils sont liés à des manières différentes d’entrer en relation avec le monde.
 
-**Cette modification crée un focus sur le 1 (le petit, le rien) qui prépare les Lunaires à une potentielle Illumination**
+> **Diégétique : ce qui existe dans la fiction peut devenir mécanique.**  
+> **Perspectiviste : la manière de vivre cette fiction peut transformer la mécanique.**
 
-#### L'Illumination
+## Ontologique : quel réel la mécanique affirme-t-elle ?
 
-Le jeu permet de jouer le moment d'Illumination de manière réaliste et dans la fiction. Le personnage va réellement être illuminé dans le gameplay et dans le jeu.
+Le terme **ontologique** devient pertinent lorsqu’un jeu ne se contente pas de représenter plusieurs interprétations subjectives d’une réalité supposée neutre, mais considère que ces relations au réel correspondent effectivement à des manières différentes pour le monde d’exister ou d’agir.
 
-**Le personnage comprent que l'univers est une vaste blague.**
+La mécanique ne dit alors plus seulement :
 
-#### Les Quêtes héroïques
+> *ce personnage comprend le monde ainsi.*
 
-Le jeu permet même aux joueurs de chercher, trouver, créer une nouvelle vision du monde. Trouveront-ils la nouvelle vision qui changera la face du monde, tout comme la Lune Rouge le fit dans sa jeunesse?
+Elle peut aller jusqu’à dire :
 
-Ces variations ne sont pas cosmétiques. Elles créent des expériences cognitives différentes.
+> **dans cette relation au réel, le monde fonctionne effectivement ainsi.**
 
-**Le joueur ne se contente pas d'apprendre le lore du monde.  
-Il pense à travers sa philosophie. Et même le joueur lance les dés ou tire les cartes, sa façon de regarder le résultat est en résonance avec le personnage.**
+Cette distinction est particulièrement importante dans des univers où plusieurs cosmologies ou modes d’existence sont simultanément vrais sans pouvoir être réduits à un unique modèle mécanique sous-jacent.
 
-> **Le système ne se contente pas de décrire le monde.  
-> Il fait vivre au joueur le monde à travers sa propre logique.**
+On peut donc avoir :
 
-**Glorantha Perspectives** est la preuve de concept et l'implémentation détaillée du framework.
+- un jeu diégétique sans perspectivisme ;
+- un jeu perspectiviste sans engagement ontologique fort ;
+- un jeu dans lequel perspective et ontologie deviennent profondément liées.
 
-[Lire le SRD de Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
+Ces termes décrivent des possibilités de design. Ils ne constituent pas des labels obligatoires pour utiliser Resonance.
 
-## Resonance: Scooby Doo
+---
 
-Je me suis amusé à créer un petit jeu léger rapidement en utilisant le game design de Resonance. Voici le résultat.
+# 8. Resonance en pratique : deux bornes de l’espace de design
 
-C'est plus un POC qu'autre chose. Cela n'a pas la profondeur de Glorantha Perspectives.
+Les deux premières études de cas de Resonance occupent volontairement des positions très différentes.
 
-### Le Lore
+**Glorantha Perspectives** teste la profondeur : un univers dense, plusieurs cosmologies, des relations différentes au réel et une forte continuité entre lore et mécanique.
 
-**Le point de départ est simple :** Vous êtes une bande de copains de fac. Vous n'avez pas de lourd passé tragique, pas de dettes, pas d'arcs narratifs complexes. Ce sont les vacances d'été, vous avez retapé un vieux van, et vous sillonnez les routes des États-Unis en écoutant de la musique.
+**Resonance: Scooby-Doo** teste la compression : un trope immédiatement identifiable, une création de personnage en quelques mots-clés, des Prismes très caractérisés et une infrastructure minimale.
 
-Sauf qu'à chaque fois que vous vous arrêtez pour faire le plein ou manger un burger, vous tombez sur un shérif incompétent, un parc d'attractions abandonné et un monstre en plastique.
+Les deux donnent deux bornes utiles de l’espace de design.
 
-### La Création de Personnage (Les Archétypes)
+## Glorantha Perspectives — le test de profondeur
 
-Les joueurs choisissent un archétype. Ils parcourent la liste de mots-clés suggérés : ils gardent ceux qui les font rire, rayent ceux qu'ils n'aiment pas, et en inventent de nouveaux s'ils sont inspirés.
+**Glorantha Perspectives** constitue une implémentation complète de Resonance.
 
-#### Le Beau Gosse (au plan foireux)
+Dans cette implémentation, les Prismes sont appelés **visions du monde**, afin de reprendre un vocabulaire propre à Glorantha. Il s’agit du même concept de design : seul le vocabulaire de l’implémentation change.
 
-*Le leader autoproclamé, charismatique mais souvent à côté de la plaque. Il adore donner des ordres qui n'ont aucun sens.*
+Glorantha est particulièrement adapté à Resonance parce que ses cosmologies ne sont pas de simples opinions décoratives posées au-dessus d’une physique mécanique unique.
 
-- **Mots-clés physiques/Mentaux :** Mâchoire carrée, Sourire ultra-brite, Sûr de lui, Autorité naturelle, Ascendant chef scout, QI inversement proportionnel à sa beauté.
-- **Mots-clés d'action :** Obsédé par les pièges complexes, Rube Goldberg, "Séparons-nous en deux groupes", Permis de conduire.
-- **Liens suggérés :** Secrètement amoureux de la Belle Nunuche (qui l'ignore), ou se regarde un peu trop dans le rétroviseur.
+La manière d’habiter le monde peut changer la manière dont ce monde devient mécaniquement accessible.
 
-#### La Belle Nunuche
+### Théisme
 
-*Celle qui attire les ennuis comme un aimant. Elle semble fragile, mais son sac à main défie les lois de la physique.*
+Les nombres pairs sont des Réussites.
 
-- **Mots-clés physiques/Mentaux :** Garde-robe toujours impeccable, Naïveté rafraîchissante, Cri perçant qui brise le verre, Danger-prone (attire les trappes et les fantômes).
-- **Mots-clés d'action :** Sac à main magique (contient tout et n'importe quoi), Maquillage tactique, Ceinture noire de shopping, Crochetage avec une épingle à cheveux.
-- **Liens suggérés :** Amoureuse de personne (trop indépendante) ou flirte avec le monstre sans s'en rendre compte.
+Les 6 peuvent produire des effets extraordinaires et redonner une possibilité à certains résultats normalement échoués.
 
-#### L'Intello
+**La foi transforme la signification de l’échec.**
 
-*Le cerveau du groupe. Sceptique, sarcastique, elle est la seule à lire des encyclopédies pendant les vacances.*
+### Animisme
 
-- **Mots-clés physiques/Mentaux :** Myopie sévère ("Mes lunettes !"), Pull à col roulé étouffant, Scepticisme absolu, Sarcastique, Encyclopédie sur pattes.
-- **Mots-clés d'action :** Déduction implacable, Trouver l'interrupteur caché, Jargon scientifique incompréhensible, Ramper par terre.
-- **Liens suggérés :** Secrètement amoureuse du Beau Gosse, ou méprise secrètement le niveau intellectuel du groupe.
+Les nombres pairs sont des Réussites.
 
-#### Le Duo Maladroit (Joué par 2 joueurs !)
+Des motifs parmi les dés normalement échoués peuvent devenir significatifs.
 
-*Les poltrons magnifiques. Ils ne pensent qu'à manger et fuir, et c'est souvent ça qui sauve la situation.*
+**Le monde reste peuplé de relations et de présences même dans ce qui semblait ne rien produire.**
 
-- **Joueur A (Le Mec à l'ouest) :**
-    - *Mots-clés :* Toujours défoncé (ou juste perché), Métabolisme aberrant, Froussard olympique, "Même pas en rêve", Ventre sur pattes, Appétit de destruction.
-- **Joueur B (L'Animal de compagnie) :**
-    - *Mots-clés :* Chien parlant (ou raton-laveur, iguane géant...), Mimiques humaines, Trouillard de compétition, Corruption facile (pour une friandise), Flairs pour les ennuis.
-- **Lien partagé :** Ils sont inséparables, ont leur propre langage, et se font souvent passer l'un pour l'autre.
+### Logique
 
-### Le 5ème Membre : La Fiche du Véhicule
+Les dés ne sont plus lus comme des succès indépendants.
 
-Le van est le cœur de l'équipe. Toute la table choisit ses mots-clés ensemble. C'est lui qui va générer des problèmes diégétiques avant même que le monstre n'arrive.
+Leurs valeurs sont agrégées selon une règle de calcul.
 
-#### Le Van (Modèle à définir)
+**L’incertitude devient calcul.**
 
-- **Son allure :** Peinture psychédélique, Rouille dissimulée sous des autocollants, Phare droit qui clignote tout seul.
-- **Son fonctionnement :** Moteur qui tousse quand on panique, Plus d'essence au milieu de nulle part, Démarre au quart de tour (mais seulement s'il a le temps de chauffer).
-- **Son aménagement :** Réserve secrète et infinie de snacks, Matelas douteux, Équipement de sonorisation digne d'un festival de rock des 70s, Laboratoire de chimie improvisé par l'Intello.
+### Mysticisme
 
-### Les règles du jeu
+Certains résultats peuvent annuler les Réussites apparentes d’un adversaire.
 
-> *"Dans ce jeu, on ne va pas chercher des modificateurs sur une feuille, la mécanique est dans la situation*
->
-> *. Vous allez me dire ce que vous faites en vous appuyant sur vos Mots-Clés.*
->
-> *Pour chaque élément pertinent et marrant, je vous donne un dé (une Mise).*
->
-> *La règle d'or pour tous : **Les dés pairs sont des réussites, les impairs des échecs**. Vous saurez toujours combien vous avez fait de réussites, sauf la nunuche qui doit juste faire des jolis tirages ;).*
->
-> *MAIS, la façon dont l'univers (et moi, le MJ) réagit à vos réussites dépend de votre personnage. Fred, tu verras que l'univers a un sens de l'humour particulier avec tes plans. Sammy, tu verras que courir en hurlant est une stratégie viable. Ne vous souciez pas des conséquences, jouez vos clichés à fond, comptez vos pairs, et je m'occupe de la magie du montage vidéo !"*
->
+**La victoire matérielle peut devenir secondaire face à une réalité plus profonde.**
 
-De cette façon :
+### Pensée draconique
 
-1. Les joueurs ont une mécanique claire et mathématique sur laquelle s'appuyer (compter les pairs).
-2. Vous préservez le mystère de l'interprétation asymétrique (votre twist de décalage).
-3. Vous les décomplexez : ils vont chercher à jouer leurs mots-clés pour obtenir des dés, sans essayer "d'optimiser" bêtement l'action.
+Les Mises utilisent des D8 et des motifs particuliers peuvent faire apparaître des choix entre accomplissement matériel et transformation spirituelle.
 
-#### Les différents Prismes
+**Le résultat lui-même fait émerger une tension propre à la pensée draconique.**
 
-##### **Le Duo Maladroit : Le Tirage sans Opposition**
+### Aller au-delà d’une liste de Prismes
 
-Le monde ne s'oppose pas à eux, c'est eux qui s'opposent à eux-mêmes !
+L’influence lunaire peut modifier la manière dont certains Prismes sont vécus.
 
-- *Le Gameplay :* Ils rassemblent leurs mises de frousse et de faim, et lancent les dés seuls.
-- *L'interprétation :* Le résultat indique juste *l'ampleur du chaos* qu'ils génèrent. S'ils font beaucoup de réussites, leur fuite est tellement chaotique qu'elle détruit la cachette du monstre.
-- A deux ils sont plus forts, le MJ rajoutent les paires d’impairs en comparant les 2 tirages. Mais ils ne font pas pool commun pour autant. Si Sammy tire deux 3, ca ne compte pas comme une réussite. Ca ne compte que si Scooby-Doo tire aussi un 3. Ca les incite à rester ensemble.
+L’Illumination peut devenir une transformation réellement vécue par le joueur dans la mécanique.
 
-##### **L'Intello : Le Tirage avec Opposition (La Logique)**
+Les Quêtes héroïques peuvent aller jusqu’à permettre aux personnages de chercher, découvrir ou créer une nouvelle manière de comprendre le réel.
 
-Elle est la seule ancrée dans le réel. Elle joue à un jeu de rôle "normal".
+La mécanique ne se contente alors plus d’illustrer le lore.
 
-- *Le Gameplay :* Elle pose ses mises, le MJ pose les siennes. C'est la méthode de résolution classique où les dés confrontent les mises à celles du camp adverse.
-- *L'interprétation :* C'est rationnel. Si elle gagne, elle trouve un indice. Si elle perd, elle perd ses lunettes ou se trompe.
+**Elle permet au joueur de penser à travers lui.**
 
-##### **Le Beau Gosse : Le Décalage et l'Inversion**
+Glorantha Perspectives montre comment :
 
-Un tirage qui "résonne" de travers est excellente pour émuler son trope.
+- une grammaire de pertinence peut venir d’un univers très dense ;
+- plusieurs Prismes peuvent rendre opérantes des relations différentes au réel ;
+- des Facteurs Cadres peuvent traduire des vérités cosmologiques, sociales ou culturelles ;
+- une économie comme la Jauge de Destin peut servir de filet de sécurité ;
+- le lore peut devenir matière de jeu plutôt qu’un corpus consulté à côté des règles.
 
-- *Le Gameplay :* Il fait un tirage avec opposition contre le MJ.
-- *L'interprétation (Le Twist secret) :* Le résultat est **inversé**.
-    - *S'il gagne :* Son plan fonctionne *exactement* comme prévu... mais sur la mauvaise cible (le filet tombe sur le Duo Maladroit). Il croit avoir réussi, mais narrativement c'est une catastrophe.
-    - *S'il perd (Exploit du MJ) :* Le plan s'effondre lamentablement... et c'est justement la poulie qui se détache qui assomme le fantôme. Le joueur peste contre ses dés, mais le MJ lui annonce une victoire totale !
+> **Le système ne se contente pas de décrire le monde. Il fait vivre au joueur le monde à travers sa propre logique.**
 
-##### **La Belle Nunuche : L'Aimant**
+[Lire Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
 
-La Nunuche pourrait jouer avec des dés roses si vous en avez.
+## Resonance: Scooby-Doo — le test de compression
 
-**Le Charme Involontaire (Les Paires croisées)**
+À l’autre extrême, **Resonance: Scooby-Doo** montre jusqu’où le framework peut être comprimé sans perdre son idée centrale.
 
-- **La Règle :** Si l'un de ses dés roses fait une paire exacte avec le dé le plus élevé (ou un "6") du MJ, le monstre est subjugué, charmé, ou totalement distrait par elle.
-- **La Fiction :** Le monstre s'arrête en plein rugissement pour ramasser le miroir qu'elle a fait tomber. Ou bien, elle le regarde avec de grands yeux et dit : *"Mais... vous êtes le gardien du musée, pas un loup-garou !"* créant un blanc gênant. L'opposition est littéralement neutralisée par la séduction ou la candeur, sans aucun combat.
+Le matériau de game design n’est pas une cosmologie encyclopédique, mais un trope immédiatement lisible : une bande de jeunes, un van, un monstre probablement truqué, une enquête absurde et une poursuite qui tourne au chaos.
 
-**Le "Oops" Scénaristique (Les Suites)**
+### Une création de personnage par mots-clés
 
-On dit a la nunuche que son but c’est de faire des suites (ou des chiffres identiques), parce que c’est joli. Donc ca l’incite a faire des actions simples avec peu de mises: son coté nunuche: pas de truc élaboré.
+Les joueurs choisissent un archétype puis quelques mots-clés qui le rendent immédiatement jouable.
 
-- **La Règle :** Si ses dés forment une suite (ex: 2-3-4 ou 3-4-5 ou 1-1-1 etc…), peu importe qu'elle réussisse ou échoue face à l'adversité, elle déclenche un "Oops".
-- **La Fiction :** Elle fait basculer l'histoire de manière notable. Elle s'adosse à une fausse bibliothèque pour refaire son lacet et ouvre le repaire secret. Elle appuie sur le bouton rouge en pensant allumer la lumière et désactive le champ de force. Elle trouve le raccourci scénaristique par pur accident.
+Par exemple :
 
-**Sinon, il ne se passe rien ?**
+- **Le Beau Gosse au plan foireux** : autorité naturelle, obsession des pièges complexes, « séparons-nous en deux groupes », confiance disproportionnée dans ses idées ;
+- **L’Intello** : scepticisme absolu, encyclopédie sur pattes, myopie sévère, déduction implacable ;
+- **La Belle Nunuche** : danger-prone, cri perçant, sac à main improbable, capacité à découvrir des choses importantes par accident ;
+- **Le Duo Maladroit** : faim, peur, fuite, langage partagé et capacité presque surnaturelle à produire du chaos.
 
-Si elle ne fait ni suite, ni paire avec le monstre, et qu'elle "rate" son jet, la conséquence pour elle n'est jamais la violence ou la mort (on est dans Scooby-Doo).
+Même le **Van** possède une petite feuille commune : peinture psychédélique, moteur capricieux, réserve secrète de snacks, équipement douteux ou autre vérité susceptible de revenir dans la fiction.
 
-- L'échec pour elle, c'est simplement : elle se casse un ongle, elle est séparée du groupe, ou elle se fait enfermer dans une pièce VIP avec un plateau de petits fours en attendant d'être secourue. Le monstre ne lui fait jamais de mal, il la met juste "de côté".
+Cette création illustre directement la feuille littéraire de Resonance : les mots-clés ne définissent pas ce que le personnage a le droit de faire ; ils donnent au joueur une matière facilement mémorisable qui pourra devenir pertinente.
 
-### 🍔 Le Mystère du Motel de la Dernière Frite
+### Le trope comme grammaire de pertinence
 
-#### Le Pitch (La scène d'introduction)
+Le jeu rend naturellement visibles :
 
-C'est la nuit, il pleut à verse. Le Van tombe en panne (le MJ utilise les mots-clés de la fiche du Van pour justifier la fumée noire sous le capot). L'équipe est forcée de s'arrêter au **"Bates Burger & Motel"**, un relais routier miteux des années 50, perdu sur une route abandonnée.
-Le gérant, le vieux Monsieur Grossi, les accueille en tremblant : *"Fuyez... Le fantôme du Cuisinier Fou est de retour ! Il hante les cuisines avec sa spatule fluorescente !"*
+- la peur ;
+- l’appétit ;
+- les indices ;
+- les plans trop compliqués ;
+- les séparations du groupe ;
+- les coïncidences absurdes ;
+- le masque derrière le monstre ;
+- les relations et gimmicks propres à chaque membre de l’équipe.
 
-#### Le Monstre
+Les joueurs restent libres de tenter ce qu’ils veulent, mais le jeu leur apprend rapidement quelles raisons appartiennent à cette fiction.
 
-**Le Fantôme du Cuisinier Fou :** Un spectre recouvert de graisse luisante, hurlant des recettes de cuisine terrifiantes, qui traverse les murs (en apparence).
+### Le Duo Maladroit : un résultat autonome
 
-#### L'Obstacle Principal : Résoudre le Mystère
+Sammy et Scooby ne jouent pas nécessairement contre un pool adverse.
 
-Pour démasquer le monstre, l'équipe doit rassembler **3 Clés** (le MJ garde le secret sur leur nature exacte jusqu'à ce que les joueurs les découvrent via leurs actions) :
+Ils rassemblent chacun leurs propres Mises puis lancent deux pools distincts.
 
-1. **Le Mobile :** Sous la cuisine se trouve une ancienne cave de contrebande remplie d'alcool de l'époque de la prohibition, valant une fortune.
-2. **Le Trucage :** Des pots de peinture phosphorescente et un plan du réseau de monte-plats (qui permet au fantôme de disparaître d'un étage à l'autre).
-3. **Le Coupable :** C'est en fait le promoteur immobilier local, Monsieur Zellani, qui veut terrifier le vieux Grossi pour lui racheter le motel une misère.
+On compte normalement leurs résultats pairs et on additionne leurs Réussites.
 
-#### Les 3 Actes (Comment faire briller vos Prismes)
+Mais leur lien possède une traduction mécanique supplémentaire :
 
-##### Acte 1 : Le Premier Contact (Autour d'un burger froid)
+> **chaque paire croisée de résultats impairs identiques entre leurs deux tirages produit une Réussite supplémentaire.**
 
-- **La Scène :** Le groupe s'installe pour manger pendant que le Van refroidit. Soudain, les lumières grésillent et le Cuisinier Fou surgit du frigo de la cuisine en hurlant !
-- **Mécaniques attendues :**
-    - C'est le moment idéal pour un *Tirage sans opposition* du **Duo Maladroit**, qui tente de fuir avec le plus gros sandwich possible.
-    - **Le Beau Gosse** va sûrement crier : *"Séparons-nous pour encercler la cuisine !"* (Il justifie son mot-clé).
+Un `3` de Sammy ne résonne pas avec un autre `3` de Sammy. Il faut qu’un `3` apparaisse aussi dans le tirage de Scooby.
 
-##### Acte 2 : L'Exploration du Motel (La chasse aux Clés)
+Ils restent deux personnages avec deux pools distincts, mais leur maladresse devient plus efficace lorsqu’ils sont ensemble.
 
-Le monstre rôde dans le motel. Le groupe cherche des indices (les 3 Clés).
+La règle les pousse donc mécaniquement à reproduire leur trope : **Sammy et Scooby ont intérêt à rester côte à côte.**
 
-- **La chambre 13 (La Belle Nunuche) :** Elle va se remaquiller dans une chambre abandonnée. Le fantôme surgit ! Si elle fait une suite avec ses dés roses (le *Oops* scénaristique), elle s'appuie sur le porte-manteau en hurlant, ce qui fait pivoter le mur et révèle le réseau de monte-plats (Clé n°2 trouvée !).
-- **La chaufferie (L'Intello) :** En examinant la tuyauterie, le monstre l'attaque. Elle fait son choix : elle perd ses lunettes (le jet échoue, elle est couverte de suie), mais en tâtant le sol, elle trouve un ticket de pressing au nom de M. Costard (Clé n°3 trouvée !).
+Le résultat décrit directement **l’ampleur du chaos qu’ils produisent**.
 
-##### Acte 3 : Le Grand Piège (Le Climax)
+Ce cas montre qu’un Prisme peut produire un **résultat autonome** : Resonance n’oblige pas toutes les implémentations à passer par « deux pools → Réussites comparables → opposition ».
 
-Maintenant que le groupe a compris qu'il se trame quelque chose, ils doivent capturer le fantôme.
+### L’Intello : la logique la plus classique
 
-- **La Scène :** Le Beau Gosse élabore un plan avec des chariots à bagages, de la sauce tomate et un ventilateur géant.
-- **Mécaniques attendues :** C'est son moment de gloire. Il fait son jet en opposition avec décalage. Le monstre glisse sur la flaque de sauce tomate, détruit le piège du Beau Gosse, mais s'assomme contre la porte du frigo !
+L’Intello utilise au contraire une opposition proche de la configuration standard.
 
-##### L'Épilogue
+Elle cherche des indices, confronte ses hypothèses au monde et obtient une résolution lisible de manière presque rationnelle.
 
-On arrache le masque en plastique : *"Monsieur Zellani?!”*
+Le contraste avec les autres personnages fait partie de son identité.
 
-*“Et j'aurais réussi si vous n'étiez pas là, vous et ce satané chien !"*
+### Le Beau Gosse : le décalage
 
-#### Timeline
+Son Prisme fait résonner ses plans de travers.
 
-**Choix des personnages et du Van : ~15 à 20 minutes**
+Un plan peut fonctionner exactement comme prévu mais sur la mauvaise cible ; un échec apparent peut déclencher par accident le mécanisme qui capture réellement le monstre.
 
-C'est la phase "brise-glace".
+L’objectif de design est aussi de rendre mécaniquement attractive sa tendance à séparer le groupe : le trope ne doit pas seulement être raconté, il doit produire un intérêt de jeu.
 
-- La lecture des fiches est immédiate.
-- Les joueurs passent 10 minutes à s'approprier les mots-clés (en rayer, en ajouter un ou deux) et à définir leurs liens (qui aime qui, qui méprise qui).
-- La création du Van prend 5 minutes de débat collectif (pour décider s'il est rouillé ou s'il sent la pizza froide).
+### La Belle Nunuche : l’accident significatif
 
-**Le "Pitch" des règles : ~5 minutes**
+Elle peut rechercher des motifs, suites ou correspondances particulières plutôt que simplement maximiser des Réussites.
 
-C'est le grand avantage de votre approche diégétique : la charge mentale est de votre côté.
+Un motif peut déclencher un « Oops » : elle s’appuie sur une bibliothèque et ouvre un passage secret, appuie sur le mauvais bouton et coupe le champ de force, ou attire involontairement l’attention du monstre au moment parfait.
 
-- Vous n'avez pas de mécanique complexe à expliquer.
-- Vous annoncez le contrat social (le MJ est garant de la fiction, les mots-clés donnent des dés, les chiffres pairs sont des réussites).
-- Vous placez le *teasing* sur le fait que l'univers réagira différemment à chacun. C'est expédié très vite.
+Le jeu lui apprend donc à rechercher une forme de hasard cohérente avec son trope.
 
-**La Partie (Le Scénario) : ~1h30 à 2h00**
+### Pourquoi cette implémentation compte
 
-Le rythme d'une enquête cartoonesque doit être soutenu, sinon la blague s'essouffle.
+Scooby-Doo démontre que Resonance peut fonctionner lorsque :
 
-- **Acte 1 - L'arrivée et la première frousse (20 à 30 min) :** Le temps de camper l'ambiance, de faire parler le vieux gérant PNJs et de déclencher la première apparition du monstre pour faire fuir tout le monde.
-- **Acte 2 - L'exploration (45 à 60 min) :** C'est le cœur du jeu. Fred sépare le groupe. On passe de l'Intello qui cherche des indices à la Nunuche qui ouvre des passages secrets par erreur, pendant que le Duo Maladroit pille les cuisines. Dès que vous avez distribué les 3 Clés (le Mobile, le Trucage, le Coupable), vous coupez court et passez à la fin.
-- **Acte 3 - Le Piège foireux et la révélation (20 à 30 min) :** L'élaboration du plan, le lancer de dés (avec les fameux retournements de situation), la capture absurde, et le monologue du méchant démasqué.
+- le lore tient en quelques paragraphes ;
+- la création de personnage prend quelques minutes ;
+- les mots-clés sont volontairement comiques ;
+- les Prismes sont asymétriques ;
+- certains résultats sont autonomes ;
+- la fidélité recherchée porte davantage sur le rythme et le trope que sur une cosmologie complexe.
 
-**Le facteur de ralentissement (Le Reality Check)**
+Glorantha teste jusqu’où Resonance peut **descendre dans la profondeur d’un monde**.
 
-Dans la réalité d'une table, ce qui prend du temps avec les jeux narratifs, c'est **la négociation des Mises**.
-Les joueurs vont essayer de tordre la fiction pour justifier des dés. Pour tenir le délai de 2 heures, votre rôle de MJ sera de trancher très vite, en favorisant toujours l'humour : *"Non, ton pull à col roulé ne t'aide pas à courir plus vite, mais si tu me dis que tu trébuches à cause de ta myopie, je te donne le dé."*
+Scooby-Doo teste jusqu’où il peut **remonter vers la simplicité sans devenir générique**.
+
+L’espace entre les deux reste ouvert.
+
+[Lire Resonance: Scooby-Doo →](https://aleascript.github.io/resonance/fr/scooby-doo)
+
+---
+
+# 9. Atelier de Prismes
+
+Cette section n’est **pas** une liste de règles recommandées ni un catalogue de Prismes officiels.
+
+C’est un **atelier de game design**.
+
+Les propositions qui suivent sont volontairement expérimentales. Leur fonction est d’explorer ce que Resonance permet de penser lorsqu’on prend au sérieux l’idée qu’une relation au monde peut transformer la résolution elle-même.
+
+Le bon usage de cet atelier n’est donc pas :
+
+> *Quel Prisme vais-je copier ?*
+
+mais :
+
+> **Qu’est-ce que cet exemple m’apprend sur l’espace de design ?**
+
+## Transformer la relation à la prédiction et aux probabilités
+
+### Prophétie — l’Engagement
+
+Avant de lancer, le joueur annonce le nombre exact de Réussites qu’il pense obtenir.
+
+Tomber exactement juste produit un résultat exceptionnel ; manquer la prédiction transforme l’épreuve en échec ou en conséquence forte selon le jeu.
+
+Le joueur peut être amené à **réduire volontairement le nombre de Mises** qu’il engage pour rendre sa propre prophétie plus crédible.
+
+Le jeu transforme ainsi la connaissance supposée du futur en comportement présent.
+
+**Diégèses possibles :** oracle, prescience, calculateur capable de s’engager sur une prédiction.
+
+### Équilibre — la Dualité
+
+Le joueur divise ses Mises en deux ensembles distincts.
+
+La qualité du résultat dépend moins de la somme brute que de la proximité entre les deux ensembles : l’équilibre devient mécaniquement désirable.
+
+**Diégèses possibles :** philosophie du juste milieu, forces élémentaires complémentaires, discipline du Yin et du Yang, équilibre entre deux natures du personnage.
+
+## Transformer la relation à l’adversité
+
+### Symbiose — le Mimétisme
+
+Un dé du joueur ne devient une Réussite que s’il affiche exactement la même valeur qu’un dé de l’adversité.
+
+On ne gagne donc pas en produisant davantage de succès indépendants.
+
+On gagne en trouvant **une forme de correspondance avec ce à quoi l’on fait face**.
+
+**Diégèses possibles :** télépathie, diplomatie absolue, assimilation, hacking neuronal, magie fondée sur l’accord ou la copie.
+
+### Parasite — la Corruption
+
+Certains résultats faibles permettent de prendre, déplacer ou échanger des éléments du pool adverse.
+
+La force du personnage vient alors littéralement de ce qu’il vole à l’autre.
+
+**Diégèses possibles :** nécromancie, corruption, malédiction, organisme parasite.
+
+## Transformer la nature du support
+
+### Tisserand — les Cartes
+
+Chaque Mise permet de piocher une carte plutôt que de lancer un dé.
+
+Des combinaisons — paires, suites, familles ou couleurs — produisent des Réussites ou des informations supplémentaires.
+
+Le support devient ici une partie de la perspective elle-même.
+
+### Ascension — dés variables
+
+Les Mises peuvent justifier des dés de tailles différentes.
+
+Un résultat important peut dépendre non seulement de valeurs élevées mais de la capacité à faire apparaître une progression entre plusieurs tailles de dés.
+
+Le personnage ne cherche alors pas seulement à « faire haut » : il cherche à produire une forme de dépassement.
+
+## Transformer la relation à la solitude
+
+### Isolement — la Singularité
+
+La présence d’alliés réduit la puissance du personnage ou brouille sa manière d’agir.
+
+Une version peut retirer un dé ou neutraliser une Réussite pour chaque allié directement impliqué.
+
+À l’inverse, lorsqu’il agit totalement seul, certains échecs peuvent être relancés ou transformés.
+
+**Diégèses possibles :** berserker maudit, assassin dont la magie exige la solitude, gardien d’un secret qui perd son pouvoir en présence d’un témoin.
+
+Ce type de Prisme peut modeler **la composition même de la scène que le joueur préfère rechercher**.
+
+## Transformer la relation au groupe
+
+### Synergie — la Gestalt
+
+La réussite ne peut pas être entièrement individuelle.
+
+Dans une version simple, une Réussite n’existe que lorsqu’un dé du personnage trouve exactement la même valeur dans le tirage d’un allié.
+
+Dans une autre, chaque allié présent permet de transformer une catégorie d’échec en Réussite ou d’ouvrir un motif supplémentaire.
+
+**Diégèses possibles :** conscience collective, jumeaux télépathes, intelligences artificielles en réseau, phalange militaire, chœur magique.
+
+## Transformer la collaboration en dépendance toxique
+
+### Prismes parasitaires — la Dépendance
+
+La collaboration existe, mais elle est asymétrique : un personnage gagne parce qu’il retire quelque chose aux autres.
+
+Il peut obtenir des Réussites supplémentaires en prenant des dés dans les pools de ses alliés, ou protéger sa propre Défaite en détruisant une Réussite d’un allié proche.
+
+**Diégèses possibles :** vampire psychique, nécromancien, chef toxique, noble dont le statut le protège au prix de ses serviteurs.
+
+Ici, le Prisme ne simule pas simplement une personnalité désagréable.
+
+Il fait ressentir mécaniquement **la structure relationnelle toxique** imposée au groupe.
+
+## Ce que l’Atelier cherche à montrer
+
+Ces prototypes ne prétendent pas être équilibrés entre eux ni compatibles dans un même jeu.
+
+Ils explorent plusieurs directions :
+
+- transformer la probabilité ;
+- transformer ce que le joueur cherche dans un tirage ;
+- transformer la relation à l’adversité ;
+- transformer la relation aux alliés ;
+- transformer la composition souhaitable d’une scène ;
+- transformer le support ;
+- transformer la forme même du résultat ;
+- produire, lorsque cela sert le jeu, un résultat autonome sans pool adverse.
+
+> **L’Atelier ne définit pas les limites de Resonance. Il aide à les chercher.**
+
+---
+
+# En résumé
+
+Resonance part d’une idée simple :
+
+> **La fiction détermine ce qui compte.**
+
+Sa configuration standard permet de jouer immédiatement :
+
+> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+
+Mais le framework ne s’arrête pas là.
+
+Le Focus sélectionne le réel pertinent.
+
+La grammaire de pertinence apprend à la table où regarder.
+
+Les Facteurs Cadres ferment ce qui n’appartient pas à l’espace des possibles.
+
+Les Prismes peuvent transformer la manière dont l’incertitude devient résultat.
+
+La feuille conserve les vérités durables qu’une future résolution pourra remettre en jeu.
+
+Et la résolution retourne toujours dans la fiction dont elle est partie.
+
+> **On peut jouer à Resonance tel quel.**  
+> **On peut aussi concevoir avec Resonance pour que le monde transforme les règles qui le font vivre.**
