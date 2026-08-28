@@ -2,7 +2,7 @@
 
 > **Document de travail.** Ce texte explore une nouvelle architecture pédagogique pour le SRD de Resonance. Il ne remplace pas encore le document publié et ne cherche pas à figer toute la terminologie théorique. Son objectif est d’abord de rendre Resonance jouable et compréhensible, puis de montrer comment il devient un framework de game design.
 >
-> Cette version abandonne la distinction entre « Resonance Core » et « Resonance Prismes ». Il n’y a qu’un seul framework : **Resonance**. Les Mises, les Prismes, le Focus, le Zoom et les Facteurs Cadres sont des concepts ou des points de variation à l’intérieur de ce framework.
+> Cette version abandonne la distinction entre « Resonance Core » et « Resonance Prismes ». Il n’y a qu’un seul framework : **Resonance**. Les Mises, le Focus, le Zoom, les Prismes et les Facteurs Cadres sont des concepts ou des points de variation à l’intérieur de ce framework.
 
 ## Resonance en une phrase
 
@@ -16,24 +16,23 @@ Ou on peut aller plus loin et faire résonner la résolution avec un monde, une 
 
 ---
 
-# Jouer ou concevoir : deux usages du même framework
+# Complet pour jouer, ouvert pour concevoir
 
-Resonance possède une double nature qui peut sembler paradoxale au premier abord.
+Resonance possède deux usages qui ne s’opposent pas.
 
 D’un côté, il fournit assez de règles pour résoudre immédiatement une situation dans presque n’importe quel univers fictionnel.
 
 De l’autre, ces règles sont conçues pour pouvoir être transformées lorsqu’un jeu veut exprimer quelque chose de particulier sur son monde.
 
-La contradiction disparaît si l’on distingue deux choses :
+La distinction utile n’est donc pas entre un moteur « Core » et des modules supplémentaires, mais entre :
 
 - **les invariants de Resonance**, qui définissent le geste fondamental du framework ;
-- **la configuration standard**, qui fournit des choix par défaut lorsque le jeu n’a aucune raison de les remplacer.
+- **la configuration standard**, qui fournit des choix par défaut lorsque le jeu n’a aucune raison de les remplacer ;
+- **les choix de design**, qu’une implémentation peut transformer pour produire une expérience particulière.
 
-Resonance est donc **complet pour jouer** et **ouvert pour concevoir**.
+Resonance est ainsi **complet pour jouer** et **ouvert pour concevoir**.
 
 La configuration standard n’est pas une version inférieure ou provisoire du système. C’est une implémentation de référence, volontairement simple et générique.
-
-Un jeu conçu avec Resonance peut la conserver presque entièrement, ou remplacer certains de ses choix pour produire une expérience différente.
 
 > **Resonance définit ce qui doit être décidé.**
 >
@@ -43,7 +42,7 @@ Un jeu conçu avec Resonance peut la conserver presque entièrement, ou remplace
 
 ---
 
-# Première partie — Jouer à Resonance
+# 1. Découvrir Resonance
 
 ## Une scène en quelques secondes
 
@@ -81,41 +80,73 @@ La règle ne cherche pas à remplacer le regard porté sur la scène.
 
 **Elle prolonge ce regard.**
 
----
-
-# La boucle de résolution
+## La boucle de résolution
 
 Une résolution Resonance suit une boucle simple :
 
 1. **Dire ce que l’on veut obtenir.**
-2. **Définir la question que la résolution doit trancher.**
-3. **Identifier ce qui compte pour cette question.**
-4. **Écarter ce qui est hors sujet ou redondant à cette échelle.**
-5. **Résoudre l’incertitude.**
-6. **Interpréter le résultat à partir de ce qui a été mis en jeu.**
-7. **Continuer depuis le monde transformé.**
+2. **Cadrer la question et son échelle.**
+3. **Rendre explicites les conséquences importantes si nécessaire.**
+4. **Identifier ce qui compte pour cette question.**
+5. **Écarter ce qui est hors sujet ou redondant à cette échelle.**
+6. **Résoudre l’incertitude.**
+7. **Lire l’orientation du résultat.**
+8. **Interpréter cette orientation à partir de ce qui a été mis en jeu.**
+9. **Continuer depuis le monde transformé.**
 
-Cette boucle est l’un des invariants de Resonance.
+Cette boucle fait partie des invariants de Resonance.
 
-La manière exacte de matérialiser ou de lire l’incertitude pourra varier plus tard. Pour apprendre à jouer, nous utiliserons simplement la **configuration standard**.
+La manière exacte de matérialiser ou de lire l’incertitude pourra varier plus tard. Pour apprendre à jouer, nous utiliserons d’abord la **configuration standard**.
+
+## Le contrat de table vient avant la mécanique
+
+Resonance demande régulièrement à la table de juger ce qui compte dans la fiction. Cette liberté suppose un cadre partagé.
+
+Avant de jouer, la table devrait donc savoir au moins :
+
+- quel monde et quel ton elle cherche à faire vivre ;
+- quel degré de danger elle accepte ;
+- qui arbitre en cas de désaccord sur une Mise ;
+- quelles limites ou sensibilités doivent être respectées ;
+- si certaines conséquences doivent toujours être annoncées avant qu’un joueur s’y expose.
+
+Le contrat social ne remplace pas les règles. Il donne le contexte dans lequel les jugements de pertinence peuvent fonctionner sans devenir une négociation permanente.
 
 ---
 
-# 1. L’intention : qu’est-ce que tu essaies réellement d’obtenir ?
+# 2. Cadrer une résolution
+
+## L’Intention : qu’est-ce que tu essaies réellement d’obtenir ?
 
 Le joueur commence par dire ce qu’il cherche à accomplir dans la fiction.
 
 > *Je veux empêcher le garde d’atteindre la porte.*
 
-L’intention n’est pas une capacité, une action standardisée ou une entrée de menu.
+L’**Intention** n’est pas une capacité, une action standardisée ou une entrée de menu.
 
 C’est ce que le personnage cherche réellement à obtenir.
 
-Une même intention peut être poursuivie de nombreuses manières. Resonance ne demande pas d’abord quelle règle correspond à l’action. Il demande ce qui, dans la fiction, va réellement peser sur ce que le personnage tente de faire.
+Une même Intention peut être poursuivie de nombreuses manières. Resonance ne demande pas d’abord quelle règle correspond à l’action. Il demande ce qui, dans la fiction, va réellement peser sur ce que le personnage tente de faire.
 
----
+## Les conséquences importantes doivent être visibles
 
-# 2. Le Focus : quelle question sommes-nous en train de résoudre ?
+Le mot **enjeu** peut être utilisé dans son sens courant pour parler de ce qui risque d’être gagné, perdu ou transformé, mais il ne constitue pas un concept mécanique distinct de Resonance.
+
+Sa fonction importante à la table est ailleurs : **les joueurs doivent pouvoir connaître les conséquences significatives auxquelles leur décision les expose lorsqu’elles ne sont pas évidentes.**
+
+> **Joueur :** Je saute du toit pour atteindre l’autre bâtiment.
+>
+> **Meneur :** D’accord. À cette distance, si tu tombes, la chute peut être mortelle. Tu le fais quand même ?
+
+La précision nécessaire dépend du contrat social de la table et du jeu utilisé.
+
+Dans un jeu où la létalité, les blessures graves, la perte irréversible d’un lien ou d’une ressource importante sont possibles, le meneur devrait avertir les joueurs lorsque leur personnage s’expose à ce type de conséquence sans que le risque soit déjà évident dans la fiction.
+
+Le but n’est pas d’annoncer tout ce qui pourrait arriver.
+
+Il s’agit de permettre au joueur de prendre une décision éclairée **depuis la situation de son personnage**.
+
+## Le Focus : quelle question et à quelle échelle ?
 
 La table précise ensuite la question à laquelle la résolution doit répondre.
 
@@ -125,34 +156,77 @@ Cette question définit le **Focus**.
 
 Le Focus ne décrit pas tout ce qui se passe dans la scène. Il détermine **ce que cette résolution regarde**.
 
-Tout ce qui existe sur la feuille de personnage n’est pas pertinent.
+Tout ce qui existe sur la feuille de personnage n’est pas forcément pertinent.
 
-Tout ce qui existe dans le monde n’est pas pertinent.
+Tout ce qui existe dans le monde n’est pas forcément pertinent.
 
 Même un élément important dans l’histoire peut ne pas compter pour cette résolution précise.
 
-Le Focus agit donc comme un cadre de pertinence : il permet à la table de distinguer ce qui entre dans la résolution de ce qui reste simplement vrai dans la fiction.
+Le Focus possède également une **échelle**. Resonance appelle cette propriété le **Zoom**.
+
+Autrement dit :
+
+> **Le Focus dit ce que nous résolvons.**
+>
+> **Le Zoom dit à quelle échelle nous le résolvons.**
+
+Les deux ne sont pas indépendants. Choisir le Focus, c’est aussi choisir la largeur de la question que l’on pose à la fiction.
+
+### Zoom Action
+
+Le Focus porte sur un geste ou un moment précis.
+
+> *Passer la porte avant qu’elle se referme.*
+
+L’espace des Mises est naturellement restreint. Plusieurs formulations d’un même avantage tendent à être redondantes parce que la résolution observe un instant étroit.
+
+### Zoom Séquence
+
+Le Focus porte sur une succession cohérente d’actions.
+
+> *Traverser les toits et semer les gardes avant d’atteindre le temple.*
+
+Des éléments qui auraient été redondants dans une action ponctuelle peuvent devenir distincts parce qu’ils concernent différentes dimensions ou étapes de la séquence : endurance, connaissance du quartier, aide d’un complice, pluie qui rend les tuiles glissantes, peur d’être reconnu.
+
+### Zoom Script
+
+Le Focus couvre un ensemble encore plus large : voyage, enquête, campagne militaire, négociation prolongée, projet complexe.
+
+> *Faire parvenir une caravane jusqu’à la cité assiégée.*
+
+Le personnage ou le groupe peut raisonnablement mobiliser plusieurs dimensions différentes : relations, logistique, réputation, savoir, endurance, richesse, protection politique, préparation ou sacrifices.
+
+Ce ne sont pas « plus de bonus parce que le conflit est plus long ».
+
+**Ce sont davantage de dimensions réellement différentes parce que la question posée est plus vaste.**
+
+Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour chaque type de scène.
 
 ---
 
-# 3. Les Mises : ce que la fiction place dans la balance
+# 3. Mettre la fiction dans la balance
 
-Les éléments que la table décide de faire compter deviennent des **Mises**.
+## Les Mises
 
-Une Mise est un élément fictionnel que la table considère comme suffisamment pertinent pour entrer dans la résolution.
+Les éléments que la table fait compter deviennent des **Mises**.
 
-Elle peut provenir :
+> **Une Mise est une vérité fictionnelle que le jeu et la table rendent pertinente pour le Focus présent.**
+
+Une Mise existe dans la fiction avant d’exister dans la mécanique.
+
+Elle peut provenir, entre autres :
 
 - du personnage : expérience, capacité, état, réputation, peur, conviction ;
 - de ses relations : allié, dette, rivalité, serment, amour, loyauté ;
 - de la situation : position, préparation, surprise, urgence ;
 - de l’environnement : pluie, obscurité, terrain, foule, incendie ;
 - de l’adversité : faiblesse, avantage, discipline, nombre, connaissance ;
-- du monde : coutume, tabou, statut, magie, cosmologie ou contrainte particulière.
+- du monde : coutume, tabou, statut, magie, cosmologie ou contrainte particulière ;
+- de tout autre élément que le jeu et la situation rendent réellement significatif.
+
+Cette liste n’est pas exhaustive.
 
 Une Mise n’est pas un bonus abstrait collé à la feuille de personnage.
-
-**Elle existe dans la fiction avant d’exister dans la mécanique.**
 
 Mais tout élément vrai dans la fiction n’est pas automatiquement une Mise.
 
@@ -170,33 +244,41 @@ Une Mise n’est pas nécessairement favorable au personnage qui la formule.
 
 > *Je connais parfaitement cette forêt.*
 
-peut jouer en sa faveur.
+pourrait jouer en sa faveur.
 
 > *Je suis blessé à la jambe.*
 
-peut jouer contre lui.
+pourrait jouer contre lui.
 
-Dans les deux cas, la Mise rend mécaniquement présent quelque chose que la fiction considère comme important.
+Mais leur pertinence dépend toujours du Focus **et du jeu que la table cherche à faire vivre**.
+
+Une blessure peut être centrale dans un jeu où la vulnérabilité physique est constamment mise en avant, et rester en arrière-plan dans un autre jeu qui s’intéresse davantage au drame politique ou aux relations.
+
+Une Mise n’est donc pas « objectivement importante » dans l’absolu.
+
+Elle devient importante ici, dans ce jeu, pour cette résolution.
 
 ## Une Mise est aussi un choix de regard
 
 La pertinence n’est pas seulement causale.
 
-Dans une fiction, nous ne prêtons jamais la même attention à tous les détails possibles. Une scène met certaines choses en avant.
+Dans une fiction, nous ne prêtons jamais la même attention à tous les détails possibles. Le jeu, la scène et la table mettent certaines choses en avant.
 
 Le regard malicieux d’un vieux sage peut compter parce que le récit nous a appris à y reconnaître sa sagesse.
 
-L’orage autour d’un duel peut compter parce qu’il donne à la confrontation une tension particulière.
+L’orage autour d’un duel peut compter parce que ce jeu donne une importance particulière aux signes du monde.
 
 L’arrivée imminente d’un ennemi peut compter parce que toute la scène est traversée par cette urgence.
 
 La maladresse légendaire d’un personnage peut compter parce qu’elle est devenue un motif de la fiction.
 
-**Les Mises sont les éléments que la table fait entrer dans le champ de la résolution parce qu’ils font sens ici.**
+Les joueurs, meneur compris, ne font donc pas que constater passivement ce qui serait causalement important.
 
----
+**Ils choisissent aussi ce que cette fiction mérite de regarder maintenant.**
 
-# 4. Pertinence et non-redondance
+Cette sélection n’est pas arbitraire : elle est guidée par le monde, le genre, les tropes, les règles du jeu et ce que la table a appris à considérer comme significatif.
+
+## Pertinence et non-redondance
 
 Un monde riche permet presque toujours de formuler plusieurs raisons très proches pour expliquer le même avantage.
 
@@ -212,7 +294,7 @@ Ils ne constituent pourtant pas nécessairement trois Mises distinctes.
 
 La question est :
 
-> **À l’échelle du Focus, représentent-ils réellement plusieurs choses différentes que la résolution veut mettre en jeu ?**
+> **À l’échelle de ce Focus, représentent-ils réellement plusieurs choses différentes que la résolution veut mettre en jeu ?**
 
 Si les trois formulations disent simplement « il est très expérimenté à l’épée » dans un échange de quelques secondes, elles sont probablement redondantes.
 
@@ -220,51 +302,11 @@ Dans une résolution plus vaste, elles pourraient au contraire devenir distincte
 
 La non-redondance n’est donc pas une règle comptable.
 
-Elle dépend de ce que la résolution regarde.
+Elle dépend du Focus et de son Zoom.
 
-> **Le Focus détermine ce qui est pertinent. Son échelle détermine aussi à partir de quand deux vérités deviennent réellement distinctes.**
+> **Le Focus détermine ce qui est pertinent. Son Zoom détermine aussi à partir de quand deux vérités deviennent réellement distinctes.**
 
----
-
-# 5. Le Zoom : à quelle échelle regardons-nous la fiction ?
-
-Resonance peut résoudre un instant, une séquence ou un ensemble beaucoup plus vaste sans changer de logique fondamentale.
-
-Le **Zoom** décrit cette échelle.
-
-## Zoom Action
-
-Le Focus porte sur un geste ou un moment précis.
-
-> *Passer la porte avant qu’elle se referme.*
-
-L’espace des Mises est naturellement restreint. Plusieurs formulations d’un même avantage tendent à être redondantes parce que la résolution observe un instant étroit.
-
-## Zoom Séquence
-
-Le Focus porte sur une succession cohérente d’actions.
-
-> *Traverser les toits et semer les gardes avant d’atteindre le temple.*
-
-Des Mises qui auraient été redondantes dans une action ponctuelle peuvent devenir distinctes parce qu’elles concernent différentes étapes de la séquence : endurance, connaissance du quartier, aide d’un complice, pluie qui rend les tuiles glissantes, peur d’être reconnu.
-
-## Zoom Script
-
-Le Focus couvre un ensemble encore plus large : voyage, enquête, campagne militaire, négociation prolongée, projet complexe.
-
-> *Faire parvenir une caravane jusqu’à la cité assiégée.*
-
-Le personnage ou le groupe peut raisonnablement mobiliser plusieurs dimensions différentes : relations, logistique, réputation, savoir, endurance, richesse, protection politique, préparation ou sacrifices.
-
-Ce ne sont pas « plus de bonus parce que le conflit est plus long ».
-
-**Ce sont davantage de dimensions réellement différentes parce que la question posée est plus vaste.**
-
-Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour chaque type de scène.
-
----
-
-# 6. Clore les Mises
+## Clore les Mises
 
 La table n’a pas besoin de trouver tout ce qui pourrait théoriquement compter.
 
@@ -290,106 +332,7 @@ Le rite de table peut rester extrêmement léger :
 
 La conversation sert à rendre la situation suffisamment claire pour être résolue, pas à maximiser un pool.
 
----
-
-# 7. Résoudre : la configuration standard
-
-La configuration standard de Resonance permet de jouer immédiatement avec des dés à six faces.
-
-Pour chaque camp :
-
-- chaque Mise retenue apporte **un D6** à son pool ;
-- chaque résultat **pair** compte comme une **Réussite** ;
-- chaque résultat **impair** ne produit pas de Réussite ;
-- on compare ensuite le nombre de Réussites obtenues par les camps.
-
-L’écart donne l’orientation de la résolution :
-
-- **égalité** : statu quo ;
-- **1 Réussite d’écart** : victoire ou défaite ;
-- **2 Réussites d’écart ou plus** : exploit ou fiasco.
-
-Cette procédure suffit à trancher une incertitude.
-
-Elle n’est pourtant pas une loi intangible de Resonance.
-
-C’est la réponse par défaut du framework à une question qui devra toujours recevoir une réponse :
-
-> **Comment ce qui a été mis en jeu rencontre-t-il l’incertitude ?**
-
-Pour le moment, il suffit de lancer les dés.
-
-Nous verrons plus loin pourquoi un jeu peut souhaiter donner une autre réponse.
-
----
-
-# 8. Interpréter : les Mises reviennent dans la fiction
-
-Les Mises ne servent pas seulement à construire le pool avant le jet.
-
-**Elles fournissent aussi la matière de l’interprétation après le jet.**
-
-Lorsque le résultat est connu, la table possède déjà :
-
-- l’intention ;
-- le Focus ;
-- ce qui comptait dans la fiction ;
-- l’orientation donnée par la résolution.
-
-Il ne reste donc pas à inventer une conséquence à partir d’un nombre abstrait.
-
-La résolution a déjà préparé les éléments avec lesquels raconter ce qui arrive.
-
-Imaginons une traversée de montagne où les Mises sont :
-
-- *la pluie battante* ;
-- *la peur de voir arriver les poursuivants* ;
-- *l’expérience des cols du personnage* ;
-- *la confiance de son compagnon*.
-
-Si le personnage obtient une Défaite, plusieurs interprétations sont immédiatement disponibles.
-
-La pluie peut rendre le passage impraticable.
-
-L’urgence peut provoquer une mauvaise décision.
-
-L’expérience peut empêcher que l’échec ne devienne un fiasco plus grave.
-
-Le compagnon peut rester en arrière pour permettre aux autres de continuer.
-
-Les dés déterminent une orientation.
-
-**Les Mises donnent à la table la matière avec laquelle cette orientation devient fiction.**
-
-On peut donc résumer leur double fonction ainsi :
-
-> **Avant la résolution, les Mises construisent l’incertitude.**
->
-> **Après la résolution, les Mises nourrissent son interprétation.**
-
-Le résultat retourne alors dans la fiction et transforme le monde depuis lequel la prochaine résolution commencera.
-
-> **Fiction → Focus → Mises → résolution → interprétation → fiction transformée**
-
----
-
-# Mises et enjeux
-
-Les **enjeux** désignent ce qui peut être gagné, perdu ou modifié par la résolution.
-
-Ils relèvent du vocabulaire courant de la table et n’ont pas nécessairement besoin de devenir un concept mécanique capitalisé de Resonance.
-
-> **Enjeu :** traverser la rivière avant l’arrivée des gardes.
->
-> **Mises :** connaître la rivière, affronter un courant particulièrement fort, transporter un compagnon blessé, voir la nuit tomber.
-
-L’enjeu dit **ce que la résolution décide**.
-
-Les Mises disent **ce que la fiction place dans la balance pour la décider**.
-
----
-
-# Opposition et contre-Mises
+## Opposition et contre-Mises
 
 Une Mise peut naturellement faire apparaître une vérité favorable à l’autre camp.
 
@@ -411,15 +354,170 @@ Cela ne signifie pas que chaque opposition doit être équilibrée.
 
 Un avantage fictionnel réel doit rester un avantage fictionnel réel.
 
-Les éventuels outils de régulation globale — comme une jauge de Destin — répondent à une autre question : celle de l’économie du jeu et du contrat de table. Ils seront présentés séparément des règles fondamentales de pertinence.
+Les contre-Mises sont donc une forme de **contrepoids organique** produit par l’exploration de la fiction, pas une obligation mathématique de rendre tous les pools égaux.
 
 ---
 
-# Le Facteur Cadre : ce qui borne la résolution
+# 4. Résoudre et interpréter
+
+## La configuration standard
+
+La configuration standard de Resonance permet de jouer immédiatement avec des dés à six faces.
+
+Pour chaque camp :
+
+- chaque Mise retenue apporte **un D6** à son pool ;
+- chaque résultat **pair** compte comme une **Réussite** ;
+- chaque résultat **impair** ne produit pas de Réussite ;
+- on compare ensuite le nombre de Réussites obtenues par les camps.
+
+Cette première opération transforme l’incertitude en un signal mécanique comparable : un nombre de Réussites.
+
+## L’échelle standard de résultat
+
+La comparaison des Réussites produit ensuite une orientation.
+
+### Égalité : Statu quo
+
+Si les deux camps obtiennent le même nombre de Réussites, aucun camp ne s’impose clairement.
+
+Le résultat est un **Statu quo**.
+
+Selon la situation, il peut être interprété comme :
+
+- **Oui, mais…** ;
+- **Non, mais…** ;
+- un maintien réel de la situation ;
+- ou l’ouverture d’une **surenchère** si un camp refuse d’en rester là.
+
+La surenchère ne consiste pas à relancer gratuitement les mêmes arguments. Elle demande que la fiction change suffisamment pour faire apparaître une nouvelle Mise, un nouveau coût ou une nouvelle prise de risque avant de résoudre à nouveau.
+
+### Différence positive : Victoire / Défaite
+
+Si un camp obtient plus de Réussites que l’autre, il obtient une **Victoire** et l’autre camp subit une **Défaite**.
+
+Dans la grammaire OMEN :
+
+> **Oui** pour le camp qui obtient ce qu’il cherchait.
+>
+> **Non** pour l’autre camp.
+
+### Domination : Exploit / Fiasco
+
+Une Victoire devient un **Exploit** — et la Défaite adverse un **Fiasco** — lorsque les deux conditions suivantes sont réunies :
+
+1. l’écart est **strictement supérieur à 1 Réussite** ;
+2. le camp gagnant obtient **strictement plus du double** des Réussites du camp perdant.
+
+Exemples :
+
+- `2–0` → Exploit / Fiasco ;
+- `3–1` → Exploit / Fiasco ;
+- `4–2` → Victoire / Défaite ;
+- `5–2` → Exploit / Fiasco ;
+- `6–3` → Victoire / Défaite.
+
+Cette règle évite qu’un grand nombre de Mises rende mécaniquement les résultats extrêmes plus fréquents simplement parce que les pools sont plus grands.
+
+L’Exploit ou le Fiasco exprime une **domination du résultat**, pas seulement un grand écart absolu.
+
+Dans la grammaire OMEN :
+
+> **Oui, et…** pour l’Exploit.
+>
+> **Non, et…** pour le Fiasco.
+
+## OMEN : une grammaire d’orientation, pas une nouvelle mécanique
+
+OMEN — **Oui / Mais / Et / Non** (*Yes / No / And / But*) — fournit une manière simple de traduire l’orientation mécanique dans une forme immédiatement exploitable par la fiction.
+
+Il ne remplace pas les Mises et ne dicte pas à lui seul ce qui arrive.
+
+Il indique seulement la forme générale du résultat :
+
+- **Oui** : l’Intention aboutit ;
+- **Non** : elle n’aboutit pas ;
+- **Et** : le résultat dépasse la simple réussite ou l’échec ;
+- **Mais** : quelque chose nuance, déplace ou complique un Statu quo.
+
+## Interpréter : les Mises reviennent dans la fiction
+
+Les Mises ne servent pas seulement à construire le pool avant le jet.
+
+**Elles fournissent aussi la matière de l’interprétation après le jet.**
+
+Lorsque le résultat est connu, la table possède déjà :
+
+- l’Intention ;
+- le Focus et son Zoom ;
+- les conséquences importantes éventuellement annoncées ;
+- ce qui comptait dans la fiction ;
+- l’orientation donnée par la résolution.
+
+Il ne reste donc pas à inventer une conséquence arbitraire à partir d’un nombre abstrait.
+
+La résolution a déjà préparé les éléments avec lesquels raconter ce qui arrive.
+
+Imaginons une traversée de montagne où les Mises sont :
+
+- *la pluie battante* ;
+- *la peur de voir arriver les poursuivants* ;
+- *l’expérience des cols du personnage* ;
+- *la confiance de son compagnon*.
+
+Si le personnage obtient une Défaite, plusieurs interprétations sont immédiatement disponibles.
+
+La pluie peut rendre le passage impraticable.
+
+L’urgence peut provoquer une mauvaise décision.
+
+L’expérience peut éviter que l’échec n’entraîne une conséquence plus grave.
+
+Le compagnon peut rester en arrière pour permettre aux autres de continuer.
+
+Les dés déterminent une orientation.
+
+**Les Mises donnent à la table la matière avec laquelle cette orientation devient fiction.**
+
+On peut donc résumer leur double fonction ainsi :
+
+> **Avant la résolution, les Mises construisent l’incertitude.**
+>
+> **Après la résolution, les Mises nourrissent son interprétation.**
+
+Le résultat retourne alors dans la fiction et transforme le monde depuis lequel la prochaine résolution commencera.
+
+> **Fiction → Intention → Focus / Zoom → Mises → résolution → orientation → interprétation → fiction transformée**
+
+---
+
+# 5. Ce qui maintient la cohérence
+
+À première lecture, Resonance peut sembler offrir une liberté dangereuse : si presque n’importe quelle vérité fictionnelle peut devenir une Mise, pourquoi la table ne pourrait-elle pas simplement tout invoquer, tout justifier et faire grossir les pools sans limite ?
+
+La réponse n’est pas un unique mécanisme d’équilibrage.
+
+Resonance repose sur **plusieurs niveaux de cadrage et de cohérence qui agissent à des endroits différents**.
+
+On peut les voir comme une succession de filtres :
+
+1. **Le contrat social** définit la manière dont la table accepte de jouer ensemble.
+2. **Le jeu et sa grammaire de pertinence** indiquent quelles sortes de vérités méritent généralement l’attention.
+3. **Les Facteurs Cadres** déterminent ce qui est possible ou recevable dans une situation.
+4. **Le Focus et son Zoom** déterminent ce que la résolution regarde ici et maintenant.
+5. **La pertinence et la non-redondance** déterminent ce qui peut réellement devenir une Mise distincte.
+6. **L’opposition et les contre-Mises** font apparaître les contrepoids que la fiction porte déjà en elle.
+7. **La Jauge de Destin**, lorsqu’elle est utilisée, garde une trace mécanique des déséquilibres qui subsistent entre les oppositions.
+
+Ces niveaux ne font pas tous le même travail et ne doivent pas être confondus.
+
+Ensemble, ils expliquent pourquoi Resonance n’est pas « chacun ajoute ce qu’il veut jusqu’à gagner ».
+
+## Le Facteur Cadre : ce qui borne la résolution
 
 Le Focus sélectionne ce qui compte, mais il ne peut pas abolir les contraintes fondamentales de la situation.
 
-Un **Facteur Cadre** exprime une limite suffisamment forte pour modifier l’espace même des intentions ou des Mises recevables.
+Un **Facteur Cadre** exprime une limite suffisamment forte pour modifier l’espace même des Intentions ou des Mises recevables.
 
 Par exemple :
 
@@ -433,43 +531,98 @@ Un Facteur Cadre n’est donc pas simplement « une difficulté de plus ».
 
 Il dit quelque chose sur **le cadre dans lequel la résolution peut avoir lieu**.
 
-La frontière exacte entre Facteur Cadre, recevabilité des Mises et règles particulières d’un jeu devra être précisée dans la partie consacrée au game design.
+Le Facteur Cadre agit en amont de la simple addition de dés : certaines Intentions deviennent impossibles, certains moyens ne sont plus recevables, certaines Mises deviennent centrales ou cessent d’avoir un sens.
+
+## Arbitrer une Mise
+
+La table partage la responsabilité de faire apparaître ce qui compte, mais elle doit savoir comment trancher lorsqu’elle n’est pas d’accord.
+
+Le jeu devrait préciser son mode d’arbitrage.
+
+Dans une configuration classique :
+
+- les joueurs proposent les éléments qu’ils voient comme pertinents ;
+- le meneur fait vivre l’adversité et le monde ;
+- la table confronte ces propositions au Focus, au Zoom, aux Facteurs Cadres et à la grammaire du jeu ;
+- le meneur tranche en dernier recours si le contrat de table lui confie cette responsabilité.
+
+Cette validation ne devrait pas reposer sur le seul goût personnel du meneur.
+
+**Le bon arbitre n’est pas celui qui décide ce qui l’arrange. C’est celui qui maintient la cohérence du monde, du jeu et du Focus partagé.**
+
+## La Jauge de Destin : un filet de sécurité économique
+
+Les oppositions n’ont pas besoin d’être équilibrées une par une.
+
+Un personnage réellement avantagé dans la fiction doit pouvoir bénéficier de cet avantage.
+
+Pour les tables qui souhaitent néanmoins garder une trace des déséquilibres successifs, Resonance peut utiliser une **Jauge de Destin** commune au groupe.
+
+Elle peut être matérialisée par :
+
+- des dés **bleus** en faveur des protagonistes ;
+- des dés **rouges** en faveur de l’adversité.
+
+Avant le tirage, si les pools sont déséquilibrés, la différence alimente la Jauge en faveur du camp actuellement désavantagé.
+
+Exemple :
+
+> Les protagonistes possèdent 5 Mises et l’adversité 3.
+>
+> L’opposition reste **5 contre 3**.
+>
+> La Jauge reçoit **2 dés rouges**.
+
+Plus tard :
+
+> Les protagonistes possèdent 2 Mises et l’adversité 5.
+>
+> La Jauge devrait recevoir **3 dés bleus**.
+>
+> Un dé bleu et un dé rouge s’annulent d’abord ; s’il restait 1 dé rouge, la Jauge contient donc ensuite 2 dés bleus.
+
+Les dés conservés dans la Jauge peuvent être dépensés ultérieurement pour renforcer une opposition en faveur du camp correspondant, lorsque la fiction le permet.
+
+La Jauge ne corrige donc pas immédiatement chaque déséquilibre.
+
+**Elle conserve la mémoire mécanique de la manière dont la fiction a penché.**
+
+Ce dispositif est particulièrement utile pour une table qui ne se connaît pas encore ou qui souhaite un filet de sécurité explicite.
+
+Une table qui a construit suffisamment de confiance peut décider de ne pas l’utiliser.
 
 ---
 
-# Deuxième partie — Faire varier Resonance
+# 6. Faire varier et concevoir Resonance
 
 Jusqu’ici, nous avons joué avec la configuration standard.
 
 Cela suffit pour utiliser Resonance dans un univers quelconque.
 
-Mais le framework a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être neutre et commencer à l’exprimer**.
+Mais le framework a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
 
-C’est ici que Resonance devient explicitement un outil de game design.
+## Invariants et choix de design
 
----
+Certains éléments constituent le geste même de Resonance :
 
-# Invariants et choix de design
-
-Tous les éléments rencontrés jusqu’ici n’ont pas le même statut.
-
-Certains constituent le geste même de Resonance :
-
-- partir d’une intention fictionnelle ;
-- définir un Focus ;
+- partir d’une Intention fictionnelle ;
+- définir un Focus et son Zoom ;
+- rendre visibles les conséquences importantes lorsque le contrat de table le demande ;
 - sélectionner ce qui compte ;
 - éviter les redondances à l’échelle choisie ;
-- confronter ces éléments à une forme d’incertitude ;
-- interpréter le résultat à partir de la fiction mise en jeu ;
+- confronter les Mises à une forme d’incertitude ;
+- produire une orientation de résultat ;
+- interpréter cette orientation à partir de la fiction mise en jeu ;
 - repartir du monde transformé.
 
-D’autres éléments appartiennent à la configuration standard et peuvent être remplacés :
+D’autres éléments appartiennent à la configuration standard et peuvent être remplacés ou transformés :
 
 - utiliser des D6 ;
 - associer une Mise à un dé ;
 - lire les nombres pairs comme des Réussites ;
-- employer cette échelle précise de résultats ;
-- représenter toutes les Mises de la même manière.
+- utiliser exactement la même représentation physique pour toutes les Mises ;
+- employer cette échelle particulière de résultats ;
+- utiliser ou non la Jauge de Destin.
 
 Un jeu Resonance est donc libre de conserver les choix standards qui lui conviennent et de transformer ceux qui ont quelque chose à exprimer.
 
@@ -477,34 +630,48 @@ La variation n’est pas un ajout extérieur au framework.
 
 **Elle fait partie de sa conception.**
 
----
+## Une chaîne de responsabilités
 
-# Les Prismes : comment une perspective fait répondre le monde
+Pour éviter de confondre les différentes opérations de la résolution, on peut les séparer ainsi :
 
-La configuration standard utilise une lecture volontairement simple de l’incertitude.
+> **Mises → support d’incertitude → Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
 
-Mais certains jeux peuvent vouloir que cette lecture elle-même porte du sens.
+Dans la configuration standard :
 
-Resonance appelle **Prisme** la logique par laquelle une perspective sur le monde transforme l’incertitude en résultat.
+> **Mises → D6 → pair / impair → Réussites → comparaison / OMEN → interprétation par les Mises**
 
-Un Prisme ne consiste donc pas simplement à « compter les dés autrement ».
+Cette séparation est importante.
 
-Il peut modifier :
+Le **Prisme** ne raconte pas à lui seul la conséquence finale.
+
+Il transforme l’incertitude en signaux mécaniques.
+
+L’**échelle de résultat** compare ensuite ces signaux pour produire une orientation.
+
+L’**interprétation** transforme enfin cette orientation en fiction à partir des Mises et de la situation.
+
+## Les Prismes : comment une perspective transforme l’incertitude
+
+Resonance appelle **Prisme** la logique par laquelle une perspective sur le monde transforme l’incertitude en signaux mécaniques utilisables par la résolution.
+
+Un Prisme ne consiste donc pas simplement à « compter les dés autrement » pour produire une variation esthétique.
+
+Il peut notamment modifier :
 
 - les résultats qui comptent ;
 - les motifs qui deviennent significatifs ;
 - les dés qui peuvent être relancés ou transformés ;
 - les résultats qui s’annulent ;
-- le prix d’une réussite ou d’une transgression ;
-- la manière dont l’incertitude produit une conséquence.
+- les coûts ou transgressions attachés à certains résultats ;
+- la manière dont les événements aléatoires deviennent des Réussites ou d’autres signaux comparables.
 
-Le mécanisme concret n’est que l’expression d’une idée plus fondamentale :
+Le mécanisme concret est l’expression d’une question plus fondamentale :
 
 > **Que signifie l’incertitude depuis cette manière d’habiter le monde ?**
 
-## Le Prisme standard
+### Le Prisme standard
 
-La configuration standard de Resonance possède elle aussi un Prisme, même s’il cherche précisément à rester discret.
+La configuration standard possède elle aussi un Prisme, même s’il cherche précisément à rester discret.
 
 Le **Prisme standard** traite chaque D6 de manière identique : pair, il produit une Réussite ; impair, il n’en produit pas.
 
@@ -514,7 +681,19 @@ Il fournit simplement la lecture qui ajoute le moins de présupposés particulie
 
 C’est un **point zéro de design**, pas une norme à laquelle les autres Prismes devraient ressembler.
 
-## Quand créer un autre Prisme ?
+### Des sorties communes pour des perspectives différentes
+
+Lorsque plusieurs Prismes doivent coexister dans une même opposition, le jeu gagne à définir une interface commune.
+
+Dans les implémentations actuelles de Resonance, cette interface est généralement la **Réussite** : chaque Prisme peut produire ses Réussites selon sa propre logique, puis l’échelle de résultat peut comparer les camps.
+
+Cela permet à des personnages qui n’habitent pas le monde de la même manière de participer à une même résolution sans réduire leurs perspectives à une mécanique identique.
+
+Cette sortie commune est un contrat d’interopérabilité.
+
+**Elle ne constitue pas la définition philosophique du Prisme.**
+
+### Quand créer un autre Prisme ?
 
 Un autre Prisme devient pertinent lorsque modifier la résolution permet au joueur de ressentir quelque chose qu’une description seule transmettrait moins bien.
 
@@ -523,7 +702,7 @@ Par exemple, un jeu pourrait vouloir que :
 - la faveur divine transforme certains échecs ;
 - les esprits rendent des motifs ou des répétitions significatifs ;
 - une discipline logique agrège les résultats plutôt qu’elle ne les compte ;
-- une voie mystique puisse annuler une victoire apparemment acquise ;
+- une voie mystique puisse annuler une réussite apparemment acquise ;
 - une pensée cyclique ou draconique fasse émerger des formes plutôt que des succès indépendants.
 
 La bonne question de design n’est donc pas :
@@ -534,9 +713,7 @@ mais :
 
 > **Quelle relation au monde mérite réellement de transformer la manière dont l’incertitude est vécue ?**
 
----
-
-# Les supports peuvent eux aussi résonner
+## Les supports peuvent eux aussi résonner
 
 Une Mise n’a pas besoin d’être représentée par un D6 identique à toutes les autres.
 
@@ -546,7 +723,8 @@ Un jeu peut utiliser :
 - des couleurs ayant une signification fictionnelle ;
 - des cartes ;
 - des jetons ;
-- des perles ;
+- des pièces ;
+- des pierres ou des perles ;
 - des objets particuliers ;
 - ou tout autre support dont la manipulation sert l’expérience recherchée.
 
@@ -556,15 +734,13 @@ Le support devient pertinent lorsqu’il prolonge quelque chose que le personnag
 
 Un dé rouge peut signifier la colère si sa présence et ses effets rendent réellement cette colère perceptible à la table.
 
-Un ensemble de pierres ou de perles peut être plus approprié qu’un dé si le jeu veut matérialiser une relation aux esprits, à une mémoire ou à une dette.
+Un ensemble de pierres peut être plus approprié qu’un dé si le jeu veut matérialiser une relation aux esprits, à une mémoire ou à une dette.
 
 L’objectif reste le même :
 
 **réduire la distance entre ce que le joueur manipule et ce que son personnage vit.**
 
----
-
-# Concevoir la pertinence
+## Concevoir la pertinence
 
 Les Prismes ne sont qu’un des points de design de Resonance.
 
@@ -578,6 +754,7 @@ Cette **grammaire de pertinence** peut venir :
 - des institutions ;
 - des états du personnage ;
 - des motifs du genre ;
+- des tropes que le jeu veut mettre en avant ;
 - de la progression ;
 - des Facteurs Cadres ;
 - des conséquences accumulées dans la fiction.
@@ -590,31 +767,27 @@ La conception d’un jeu Resonance ne consiste donc pas seulement à écrire une
 
 Elle consiste à décider **ce que le jeu apprend aux joueurs à remarquer**.
 
----
+Le choix des Mises que le design rend naturellement pertinentes est ainsi l’un des principaux moyens de favoriser un type d’immersion plutôt qu’un autre.
 
-# Trois niveaux à ne pas confondre
+## Trois niveaux à ne pas confondre
 
-Cette architecture permet de distinguer clairement trois objets.
-
-## Resonance
+### Resonance
 
 Le framework.
 
 Il fournit la grammaire générale de résolution, ses concepts et ses points de variation.
 
-## La configuration standard
+### La configuration standard
 
 Une implémentation de référence entièrement jouable.
 
 Elle permet d’utiliser Resonance immédiatement sans travail préalable de game design.
 
-On peut donc jouer avec Resonance sans avoir écrit un « jeu Resonance » particulier.
-
-## Un jeu conçu avec Resonance
+### Un jeu conçu avec Resonance
 
 Une implémentation qui choisit ce qu’elle conserve et ce qu’elle transforme pour produire une expérience propre à son univers.
 
-Elle peut définir :
+Elle peut définir notamment :
 
 - sa grammaire de pertinence ;
 - ses Prismes ;
@@ -622,29 +795,27 @@ Elle peut définir :
 - ses supports ;
 - ses économies de jeu ;
 - sa progression ;
-- ses outils de régulation ;
+- ses outils de cohérence ou de régulation ;
 - ses manières d’interpréter les conséquences.
 
 **Glorantha Perspectives** constitue un exemple de cette troisième catégorie.
 
----
+## Une grille de conception
 
-# Troisième partie — Concevoir un jeu avec Resonance
+Une première grille pour concevoir un jeu avec Resonance pourrait demander :
 
-Cette partie du SRD devra transformer les concepts précédents en méthode de design.
-
-Une première grille pourrait demander au concepteur :
-
-1. **Qu’est-ce que ce monde apprend aux joueurs à remarquer ?**
-2. **Quelles vérités peuvent devenir des Mises ?**
+1. **Qu’est-ce que ce monde ou ce genre apprend aux joueurs à remarquer ?**
+2. **Quelles vérités doivent naturellement devenir des Mises pour produire l’immersion recherchée ?**
 3. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
 4. **Quels Facteurs Cadres bornent réellement l’action ?**
-5. **La configuration standard suffit-elle à exprimer ce monde ?**
-6. **Si non, quelle perspective mérite un Prisme particulier ?**
-7. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
-8. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
-9. **Quelles conséquences doivent retourner durablement dans la fiction ?**
-10. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
+5. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
+6. **La configuration standard suffit-elle à exprimer ce monde ?**
+7. **Si non, quelle perspective mérite un Prisme particulier ?**
+8. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
+9. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
+10. **Quelles conséquences doivent retourner durablement dans la fiction ?**
+11. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
+12. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
 
 L’objectif n’est pas de modifier Resonance pour le plaisir d’ajouter des règles.
 
@@ -654,7 +825,7 @@ Chaque variation devrait pouvoir répondre à une question simple :
 
 ---
 
-# Quatrième partie — Pourquoi Resonance fonctionne ainsi
+# 7. Comprendre Resonance
 
 Les notions théoriques viennent ici, une fois l’expérience de jeu comprise.
 
@@ -732,64 +903,45 @@ Cette partie théorique devra encore être affinée afin de ne pas utiliser ces 
 
 ---
 
-# Proposition d’architecture pour le SRD
+# 8. Implémentations et études de cas
 
-À partir de cette nouvelle lecture, le SRD pourrait suivre la progression suivante :
+Le framework peut être étudié à travers des implémentations complètes ou des prototypes plus ciblés.
 
-1. **Jouer à Resonance**
-   - scène d’ouverture ;
-   - Intention ;
-   - Focus ;
-   - Mises ;
-   - pertinence et non-redondance ;
-   - Zoom ;
-   - configuration standard ;
-   - interprétation ;
-   - opposition.
+## Glorantha Perspectives
 
-2. **Maîtriser la table**
-   - recevabilité des Mises ;
-   - rôle du meneur et responsabilité partagée ;
-   - Facteurs Cadres ;
-   - surenchère ;
-   - Jauge de Destin ;
-   - contrat social ;
-   - exemples complets Action / Séquence / Script.
+**Glorantha Perspectives** constitue la première implémentation complète de référence.
 
-3. **Faire varier Resonance**
-   - invariants et choix standards ;
-   - Prisme standard ;
-   - création et usage des Prismes ;
-   - confrontation de perspectives différentes ;
-   - supports alternatifs ;
-   - autres formes d’incertitude.
+Elle montre notamment comment :
 
-4. **Concevoir un jeu avec Resonance**
-   - grammaire de pertinence ;
-   - cultures, relations et progression ;
-   - Facteurs Cadres comme outils de design ;
-   - économies de jeu ;
-   - construction d’un Prisme depuis une expérience fictionnelle ;
-   - tests et critères de design.
+- une grammaire de pertinence peut venir d’un univers particulièrement dense ;
+- plusieurs Prismes peuvent rendre opérantes des relations différentes au réel ;
+- des Facteurs Cadres peuvent traduire des vérités cosmologiques, sociales ou culturelles ;
+- une économie comme la Jauge de Destin peut servir de filet de sécurité à la table ;
+- le lore peut devenir une matière de jeu plutôt qu’un corpus consulté à côté des règles.
 
-5. **Comprendre Resonance**
-   - interface cognitive ;
-   - game design diégétique ;
-   - perspectivisme ;
-   - ontologie mécanique ;
-   - limites et domaines d’application.
+D’autres implémentations permettront de vérifier quelles parties du framework sont réellement invariantes et lesquelles appartiennent seulement aux premiers cas explorés.
 
-6. **Études de cas**
-   - Glorantha Perspectives ;
-   - autres implémentations et prototypes.
+---
 
-L’ordre recherché reste :
+# Chantiers encore ouverts
 
-> **expérience concrète → pratique → variation → design → théorie**
+Cette version clarifie l’architecture pédagogique, mais plusieurs points méritent encore une passe dédiée avant de remplacer le SRD publié :
 
-La théorie vient expliquer une expérience que le lecteur a déjà comprise au lieu d’être le prix d’entrée du document.
+- tester statistiquement la nouvelle condition d’Exploit / Fiasco avec différentes tailles de pools et différents Prismes ;
+- préciser la règle complète de surenchère et ses limites ;
+- préciser le statut exact de l’échelle standard de résultat : invariant ou choix de design fortement recommandé ;
+- préciser jusqu’où un Prisme peut produire des effets secondaires sans empiéter sur l’interprétation ;
+- formaliser la Jauge de Destin et les conditions exactes de dépense de ses dés ;
+- préciser la frontière entre Facteur Cadre, grammaire de pertinence et règles spécifiques d’une implémentation ;
+- affiner les termes cognitif, diégétique, perspectiviste et ontologique ;
+- ajouter des exemples complets de résolution aux Zooms Action, Séquence et Script ;
+- tester la lisibilité du document auprès de lecteurs qui ne connaissent pas les versions précédentes de Resonance.
 
-Et la distinction fondamentale du framework devient plus simple :
+La progression recherchée est désormais :
+
+> **découvrir → cadrer → remarquer → mettre en jeu → résoudre → interpréter → maintenir la cohérence → faire varier → concevoir → comprendre**
+
+Et la proposition fondamentale du framework reste simple :
 
 > **On peut jouer à Resonance tel quel.**
 >
