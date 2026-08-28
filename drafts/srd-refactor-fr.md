@@ -1355,13 +1355,21 @@ Scooby-Doo montre surtout qu’un Prisme n’a pas besoin d’une architecture l
 
 Sammy et Scooby ne jouent même pas nécessairement contre un pool adverse.
 
-Ils rassemblent les Mises qui comptent — peur, faim, complicité, environnement — puis lancent leurs dés seuls.
+Ils rassemblent chacun les Mises qui comptent — peur, faim, complicité, environnement — puis lancent chacun leur propre pool.
+
+On compte normalement les résultats pairs de Sammy et ceux de Scooby, puis on additionne leurs Réussites.
+
+Mais leur lien possède une traduction mécanique supplémentaire : **chaque paire croisée de résultats impairs identiques entre leurs deux tirages produit une Réussite supplémentaire au total.**
+
+Un `3` de Sammy ne résonne donc pas avec un autre `3` de Sammy. Il faut qu’un `3` apparaisse aussi dans le tirage de Scooby. De même pour les `1` ou les `5`.
+
+Ils restent deux personnages avec deux pools distincts, mais leur maladresse devient plus efficace lorsqu’ils sont ensemble.
+
+La règle les pousse donc mécaniquement à reproduire leur trope le plus naturel : **Sammy et Scooby ont intérêt à rester côte à côte.**
 
 Le résultat décrit directement **l’ampleur du chaos qu’ils produisent**.
 
 Plus ils obtiennent de Réussites, plus leur fuite peut devenir spectaculairement efficace malgré eux : renverser une étagère, révéler un passage secret, faire tomber le monstre dans son propre piège ou détruire sa cachette.
-
-Leur lien possède en plus une traduction mécanique propre : certaines correspondances entre leurs deux tirages peuvent produire des effets supplémentaires, ce qui les incite à rester ensemble sans les fusionner en un pool unique.
 
 Ce cas est important pour Resonance parce qu’il montre un **Prisme à résultat autonome**.
 
@@ -1386,6 +1394,8 @@ Un plan peut fonctionner exactement comme prévu mais sur la mauvaise cible ; un
 Le Prisme ne cherche pas seulement à déterminer « réussit-il ? ».
 
 Il transforme la manière dont le monde répond à sa confiance dans ses propres plans.
+
+Ce Prisme reste toutefois à rechallenger. Le trope du Beau Gosse ne consiste pas seulement à produire des plans qui tournent de travers : il devrait aussi trouver **un intérêt mécanique à séparer le groupe**. Le présent refactor ne cherche pas encore à figer la règle qui produira cette incitation.
 
 #### La Belle Nunuche : l’accident significatif
 
@@ -1616,6 +1626,7 @@ Cette version cherche désormais à contenir l’ensemble de la matière qui dev
 - challenger les différentes philosophies possibles de l’égalité et confirmer la place de la surenchère standard ;
 - préciser le statut exact de l’échelle standard de résultat : invariant ou choix de design fortement recommandé ;
 - utiliser Scooby-Doo et d’autres études de cas pour comprendre les Prismes à résultat autonome plutôt que d’en fixer prématurément une théorie générale ;
+- rechallenger le Prisme du Beau Gosse dans Scooby-Doo afin que sa mécanique l’incite organiquement à séparer le groupe, sans figer cette solution dans le refactor actuel ;
 - préciser les conventions d’autorité possibles autour de la Jauge de Destin sans transformer son usage en automatisme ;
 - tester la distinction pédagogique entre Facteurs Cadres, grammaire de pertinence et règles spécifiques d’une implémentation ;
 - affiner les termes cognitif, diégétique, perspectiviste et ontologique ;
