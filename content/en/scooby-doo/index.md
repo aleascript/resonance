@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resonance: Scooby-Doo
+title: Resonance / Scooby-Doo
 lang: en
 permalink: /en/scooby-doo/
 ---
