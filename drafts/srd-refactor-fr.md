@@ -209,11 +209,9 @@ Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour
 
 ## La feuille de personnage : une mémoire de la fiction
 
-Resonance peut utiliser une feuille de personnage.
+Resonance utilise une feuille de personnage, mais celle-ci n’est pas organisée autour de niveaux, de classes ou de valeurs numériques à faire progresser.
 
-Mais cette feuille n’a pas besoin d’être organisée autour de valeurs numériques à optimiser.
-
-Elle peut être essentiellement **littéraire et signifiante** : mots-clés, relations, états, objets, appartenances, convictions, symboles, blessures, serments, réputations ou autres éléments propres à l’univers de jeu.
+Elle est essentiellement **littéraire et signifiante** : mots-clés, relations, états, objets, appartenances, convictions, symboles, blessures, serments, réputations ou autres éléments propres à l’univers de jeu.
 
 Par exemple, une feuille pourrait porter des éléments comme :
 
@@ -237,6 +235,48 @@ Le monde, la scène, les autres personnages et tout ce qui a déjà été établ
 Cette distinction est essentielle : un mot-clé écrit sur la feuille peut être parfaitement vrai sans être pertinent dans le Focus présent.
 
 Inversement, une vérité décisive de la scène peut devenir une Mise alors qu’elle n’a jamais été inscrite sur aucune feuille.
+
+## Le personnage et son espace de pertinence
+
+La feuille décrit aussi une partie de l’**espace de pertinence** actuel du personnage : les vérités durables qui le constituent et que la fiction pourra éventuellement rendre pertinentes.
+
+Cet espace n’est ni un niveau de puissance ni une liste de capacités activables.
+
+Il décrit ce que le personnage est devenu : ce qu’il sait, ce qu’il croit, ce à quoi il appartient, ce qu’il aime ou déteste, ce qu’il porte, ce qu’il a subi, les liens qui l’engagent et les symboles qui ont un sens pour lui.
+
+Un jeune guerrier peut par exemple commencer avec un espace de pertinence dominé par :
+
+> *Clan* — *Maître* — *Devoir* — *Réputation* — *Obéissance*
+
+Puis son histoire peut faire apparaître :
+
+> *Compassion* — *Amour personnel* — *Doute* — *Vérité* — *Refus d’un ordre injuste*
+
+Certaines vérités peuvent être ajoutées. D’autres disparaissent. D’autres encore se transforment :
+
+> *Obéissance au maître* → *Doute envers le maître* → *Trahi par mon maître*
+
+Le personnage ne gagne pas nécessairement une capacité.
+
+> **Son espace de pertinence se transforme.**
+
+Cette transformation est la progression du personnage dans Resonance.
+
+Il n’existe pas de progression intrinsèque par niveaux, classes ou augmentation de caractéristiques : **le personnage évolue par les mots-clés et autres vérités signifiantes qui apparaissent, changent ou disparaissent au fil de la fiction.**
+
+Cela ne signifie toujours pas qu’un mot-clé inscrit sur la feuille devient automatiquement une Mise.
+
+La distinction fondamentale reste :
+
+> **La fiction propose. Le Focus sélectionne. La Mise actualise.**
+
+La feuille n’est qu’une mémoire structurée d’une partie de cette fiction, centrée sur le personnage.
+
+Pour les vérités qu’elle conserve, on peut donc aussi dire :
+
+> **La feuille propose ; le Focus sélectionne ; la Mise actualise.**
+
+Mais une Mise peut tout aussi bien venir d’un adversaire, d’un lieu, d’un événement, d’une relation non inscrite, de l’environnement ou de toute autre vérité fictionnelle que le jeu et la table rendent pertinente.
 
 ## Les Mises
 
@@ -531,15 +571,37 @@ La feuille ne sert donc pas seulement à rappeler ce qui pouvait compter avant l
 
 **Elle peut aussi conserver ce que la résolution a changé.**
 
-Cela crée une continuité simple :
-
-> **la fiction nourrit la feuille → la feuille rappelle la fiction → certaines vérités deviennent des Mises → la résolution transforme la fiction → certaines transformations reviennent sur la feuille.**
-
 Cette écriture n’a pas besoin d’être systématique. Beaucoup de conséquences restent locales à la scène ou au monde sans modifier directement le personnage.
 
 Mais lorsqu’un changement devient durable et appartient désormais à ce que le personnage est, possède, croit, subit ou représente, la feuille peut en devenir la mémoire.
 
-On peut donc résumer la double fonction des Mises ainsi :
+## Évoluer, c’est transformer son espace de pertinence
+
+Dans Resonance, cette réécriture constitue la progression du personnage.
+
+Un personnage n’accumule pas des niveaux ou des classes pour devenir une version quantitativement supérieure de lui-même.
+
+**Il est vivant. Il évolue, progresse, change et se transforme parce que les vérités capables de peser pour lui changent.**
+
+Le jeune guerrier précédemment défini par *Clan*, *Maître*, *Devoir*, *Réputation* et *Obéissance* peut rencontrer des situations qui font apparaître *Compassion*, *Amour*, *Doute* ou *Refus d’un ordre injuste*.
+
+Il peut apprendre quelque chose et gagner un mot-clé. Il peut perdre un statut, un objet, une relation ou une conviction. Un mot-clé peut être reformulé parce que sa signification a changé.
+
+Cette évolution peut représenter une augmentation de compétence lorsque la fiction le justifie, mais elle n’est pas réductible à une montée en puissance.
+
+Devenir roi, être banni, tomber amoureux, perdre la foi, acquérir une dette, être marqué par le Chaos, gagner une réputation ou rompre avec son clan sont tous des changements mécaniquement importants s’ils modifient les vérités disponibles au personnage.
+
+> **Progresser, dans Resonance, c’est transformer ce qui peut compter.**
+
+Une conséquence passée peut ainsi devenir une future Mise si un nouveau Focus la rend pertinente.
+
+La progression n’est donc pas extérieure à la boucle de résolution : elle en est l’une des formes de persistance.
+
+Cela crée une continuité simple :
+
+> **la fiction nourrit la feuille → la feuille conserve une partie de l’espace de pertinence → le Focus actualise certaines vérités en Mises → la résolution transforme la fiction → certaines transformations réécrivent l’espace de pertinence.**
+
+On peut résumer la double fonction des Mises ainsi :
 
 > **Avant la résolution, les Mises construisent l’incertitude.**
 >
@@ -644,9 +706,19 @@ Elle n’est pas une liste exhaustive de Mises autorisées.
 
 **C’est une organisation du regard.**
 
+Il est utile de distinguer ici deux niveaux :
+
+> **La grammaire de pertinence appartient au jeu : elle organise les familles de sens que le design rend visibles.**
+>
+> **L’espace de pertinence appartient au personnage à un moment donné : il est constitué des vérités concrètes que son histoire a écrites dans cette grammaire.**
+
+Ainsi, deux personnages soumis à la même grammaire peuvent posséder des espaces de pertinence radicalement différents, et un même personnage peut voir son espace se transformer au cours de la campagne.
+
 > **Le Facteur Cadre ferme des possibilités.**
 >
 > **La grammaire de pertinence ouvre des champs d’attention.**
+>
+> **L’espace de pertinence du personnage se transforme avec son histoire.**
 
 ## Arbitrer une Mise
 
@@ -734,6 +806,7 @@ Certains éléments constituent le geste même de Resonance :
 - confronter les Mises à une forme d’incertitude ;
 - produire une forme de résultat exploitable par la fiction ;
 - interpréter ce résultat à partir de la fiction mise en jeu ;
+- permettre aux conséquences durables de transformer les vérités persistantes du personnage ;
 - repartir du monde transformé.
 
 D’autres éléments appartiennent à la configuration standard et peuvent être remplacés ou transformés :
@@ -746,6 +819,8 @@ D’autres éléments appartiennent à la configuration standard et peuvent êtr
 - employer cette échelle particulière de résultats ;
 - employer cette règle de surenchère ;
 - utiliser ou non la Jauge de Destin.
+
+Resonance ne prévoit pas de progression par niveaux, classes ou augmentation chiffrée : l’évolution du personnage passe par la transformation de ses vérités signifiantes. Une implémentation peut organiser cette transformation à son rythme et avec ses propres procédures, mais elle reste attachée à ce que la fiction fait réellement devenir vrai du personnage.
 
 Un jeu Resonance est donc libre de conserver les choix standards qui lui conviennent et de transformer ceux qui ont quelque chose à exprimer.
 
@@ -882,7 +957,6 @@ Cette **grammaire de pertinence** peut être organisée à partir :
 - des états du personnage ;
 - des motifs du genre ;
 - des tropes que le jeu veut mettre en avant ;
-- de la progression ;
 - des conséquences accumulées dans la fiction.
 
 Ces catégories peuvent elles-mêmes contenir d’autres catégories, mots-clés ou symboles.
@@ -900,6 +974,29 @@ Elle consiste à décider **ce que le jeu apprend aux joueurs à remarquer**.
 Le choix des familles de Mises que le design rend naturellement visibles est ainsi l’un des principaux moyens de favoriser un type d’immersion plutôt qu’un autre.
 
 La feuille de personnage peut devenir l’une des interfaces de cette grammaire : sa structure, ses mots-clés et ses symboles montrent au joueur quelles dimensions de son personnage méritent d’être regardées, sans garantir qu’elles seront pertinentes dans chaque Focus.
+
+## Concevoir l’évolution du personnage
+
+Puisque l’évolution passe par les mots-clés et autres vérités persistantes, concevoir la progression d’un jeu Resonance ne consiste pas à dessiner une courbe de niveaux.
+
+Le game designer doit plutôt décider :
+
+- quelles familles de vérités peuvent apparaître sur la feuille ;
+- comment une expérience peut en créer une nouvelle ;
+- quand une vérité peut être reformulée, remplacée ou supprimée ;
+- qui possède l’autorité pour écrire ces transformations ;
+- quels changements nécessitent une résolution, une conséquence particulière ou simplement un événement fictionnel établi ;
+- comment le jeu rend visibles les transformations importantes sans transformer chaque scène en procédure de progression.
+
+Cette progression peut être lente ou rapide, dramatique ou discrète, mais elle reste qualitative.
+
+> **La grammaire de pertinence définit le langage possible de l’évolution.**
+>
+> **L’histoire du personnage écrit progressivement son espace de pertinence dans ce langage.**
+
+Deux personnages ayant commencé avec des feuilles similaires peuvent ainsi diverger fortement sans qu’aucun d’eux soit « de niveau supérieur » à l’autre.
+
+Le design de progression devient donc un design de **transformation du regard et de l’identité**, autant qu’un design de compétence.
 
 ## Trois niveaux à ne pas confondre
 
@@ -923,11 +1020,11 @@ Elle peut définir notamment :
 
 - sa grammaire de pertinence ;
 - la forme de ses feuilles et de ses mémoires fictionnelles ;
+- la manière dont les mots-clés apparaissent, changent et disparaissent ;
 - ses Prismes ;
 - ses Facteurs Cadres ;
 - ses supports ;
 - ses économies de jeu ;
-- sa progression ;
 - ses outils de cohérence ou de régulation ;
 - ses manières d’interpréter les conséquences.
 
@@ -940,17 +1037,18 @@ Une première grille pour concevoir un jeu avec Resonance pourrait demander :
 1. **Qu’est-ce que ce monde ou ce genre apprend aux joueurs à remarquer ?**
 2. **Quelles familles de vérités doivent être particulièrement visibles pour produire l’immersion recherchée ?**
 3. **Comment la feuille de personnage, le lore ou d’autres supports rendent-ils ces vérités mémorables sans les transformer en bonus automatiques ?**
-4. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
-5. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
-6. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
-7. **La configuration standard suffit-elle à exprimer ce monde ?**
-8. **Si non, quelle perspective mérite un Prisme particulier ?**
-9. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
-10. **Le jeu a-t-il besoin de pools opposés et d’une sortie commune, ou d’une autre forme de résultat ?**
-11. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
-12. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
-13. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
-14. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
+4. **Comment l’espace de pertinence d’un personnage peut-il se transformer au fil de son histoire ?**
+5. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
+6. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
+7. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
+8. **La configuration standard suffit-elle à exprimer ce monde ?**
+9. **Si non, quelle perspective mérite un Prisme particulier ?**
+10. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
+11. **Le jeu a-t-il besoin de pools opposés et d’une sortie commune, ou d’une autre forme de résultat ?**
+12. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
+13. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
+14. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
+15. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
 
 L’objectif n’est pas de modifier Resonance pour le plaisir d’ajouter des règles.
 
@@ -982,6 +1080,8 @@ L’objectif n’est pas l’absence de réflexion.
 
 C’est de diriger cette réflexion vers la fiction plutôt que vers la manipulation d’un modèle abstrait.
 
+L’évolution du personnage participe de cette logique : la feuille ne sert pas à afficher une puissance abstraite croissante, mais à conserver les transformations de ce que le joueur doit désormais comprendre et remarquer de son personnage.
+
 ## Diégétique : d’où viennent les éléments mécaniques ?
 
 Resonance peut être décrit comme **diégétique** lorsque les éléments manipulés par la règle restent attachés à des éléments qui possèdent déjà un sens dans la fiction.
@@ -991,6 +1091,8 @@ Une blessure, un serment, le vent, une réputation ou une relation ne sont pas d
 Ils existent dans le monde fictionnel, puis deviennent mécaniquement présents parce qu’ils comptent.
 
 La feuille littéraire peut prolonger cette continuité : elle ne convertit pas nécessairement le personnage en valeurs abstraites, elle conserve sous une forme manipulable des vérités qui ont déjà un sens dans le monde.
+
+Cette continuité vaut aussi pour la progression : une transformation mécanique du personnage correspond à quelque chose qui est effectivement devenu vrai, faux ou différent dans la fiction.
 
 Cette continuité peut également concerner les supports employés : couleurs, dés, cartes, objets ou autres formes matérielles peuvent prolonger une signification déjà vécue dans la fiction.
 
@@ -1051,6 +1153,7 @@ Le framework peut être étudié à travers des implémentations complètes ou d
 Elle montre notamment comment :
 
 - une grammaire de pertinence peut venir d’un univers particulièrement dense ;
+- l’espace de pertinence d’un personnage peut se construire à partir de cultures, relations, croyances et événements propres à ce monde ;
 - plusieurs Prismes peuvent rendre opérantes des relations différentes au réel ;
 - des Facteurs Cadres peuvent traduire des vérités cosmologiques, sociales ou culturelles ;
 - une économie comme la Jauge de Destin peut servir de filet de sécurité à la table ;
@@ -1072,14 +1175,15 @@ Cette version clarifie l’architecture pédagogique, mais plusieurs points mér
 - préciser le statut exact de l’échelle standard de résultat : invariant ou choix de design fortement recommandé ;
 - documenter par des études de cas les Prismes à résultat autonome plutôt que d’en fixer prématurément une théorie générale ;
 - préciser les conventions d’autorité possibles autour de la Jauge de Destin sans transformer son usage en automatisme ;
-- tester la distinction pédagogique entre Facteurs Cadres, grammaire de pertinence et règles spécifiques d’une implémentation ;
+- tester la distinction pédagogique entre Facteurs Cadres, grammaire de pertinence, espace de pertinence et règles spécifiques d’une implémentation ;
+- préciser, à travers les implémentations, les rythmes et autorités possibles pour l’ajout, la transformation et la suppression des mots-clés ;
 - affiner les termes cognitif, diégétique, perspectiviste et ontologique ;
 - ajouter des exemples complets de résolution aux Zooms Action, Séquence et Script ;
 - tester la lisibilité du document auprès de lecteurs qui ne connaissent pas les versions précédentes de Resonance.
 
 La progression recherchée est désormais :
 
-> **découvrir → cadrer → remarquer → mettre en jeu → résoudre → interpréter → maintenir la cohérence → faire varier → concevoir → comprendre**
+> **découvrir → cadrer → remarquer → mettre en jeu → résoudre → interpréter → transformer → maintenir la cohérence → faire varier → concevoir → comprendre**
 
 Et la proposition fondamentale du framework reste simple :
 
