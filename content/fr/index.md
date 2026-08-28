@@ -1219,6 +1219,8 @@ Scooby-Doo teste jusqu’où il peut **remonter vers la simplicité sans devenir
 
 L’espace entre les deux reste ouvert.
 
+[Lire Resonance: Scooby-Doo →](https://aleascript.github.io/resonance/fr/scooby-doo)
+
 ---
 
 # 9. Atelier de Prismes
