@@ -57,6 +57,9 @@
   [\vspace{0.35em}\color{resonance}\titlerule]
 \titlespacing*{\section}{0pt}{2.8em}{1.15em}
 
+% Each top-level Markdown section (#) starts on a new page.
+\newcommand{\sectionbreak}{\clearpage}
+
 \titleformat{\subsection}
   {\sffamily\bfseries\fontsize{15}{18}\selectfont\color{resonance}}
   {}{0pt}{}
@@ -143,9 +146,8 @@ $if(toc)$
 \tableofcontents
 \endgroup
 $endif$
-\newpage
 
-% Content.
+% Content. The first sectionbreak also closes the TOC page cleanly.
 \pagestyle{fancy}
 $body$
 
