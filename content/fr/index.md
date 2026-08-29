@@ -9,7 +9,7 @@ permalink: /fr/
 
 # Resonance
 
-**Resonance est un framework de game design pour jeux de rôle dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
+**Resonance est un framework de game design pour jeux de rôles dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
 
 Il fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
 
