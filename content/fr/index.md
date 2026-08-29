@@ -11,7 +11,16 @@ permalink: /fr/
 
 **Resonance est un framework de game design pour jeux de rôles dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
 
-Il fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
+Resonance pose ainsi deux questions complémentaires :
+
+- **Qu’est-ce qui compte ici ?** La fiction détermine quelles vérités deviennent mécaniquement pertinentes dans la résolution : ce sont les **Mises**.
+- **Comment cette manière d’habiter le monde transforme-t-elle l’incertitude ?** Lorsqu’une perspective mérite de devenir mécaniquement opérante, elle peut transformer la manière dont cette incertitude est lue : c’est le rôle des **Prismes**.
+
+La première question organise ce que la résolution regarde. La seconde ouvre la possibilité que la résolution elle-même exprime une culture, une cosmologie, un trope ou une perspective.
+
+> **Nous apprendrons d’abord à déterminer ce qui compte. Nous verrons ensuite comment une perspective peut transformer la manière dont cela se résout.**
+
+Resonance fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
 
 On peut simplement jouer.
 
@@ -449,6 +458,8 @@ Pour chaque orientation :
 - chaque résultat **impair** ne produit pas de Réussite ;
 - on compare ensuite le nombre de Réussites obtenues par les deux orientations.
 
+> **Cette lecture pair / impair constitue le Prisme standard de Resonance.** Nous l’utilisons ici comme réponse par défaut pour apprendre à jouer. Nous verrons plus loin pourquoi ce Prisme n’est ni plus « réel » ni plus fondamental qu’un autre : il constitue un **point zéro de design**, que la fiction peut conserver ou transformer.
+
 Lorsque les orientations correspondent à des acteurs identifiables, on peut simplement parler des **camps**.
 
 Mais les deux pools ne supposent pas toujours deux volontés opposées : un personnage qui traverse une tempête peut produire un pool favorable à son Intention et un pool adverse constitué par le froid, le vent, la fatigue et le terrain.
@@ -791,6 +802,12 @@ Cette chaîne est une architecture de référence, pas une obligation universell
 
 ## Les Prismes : comment une perspective transforme l’incertitude
 
+Vous utilisez pourtant déjà un Prisme depuis le début : le **Prisme standard**. Les pairs et les impairs ne sont pas la réalité cachée de Resonance. Ils constituaient simplement la réponse par défaut dont nous avions besoin pour apprendre la boucle de résolution sans introduire trop tôt son espace de variation.
+
+Le moment est maintenant venu de rendre ce choix visible.
+
+Le Prisme standard n’a pas plus d’importance conceptuelle qu’un autre Prisme. Il n’est ni la norme du réel ni le moteur auquel les autres Prismes ajouteraient des exceptions. C’est un **point zéro de design** : une lecture volontairement discrète de l’incertitude lorsque le jeu ne souhaite pas faire de la perspective un enjeu mécanique particulier.
+
 Resonance appelle **Prisme** :
 
 > **la logique par laquelle une perspective sur le monde transforme l’incertitude en un résultat mécaniquement exploitable par le jeu.**
@@ -814,7 +831,7 @@ Le mécanisme concret est l’expression d’une question plus fondamentale :
 
 ### Le Prisme standard
 
-La configuration standard possède elle aussi un Prisme.
+Nous l’avons déjà utilisé pour apprendre à jouer.
 
 Le **Prisme standard** traite chaque D6 de manière identique : pair, il produit une Réussite ; impair, il n’en produit pas.
 

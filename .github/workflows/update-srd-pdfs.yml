@@ -1,0 +1,60 @@
+name: Update SRD PDFs
+
+on:
+  push:
+    branches:
+      - '**'
+    paths:
+      - 'content/fr/index.md'
+      - 'content/en/index.md'
+      - 'tools/generate-pdf.sh'
+      - 'tools/template-resonance.tex'
+      - 'tools/srd-metadata.conf'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-srd-pdfs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-pdfs:
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-lang-french texlive-fonts-recommended
+
+      - name: Generate French and English PDFs
+        run: |
+          bash tools/generate-pdf.sh content/fr/index.md srd/resonance-fr.pdf
+          bash tools/generate-pdf.sh content/en/index.md srd/resonance-en.pdf
+
+      - name: Commit generated PDFs when needed
+        run: |
+          git add srd/resonance-fr.pdf srd/resonance-en.pdf
+
+          if git diff --cached --quiet; then
+            echo "SRD PDFs are already up to date."
+            exit 0
+          fi
+
+          REMOTE_SHA=$(git ls-remote origin "refs/heads/${GITHUB_REF_NAME}" | cut -f1)
+          if [ "$REMOTE_SHA" != "$GITHUB_SHA" ]; then
+            echo "Branch moved while PDFs were being generated; a newer run will handle it."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: regenerate SRD PDFs"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

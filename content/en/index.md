@@ -11,7 +11,16 @@ permalink: /en/
 
 **Resonance is a game design framework for role-playing games in which fiction determines what enters resolution and can also determine how that resolution works.**
 
-At the same time, it provides a **fully playable standard configuration**. You do not need to design your own game in order to use Resonance.
+Resonance therefore asks two complementary questions:
+
+- **What matters here?** Fiction determines which truths become mechanically relevant to the resolution: these are **Bets**.
+- **How does this way of inhabiting the world transform uncertainty?** When a perspective deserves to become mechanically operative, it can transform the way that uncertainty is read: this is the role of **Prisms**.
+
+The first question organizes what the resolution looks at. The second opens the possibility that resolution itself can express a culture, cosmology, trope, or perspective.
+
+> **We will first learn how to determine what matters. We will then see how a perspective can transform the way it is resolved.**
+
+At the same time, Resonance provides a **fully playable standard configuration**. You do not need to design your own game in order to use Resonance.
 
 You can simply play.
 
@@ -449,6 +458,8 @@ For each orientation:
 - each **odd** result produces no Success;
 - the number of Successes obtained by the two orientations is then compared.
 
+> **This even / odd reading is Resonance's standard Prism.** We use it here as the default answer for learning to play. Later we will see why this Prism is neither more “real” nor more fundamental than any other: it is a **design zero point** that fiction may keep or transform.
+
 When the orientations correspond to identifiable actors, the table can simply speak of **sides**.
 
 But the two pools do not always imply two opposed wills: a character crossing a storm may produce a pool favorable to their Intention and an adverse pool made up of cold, wind, fatigue, and terrain.
@@ -791,6 +802,12 @@ This chain is a reference architecture, not a universal obligation. A light impl
 
 ## Prisms: how a perspective transforms uncertainty
 
+You have actually been using a Prism from the beginning: the **standard Prism**. Evens and odds are not the hidden reality of Resonance. They were simply the default answer we needed in order to learn the resolution loop without introducing its space of variation too early.
+
+Now is the moment to make that choice visible.
+
+The standard Prism has no greater conceptual importance than any other Prism. It is neither the norm of reality nor the engine to which other Prisms merely add exceptions. It is a **design zero point**: a deliberately discreet reading of uncertainty for games that do not want perspective itself to become a particular mechanical issue.
+
 Resonance calls a **Prism**:
 
 > **the logic by which a perspective on the world transforms uncertainty into a result the game can use mechanically.**
@@ -814,7 +831,7 @@ The concrete mechanism is the expression of a more fundamental question:
 
 ### The standard Prism
 
-The standard configuration has a Prism too.
+We have already been using it to learn how to play.
 
 The **standard Prism** treats every D6 identically: even, it produces a Success; odd, it does not.
 
