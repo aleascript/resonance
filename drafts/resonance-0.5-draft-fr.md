@@ -37,9 +37,14 @@ Une quatrième clarification, désormais validée, concerne l’apparition des d
 
 - le Focus fait apparaître les vérités qui poussent **dans le sens de l’Intention** et celles qui poussent **contre elle** ;
 - ces deux orientations forment les deux pools ;
-- le terme **camp** reste un raccourci pratique lorsque ces orientations sont portées par des personnages ou des groupes.
+- le terme **camp** reste un raccourci pratique lorsque ces orientations sont portées par des personnages ou des groupes ;
+- un même camp peut réunir **plusieurs Prismes** : les Mises sont actualisées selon les Prismes des perspectives qui les portent, puis leurs sorties comparables sont réunies au niveau de l’orientation.
 
-Cette clarification est détaillée dans `resonance-0.5-orientations-prismes-fr.md`, avec le cas des adversités sans perspective propre.
+> **Partager une Intention ne signifie pas partager une perspective.**
+
+Dans la configuration standard, les **Réussites** constituent le contrat d’interopérabilité permettant de réunir dans un même résultat collectif des contributions passées par plusieurs Prismes.
+
+Cette clarification est détaillée dans `resonance-0.5-orientations-prismes-fr.md`, avec le cas des adversités sans perspective propre et les règles du Prisme miroir face à un groupe multi-Prismes.
 
 ---
 
@@ -600,7 +605,44 @@ Dans la configuration standard :
 
 Cette distinction évite de personnifier artificiellement une montagne, un climat, une blessure ou une contrainte simplement pour justifier l’existence du second pool.
 
-La clarification complète, ainsi que l’attribution des Prismes aux adversités sans perspective propre, est développée dans `resonance-0.5-orientations-prismes-fr.md`.
+## Un camp collectif peut contenir plusieurs Prismes
+
+Le regroupement en pool et le choix du Prisme ne sont pas la même décision.
+
+Un pool rassemble les Mises qui poussent dans la même direction pour le Focus. Si plusieurs perspectives contribuent à cette orientation, leurs Mises peuvent être actualisées selon des Prismes différents.
+
+Dans une implémentation où ces Prismes produisent des **Réussites** comparables :
+
+- regrouper les Mises selon la perspective qui les porte ;
+- résoudre chaque sous-ensemble avec son Prisme ;
+- additionner les Réussites obtenues ;
+- utiliser ce total comme résultat de l’orientation.
+
+> **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
+
+Ainsi, un théiste, un animiste et un mystique peuvent participer à la même Intention collective sans que l’un de leurs Prismes soit artificiellement imposé aux autres.
+
+Cette règle confirme que les Réussites constituent, dans la configuration standard, un **contrat d’interopérabilité** entre Prismes.
+
+Un jeu dont les Prismes ne produisent pas de sortie comparable doit définir comment plusieurs perspectives coopèrent dans une même orientation.
+
+## Adversité sans perspective et Prisme miroir
+
+Lorsqu’une orientation adverse n’est portée par aucune perspective propre, trois cas sont distingués :
+
+1. **Prisme propre** : le monde, le lieu, l’entité ou la situation possède déjà une logique qui devient mécaniquement opérante ;
+2. **Prisme miroir** : l’épreuve entière est lue depuis une perspective protagoniste clairement identifiable ;
+3. **Prisme standard** : aucune perspective ne doit colorer l’actualisation de l’adversité.
+
+Pour le Miroir :
+
+- si le Focus est individuel, chaque protagoniste peut rencontrer une résolution miroir différente selon son propre Prisme ;
+- si le Focus est collectif et que tous les protagonistes partagent le même Prisme, l’adversité abstraite peut refléter ce Prisme commun ;
+- si le Focus est collectif et que plusieurs Prismes contribuent au même camp, les contributions protagonistes sont résolues selon leurs Prismes respectifs et l’adversité abstraite utilise le **Prisme standard**.
+
+> **Un miroir ne peut refléter une perspective unique que s’il existe une perspective unique à refléter.**
+
+La clarification complète est développée dans `resonance-0.5-orientations-prismes-fr.md`.
 
 ## Configuration standard
 
@@ -616,17 +658,18 @@ Puis :
 
 - au maximum une Mise incarnée par camp et par résolution ;
 - les autres Mises sont lancées normalement ;
-- le total final additionne la Réussite incarnée éventuelle et les Réussites obtenues par le Prisme.
+- lorsque plusieurs Prismes existent dans un même camp, les Mises sont résolues par sous-ensembles cohérents puis leurs Réussites sont additionnées ;
+- le total final additionne la Réussite incarnée éventuelle et les Réussites obtenues par les différents Prismes de l’orientation.
 
 ## Chaîne de responsabilités
 
 La chaîne de référence peut être enrichie sans devenir plus lourde :
 
-> **fiction établie → Focus sur l’incertitude réelle → orientations favorables / adverses → Mises → attribution éventuelle d’un Prisme à chaque orientation → actualisation éventuelle à la table → incertitude / Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
+> **fiction établie → Focus sur l’incertitude réelle → orientations favorables / adverses → Mises → perspectives qui les portent → Prismes applicables → actualisation éventuelle à la table → incertitude / Prismes → sorties mécaniques comparables → agrégation par orientation → comparaison → interprétation → fiction transformée**
 
 La configuration standard reste lisible comme :
 
-> **Mises → [0 ou 1 Mise incarnée = 1 Réussite] + D6 des autres Mises → pair / impair → Réussites → comparaison → interprétation**
+> **Mises → [0 ou 1 Mise incarnée = 1 Réussite] + traitement des autres Mises par leurs Prismes → Réussites → agrégation par orientation → comparaison → interprétation**
 
 Il faudra vérifier pendant la réécriture si cette notation aide réellement la pédagogie ou si l’exception gagne à rester expliquée en prose.
 
@@ -675,10 +718,12 @@ La grille actuelle peut être complétée par quelques questions :
 6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
 7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
 8. **Quelles vérités poussent dans le sens de l’Intention et lesquelles poussent contre elle pour ce Focus précis ?**
-9. **L’orientation adverse possède-t-elle une perspective ou une logique propre qui mérite un Prisme particulier ?**
-10. **Si elle n’en possède pas, faut-il employer un Prisme miroir ou le Prisme standard, et pourquoi ?**
-11. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
-12. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
+9. **Plusieurs perspectives ou Prismes contribuent-ils à la même orientation ? Si oui, leurs sorties sont-elles interopérables ?**
+10. **L’orientation adverse possède-t-elle une perspective ou une logique propre qui mérite un Prisme particulier ?**
+11. **Si elle n’en possède pas, faut-il employer un Prisme miroir ou le Prisme standard, et pourquoi ?**
+12. **Si un Miroir est envisagé pour une résolution collective, existe-t-il réellement une perspective unique à refléter ?**
+13. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
+14. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
 
 ---
 
@@ -706,7 +751,13 @@ La grille actuelle peut être complétée par quelques questions :
 
 > **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
 
-> **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment l’incertitude de ce côté devient mécaniquement lisible.**
+> **Partager une Intention ne signifie pas partager une perspective.**
+
+> **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
+
+> **Les orientations appartiennent au Focus. Les Prismes appartiennent aux perspectives qui traversent ces orientations.**
+
+> **Un miroir ne peut refléter une perspective unique que s’il existe une perspective unique à refléter.**
 
 > **Le dispositif de table lui-même peut devenir un support de la fiction lorsqu’un monde, un genre ou un Facteur Cadre lui donne une raison de l’être.**
 
@@ -724,7 +775,9 @@ Après validation conceptuelle de ce draft :
 - [ ] préciser dans la section **Focus** qu’une résolution porte sur ce qui demeure réellement incertain ;
 - [ ] préciser le rôle des **Facteurs Cadres** comme vérités capables de fermer ou fixer certains éléments sans les remettre en jeu ;
 - [ ] expliquer que les deux pools proviennent des deux orientations du Focus avant d’introduire **camp** comme raccourci ;
+- [ ] préciser qu’un **camp collectif peut réunir plusieurs Prismes** et que leurs sorties comparables sont agrégées au niveau de l’orientation ;
 - [ ] intégrer le cas des adversités sans perspective propre : **Prisme propre, Prisme miroir ou Prisme standard** ;
+- [ ] préciser les trois cas du Miroir : **Focus individuel**, **Focus collectif à Prisme partagé**, **Focus collectif multi-Prismes** ;
 - [ ] étendre les **Facteurs Cadres** à la synchronisation du geste de table ;
 - [ ] réécrire **« Les supports peuvent eux aussi résonner »** ;
 - [ ] intégrer les trois formes de synchronisation temporelle : **temps contraint, temps réactif, temps accumulé** ;
@@ -755,7 +808,7 @@ La 0.5 doit notamment challenger les points suivants avant stabilisation :
 - La synchronisation diégétique doit-elle être décrite comme une propriété des Facteurs Cadres, comme une possibilité générale de design, ou les deux ?
 - Le terme **Prisme miroir** doit-il devenir un terme canonique de Resonance ou rester un vocabulaire d’implémentation ?
 - Dans la configuration standard, le Prisme standard doit-il être recommandé par défaut pour toute adversité sans perspective propre, avec le Miroir comme choix de design explicite ?
-- Dans une résolution collective où plusieurs protagonistes utilisent des Prismes différents, quel Prisme un éventuel Miroir devrait-il refléter ?
+- Jusqu’où le contrat de sortie commune entre Prismes doit-il être un invariant de Resonance, notamment pour permettre les camps collectifs multi-Prismes ?
 - Jusqu’où le SRD doit-il donner des exemples sans transformer ces exemples en pseudo-menu de mécaniques ?
 
 Le critère restera le même :
