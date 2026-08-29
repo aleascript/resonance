@@ -146,6 +146,14 @@ Tout ce qui existe dans le monde n’est pas forcément pertinent.
 
 Même un élément important dans l’histoire peut ne pas compter pour cette résolution précise.
 
+Le Focus doit aussi porter sur une **véritable incertitude**.
+
+Si la fiction a déjà établi qu’une possibilité est ouverte ou fermée, la résolution n’a pas à demander aux dés de revenir sur ce fait. Elle doit regarder ce qui reste réellement incertain autour de lui.
+
+> **Une résolution ne demande pas aux dés ce que la fiction sait déjà. Elle les fait intervenir là où la fiction reste ouverte.**
+
+Inversement, lorsqu’un Focus est réellement accepté par la table, ses issues doivent pouvoir arriver. Le cadrage ne sert pas à laisser croire qu’une possibilité est en jeu pour la retirer après le tirage.
+
 ## Le Zoom : à quelle échelle ?
 
 Le Focus possède une échelle. Resonance appelle cette propriété le **Zoom**.
@@ -184,6 +192,28 @@ Ce ne sont pas « plus de bonus parce que le conflit est plus long ».
 **Ce sont davantage de dimensions pertinentes parce que la question posée est plus vaste.**
 
 Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour chaque type de scène.
+
+### Le Zoom ne règle pas la difficulté
+
+Choisir un Focus individuel ou collectif ne sert pas à ajuster artificiellement la taille des pools.
+
+> **Le Zoom ne règle pas la difficulté. Il détermine quelles différences la fiction souhaite encore distinguer.**
+
+Imaginons une expédition qui traverse une montagne abrupte.
+
+Si chaque personnage est résolu individuellement, *Froid glacial*, *Corniche instable* ou *Manque d’expérience* peuvent redevenir pertinents pour chacun parce que la fiction regarde plusieurs expériences distinctes.
+
+Si le Focus devient collectif :
+
+> *Le groupe parvient-il à traverser la montagne ?*
+
+alors *Froid glacial* est une seule dimension de cette situation collective. Il n’a pas à être dupliqué une fois par personnage.
+
+> **Une Mise ne compte pas une fois par personnage. Elle compte une fois par dimension pertinente au Focus.**
+
+Le Focus collectif peut naturellement faire apparaître d’autres vérités propres au groupe : protéger un blessé, avancer au rythme du moins expérimenté, coordonner plusieurs personnes ou franchir un passage un par un.
+
+Changer de Zoom change donc la **question posée à la fiction**, pas simplement le nombre de dés.
 
 ---
 
@@ -279,25 +309,39 @@ On peut résumer le mouvement ainsi :
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-## Une Mise peut aider ou nuire
+## L’orientation d’une Mise dépend du Focus
 
-Une Mise n’est pas nécessairement favorable au personnage qui la formule.
+Une Mise n’est pas favorable ou adverse en soi.
 
-> *Je connais parfaitement cette forêt.*
+> *Pluie battante*
 
-peut jouer en sa faveur.
+peut pousser contre l’Intention lorsque le Focus est :
 
-> *Je suis blessé à la jambe.*
+> *Parvenons-nous à franchir le col avant la nuit ?*
 
-peut jouer contre lui.
+mais pousser dans son sens lorsque le Focus devient :
 
-Mais leur pertinence dépend toujours du Focus **et du jeu que la table cherche à faire vivre**.
+> *Parvenons-nous à semer nos poursuivants ?*
 
-Une blessure peut être centrale dans un jeu où la vulnérabilité physique est constamment mise en avant et rester en arrière-plan dans un autre jeu qui s’intéresse davantage au drame politique ou aux relations.
+> **Une Mise est favorable ou adverse relativement au Focus et à l’Intention considérée.**
 
-Une Mise n’est donc pas « objectivement importante » dans l’absolu.
+Dans la configuration standard :
 
-Elle devient importante ici, dans ce jeu, pour cette résolution.
+- les Mises qui poussent **dans le sens de l’Intention** forment une orientation ;
+- celles qui poussent **contre l’Intention** forment l’autre ;
+- les Mises de chacune de ces orientations forment un pool.
+
+Lorsque des personnages, groupes ou forces identifiables portent ces orientations, **camp** reste un raccourci naturel à la table.
+
+Mais une blessure, une montagne, un climat ou une distance peuvent alimenter une orientation adverse sans constituer un « camp » au sens fictionnel.
+
+> **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
+
+Le Focus sélectionne donc ce qui compte **et permet de voir dans quel sens cela compte**.
+
+Une blessure peut appartenir au personnage et pourtant alimenter l’orientation adverse. Une faiblesse de l’opposition peut au contraire alimenter l’orientation favorable.
+
+L’origine fictionnelle d’une Mise et son orientation sont deux questions distinctes.
 
 ## Une Mise est aussi un choix de regard
 
@@ -341,6 +385,8 @@ La non-redondance n’est donc pas une règle comptable.
 
 Elle dépend du Focus et de son Zoom.
 
+Elle s’applique de la même manière à un groupe : plusieurs personnages peuvent apporter plusieurs vérités réellement distinctes, mais une même dimension de la situation ne devient pas plusieurs Mises simplement parce qu’elle affecte plusieurs personnes.
+
 ## Clore les Mises
 
 La table n’a pas besoin de trouver tout ce qui pourrait théoriquement compter.
@@ -366,7 +412,7 @@ La conversation sert à rendre la situation suffisamment claire pour être réso
 
 ## Opposition et contre-Mises
 
-Une Mise peut naturellement faire apparaître une vérité favorable à l’autre camp.
+Une Mise peut naturellement faire apparaître une vérité qui pousse dans l’autre sens du Focus.
 
 > **Joueur :** Je suis déjà entre lui et la porte.
 >
@@ -376,9 +422,9 @@ Une Mise peut naturellement faire apparaître une vérité favorable à l’autr
 >
 > **Meneur :** Mais deux soldats arrivent derrière toi.
 
-Cette conversation n’est pas une négociation de bonus. Elle fait apparaître progressivement les différents éléments que la fiction rend pertinents.
+Cette conversation n’est pas une négociation de bonus. Elle fait apparaître progressivement les différents éléments que la fiction rend pertinents dans les deux orientations.
 
-C’est aussi pourquoi les oppositions peuvent tendre à s’équilibrer organiquement : regarder une situation de plus près révèle souvent des éléments nouveaux pour plusieurs camps.
+C’est aussi pourquoi les oppositions peuvent tendre à s’équilibrer organiquement : regarder une situation de plus près révèle souvent des éléments nouveaux dans plusieurs sens.
 
 Cela ne signifie pas que chaque opposition doit être équilibrée.
 
@@ -394,32 +440,38 @@ Les contre-Mises sont un **contrepoids organique** produit par l’exploration d
 
 La configuration standard de Resonance permet de jouer immédiatement avec des dés à six faces.
 
-Pour chaque camp :
+Les deux orientations du Focus deviennent les deux pools de la résolution.
+
+Pour chaque orientation :
 
 - chaque Mise retenue apporte **un D6** à son pool ;
 - chaque résultat **pair** compte comme une **Réussite** ;
 - chaque résultat **impair** ne produit pas de Réussite ;
-- on compare ensuite le nombre de Réussites obtenues.
+- on compare ensuite le nombre de Réussites obtenues par les deux orientations.
+
+Lorsque les orientations correspondent à des acteurs identifiables, on peut simplement parler des **camps**.
+
+Mais les deux pools ne supposent pas toujours deux volontés opposées : un personnage qui traverse une tempête peut produire un pool favorable à son Intention et un pool adverse constitué par le froid, le vent, la fatigue et le terrain.
 
 Cette opération transforme l’incertitude en un signal mécanique comparable : un nombre de Réussites.
 
-> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+> **Mises orientées → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
 
 ## L’échelle standard de résultat
 
 ### Égalité : Statu quo ou surenchère
 
-Si les deux camps obtiennent le même nombre de Réussites, aucun camp ne s’impose clairement.
+Si les deux orientations obtiennent le même nombre de Réussites, aucune ne s’impose clairement.
 
 Le résultat standard est un **Statu quo**.
 
 Selon la fiction, il peut être raconté comme un maintien réel de la situation, un **Oui, mais…** ou un **Non, mais…**.
 
-Si les camps refusent d’en rester là, la configuration standard permet également une **surenchère** :
+Si les acteurs impliqués refusent d’en rester là, la configuration standard permet également une **surenchère** :
 
 - on conserve les Mises déjà présentes ;
-- chaque camp ajoute une Mise représentant sa **volonté d’en finir** ;
-- on résout de nouveau avec ces pools augmentés.
+- chaque camp qui pousse la confrontation ajoute une Mise représentant sa **volonté d’en finir** ;
+- on résout de nouveau avec les pools augmentés.
 
 La surenchère rend mécaniquement présent le fait que les camps choisissent de pousser plus loin une confrontation qui aurait pu s’arrêter sur un équilibre.
 
@@ -427,7 +479,9 @@ Un jeu conçu avec Resonance peut choisir une autre philosophie de l’égalité
 
 ### Différence positive : Victoire / Défaite
 
-Si un camp obtient plus de Réussites que l’autre, il obtient une **Victoire** et l’autre camp subit une **Défaite**.
+Si une orientation obtient plus de Réussites que l’autre, l’Intention qu’elle soutient s’impose sur l’autre sens possible de la situation.
+
+Lorsque les orientations correspondent à des camps, le camp gagnant obtient une **Victoire** et l’autre subit une **Défaite**.
 
 Pour l’Intention du camp gagnant, cela se lit généralement comme **Oui**.
 
@@ -438,7 +492,7 @@ Pour l’Intention du camp perdant, cela se lit généralement comme **Non**.
 Dans la configuration standard, un résultat est **dominé** lorsque les deux conditions suivantes sont réunies :
 
 1. l’écart est **strictement supérieur à 1 Réussite** ;
-2. le camp gagnant obtient **strictement plus du double** des Réussites du camp perdant.
+2. l’orientation gagnante obtient **strictement plus du double** des Réussites de l’autre.
 
 Exemples :
 
@@ -463,7 +517,7 @@ Une réussite spectaculaire pour un camp ne transforme pas nécessairement l’�
 
 ## Interpréter : les Mises reviennent dans la fiction
 
-Les Mises ne servent pas seulement à construire le pool avant le jet.
+Les Mises ne servent pas seulement à construire les pools avant le jet.
 
 **Elles fournissent aussi la matière de l’interprétation après le jet.**
 
@@ -473,7 +527,7 @@ Lorsque le résultat est connu, la table possède déjà :
 - le Focus et son Zoom ;
 - les conséquences importantes éventuellement annoncées ;
 - ce qui comptait dans la fiction ;
-- l’orientation donnée par la résolution.
+- la forme du résultat donnée par la résolution.
 
 Il ne reste donc pas à inventer une conséquence arbitraire à partir d’un nombre abstrait.
 
@@ -486,9 +540,9 @@ Imaginons une traversée de montagne où les Mises sont :
 
 En cas de Défaite, la pluie peut rendre le passage impraticable, l’urgence provoquer une mauvaise décision, l’expérience éviter une conséquence plus grave ou le compagnon rester en arrière pour permettre aux autres de continuer.
 
-Les dés donnent une orientation.
+Les dés tranchent le rapport entre les deux orientations.
 
-**Les Mises donnent à la table la matière avec laquelle cette orientation devient fiction.**
+**Les Mises donnent à la table la matière avec laquelle ce résultat devient fiction.**
 
 Les mots **Oui**, **Non**, **Et** et **Mais** sont un vocabulaire pratique d’interprétation. Ils ne constituent pas une mécanique propre à Resonance.
 
@@ -515,7 +569,7 @@ Mais lorsqu’un changement devient durable et appartient désormais à ce que l
 
 La boucle complète devient alors :
 
-> **fiction / feuille → Intention → Focus / Zoom → Mises → résolution → orientation → interprétation → fiction / feuille transformées**
+> **fiction / feuille → Intention → Focus / Zoom → Mises / orientations → résolution → forme du résultat → interprétation → fiction / feuille transformées**
 
 ---
 
@@ -532,8 +586,9 @@ Resonance repose sur **plusieurs niveaux de cohérence qui agissent à des endro
 3. **Les Facteurs Cadres** ferment certaines possibilités.
 4. **Le Focus et son Zoom** déterminent ce que la résolution regarde ici et maintenant.
 5. **La pertinence et la non-redondance** déterminent ce qui peut devenir une Mise distincte.
-6. **L’opposition et les contre-Mises** font apparaître les contrepoids que la fiction porte déjà en elle.
-7. **La Jauge de Destin**, lorsqu’elle est utilisée, garde la mémoire des déséquilibres successifs.
+6. **Le cadrage** garantit que ce qui est fermé l’est avant le jet et que ce qui est réellement mis en résolution peut arriver.
+7. **L’opposition et les contre-Mises** font apparaître les contrepoids que la fiction porte déjà en elle.
+8. **La Jauge de Destin**, lorsqu’elle est utilisée, garde la mémoire des déséquilibres successifs.
 
 Ces outils ne font pas le même travail et ne doivent pas être confondus.
 
@@ -568,6 +623,30 @@ Le personnage peut changer de plan, trouver une autre entrée, se procurer une t
 Le Facteur Cadre ne bloque donc pas nécessairement le jeu.
 
 **Il oblige la fiction à changer avant que certaines Intentions ou certains moyens deviennent recevables.**
+
+## Le cadrage engage la table
+
+Resonance doit distinguer clairement l’arbitrage fictionnel de l’arbitraire.
+
+Une possibilité fermée par le monde, l’histoire, le scénario, une conséquence précédente ou un Facteur Cadre doit être fermée **avant** la résolution.
+
+Inversement, si la table accepte réellement un Focus, ses issues doivent être admissibles.
+
+> **Ce qui est fermé par la fiction doit être fermé avant le jet. Ce qui est réellement mis en résolution doit pouvoir arriver.**
+
+> **Le cadrage engage la table.**
+
+Si un Dragon ne peut pas encore être tué dans la fiction, la table ne doit pas accepter un Focus :
+
+> *Le tuons-nous ?*
+
+pour rétrograder ensuite une Victoire en simple égratignure.
+
+Elle doit cadrer honnêtement ce qui reste ouvert : survivre, atteindre une faiblesse, le repousser, accomplir une étape nécessaire ou transformer suffisamment la situation pour qu’une autre question devienne possible.
+
+Lorsque tuer le Dragon devient réellement possible et que ce Focus est accepté, la résolution doit pouvoir produire cette issue.
+
+Resonance ne promet pas une difficulté numérique objective indépendante de tout arbitrage. Il peut en revanche rendre cet arbitrage **traçable** : Focus, Mises, Facteurs Cadres et conséquences importantes sont rendus visibles avant que l’incertitude tranche.
 
 ## La grammaire de pertinence : ce que le jeu apprend à remarquer
 
@@ -664,8 +743,9 @@ Les éléments suivants constituent le geste de Resonance :
 
 - partir d’une Intention fictionnelle ;
 - définir un Focus et son Zoom ;
+- faire porter la résolution sur ce qui reste réellement incertain ;
 - rendre visibles les conséquences importantes lorsque le contrat de table le demande ;
-- sélectionner ce qui compte ;
+- sélectionner ce qui compte et dans quel sens cela compte ;
 - éviter les redondances à l’échelle choisie ;
 - confronter les Mises à une forme d’incertitude ;
 - produire une forme de résultat exploitable par la fiction ;
@@ -677,7 +757,7 @@ D’autres éléments appartiennent à la configuration standard et peuvent êtr
 - utiliser des D6 ;
 - associer une Mise à un dé ;
 - lire les nombres pairs comme des Réussites ;
-- opposer deux pools ;
+- former deux pools à partir des deux orientations du Focus ;
 - utiliser la même représentation physique pour toutes les Mises ;
 - employer l’échelle standard de résultats ;
 - employer la surenchère ;
@@ -689,21 +769,23 @@ La variation n’est pas un ajout extérieur au framework.
 
 ## Une chaîne standard de responsabilités
 
-Dans la configuration standard — et dans les implémentations qui opposent des camps — on peut séparer les opérations ainsi :
+Dans la configuration standard — et dans les implémentations qui comparent deux orientations — on peut séparer les opérations ainsi :
 
-> **Mises → support d’incertitude → Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
+> **Mises orientées → support d’incertitude → Prisme → signaux mécaniques → agrégation par orientation → échelle de résultat → interprétation → fiction transformée**
 
 Dans la configuration standard :
 
-> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+> **Mises orientées → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
 
 Cette séparation évite de demander à une seule mécanique de tout faire.
 
 Le **Prisme** transforme l’incertitude en signaux mécaniques.
 
-L’**échelle de résultat** transforme ensuite ces signaux en orientation.
+Lorsque plusieurs contributions appartiennent à une même orientation, elles doivent pouvoir être réunies avant la comparaison.
 
-L’**interprétation** transforme enfin cette orientation en fiction à partir des Mises et de la situation.
+L’**échelle de résultat** transforme ensuite la comparaison en une forme de résultat.
+
+L’**interprétation** transforme enfin cette forme de résultat en fiction à partir des Mises et de la situation.
 
 Cette chaîne est une architecture de référence, pas une obligation universelle. Une implémentation légère peut employer un Prisme dont le résultat est directement exploitable sans passer par une opposition entre deux pools.
 
@@ -712,8 +794,6 @@ Cette chaîne est une architecture de référence, pas une obligation universell
 Resonance appelle **Prisme** :
 
 > **la logique par laquelle une perspective sur le monde transforme l’incertitude en un résultat mécaniquement exploitable par le jeu.**
-
-Dans les implémentations à pools opposés, cela signifie souvent produire des **Réussites** ou d’autres signaux comparables.
 
 Un Prisme ne consiste pas simplement à « compter les dés autrement » pour produire une variation esthétique.
 
@@ -744,15 +824,110 @@ Il fournit simplement une lecture discrète lorsque le jeu ne souhaite pas faire
 
 C’est un **point zéro de design**, pas une norme à laquelle les autres Prismes devraient ressembler.
 
-### Des sorties communes pour des perspectives différentes
+Il constitue également le comportement par défaut d’une adversité sans perspective propre lorsque ni le monde ni le design ne justifient un autre traitement.
 
-Lorsque plusieurs Prismes doivent coexister dans une même opposition, le jeu gagne à définir une interface commune.
+### Orientation et Prisme répondent à deux questions différentes
 
-Dans les implémentations actuelles à pools opposés, cette interface est généralement la **Réussite** : chaque Prisme produit ses Réussites selon sa propre logique, puis l’échelle de résultat compare les camps.
+Deux décisions ne doivent pas être confondues :
 
-Cette sortie commune est un contrat d’interopérabilité pour les jeux qui en ont besoin.
+1. **Dans quel pool cette Mise entre-t-elle ?**  
+   Cela dépend de son orientation relativement au Focus et à l’Intention.
+2. **Comment cette Mise devient-elle mécaniquement lisible ?**  
+   Cela dépend du Prisme de la perspective qui la porte, ou du Prisme que le jeu attribue à son actualisation.
 
-**Elle ne définit pas le Prisme et n’est pas obligatoire dans toutes les implémentations de Resonance.**
+> **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
+
+Un pool est donc d’abord un regroupement de Mises orientées dans le même sens. Il n’a pas besoin d’être homogène du point de vue des Prismes.
+
+### Un camp collectif peut réunir plusieurs Prismes
+
+> **Partager une Intention ne signifie pas partager une perspective.**
+
+Si plusieurs protagonistes contribuent à la même Intention avec des perspectives différentes, leurs Mises restent réunies par leur orientation commune, mais elles sont traitées selon leurs Prismes respectifs.
+
+Dans ce cas :
+
+1. les Mises restent regroupées par orientation ;
+2. elles sont traitées par sous-ensembles cohérents selon les Prismes des perspectives qui les portent ;
+3. les sorties comparables sont réunies au niveau de l’orientation.
+
+> **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
+
+Cette règle évite d’imposer artificiellement le Prisme d’un leader, le Prisme majoritaire ou un mélange mécanique sans sens fictionnel.
+
+Si la fiction établit qu’une perspective domine réellement l’action collective, un jeu peut naturellement le représenter. Ce devient alors une propriété de la situation, pas une règle générale de départage.
+
+### Des sorties comparables pour des perspectives différentes
+
+Dans l’état actuel de Resonance, plusieurs Prismes peuvent contribuer à une même résolution parce qu’ils peuvent produire un format de sortie commun : les **Réussites**.
+
+Il faut cependant distinguer cette solution actuelle du principe architectural plus général.
+
+> **Lorsque plusieurs Prismes contribuent à une même résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment de leur agrégation. Resonance utilise actuellement les Réussites pour assurer cette comparabilité. D’autres contrats d’interopérabilité sont concevables, mais le framework ne les formalise pas encore.**
+
+La Réussite ne doit donc pas être transformée prématurément en sortie universelle obligatoire pour toute implémentation future de Resonance.
+
+Un jeu dont les Prismes ne produisent pas de sorties directement comparables doit définir lui-même comment plusieurs perspectives peuvent coopérer dans une même orientation.
+
+### Adversité sans perspective propre
+
+Une orientation adverse peut être composée de vérités comme :
+
+- *paroi verticale* ;
+- *froid extrême* ;
+- *terrain instable* ;
+- *vent violent* ;
+- *fatigue accumulée* ;
+- *distance à parcourir*.
+
+Ces vérités produisent bien une opposition, mais elles ne possèdent pas nécessairement une perspective sur le monde.
+
+Resonance recommande de les lire dans cet ordre.
+
+#### 1. L’adversité possède sa propre logique
+
+Avant de la considérer comme neutre, demander si le monde, le lieu, l’entité ou la situation lui donne déjà une logique mécaniquement opérante.
+
+Si oui, elle utilise le Prisme correspondant.
+
+> **Avant de considérer une adversité comme neutre, demandez si le monde lui donne déjà une logique capable de devenir mécaniquement opérante.**
+
+Une montagne sacrée, un monde spirituel, une institution magique ou une réalité cosmologique peuvent ainsi imposer leur propre manière d’actualiser l’incertitude.
+
+#### 2. Mode Miroir
+
+Le **Mode Miroir** est un mécanisme canonique de Resonance.
+
+Ce n’est **pas un Prisme**. C’est une règle d’attribution : une adversité sans perspective propre est résolue avec le Prisme de la perspective depuis laquelle l’épreuve est vécue.
+
+> **Le Miroir ne donne pas une vision du monde à l’obstacle. Il fait de la vision du protagoniste la manière dont l’ensemble de l’épreuve devient lisible.**
+
+Le dépassement de soi constitue un exemple fort d’usage, mais ne définit pas universellement le Miroir.
+
+Le choix des scènes ou situations où le Mode Miroir s’active relève du **game design de l’implémentation**. Resonance fournit le mécanisme et son sens ; chaque jeu décide de sa politique d’activation.
+
+Avec plusieurs protagonistes :
+
+- **Focus individuel** : chaque protagoniste peut rencontrer un Miroir correspondant à son propre Prisme ;
+- **Focus collectif, Prisme partagé** : l’adversité peut refléter ce Prisme commun ;
+- **Focus collectif, plusieurs Prismes** : il n’existe plus de perspective unique à refléter ; les protagonistes utilisent leurs Prismes respectifs et l’adversité abstraite utilise le **Prisme standard**.
+
+> **Un miroir ne peut refléter une perspective unique que s’il existe une perspective unique à refléter.**
+
+Une logique propre au monde ou à l’adversité reste prioritaire sur cette règle par défaut.
+
+#### 3. Prisme standard
+
+Lorsque l’adversité ne possède pas de perspective propre et qu’aucun choix de design ne justifie le Mode Miroir, elle utilise le **Prisme standard**.
+
+Dans la configuration standard :
+
+- D6 ;
+- pair = Réussite ;
+- impair = aucune Réussite ;
+- aucun effet supplémentaire.
+
+Le Prisme standard constitue ici un **point zéro de lecture**, non une philosophie artificiellement attribuée à l’obstacle.
 
 ## Quand créer un autre Prisme ?
 
@@ -809,7 +984,7 @@ Le support vient après le sens qu’il doit produire.
 
 ### 4. Décider quelle forme de résultat produire
 
-Si plusieurs Prismes doivent participer à une même opposition, une sortie commune comme les Réussites peut être souhaitable.
+Si plusieurs Prismes doivent participer à une même opposition, leurs sorties doivent pouvoir devenir comparables au moment de leur agrégation. Resonance utilise actuellement les Réussites pour ce rôle.
 
 Mais un jeu léger peut employer un résultat autonome si cela sert mieux l’expérience recherchée.
 
@@ -853,6 +1028,76 @@ Le support devient pertinent lorsqu’il prolonge quelque chose que le personnag
 L’objectif reste le même :
 
 > **réduire la distance entre ce que le joueur manipule et ce que son personnage vit.**
+
+### Matérialiser les Réussites
+
+Resonance ne fixe pas de procédure universelle pour matérialiser physiquement les Réussites.
+
+Dés mis de côté, objets, jetons, compteur numérique ou zone particulière de table peuvent être utiles selon les implémentations, mais cela relève de l’ergonomie et du support choisi.
+
+Le besoin générique est plus simple : tant qu’un Prisme ou une interaction mécanique a encore besoin du tirage complet, celui-ci doit rester lisible.
+
+Une Réussite n’a pas besoin d’être physiquement attribuée à la Mise qui l’aurait produite. La résolution reste globale.
+
+## Quand le dispositif de table entre en résonance
+
+Resonance permet d’aller plus loin que le choix d’un support : **le dispositif réel de la table peut parfois entrer en résonance avec une propriété de la fiction.**
+
+Cette possibilité est une ouverture avancée du framework, pas son nouveau centre. Elle ne doit pas devenir un catalogue de gestes immersifs, d’accessoires ou de gimmicks.
+
+La question reste la même : est-ce que cette correspondance rend quelque chose du monde plus perceptible dans le geste de jeu ?
+
+### Les Mises incarnées
+
+Les **Mises incarnées** sont un outil canonique **optionnel** de design diégétique. Elles ne font pas partie de la configuration standard obligatoire de Resonance.
+
+Un jeu Resonance peut décider de les intégrer. Lorsqu’un jeu ne tranche pas lui-même, une table peut également choisir de les employer ou non dans son contrat de table.
+
+> **On ne gagne pas une Mise en jouant mieux. On donne corps à une Mise qui comptait déjà.**
+
+Lorsqu’une table utilise cette règle :
+
+1. la Mise doit d’abord être pertinente et non redondante pour le Focus ;
+2. son incarnation doit rendre immédiatement intelligible la vérité fictionnelle qu’elle exprime ;
+3. **la Mise reste dans son pool** et est traitée normalement par son Prisme ;
+4. son incarnation apporte **1 Réussite supplémentaire** à son orientation ;
+5. au maximum **une Mise incarnée par orientation et par résolution** ;
+6. le meneur peut incarner une Mise de l’adversité selon les mêmes règles.
+
+> **L’incarnation ajoute une Réussite sans modifier la manière dont le Prisme traite le pool.**
+
+Cette formulation est importante. Retirer le dé d’une Mise incarnée pourrait modifier artificiellement le comportement d’un Prisme fondé sur une somme, des doubles, des motifs, des explosions ou d’autres relations internes au tirage.
+
+La résolution reste globale : on ne cherche pas à établir après coup quelle Mise précise « a réussi » dans le tirage.
+
+Si les deux orientations recherchent systématiquement une incarnation, les Réussites supplémentaires peuvent tendre à se neutraliser et le geste devenir un automatisme.
+
+Ce n’est pas nécessairement un défaut pour un jeu qui cherche précisément une pratique rituelle, performative ou fortement incarnée. Mais Resonance n’impose pas cette esthétique à toutes les implémentations.
+
+### Synchroniser le temps de table et le temps fictionnel
+
+Le temps de réflexion des joueurs reste sans conséquence par défaut.
+
+Le temps accumulé ne devient fictionnel que si quelque chose dans la scène **attend, évolue ou réagit réellement** pendant la délibération.
+
+> **On ne sanctionne pas la délibération. On laisse le monde continuer lorsqu’il avait une raison de continuer.**
+
+Le lien peut parfois être imposé ou autorisé par un **Facteur Cadre**, mais il n’est pas réductible à lui : un personnage qui s’impatiente, une menace qui approche ou une situation qui se dégrade peuvent émerger directement de l’évolution de la scène.
+
+> **Quand le temps compte dans le monde, le temps de la table peut entrer en Resonance avec lui.**
+
+Lorsque cette évolution n’est pas déjà évidente, son effet devrait normalement devenir perceptible dans la fiction avant de devenir mécanique.
+
+Le temps peut alors :
+
+- faire apparaître une nouvelle Mise ;
+- transformer une Mise existante ;
+- changer le Cadre ;
+- ou, si la situation change qualitativement, **transformer le Focus**.
+
+Le principe n’est donc pas « réfléchir trop longtemps donne un malus ».
+
+Il est que le monde peut continuer à exister pendant que la table délibère lorsque la fiction avait déjà une raison de ne pas attendre.
 
 ## Concevoir la pertinence
 
@@ -941,7 +1186,9 @@ Elle peut définir notamment :
 - ses économies de jeu ;
 - sa manière de faire évoluer les personnages ;
 - ses outils de cohérence ou de régulation ;
-- ses manières d’interpréter les conséquences.
+- ses manières d’interpréter les conséquences ;
+- sa politique d’activation du Mode Miroir ;
+- les éventuelles formes de résonance entre le dispositif de table et la fiction.
 
 ## Une grille de conception
 
@@ -952,16 +1199,24 @@ Pour concevoir un jeu avec Resonance, demandez notamment :
 3. **Comment la feuille, le lore ou d’autres supports rendent-ils ces vérités mémorables sans les transformer en bonus automatiques ?**
 4. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
 5. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
-6. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
-7. **La configuration standard suffit-elle à exprimer ce monde ?**
-8. **Si non, quelle perspective mérite un Prisme particulier ?**
-9. **Que doit faire ce Prisme ressentir plutôt que simplement simuler ?**
-10. **Le jeu a-t-il besoin de pools opposés et d’une sortie commune ?**
-11. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
-12. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
-13. **Comment les vérités du personnage peuvent-elles apparaître, se transformer et disparaître ?**
-14. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
-15. **Quels garde-fous empêchent la recherche de Mises de redevenir une optimisation mécanique ?**
+6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
+7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
+8. **Le Zoom choisi correspond-il aux différences que la fiction souhaite encore distinguer ?**
+9. **Quelles vérités poussent dans le sens de l’Intention et lesquelles poussent contre elle pour ce Focus précis ?**
+10. **Plusieurs perspectives ou Prismes contribuent-ils à la même orientation ? Si oui, leurs sorties peuvent-elles devenir interopérables ?**
+11. **L’orientation adverse possède-t-elle une perspective ou une logique propre qui mérite un Prisme particulier ?**
+12. **Si elle n’en possède pas, faut-il employer le Mode Miroir ou le Prisme standard, et pourquoi ?**
+13. **Si un Miroir est envisagé pour une résolution collective, existe-t-il réellement une perspective unique à refléter ?**
+14. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
+15. **La configuration standard suffit-elle à exprimer ce monde ?**
+16. **Si non, quelle perspective mérite un Prisme particulier et que doit-il faire ressentir plutôt que simplement simuler ?**
+17. **Le jeu a-t-il besoin de pools opposés, et plusieurs Prismes doivent-ils partager un format de sortie commun ?**
+18. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
+19. **Une correspondance entre le dispositif réel de table et la fiction rend-elle quelque chose du monde réellement perceptible, ou ajoute-t-elle seulement un gimmick ?**
+20. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
+21. **Comment les vérités du personnage peuvent-elles apparaître, se transformer et disparaître ?**
+22. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
+23. **Quels garde-fous empêchent la recherche de Mises ou d’incarnations de redevenir une optimisation mécanique vide de sens fictionnel ?**
 
 Chaque variation devrait pouvoir répondre à une question simple :
 
@@ -996,6 +1251,8 @@ Une blessure, un serment, le vent, une réputation ou une relation ne sont pas d
 Ils existent dans le monde fictionnel, puis deviennent mécaniquement présents parce qu’ils comptent.
 
 Cette continuité peut également concerner les supports : couleurs, dés, cartes ou objets peuvent prolonger une signification déjà vécue dans la fiction.
+
+Dans certaines implémentations, elle peut aller jusqu’au geste ou au temps réel de la table lorsque la fiction justifie cette correspondance.
 
 > **Le diégétique concerne la continuité entre ce qui existe dans le monde et ce que la règle manipule.**
 
@@ -1364,17 +1621,23 @@ Resonance organise un mouvement simple :
 
 > **Partir de la fiction, déterminer ce qui compte, confronter ces vérités à l’incertitude, puis revenir à une fiction transformée.**
 
-Une résolution commence par une **Intention**. Le **Focus** précise la question et son **Zoom** l’échelle à laquelle elle est regardée. La **grammaire de pertinence** apprend à la table quelles familles de vérités méritent son attention ; les **Facteurs Cadres** ferment ce qui n’appartient pas à l’espace des possibles. Parmi tout ce qui est vrai du personnage, de ses relations, de la situation et du monde, les éléments réellement pertinents et non redondants deviennent des **Mises**.
+Une résolution commence par une **Intention**. Le **Focus** précise la question et son **Zoom** l’échelle à laquelle elle est regardée. La résolution ne porte que sur ce qui reste réellement ouvert dans la fiction. La **grammaire de pertinence** apprend à la table quelles familles de vérités méritent son attention ; les **Facteurs Cadres** ferment ce qui n’appartient pas à l’espace des possibles. Parmi tout ce qui est vrai du personnage, de ses relations, de la situation et du monde, les éléments réellement pertinents et non redondants deviennent des **Mises**.
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-Les Mises sont ensuite confrontées à l’incertitude.
+Le Focus permet aussi de voir dans quel sens chaque Mise compte. Dans la configuration standard, les Mises qui poussent dans le sens de l’Intention et celles qui poussent contre elle forment les deux orientations de la résolution, puis les deux pools.
 
-Dans la configuration standard, chaque Mise apporte un D6, les résultats pairs produisent des Réussites et les camps peuvent comparer leurs résultats. Cette procédure suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Resonance doit prendre.
+> **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
 
-Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Le support, les motifs recherchés, les interactions entre pools ou même la forme du résultat peuvent alors exprimer une relation particulière au monde.
+Chaque Mise apporte alors un D6 et les résultats pairs produisent des Réussites. Lorsque les orientations sont portées par des acteurs identifiables, **camp** reste un raccourci pratique. Cette procédure suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Resonance doit prendre.
 
-> **Le Prisme transforme l’incertitude. Le résultat donne une orientation. Les Mises donnent à cette orientation une forme fictionnelle.**
+Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Une même orientation peut réunir plusieurs perspectives : leurs Mises sont traitées par leurs Prismes respectifs puis leurs sorties sont agrégées lorsqu’elles sont comparables. Resonance utilise actuellement les **Réussites** comme format commun d’interopérabilité, sans en faire une obligation universelle pour toutes les implémentations futures.
+
+Une adversité sans perspective propre n’a pas besoin d’en recevoir artificiellement une : elle peut posséder sa propre logique, être traitée en **Mode Miroir** lorsque le design veut que la perspective du protagoniste colore l’ensemble de l’épreuve, ou utiliser par défaut le **Prisme standard**.
+
+Le support, les motifs recherchés, les interactions entre pools ou même la forme du résultat peuvent ainsi exprimer une relation particulière au monde. Plus exceptionnellement, un jeu peut aussi faire entrer le dispositif réel de la table en résonance avec la fiction — par exemple avec des **Mises incarnées** optionnelles ou une synchronisation temporelle — lorsque cette continuité apporte réellement quelque chose à l’expérience.
+
+> **Le Prisme transforme l’incertitude. Les orientations déterminent de quel côté les vérités pèsent. Le résultat tranche entre elles. Les Mises donnent à ce résultat une forme fictionnelle.**
 
 La résolution ne s’arrête pas au résultat. Son interprétation retourne dans le monde. Certaines conséquences restent locales ; d’autres deviennent des vérités persistantes, inscrites sur la feuille ou ailleurs dans la fiction. Elles pourront à leur tour devenir pertinentes lors d’une résolution future.
 
@@ -1382,7 +1645,7 @@ La résolution ne s’arrête pas au résultat. Son interprétation retourne dan
 
 La boucle complète peut ainsi se lire :
 
-> **fiction / feuille → Intention → Focus / Zoom → Mises → incertitude / Prisme → résultat → interprétation → fiction / feuille transformées**
+> **fiction / feuille → Intention → Focus / Zoom → Mises / orientations → perspectives / Prismes → incertitude → sorties mécaniques → agrégation / comparaison → résultat → interprétation → fiction / feuille transformées**
 
 Le mécanisme exact au centre de cette boucle peut changer. Le mouvement, lui, reste celui de Resonance.
 
@@ -1400,5 +1663,4 @@ Resonance ne cherche donc pas à déplacer la complexité d’un monde vers un m
 
 Le joueur est invité à regarder le monde plutôt qu’à chercher une règle à activer. Le game designer est invité à décider ce que son jeu apprend à remarquer, ce qu’il rend impossible et, lorsque cela compte réellement, comment une manière d’habiter le monde transforme l’incertitude elle-même.
 
-> **Dans Resonance, le monde ne vient pas habiller la mécanique.**  
-> **Il détermine ce qui compte — et peut aller jusqu’à déterminer comment l’incertitude prend sens.**
+> **Le monde ne doit pas décorer la règle. La règle doit permettre à quelque chose du monde de devenir perceptible dans le geste de jeu.**
