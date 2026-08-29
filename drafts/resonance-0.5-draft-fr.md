@@ -642,6 +642,8 @@ Pour le Miroir :
 
 > **Un miroir ne peut refléter une perspective unique que s’il existe une perspective unique à refléter.**
 
+Ces trois cas sont désormais considérés comme **résolus pour le draft 0.5**.
+
 La clarification complète est développée dans `resonance-0.5-orientations-prismes-fr.md`.
 
 ## Configuration standard
