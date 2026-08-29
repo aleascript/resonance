@@ -1,0 +1,38 @@
+name: Regenerate current SRD PDFs
+
+on:
+  push:
+    branches:
+      - docs/foreground-prisms
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: docs/foreground-prisms
+          fetch-depth: 0
+
+      - name: Install PDF toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-lang-french texlive-fonts-recommended
+
+      - name: Generate French and English PDFs
+        run: |
+          bash tools/generate-pdf.sh content/fr/index.md srd/resonance-fr.pdf
+          bash tools/generate-pdf.sh content/en/index.md srd/resonance-en.pdf
+
+      - name: Commit PDFs and clean temporary files
+        run: |
+          rm -f .github/workflows/regenerate-current-pdfs.yml .github/pdf-refresh-trigger
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "docs: regenerate SRD PDFs after review fix"
+          git push origin HEAD:docs/foreground-prisms
