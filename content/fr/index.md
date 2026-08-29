@@ -1360,27 +1360,45 @@ Ils explorent plusieurs directions :
 
 # En résumé
 
-Resonance part d’une idée simple :
+Resonance organise un mouvement simple :
 
-> **La fiction détermine ce qui compte.**
+> **Partir de la fiction, déterminer ce qui compte, confronter ces vérités à l’incertitude, puis revenir à une fiction transformée.**
 
-Sa configuration standard permet de jouer immédiatement :
+Une résolution commence par une **Intention**. Le **Focus** précise la question et son **Zoom** l’échelle à laquelle elle est regardée. La **grammaire de pertinence** apprend à la table quelles familles de vérités méritent son attention ; les **Facteurs Cadres** ferment ce qui n’appartient pas à l’espace des possibles. Parmi tout ce qui est vrai du personnage, de ses relations, de la situation et du monde, les éléments réellement pertinents et non redondants deviennent des **Mises**.
 
-> **Mises → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+> **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-Mais le framework ne s’arrête pas là.
+Les Mises sont ensuite confrontées à l’incertitude.
 
-Le Focus sélectionne le réel pertinent.
+Dans la configuration standard, chaque Mise apporte un D6, les résultats pairs produisent des Réussites et les camps peuvent comparer leurs résultats. Cette procédure suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Resonance doit prendre.
 
-La grammaire de pertinence apprend à la table où regarder.
+Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Le support, les motifs recherchés, les interactions entre pools ou même la forme du résultat peuvent alors exprimer une relation particulière au monde.
 
-Les Facteurs Cadres ferment ce qui n’appartient pas à l’espace des possibles.
+> **Le Prisme transforme l’incertitude. Le résultat donne une orientation. Les Mises donnent à cette orientation une forme fictionnelle.**
 
-Les Prismes peuvent transformer la manière dont l’incertitude devient résultat.
+La résolution ne s’arrête pas au résultat. Son interprétation retourne dans le monde. Certaines conséquences restent locales ; d’autres deviennent des vérités persistantes, inscrites sur la feuille ou ailleurs dans la fiction. Elles pourront à leur tour devenir pertinentes lors d’une résolution future.
 
-La feuille conserve les vérités durables qu’une future résolution pourra remettre en jeu.
+> **Ce qui arrive aujourd’hui transforme ce qui pourra compter demain.**
 
-Et la résolution retourne toujours dans la fiction dont elle est partie.
+La boucle complète peut ainsi se lire :
 
-> **On peut jouer à Resonance tel quel.**  
-> **On peut aussi concevoir avec Resonance pour que le monde transforme les règles qui le font vivre.**
+> **fiction / feuille → Intention → Focus / Zoom → Mises → incertitude / Prisme → résultat → interprétation → fiction / feuille transformées**
+
+Le mécanisme exact au centre de cette boucle peut changer. Le mouvement, lui, reste celui de Resonance.
+
+Le framework distingue donc trois niveaux :
+
+- **Resonance** définit le geste fondamental et les décisions qu’un jeu doit prendre ;
+- **la configuration standard** fournit des réponses simples et entièrement jouables à ces décisions ;
+- **un jeu conçu avec Resonance** peut conserver ces réponses ou les transformer lorsqu’un monde, un genre, un trope ou une perspective a quelque chose de particulier à faire ressentir.
+
+> **Resonance définit ce qui doit être décidé.**  
+> **La configuration standard fournit une décision par défaut.**  
+> **Un jeu Resonance peut conserver ou transformer ces décisions.**
+
+Resonance ne cherche donc pas à déplacer la complexité d’un monde vers un modèle technique toujours plus détaillé. Il cherche à conserver cette complexité là où elle possède déjà du sens : dans les situations, les relations, les croyances, les institutions, les symboles, les contraintes et les conséquences de la fiction.
+
+Le joueur est invité à regarder le monde plutôt qu’à chercher une règle à activer. Le game designer est invité à décider ce que son jeu apprend à remarquer, ce qu’il rend impossible et, lorsque cela compte réellement, comment une manière d’habiter le monde transforme l’incertitude elle-même.
+
+> **Dans Resonance, le monde ne vient pas habiller la mécanique.**  
+> **Il détermine ce qui compte — et peut aller jusqu’à déterminer comment l’incertitude prend sens.**
