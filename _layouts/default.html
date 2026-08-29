@@ -18,10 +18,8 @@
         {% if lang == page.lang %}
           <span class="lang-link lang-active">{{ lang | upcase }}</span>
         {% else %}
-          {% assign lang_page = site.pages | where: "lang", lang | first %}
-          {% if lang_page %}
-          <a class="lang-link" href="{{ lang_page.url | relative_url }}">{{ lang | upcase }}</a>
-          {% endif %}
+          {% assign lang_home = '/' | append: lang | append: '/' %}
+          <a class="lang-link" href="{{ lang_home | relative_url }}">{{ lang | upcase }}</a>
         {% endif %}
       {% endfor %}
     </span>
