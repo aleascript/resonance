@@ -13,7 +13,7 @@ Là où **Glorantha Perspectives** explore jusqu’où Resonance peut descendre 
 
 Ce document contient l’implémentation jouable complète : création de personnage, Prismes, conseils de maîtrise et un scénario prêt à jouer.
 
-Il suppose connus les principes généraux de [Resonance](https://aleascript.github.io/resonance/fr/) : Intention, Focus, Zoom, Mises, pertinence et interprétation fictionnelle.
+Il suppose connus les principes généraux de [Resonance](../index.md) : Intention, Focus, Zoom, Mises, pertinence et interprétation fictionnelle.
 
 > **Le but n’est pas de simuler Scooby-Doo.**  
 > **Le but est de faire en sorte que jouer efficacement pousse naturellement la table à produire du Scooby-Doo.**
