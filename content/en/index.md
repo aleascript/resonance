@@ -146,6 +146,14 @@ Not everything in the world is necessarily relevant.
 
 Even something important to the story may not matter to this particular resolution.
 
+The Focus must also concern a **genuine uncertainty**.
+
+If the fiction has already established that a possibility is open or closed, resolution should not ask the dice to revisit that fact. It should look at what remains genuinely uncertain around it.
+
+> **A resolution does not ask the dice what the fiction already knows. It brings them in where the fiction remains open.**
+
+Conversely, once the table genuinely accepts a Focus, its possible outcomes must actually be able to happen. Framing should not pretend that a possibility is in play only to remove it after the roll.
+
 ## Zoom: at what scale?
 
 The Focus has a scale. Resonance calls this property the **Zoom**.
@@ -184,6 +192,28 @@ These are not "more bonuses because the conflict lasts longer."
 **They are more relevant dimensions because the question being asked is broader.**
 
 Zoom therefore lets the table control pacing without inventing a subsystem for every type of scene.
+
+### Zoom does not set difficulty
+
+Choosing an individual or collective Focus is not a way to adjust pool size artificially.
+
+> **Zoom does not set difficulty. It determines which differences the fiction still wants to distinguish.**
+
+Imagine an expedition crossing a steep mountain.
+
+If each character is resolved individually, *Bitter cold*, *Unstable ledge*, or *Lack of experience* may become relevant again for each person because the fiction is looking at several distinct experiences.
+
+If the Focus becomes collective:
+
+> *Does the group manage to cross the mountain?*
+
+then *Bitter cold* is one dimension of that collective situation. It should not be duplicated once per character.
+
+> **A Bet does not count once per character. It counts once per dimension relevant to the Focus.**
+
+A collective Focus may naturally bring out other truths specific to the group: protecting an injured member, moving at the pace of the least experienced, coordinating several people, or crossing a passage one at a time.
+
+Changing Zoom therefore changes the **question being asked of the fiction**, not simply the number of dice.
 
 ---
 
@@ -279,25 +309,39 @@ The movement can be summarized as follows:
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-## A Bet can help or hinder
+## A Bet's orientation depends on the Focus
 
-A Bet is not necessarily favorable to the character who brings it up.
+A Bet is not favorable or adverse in itself.
 
-> *I know this forest perfectly.*
+> *Driving rain*
 
-may work in their favor.
+may push against the Intention when the Focus is:
 
-> *My leg is injured.*
+> *Do we manage to cross the pass before nightfall?*
 
-may work against them.
+but push in its favor when the Focus becomes:
 
-But their relevance always depends on the Focus **and on the game the table is trying to bring to life**.
+> *Do we manage to lose our pursuers?*
 
-An injury may be central in a game that constantly foregrounds physical vulnerability and remain in the background in another game that is more concerned with political drama or relationships.
+> **A Bet is favorable or adverse relative to the Focus and the Intention under consideration.**
 
-A Bet is therefore not "objectively important" in the abstract.
+In the standard configuration:
 
-It becomes important here, in this game, for this resolution.
+- Bets that push **in the direction of the Intention** form one orientation;
+- Bets that push **against the Intention** form the other;
+- the Bets in each orientation form a pool.
+
+When identifiable characters, groups, or forces carry those orientations, **side** remains a natural shorthand at the table.
+
+But an injury, a mountain, weather, or distance can feed an adverse orientation without constituting a fictional "side" in its own right.
+
+> **The two pools do not always represent two characters. They represent the two directions in which the situation can tip for the Focus.**
+
+The Focus therefore selects what matters **and lets the table see in which direction it matters**.
+
+An injury may belong to the character and still feed the adverse orientation. A weakness in the opposition may instead feed the favorable orientation.
+
+A Bet's fictional origin and its orientation are two distinct questions.
 
 ## A Bet is also a choice of attention
 
@@ -341,6 +385,8 @@ Non-redundancy is therefore not an accounting rule.
 
 It depends on the Focus and its Zoom.
 
+It applies in the same way to a group: several characters can contribute several genuinely distinct truths, but a single dimension of the situation does not become several Bets simply because it affects several people.
+
 ## Closing the Bets
 
 The table does not need to find everything that could theoretically matter.
@@ -366,7 +412,7 @@ The conversation exists to make the situation clear enough to resolve, not to ma
 
 ## Opposition and counter-Bets
 
-A Bet can naturally reveal a truth that favors the other side.
+A Bet can naturally reveal a truth that pushes in the other direction of the Focus.
 
 > **Player:** I'm already between him and the door.
 >
@@ -376,9 +422,9 @@ A Bet can naturally reveal a truth that favors the other side.
 >
 > **GM:** But two soldiers are coming up behind you.
 
-This conversation is not a negotiation over bonuses. It gradually reveals the different elements the fiction makes relevant.
+This conversation is not a negotiation over bonuses. It gradually reveals the different elements the fiction makes relevant in both orientations.
 
-This is also why oppositions can tend to balance organically: looking at a situation more closely often reveals new elements for several sides.
+This is also why oppositions can tend to balance organically: looking at a situation more closely often reveals new elements pushing in several directions.
 
 That does not mean every opposition should be balanced.
 
@@ -394,31 +440,37 @@ Counter-Bets are an **organic counterweight** produced by exploring the fiction,
 
 Resonance's standard configuration lets you play immediately with six-sided dice.
 
-For each side:
+The two orientations of the Focus become the two pools of the resolution.
+
+For each orientation:
 
 - each retained Bet contributes **one D6** to its pool;
 - each **even** result counts as a **Success**;
 - each **odd** result produces no Success;
-- the number of Successes obtained is then compared.
+- the number of Successes obtained by the two orientations is then compared.
+
+When the orientations correspond to identifiable actors, the table can simply speak of **sides**.
+
+But the two pools do not always imply two opposed wills: a character crossing a storm may produce a pool favorable to their Intention and an adverse pool made up of cold, wind, fatigue, and terrain.
 
 This operation turns uncertainty into a comparable mechanical signal: a number of Successes.
 
-> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
+> **Oriented Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
 
 ## The standard result scale
 
 ### Tie: Status quo or escalation
 
-If both sides obtain the same number of Successes, neither side clearly prevails.
+If both orientations obtain the same number of Successes, neither clearly prevails.
 
 The standard result is a **Status quo**.
 
 Depending on the fiction, it can be narrated as a literal continuation of the situation, a **Yes, but...** or a **No, but...**.
 
-If the sides refuse to leave it there, the standard configuration also allows **escalation**:
+If the actors involved refuse to leave it there, the standard configuration also allows **escalation**:
 
 - keep the Bets already in play;
-- each side adds a Bet representing its **determination to finish this**;
+- each side that pushes the confrontation adds a Bet representing its **determination to finish this**;
 - resolve again with the enlarged pools.
 
 Escalation makes mechanically present the fact that the sides choose to push a confrontation beyond a balance at which it could have stopped.
@@ -427,7 +479,9 @@ A game designed with Resonance can choose another philosophy for ties. What matt
 
 ### Positive difference: Victory / Defeat
 
-If one side obtains more Successes than the other, it gains a **Victory** and the other side suffers a **Defeat**.
+If one orientation obtains more Successes than the other, the Intention it supports prevails over the other possible direction of the situation.
+
+When the orientations correspond to sides, the winning side gains a **Victory** and the other side suffers a **Defeat**.
 
 For the winning side's Intention, this usually reads as **Yes**.
 
@@ -438,7 +492,7 @@ For the losing side's Intention, this usually reads as **No**.
 In the standard configuration, a result is **dominated** when both of the following conditions are met:
 
 1. the difference is **strictly greater than 1 Success**;
-2. the winning side obtains **strictly more than twice** as many Successes as the losing side.
+2. the winning orientation obtains **strictly more than twice** as many Successes as the other.
 
 Examples:
 
@@ -463,7 +517,7 @@ A spectacular success for one side does not necessarily turn the other side's fa
 
 ## Interpreting: the Bets return to the fiction
 
-Bets do not merely build the pool before the roll.
+Bets do not merely build the pools before the roll.
 
 **They also provide the material for interpretation after the roll.**
 
@@ -473,7 +527,7 @@ Once the result is known, the table already has:
 - the Focus and its Zoom;
 - any important consequences that were announced;
 - what mattered in the fiction;
-- the direction given by the resolution.
+- the form of the result produced by resolution.
 
 There is therefore no need to invent an arbitrary consequence from an abstract number.
 
@@ -486,9 +540,9 @@ Imagine a mountain crossing in which the Bets are:
 
 On a Defeat, the rain may make the pass impassable, urgency may cause a bad decision, experience may prevent a worse consequence, or the companion may stay behind so the others can continue.
 
-The dice provide a direction.
+The dice decide the relationship between the two orientations.
 
-**The Bets give the table the material through which that direction becomes fiction.**
+**The Bets give the table the material through which that result becomes fiction.**
 
 The words **Yes**, **No**, **And**, and **But** are a practical vocabulary for interpretation. They are not mechanics unique to Resonance.
 
@@ -515,7 +569,7 @@ But when a change becomes lasting and is now part of what the character is, owns
 
 The full loop then becomes:
 
-> **fiction / sheet → Intention → Focus / Zoom → Bets → resolution → direction → interpretation → transformed fiction / sheet**
+> **fiction / sheet → Intention → Focus / Zoom → Bets / orientations → resolution → form of the result → interpretation → transformed fiction / sheet**
 
 ---
 
@@ -532,8 +586,9 @@ Resonance relies on **several layers of coherence that act at different points**
 3. **Frame Factors** close off some possibilities.
 4. **The Focus and its Zoom** determine what the resolution is looking at here and now.
 5. **Relevance and non-redundancy** determine what can actually become a distinct Bet.
-6. **Opposition and counter-Bets** reveal the counterweights already present in the fiction.
-7. **The Fate Gauge**, when used, remembers the imbalances that persist across successive oppositions.
+6. **Framing** guarantees that what is closed is closed before the roll and that what is genuinely put into resolution can happen.
+7. **Opposition and counter-Bets** reveal the counterweights already present in the fiction.
+8. **The Fate Gauge**, when used, remembers the imbalances that persist across successive oppositions.
 
 These tools do not perform the same job and should not be confused with one another.
 
@@ -568,6 +623,30 @@ The character can change plans, find another entrance, acquire suitable clothing
 A Frame Factor therefore does not necessarily block play.
 
 **It requires the fiction to change before some Intentions or means become admissible.**
+
+## Framing commits the table
+
+Resonance must clearly distinguish fictional adjudication from arbitrariness.
+
+A possibility closed by the world, the history, the scenario, a previous consequence, or a Frame Factor must be closed **before** resolution.
+
+Conversely, if the table genuinely accepts a Focus, its possible outcomes must be admissible.
+
+> **What is closed by the fiction must be closed before the roll. What is genuinely put into resolution must be able to happen.**
+
+> **Framing commits the table.**
+
+If a Dragon cannot yet be killed in the fiction, the table should not accept the Focus:
+
+> *Do we kill it?*
+
+and then downgrade a Victory into a mere scratch.
+
+It should honestly frame what remains open: survive, reach a weakness, drive it back, accomplish a necessary step, or transform the situation enough for another question to become possible.
+
+Once killing the Dragon genuinely becomes possible and that Focus is accepted, resolution must be able to produce that outcome.
+
+Resonance does not promise an objective numerical difficulty independent of all adjudication. It can, however, make that adjudication **traceable**: Focus, Bets, Frame Factors, and important consequences are made visible before uncertainty decides.
 
 ## The grammar of relevance: what the game teaches you to notice
 
@@ -664,8 +743,9 @@ The following elements constitute the gesture of Resonance:
 
 - begin from a fictional Intention;
 - define a Focus and its Zoom;
+- make resolution concern what remains genuinely uncertain;
 - make important consequences visible when the table contract requires it;
-- select what matters;
+- select what matters and in which direction it matters;
 - avoid redundancy at the chosen scale;
 - confront the Bets with some form of uncertainty;
 - produce a form of result that fiction can use;
@@ -677,7 +757,7 @@ Other elements belong to the standard configuration and can be transformed:
 - using D6s;
 - associating one Bet with one die;
 - reading even numbers as Successes;
-- opposing two pools;
+- forming two pools from the two orientations of the Focus;
 - using the same physical representation for every Bet;
 - using the standard result scale;
 - using escalation;
@@ -689,21 +769,23 @@ Variation is not something added from outside the framework.
 
 ## A standard chain of responsibilities
 
-In the standard configuration — and in implementations that oppose sides — the operations can be separated as follows:
+In the standard configuration — and in implementations that compare two orientations — the operations can be separated as follows:
 
-> **Bets → uncertainty medium → Prism → mechanical signals → result scale → interpretation → transformed fiction**
+> **Oriented Bets → uncertainty medium → Prism → mechanical signals → aggregation by orientation → result scale → interpretation → transformed fiction**
 
 In the standard configuration:
 
-> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
+> **Oriented Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
 
 This separation avoids asking a single mechanic to do everything.
 
 The **Prism** transforms uncertainty into mechanical signals.
 
-The **result scale** then transforms those signals into a direction.
+When several contributions belong to the same orientation, they must be able to be brought together before comparison.
 
-**Interpretation** finally transforms that direction into fiction from the Bets and the situation.
+The **result scale** then transforms that comparison into a form of result.
+
+**Interpretation** finally transforms that form of result into fiction from the Bets and the situation.
 
 This chain is a reference architecture, not a universal obligation. A light implementation can use a Prism whose result is directly usable without passing through an opposition between two pools.
 
@@ -712,8 +794,6 @@ This chain is a reference architecture, not a universal obligation. A light impl
 Resonance calls a **Prism**:
 
 > **the logic by which a perspective on the world transforms uncertainty into a result the game can use mechanically.**
-
-In opposed-pool implementations, this often means producing **Successes** or other comparable signals.
 
 A Prism is therefore not simply "counting the dice differently" to create an aesthetic variation.
 
@@ -744,15 +824,110 @@ It simply provides a discreet reading when the game does not want perspective it
 
 It is a **design zero point**, not a norm that other Prisms should resemble.
 
-### Common outputs for different perspectives
+It is also the default behavior for adversity without a perspective of its own when neither the world nor the design justifies another treatment.
 
-When several Prisms need to coexist in the same opposition, the game benefits from defining a common interface.
+### Orientation and Prism answer two different questions
 
-In current opposed-pool implementations, that interface is generally the **Success**: each Prism produces Successes according to its own logic, then the result scale compares the sides.
+Two decisions should not be confused:
 
-This common output is an interoperability contract for games that need one.
+1. **Which pool does this Bet enter?**  
+   That depends on its orientation relative to the Focus and the Intention.
+2. **How does this Bet become mechanically readable?**  
+   That depends on the Prism of the perspective carrying it, or on the Prism the game assigns to its actualization.
 
-**It neither defines the Prism nor is mandatory for every Resonance implementation.**
+> **Orientation determines which side a truth weighs on. The Prism determines how that truth passes through uncertainty to become mechanically readable.**
+
+A pool is therefore first and foremost a grouping of Bets oriented in the same direction. It does not need to be homogeneous in terms of Prisms.
+
+### A collective side can bring together several Prisms
+
+> **Sharing an Intention does not mean sharing a perspective.**
+
+If several protagonists contribute to the same Intention from different perspectives, their Bets remain grouped by their common orientation, but are processed according to their respective Prisms.
+
+In that case:
+
+1. Bets remain grouped by orientation;
+2. they are processed in coherent subsets according to the Prisms of the perspectives carrying them;
+3. comparable outputs are brought together at the level of the orientation.
+
+> **The side determines which contributions are brought together. The Prism determines how each becomes a mechanically comparable contribution.**
+
+This rule avoids artificially imposing the leader's Prism, the majority Prism, or a mechanical mixture with no fictional meaning.
+
+If the fiction establishes that one perspective genuinely dominates collective action, a game can of course represent that. It then becomes a property of the situation, not a general tie-breaking rule.
+
+### Comparable outputs for different perspectives
+
+In Resonance as it currently stands, several Prisms can contribute to the same resolution because they can produce a common output format: **Successes**.
+
+However, this current solution should be distinguished from the more general architectural principle.
+
+> **When several Prisms contribute to the same resolution, their outputs must be able to become mechanically comparable at the point of aggregation. Resonance currently uses Successes to ensure this comparability. Other interoperability contracts are conceivable, but the framework does not yet formalize them.**
+
+Success should therefore not be prematurely turned into a mandatory universal output for every future Resonance implementation.
+
+A game whose Prisms do not produce directly comparable outputs must itself define how several perspectives can cooperate within the same orientation.
+
+### Adversity without a perspective of its own
+
+An adverse orientation can be made up of truths such as:
+
+- *vertical wall*;
+- *extreme cold*;
+- *unstable terrain*;
+- *violent wind*;
+- *accumulated fatigue*;
+- *distance to cover*.
+
+These truths do create opposition, but they do not necessarily possess a perspective on the world.
+
+Resonance recommends reading them in the following order.
+
+#### 1. The adversity has its own logic
+
+Before treating it as neutral, ask whether the world, place, entity, or situation already gives it a mechanically operative logic.
+
+If so, it uses the corresponding Prism.
+
+> **Before treating adversity as neutral, ask whether the world already gives it a logic capable of becoming mechanically operative.**
+
+A sacred mountain, a spirit world, a magical institution, or a cosmological reality may therefore impose its own way of actualizing uncertainty.
+
+#### 2. Mirror Mode
+
+**Mirror Mode** is a canonical Resonance mechanism.
+
+It is **not a Prism**. It is an attribution rule: adversity without a perspective of its own is resolved using the Prism of the perspective from which the test is experienced.
+
+> **The Mirror does not give the obstacle a worldview. It makes the protagonist's worldview the way the entire test becomes readable.**
+
+Self-overcoming is a strong example of its use, but it does not universally define the Mirror.
+
+The choice of scenes or situations in which Mirror Mode activates belongs to the **implementation's game design**. Resonance provides the mechanism and its meaning; each game decides its activation policy.
+
+With several protagonists:
+
+- **individual Focus**: each protagonist can encounter a Mirror corresponding to their own Prism;
+- **collective Focus, shared Prism**: adversity can reflect that common Prism;
+- **collective Focus, several Prisms**: there is no longer a single perspective to reflect; the protagonists use their respective Prisms and abstract adversity uses the **standard Prism**.
+
+> **A mirror can reflect a single perspective only if there is a single perspective to reflect.**
+
+A logic belonging to the world or the adversity itself takes precedence over this default rule.
+
+#### 3. Standard Prism
+
+When adversity has no perspective of its own and no design choice justifies Mirror Mode, it uses the **standard Prism**.
+
+In the standard configuration:
+
+- D6;
+- even = Success;
+- odd = no Success;
+- no additional effect.
+
+Here, the standard Prism is a **reading zero point**, not an artificial philosophy assigned to the obstacle.
 
 ## When should you create another Prism?
 
@@ -809,7 +984,7 @@ The medium comes after the meaning it is meant to produce.
 
 ### 4. Decide what form of result to produce
 
-If several Prisms must take part in the same opposition, a common output such as Successes may be desirable.
+If several Prisms must take part in the same opposition, their outputs must be able to become comparable at the point of aggregation. Resonance currently uses Successes for this role.
 
 But a light game can use a standalone result if that better serves the intended experience.
 
@@ -853,6 +1028,76 @@ The medium becomes relevant when it extends something the character or world alr
 The goal remains the same:
 
 > **reduce the distance between what the player manipulates and what their character experiences.**
+
+### Materializing Successes
+
+Resonance does not define a universal procedure for physically materializing Successes.
+
+Set-aside dice, objects, tokens, a digital counter, or a particular table area may be useful depending on the implementation, but those are matters of ergonomics and the chosen medium.
+
+The generic requirement is simpler: as long as a Prism or mechanical interaction still needs the full roll, that roll must remain readable.
+
+A Success does not need to be physically assigned to the Bet that might have produced it. Resolution remains global.
+
+## When the table apparatus enters into resonance
+
+Resonance can go beyond the choice of medium: **the actual apparatus of play at the table can sometimes resonate with a property of the fiction.**
+
+This possibility is an advanced opening of the framework, not its new center. It should not become a catalogue of immersive gestures, accessories, or gimmicks.
+
+The question remains the same: does this correspondence make something of the world more perceptible in the act of play?
+
+### Embodied Bets
+
+**Embodied Bets** are a canonical **optional** tool of diegetic design. They are not part of Resonance's mandatory standard configuration.
+
+A Resonance game may choose to include them. When a game does not decide for itself, a table may also choose whether to use them in its table contract.
+
+> **You do not gain a Bet by performing better. You embody a Bet that already mattered.**
+
+When a table uses this rule:
+
+1. the Bet must first be relevant and non-redundant for the Focus;
+2. its embodiment must make the fictional truth it expresses immediately intelligible;
+3. **the Bet remains in its pool** and is processed normally by its Prism;
+4. its embodiment contributes **1 additional Success** to its orientation;
+5. at most **one Embodied Bet per orientation and per resolution**;
+6. the GM can embody a Bet from adversity under the same rules.
+
+> **Embodiment adds one Success without changing how the Prism processes the pool.**
+
+This wording matters. Removing the die for an Embodied Bet could artificially change the behavior of a Prism based on a sum, doubles, patterns, explosions, or other internal relationships in the roll.
+
+Resolution remains global: after the fact, the table does not try to establish which specific Bet "succeeded" in the roll.
+
+If both orientations systematically seek embodiment, the additional Successes may tend to cancel one another and the gesture may become automatic.
+
+That is not necessarily a flaw for a game deliberately seeking a ritual, performative, or strongly embodied practice. But Resonance does not impose that aesthetic on every implementation.
+
+### Synchronizing table time and fictional time
+
+By default, the time players spend thinking has no consequence.
+
+Accumulated time becomes fictional only if something in the scene **actually waits, evolves, or reacts** while the table deliberates.
+
+> **Deliberation is not punished. The world simply continues when it already had a reason to continue.**
+
+The link can sometimes be imposed or authorized by a **Frame Factor**, but it is not reducible to one: an impatient character, an approaching threat, or a deteriorating situation can emerge directly from the evolution of the scene.
+
+> **When time matters in the world, table time can enter into Resonance with it.**
+
+When that evolution is not already obvious, its effect should normally become perceptible in the fiction before it becomes mechanical.
+
+Time may then:
+
+- bring forth a new Bet;
+- transform an existing Bet;
+- change the Frame;
+- or, if the situation changes qualitatively, **transform the Focus**.
+
+The principle is therefore not "thinking too long gives you a penalty."
+
+It is that the world may continue to exist while the table deliberates when the fiction already had a reason not to wait.
 
 ## Designing relevance
 
@@ -941,7 +1186,9 @@ It can define, among other things:
 - its game economies;
 - how its characters evolve;
 - its coherence or regulation tools;
-- how it interprets consequences.
+- how it interprets consequences;
+- its policy for activating Mirror Mode;
+- any forms of resonance between the table apparatus and the fiction.
 
 ## A design checklist
 
@@ -952,16 +1199,24 @@ When designing a game with Resonance, ask in particular:
 3. **How do the sheet, lore, or other media make these truths memorable without turning them into automatic bonuses?**
 4. **What makes two Bets distinct or redundant?**
 5. **Which Frame Factors genuinely close off possibilities?**
-6. **Which consequences must be explicit before a player exposes themselves to them?**
-7. **Is the standard configuration enough to express this world?**
-8. **If not, what perspective deserves a particular Prism?**
-9. **What should that Prism make the player feel rather than merely simulate?**
-10. **Does the game need opposed pools and a common output?**
-11. **Would another medium than a D6 make the experience more direct?**
-12. **Which consequences should return durably to the fiction or the sheet?**
-13. **How can the character's truths appear, transform, and disappear?**
-14. **What mechanisms maintain coherence when the table interprets relevance freely?**
-15. **What safeguards prevent the search for Bets from becoming mechanical optimization again?**
+6. **Does the Focus concern a genuine uncertainty, or is it asking the dice to decide something the fiction has already established?**
+7. **If a truth is already fixed, what question genuinely remains open around it?**
+8. **Does the chosen Zoom correspond to the differences the fiction still wants to distinguish?**
+9. **Which truths push in the direction of the Intention and which push against it for this particular Focus?**
+10. **Do several perspectives or Prisms contribute to the same orientation? If so, can their outputs become interoperable?**
+11. **Does the adverse orientation have a perspective or logic of its own that deserves a particular Prism?**
+12. **If not, should Mirror Mode or the standard Prism be used, and why?**
+13. **If a Mirror is being considered for a collective resolution, is there genuinely a single perspective to reflect?**
+14. **Which consequences must be explicit before a player exposes themselves to them?**
+15. **Is the standard configuration enough to express this world?**
+16. **If not, what perspective deserves a particular Prism, and what should it make the player feel rather than merely simulate?**
+17. **Does the game need opposed pools, and do several Prisms need to share a common output format?**
+18. **Would another medium than a D6 make the experience more direct?**
+19. **Does a correspondence between the actual table apparatus and the fiction make something of the world genuinely perceptible, or merely add a gimmick?**
+20. **Which consequences should return durably to the fiction or the sheet?**
+21. **How can the character's truths appear, transform, and disappear?**
+22. **What mechanisms maintain coherence when the table interprets relevance freely?**
+23. **What safeguards prevent the search for Bets or embodiments from becoming mechanical optimization empty of fictional meaning?**
 
 Every variation should be able to answer one simple question:
 
@@ -996,6 +1251,8 @@ An injury, oath, wind, reputation, or relationship is not first a modifier.
 It exists in the fictional world, then becomes mechanically present because it matters.
 
 This continuity can also concern the media being used: colors, dice, cards, or objects can extend a meaning already experienced in the fiction.
+
+In some implementations, it can extend all the way to gesture or real table time when the fiction justifies that correspondence.
 
 > **The diegetic concerns continuity between what exists in the world and what the rules manipulate.**
 
@@ -1364,17 +1621,23 @@ Resonance organizes a simple movement:
 
 > **Start from fiction, determine what matters, confront those truths with uncertainty, then return to transformed fiction.**
 
-A resolution begins with an **Intention**. The **Focus** specifies the question and its **Zoom** the scale at which it is viewed. The **grammar of relevance** teaches the table which families of truths deserve its attention; **Frame Factors** close off what does not belong to the space of possibilities. Among everything that is true of the character, their relationships, the situation, and the world, the elements that are genuinely relevant and non-redundant become **Bets**.
+A resolution begins with an **Intention**. The **Focus** specifies the question and its **Zoom** the scale at which it is viewed. Resolution concerns only what genuinely remains open in the fiction. The **grammar of relevance** teaches the table which families of truths deserve its attention; **Frame Factors** close off what does not belong to the space of possibilities. Among everything that is true of the character, their relationships, the situation, and the world, the elements that are genuinely relevant and non-redundant become **Bets**.
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-The Bets are then confronted with uncertainty.
+The Focus also lets the table see in which direction each Bet matters. In the standard configuration, Bets that push in the direction of the Intention and those that push against it form the two orientations of resolution, then the two pools.
 
-In the standard configuration, each Bet contributes a D6, even results produce Successes, and the sides can compare their results. This procedure is enough to play immediately, but it is not the identity of the framework: it is a default answer to the decisions every Resonance implementation must make.
+> **The two pools do not always represent two characters. They represent the two directions in which the situation can tip for the Focus.**
 
-When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. The medium, the patterns being sought, interactions between pools, or even the form of the result can then express a particular relationship to the world.
+In the standard configuration, each Bet contributes one D6 and each even result produces one Success. Comparing Successes determines toward which orientation the fiction will lean. The standard configuration is enough to play immediately, but it is not the identity of the framework: it is a default answer to the decisions every Resonance implementation must make.
 
-> **The Prism transforms uncertainty. The result provides a direction. The Bets give that direction a fictional form.**
+When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. The same orientation may bring together several perspectives: their Bets are processed by their respective Prisms, then their outputs are aggregated when they are comparable. Resonance currently uses **Successes** as its common interoperability format without making them a universal requirement for every future implementation.
+
+Adversity without a perspective of its own does not need one to be assigned artificially: it may possess its own logic, be treated in **Mirror Mode** when the design wants the protagonist's perspective to color the entire test, or use the **standard Prism** by default.
+
+The medium, the patterns being sought, interactions between pools, or even the form of the result can thus express a particular relationship to the world. More exceptionally, a game may also make the actual table apparatus resonate with the fiction — for example through optional **Embodied Bets** or temporal synchronization — when that continuity genuinely adds something to the experience.
+
+> **The Prism transforms uncertainty. Orientations determine which side truths weigh on. The result decides between them. The Bets give that result a fictional form.**
 
 Resolution does not stop at the result. Its interpretation returns to the world. Some consequences remain local; others become persistent truths, written on the sheet or elsewhere in the fiction. They may in turn become relevant in a future resolution.
 
@@ -1382,7 +1645,7 @@ Resolution does not stop at the result. Its interpretation returns to the world.
 
 The complete loop can therefore be read as:
 
-> **fiction / sheet → Intention → Focus / Zoom → Bets → uncertainty / Prism → result → interpretation → transformed fiction / sheet**
+> **fiction / sheet → Intention → Focus / Zoom → Bets / orientations → perspectives / Prisms → uncertainty → mechanical outputs → aggregation / comparison → result → interpretation → transformed fiction / sheet**
 
 The exact mechanism at the center of this loop can change. The movement itself does not.
 
@@ -1400,5 +1663,4 @@ Resonance therefore does not try to move the complexity of a world into an ever 
 
 The player is invited to look at the world rather than search for a rule to activate. The game designer is invited to decide what their game teaches players to notice, what it makes impossible and, when it genuinely matters, how a way of inhabiting the world transforms uncertainty itself.
 
-> **In Resonance, the world does not merely decorate the mechanics.**  
-> **It determines what matters — and can go as far as determining how uncertainty takes on meaning.**
+> **The world must not decorate the rule. The rule must allow something of the world to become perceptible in the act of play.**
