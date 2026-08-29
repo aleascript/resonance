@@ -1629,7 +1629,7 @@ Le Focus permet aussi de voir dans quel sens chaque Mise compte. Dans la configu
 
 > **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
 
-Chaque Mise apporte alors un D6 et les résultats pairs produisent des Réussites. Lorsque les orientations sont portées par des acteurs identifiables, **camp** reste un raccourci pratique. Cette procédure suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Resonance doit prendre.
+Dans la configuration standard, chaque Mise apporte un D6 et chaque résultat pair produit une Réussite. La comparaison des Réussites permet de déterminer vers quelle orientation la fiction va pencher. Cette configuration suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Resonance doit prendre.
 
 Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Une même orientation peut réunir plusieurs perspectives : leurs Mises sont traitées par leurs Prismes respectifs puis leurs sorties sont agrégées lorsqu’elles sont comparables. Resonance utilise actuellement les **Réussites** comme format commun d’interopérabilité, sans en faire une obligation universelle pour toutes les implémentations futures.
 
