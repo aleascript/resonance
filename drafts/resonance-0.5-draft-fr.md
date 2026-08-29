@@ -13,18 +13,25 @@ Resonance part déjà d’un mouvement simple :
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-La 0.5 explore une conséquence supplémentaire de ce principe :
+La 0.5 explore plusieurs conséquences supplémentaires de ce principe.
+
+D’une part :
 
 > **Lorsque quelque chose compte réellement dans la fiction, le jeu peut parfois lui permettre de transformer non seulement le résultat, mais le geste de résolution lui-même.**
 
 Le temps réel, un silence, une parole, un geste, un objet ou une disposition physique autour de la table peuvent alors devenir mécaniquement significatifs — non comme gimmicks ajoutés de l’extérieur, mais parce que la fiction les a rendus pertinents.
 
+D’autre part, Resonance ne devrait pas demander à l’incertitude de décider ce que la fiction a déjà établi :
+
+> **Une résolution doit porter sur ce qui demeure réellement incertain dans la situation.**
+
 Cette extension ne remplace ni les Mises, ni les Prismes, ni les Facteurs Cadres. Elle montre jusqu’où peut aller leur logique commune.
 
-Deux outils en constituent les premiers cas concrets :
+Trois directions en constituent les premiers cas concrets :
 
 - les **Mises incarnées** ;
-- la **synchronisation diégétique du temps de table**.
+- la **synchronisation diégétique du temps de table** ;
+- le **déplacement du Focus vers l’incertitude réelle** lorsque certaines vérités sont déjà établies.
 
 ---
 
@@ -402,7 +409,88 @@ L’initiative redevient alors une scène plutôt qu’une interface séparée.
 
 ---
 
-# 4. La table elle-même peut résonner
+# 4. Ne pas résoudre ce que la fiction sait déjà
+
+## Principe
+
+Resonance ne devrait pas demander à une procédure d’incertitude de décider ce que la fiction a déjà établi.
+
+Une vérité peut être fixée par le monde, l’histoire, le scénario, une conséquence précédente, un Facteur Cadre ou simplement par ce qui vient d’être établi à la table.
+
+Dans ce cas, elle reste vraie.
+
+> **Si la fiction connaît déjà une issue, ne la remettez pas artificiellement en jeu. Cherchez ce qui reste réellement incertain et placez-y le Focus.**
+
+Le rôle du Focus est précisément de poser la question à laquelle la résolution doit répondre. Si la réponse à cette question est déjà certaine, le problème n’est généralement pas de créer une nouvelle mécanique : il est de **mieux cadrer la question**.
+
+## Exemple : un passage nécessaire vers le Monde Héroïque
+
+Une aventure suppose que les personnages accomplissent un rituel qui leur permettra d’entrer dans le Monde Héroïque.
+
+Si l’échec du rituel signifie seulement que l’aventure s’arrête, il peut être préférable d’établir que le passage aura lieu et de déplacer le Focus vers ce qui demeure réellement ouvert.
+
+Par exemple :
+
+> **Parvenez-vous à franchir le rituel ensemble, au lieu voulu et sans attirer quelque chose avec vous ?**
+
+Des Mises peuvent alors peser en faveur de cette Intention :
+
+- *rituel parfaitement mémorisé* ;
+- *soutien du prêtre* ;
+- *sacrifice approprié* ;
+- *configuration cosmique favorable*.
+
+D’autres peuvent peser contre elle :
+
+- *cercle rituel endommagé* ;
+- *un participant doute* ;
+- *présence d’un esprit hostile*.
+
+La résolution ne décide pas si le Monde Héroïque est accessible. Elle décide **comment les personnages traversent une ouverture déjà établie**.
+
+## Exemple : participer à une histoire dont l’issue est connue
+
+Un jeu historique met les personnages à Waterloo.
+
+Si le monde joué conserve l’issue historique de la bataille, la défaite de Napoléon n’est pas une question à résoudre.
+
+Elle appartient au Cadre.
+
+Mais d’innombrables questions restent ouvertes :
+
+> **La compagnie parvient-elle à maintenir la route ouverte assez longtemps pour couvrir la retraite ?**
+
+Les vérités favorables et adverses à cette Intention construisent alors les pools habituels.
+
+La bataille peut être perdue sans que le destin de chaque personnage, de chaque unité ou de chaque relation soit connu.
+
+> **L’Histoire sait que Napoléon perd. Les dés nous disent ce que cette défaite fera de vous.**
+
+## Une issue certaine n’abolit pas l’incertitude
+
+Une vérité fixée ne signifie pas que toute la scène est déterminée.
+
+Elle déplace simplement la frontière de l’incertitude.
+
+Resonance peut alors chercher ce qui reste réellement ouvert :
+
+- dans quelles conditions l’événement se produit ;
+- ce qu’il coûte ;
+- ce qu’il permet de préserver ;
+- ce qu’il transforme ;
+- qui en sort changé ;
+- quelles conséquences durables apparaissent ;
+- quel objectif local reste disputé à l’intérieur d’un événement globalement connu.
+
+Cette logique évite les **faux jets** : des résolutions dont la table prétend accepter toutes les issues alors qu’une seule permet réellement à la fiction de continuer.
+
+Elle évite également de confondre la taille du Zoom avec la nature de l’incertitude. Une bataille entière peut posséder une issue fixée tandis qu’un Focus plus local reste profondément incertain.
+
+> **Une résolution ne demande pas aux dés ce que la fiction sait déjà. Elle les fait intervenir là où la fiction reste ouverte.**
+
+---
+
+# 5. La table elle-même peut résonner
 
 Les Mises incarnées et la synchronisation du temps révèlent un principe de design plus général.
 
@@ -458,7 +546,7 @@ mais plutôt :
 
 ---
 
-# 5. Conséquences sur l’architecture du SRD
+# 6. Conséquences sur l’architecture du SRD
 
 Ces nouveautés demandent quelques ajustements à la formulation actuelle de Resonance.
 
@@ -468,17 +556,25 @@ La formulation actuelle :
 
 > *confronter les Mises à une forme d’incertitude*
 
-devrait être précisée pour ne pas rendre les Mises incarnées contradictoires avec les invariants.
+devrait être précisée pour ne pas rendre les Mises incarnées contradictoires avec les invariants et pour rappeler que toute vérité établie n’a pas à être remise artificiellement en jeu.
 
 Proposition :
 
-> **confronter à l’incertitude les Mises dont l’actualisation demeure incertaine ;**
+> **déterminer comment les Mises deviennent mécaniquement opérantes, puis confronter ce qui demeure réellement incertain à la résolution.**
 
-ou, de manière plus générale :
+Cette formulation prépare les implémentations futures sans réduire Resonance à une exception spécifique.
 
-> **déterminer comment les Mises deviennent mécaniquement opérantes, puis confronter ce qui demeure incertain à la résolution.**
+## Focus et vérités déjà établies
 
-La seconde formulation semble mieux préparer les implémentations futures sans réduire Resonance à une exception spécifique.
+La section consacrée au Focus devrait rappeler qu’une bonne question de résolution doit porter sur une incertitude réelle.
+
+Lorsqu’une conséquence est déjà fixée par le monde, l’histoire ou le Cadre, la table ne construit pas une fausse incertitude autour d’elle.
+
+Elle déplace le Focus vers ce qui demeure ouvert.
+
+Formulation candidate :
+
+> **Si la réponse au Focus est déjà établie par la fiction, reformulez le Focus jusqu’à atteindre ce qui reste réellement incertain.**
 
 ## Configuration standard
 
@@ -500,7 +596,7 @@ Puis :
 
 La chaîne de référence peut être enrichie sans devenir plus lourde :
 
-> **Mises → actualisation éventuelle à la table → incertitude / Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
+> **fiction établie → Focus sur l’incertitude réelle → Mises → actualisation éventuelle à la table → incertitude / Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
 
 La configuration standard reste lisible comme :
 
@@ -516,11 +612,12 @@ Un Facteur Cadre peut donc :
 
 - fermer certaines possibilités fictionnelles ;
 - rendre certaines conséquences inévitables ou particulières ;
+- établir des vérités que la résolution n’a pas à remettre en jeu ;
 - transformer ce qui peut devenir pertinent ;
 - **imposer ponctuellement une contrainte au geste de table lorsque cette contrainte existe réellement dans la fiction ;**
 - **autoriser le temps de table à devenir un agent d’évolution de la situation lorsque le monde attend, évolue ou réagit réellement.**
 
-La synchronisation temporelle constitue le premier exemple canonique de ces possibilités.
+La synchronisation temporelle constitue le premier exemple canonique de ces dernières possibilités.
 
 Elle ne se limite plus au sablier : une temporalité fictionnelle peut être rendue sensible par une contrainte explicite, une réaction immédiate ou l’apparition progressive de nouvelles vérités.
 
@@ -540,7 +637,7 @@ Elle pourra alors faire le pont entre :
 
 ---
 
-# 6. Grille de conception — nouvelles questions
+# 7. Grille de conception — nouvelles questions
 
 La grille actuelle peut être complétée par quelques questions :
 
@@ -549,12 +646,14 @@ La grille actuelle peut être complétée par quelques questions :
 3. **Existe-t-il des propriétés du monde qui devraient modifier temporairement le temps, l’espace, le silence, les objets ou un autre comportement réel de la table ?**
 4. **Le temps passé à la table peut-il légitimement faire évoluer certains éléments de la fiction ? Qu’est-ce qui, dans la scène, attend, évolue ou réagit réellement ?**
 5. **Cette évolution temporelle peut-elle seulement créer une nouvelle Mise, ou peut-elle aller jusqu’à transformer le Focus ?**
-6. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
-7. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
+6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
+7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
+8. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
+9. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
 
 ---
 
-# 7. Formulations candidates pour la 0.5
+# 8. Formulations candidates pour la 0.5
 
 À challenger avant intégration définitive :
 
@@ -570,29 +669,37 @@ La grille actuelle peut être complétée par quelques questions :
 
 > **On ne sanctionne pas la délibération. On laisse le monde continuer lorsqu’il avait une raison de continuer.**
 
+> **Si la fiction connaît déjà une issue, ne la remettez pas artificiellement en jeu. Cherchez ce qui reste réellement incertain et placez-y le Focus.**
+
+> **Une résolution ne demande pas aux dés ce que la fiction sait déjà. Elle les fait intervenir là où la fiction reste ouverte.**
+
 > **Le dispositif de table lui-même peut devenir un support de la fiction lorsqu’un monde, un genre ou un Facteur Cadre lui donne une raison de l’être.**
 
 > **Une propriété du monde mérite-t-elle d’être seulement représentée, ou peut-elle être vécue momentanément par la table ?**
 
 ---
 
-# 8. Plan d’intégration proposé
+# 9. Plan d’intégration proposé
 
 Après validation conceptuelle de ce draft :
 
 - [ ] intégrer les **Mises incarnées** dans la section joueur consacrée aux Mises ;
 - [ ] préciser la **configuration standard** pour l’exception de la Réussite incarnée ;
 - [ ] ajuster la formulation des **invariants** ;
+- [ ] préciser dans la section **Focus** qu’une résolution porte sur ce qui demeure réellement incertain ;
+- [ ] préciser le rôle des **Facteurs Cadres** comme vérités capables de fermer ou fixer certains éléments sans les remettre en jeu ;
 - [ ] étendre les **Facteurs Cadres** à la synchronisation du geste de table ;
 - [ ] réécrire **« Les supports peuvent eux aussi résonner »** ;
 - [ ] intégrer les trois formes de synchronisation temporelle : **temps contraint, temps réactif, temps accumulé** ;
 - [ ] intégrer l’exemple du **temps réel**, celui de **l’hésitation en urgence** et celui du **Roi qui s’impatiente** ;
 - [ ] expliciter que le passage du temps peut faire apparaître une Mise ou, si la situation change de nature, **transformer le Focus** ;
+- [ ] intégrer au moins un exemple où une vérité globale est connue mais où le **Focus local reste réellement incertain** ;
 - [ ] compléter la **grille de conception** ;
 - [ ] vérifier la conclusion du SRD afin qu’elle reflète cette extension sans surcharger le manifeste ;
 - [ ] tester les règles à la table, en particulier la fréquence réelle des Mises incarnées ;
 - [ ] vérifier que la Mise incarnée ne devient pas une Réussite automatique attendue à chaque résolution ;
 - [ ] vérifier que le temps accumulé ne devient pas une punition implicite contre les joueurs qui délibèrent lentement ;
+- [ ] vérifier que les Focus ne produisent pas de faux jets lorsque leur réponse est déjà établie par la fiction ;
 - [ ] vérifier l’interaction avec plusieurs Prismes et avec les implémentations sans sortie en Réussites ;
 - [ ] après validation française, synchroniser la version anglaise.
 
@@ -609,6 +716,7 @@ La 0.5 doit notamment challenger les points suivants avant stabilisation :
 - Dans le cas du temps accumulé, jusqu’où la fiction doit-elle rendre visible qu’elle continue d’évoluer avant que le meneur puisse poser une nouvelle Mise ?
 - Quels garde-fous empêchent le temps accumulé de devenir une manière implicite de presser ou de sanctionner les joueurs ?
 - La synchronisation diégétique doit-elle être décrite comme une propriété des Facteurs Cadres, comme une possibilité générale de design, ou les deux ?
+- La distinction actuelle entre « camps », Mises favorables et Mises adverses explique-t-elle suffisamment pourquoi deux pools apparaissent naturellement dans une résolution, y compris lorsqu’il n’existe aucun adversaire personnifié ?
 - Jusqu’où le SRD doit-il donner des exemples sans transformer ces exemples en pseudo-menu de mécaniques ?
 
 Le critère restera le même :
