@@ -1,17 +1,17 @@
-# Resonance 0.5 — orientations de résolution et adversité sans perspective
+# Resonance 0.5 — orientations, multi-Prismes et adversité sans perspective
 
-> **Statut : clarification de conception validée pour intégration au draft 0.5.**  
-> Cette note complète `resonance-0.5-draft-fr.md`. Elle formalise trois points liés : pourquoi la configuration standard produit naturellement deux pools, comment un même camp peut réunir plusieurs Prismes, et quel Prisme employer lorsque l’orientation adverse n’est portée par aucune perspective propre.
+> **Statut : clarification de conception stabilisée pour intégration au SRD 0.5.**  
+> Cette note complète `resonance-0.5-draft-fr.md` et la note de stabilisation `resonance-0.5-stabilisation-fr.md`. Elle formalise quatre points liés : pourquoi la configuration standard produit deux pools, comment un même camp peut réunir plusieurs Prismes, comment leurs sorties s’agrègent, et comment traiter une adversité sans perspective propre.
 
 ---
 
-# 1. Du Focus aux deux orientations de la résolution
+# 1. Du Focus aux deux orientations
 
 Une résolution commence par une **Intention** et un **Focus**.
 
 Le Focus ne sélectionne pas seulement les vérités pertinentes. Il permet également de comprendre **dans quel sens chacune de ces vérités pèse pour la question posée**.
 
-Une même vérité peut donc changer d’orientation selon le Focus.
+Une même vérité peut changer d’orientation selon le Focus.
 
 > *Pluie battante*
 
@@ -23,54 +23,35 @@ mais favorable pour :
 
 > *Parvenons-nous à semer nos poursuivants ?*
 
-Une Mise n’est donc pas intrinsèquement « positive » ou « négative ».
-
 > **Une Mise est favorable ou adverse relativement au Focus et à l’Intention considérée.**
 
-Cela permet de comprendre naturellement l’apparition de deux orientations dans une résolution :
+Dans la configuration standard :
 
-- les vérités qui poussent **dans le sens de l’Intention** ;
-- les vérités qui poussent **contre cette Intention**.
-
-Dans la configuration standard, les Mises de chacune de ces orientations forment un pool.
+- les vérités qui poussent dans le sens de l’Intention forment une orientation ;
+- les vérités qui poussent contre l’Intention forment l’autre ;
+- les Mises de chacune de ces orientations forment un pool.
 
 > **Les deux pools ne représentent pas nécessairement deux personnages ou deux volontés. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
 
 ## Quand parler de camps ?
 
-Lorsque les deux orientations sont portées par des personnages, groupes ou forces clairement identifiables, le mot **camp** reste naturel et pratique.
+Lorsque les orientations sont portées par des personnages, groupes ou forces identifiables, **camp** reste un mot naturel et pratique.
 
-> *les héros contre les gardes*  
-> *le clan A contre le clan B*  
-> *une armée contre une autre*
+Mais une montagne, un climat, une blessure ou une distance n’ont pas besoin d’être personnifiés pour justifier un second pool.
 
-Mais il n’est pas nécessaire de personnifier artificiellement l’adversité.
-
-Lorsqu’un personnage traverse une montagne, résiste au froid ou lutte contre sa propre blessure, le second pool n’a pas besoin de représenter « le camp de la montagne » ou « le camp du climat ».
-
-Il rassemble simplement les vérités qui, pour ce Focus, poussent contre l’Intention.
-
-Le mot **camp** peut donc rester le vocabulaire léger de la table, tandis que la notion d’**orientation** explique plus précisément l’architecture de la résolution.
-
-## Conséquence pédagogique
-
-La section consacrée aux Mises devrait rendre explicite ce mouvement :
+Le mot **orientation** explique l’architecture. Le mot **camp** reste un raccourci de table.
 
 > **Le Focus sélectionne ce qui compte et permet de voir dans quel sens cela compte.**
 
-Puis la configuration standard peut introduire les deux pools sans faire apparaître soudainement deux camps qui n’existaient pas nécessairement dans la fiction.
-
-La formule canonique actuelle :
+La formule canonique peut rester :
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
-
-peut rester inchangée. Il n’est pas nécessaire de surcharger la formule en ajoutant « et oriente », à condition que le texte explicatif rende ce rôle du Focus évident.
 
 ---
 
 # 2. Orientation et Prisme sont deux questions différentes
 
-La clarification précédente permet de distinguer deux décisions qui étaient parfois confondues :
+Deux décisions ne doivent pas être confondues :
 
 1. **Dans quel pool cette Mise entre-t-elle ?**  
    Cela dépend de son orientation relativement au Focus.
@@ -79,21 +60,17 @@ La clarification précédente permet de distinguer deux décisions qui étaient 
 
 > **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
 
-Cette distinction implique qu’un pool n’est pas nécessairement homogène du point de vue des Prismes.
-
-Un pool rassemble d’abord des Mises parce qu’elles poussent dans la même direction pour le Focus. Il peut ensuite être traité par un ou plusieurs Prismes selon les perspectives qui portent ces Mises.
-
-C’est particulièrement important dans les groupes où plusieurs protagonistes n’habitent pas le monde de la même manière.
+Un pool est donc d’abord un **regroupement sémantique de Mises orientées du même côté**. Il n’a pas besoin d’être homogène du point de vue des Prismes.
 
 ---
 
 # 3. Un camp peut réunir plusieurs Prismes
 
-Un **camp** ou une **orientation** n’a pas nécessairement un Prisme unique.
+Partager une Intention ne signifie pas partager une perspective.
 
-Si plusieurs protagonistes contribuent à la même Intention avec des perspectives différentes, les Mises qu’ils portent restent dans le même pool sémantique, mais elles sont actualisées selon leurs Prismes respectifs.
+Si plusieurs protagonistes contribuent à la même Intention avec des perspectives différentes, leurs Mises restent dans le même pool par orientation, mais elles sont traitées selon leurs Prismes respectifs.
 
-Par exemple, un groupe tente collectivement de transporter le corps d’un roi jusqu’au sommet d’une montagne avant la tempête.
+Exemple : un groupe transporte le corps d’un roi jusqu’au sommet d’une montagne avant la tempête.
 
 L’orientation favorable peut comprendre :
 
@@ -101,42 +78,42 @@ L’orientation favorable peut comprendre :
 - deux Mises portées par un animiste ;
 - une Mise portée par un mystique.
 
-Les trois Mises théistes sont résolues avec le Prisme théiste.
-
-Les deux Mises animistes sont résolues avec le Prisme animiste.
-
-La Mise mystique est résolue avec le Prisme mystique.
-
-Les **Réussites** produites par ces différents Prismes sont ensuite additionnées pour obtenir le résultat de l’orientation favorable.
+On résout chaque sous-ensemble avec son Prisme, puis on réunit les sorties au niveau de l’orientation.
 
 > **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
 
-Cette possibilité dépend d’un contrat d’interopérabilité déjà présent dans les Prismes de la configuration standard : malgré des procédures différentes, ils produisent une sortie commune, les **Réussites**.
-
-Le pool est donc avant tout un **regroupement sémantique de Mises orientées du même côté**. Lorsqu’il contient plusieurs Prismes, son traitement peut être subdivisé en sous-ensembles cohérents, puis leurs sorties sont réunies.
-
-Un jeu Resonance dont les Prismes ne produisent pas de sortie directement comparable doit définir lui-même comment plusieurs perspectives coopèrent dans une même orientation.
-
-## Ce que cela évite
-
 Cette règle évite d’imposer artificiellement :
 
-- le Prisme du personnage majoritaire ;
-- le Prisme du chef du groupe ;
-- un Prisme choisi arbitrairement pour tout le camp ;
-- une moyenne ou un mélange de Prismes qui n’aurait aucun sens fictionnel.
+- le Prisme majoritaire ;
+- le Prisme d’un leader ;
+- un Prisme arbitrairement choisi pour tout le groupe ;
+- une moyenne ou un mélange sans sens fictionnel.
 
-Si la fiction établit qu’une perspective particulière domine réellement l’action collective, un jeu peut évidemment le représenter. Mais cela devient alors une propriété de la situation, pas une règle générale permettant de départager plusieurs Prismes.
+Si la fiction établit qu’une perspective domine réellement l’action collective, un jeu peut le représenter. Ce devient alors une propriété de la situation, pas une règle générale de départage.
 
 > **Partager une Intention ne signifie pas partager une perspective.**
 
 ---
 
-# 4. Quel Prisme pour une adversité sans perspective propre ?
+# 4. Interopérabilité entre Prismes
 
-Un conflit entre personnages ou groupes peut attribuer naturellement un Prisme aux Mises que chacun porte.
+Dans l’état actuel de Resonance, les différents Prismes peuvent contribuer à une même résolution parce qu’ils produisent une sortie commune : les **Réussites**.
 
-Mais une question reste ouverte lorsqu’une orientation est principalement composée de vérités comme :
+Il faut néanmoins distinguer l’observation actuelle du principe architectural plus général.
+
+> **Lorsque plusieurs Prismes contribuent à une même résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment de leur agrégation.**
+
+Resonance utilise actuellement les **Réussites** pour assurer cette comparabilité.
+
+D’autres contrats d’interopérabilité sont concevables, mais le framework ne les formalise pas encore. La Réussite ne doit donc pas être présentée comme une sortie universelle démontrée pour toute implémentation future.
+
+Un jeu dont les Prismes ne produisent pas de sorties directement comparables doit définir lui-même comment plusieurs perspectives peuvent coopérer dans une même orientation.
+
+---
+
+# 5. Quel traitement pour une adversité sans perspective propre ?
+
+Une orientation adverse peut être composée de vérités comme :
 
 - *paroi verticale* ;
 - *froid extrême* ;
@@ -145,118 +122,97 @@ Mais une question reste ouverte lorsqu’une orientation est principalement comp
 - *fatigue accumulée* ;
 - *distance à parcourir*.
 
-Ces vérités produisent bien un pool adverse, mais elles ne possèdent pas nécessairement une perspective sur le monde.
+Ces vérités produisent bien une opposition, mais elles ne possèdent pas nécessairement une perspective sur le monde.
 
-C’est le problème que **Glorantha Perspectives** traitait sous le nom d’**Obstacle abstrait**.
+Trois cas doivent être distingués, dans cet ordre.
 
-Trois situations doivent être distinguées.
+## A. L’adversité possède sa propre logique
 
-## A. L’adversité possède une perspective ou une logique propre
+Avant de considérer une adversité comme neutre, demander si le monde lui donne déjà une logique mécaniquement signifiante.
 
-Un obstacle qui semble matériel peut appartenir à un monde ou un lieu dont la logique est déjà mécaniquement signifiante.
-
-Dans ce cas, il n’est pas réellement « abstrait » du point de vue de Resonance.
-
-Le pool adverse utilise le Prisme que le monde ou le jeu lui attribue.
+Si oui, elle utilise le Prisme correspondant.
 
 Exemples gloranthiens :
 
-- gravir une montagne ordinaire n’est pas la même chose que gravir **Kerofin**, lieu sacré profondément théiste ;
-- une opposition rencontrée dans le **Monde des Esprits** peut être soumise à la logique de ce monde ;
+- gravir **Kerofin** peut appeler une logique théiste ;
+- une opposition dans le **Monde des Esprits** peut relever de la logique de ce monde ;
 - un lieu mythique, une institution magique ou une réalité cosmologique peut imposer sa propre manière d’actualiser l’incertitude.
-
-Le principe générique est :
 
 > **Avant de considérer une adversité comme neutre, demandez si le monde lui donne déjà une logique capable de devenir mécaniquement opérante.**
 
-## B. Prisme miroir
+## B. Mode Miroir
 
-Lorsque l’adversité ne possède pas de perspective propre, le jeu peut choisir de résoudre son pool avec **le même Prisme que la perspective depuis laquelle l’épreuve est vécue**.
+Le **Mode Miroir** devient un terme canonique de Resonance.
 
-C’est le **Prisme miroir**.
+Ce n’est **pas un Prisme**. Il n’introduit aucune nouvelle logique de lecture : il détermine quel Prisme doit être appliqué à une adversité qui ne possède pas de perspective propre.
 
-Cela ne signifie pas que la montagne « pense comme un mystique » ou que le climat devient théiste.
+En Mode Miroir, l’adversité utilise le Prisme de la perspective depuis laquelle l’épreuve est vécue.
 
-Cela signifie que **la résolution entière est lue depuis la relation au monde du protagoniste**.
-
-Un mystique confronté à une montagne peut ainsi voir l’obstacle s’actualiser selon les mêmes motifs mystiques que ses propres Mises : la montagne devient le lieu où sa manière d’habiter le réel se confronte à elle-même.
-
-Cette approche est particulièrement pertinente lorsqu’une opposition représente :
-
-- une épreuve intérieure ;
-- un dépassement de soi ;
-- une relation holistique au monde ;
-- une situation où la perspective du protagoniste doit teinter l’ensemble de l’expérience plutôt qu’un seul de ses pools.
+Cela ne signifie pas qu’une montagne « pense comme un mystique » ou qu’un climat devient théiste.
 
 > **Le Miroir ne donne pas une vision du monde à l’obstacle. Il fait de la vision du protagoniste la manière dont l’ensemble de l’épreuve devient lisible.**
 
+Le **dépassement de soi** reste un excellent exemple d’usage hérité de Glorantha Perspectives, mais il ne constitue pas une définition universelle.
+
+Le choix des scènes ou des situations où le Mode Miroir s’active relève du **game design de l’implémentation**. Resonance fournit le mécanisme et son sens ; chaque jeu peut préciser sa politique d’activation.
+
 ## C. Prisme standard
 
-Lorsque l’adversité ne possède pas de perspective propre et que le jeu ne souhaite pas que la perspective du protagoniste transforme mécaniquement sa résistance, le pool adverse peut utiliser le **Prisme standard**.
+Lorsque l’adversité ne possède pas de perspective propre et qu’aucun choix de design ne justifie le Mode Miroir, elle utilise par défaut le **Prisme standard**.
 
 Dans la configuration standard :
 
 - D6 ;
 - pair = Réussite ;
 - impair = aucune Réussite ;
-- aucune autre propriété particulière.
+- aucun effet supplémentaire.
 
-C’est l’équivalent générique de ce que Glorantha Perspectives appelait le mode **Agnostique / Monde médian**.
+Le Prisme standard représente ici un **point zéro de lecture**, non une philosophie artificiellement attribuée à l’obstacle.
 
-Le Prisme standard représente ici un **point zéro de lecture**, non une philosophie du monde attribuée à l’obstacle.
-
-Il convient lorsque le jeu veut simplement laisser l’adversité produire une résistance mécaniquement lisible sans lui prêter une perspective particulière et sans refléter celle du protagoniste.
+Il est donc le comportement par défaut des adversités sans perspective propre.
 
 ---
 
-# 5. Le Miroir avec plusieurs protagonistes
+# 6. Mode Miroir avec plusieurs protagonistes
 
 Le Miroir reste simple tant qu’une perspective clairement identifiable porte l’épreuve.
 
-Lorsque plusieurs protagonistes participent, deux dimensions doivent être distinguées : le Focus est-il individuel ou collectif, et existe-t-il une perspective unique à refléter ?
-
 ## Focus individuel
 
-Si plusieurs protagonistes affrontent la même adversité mais que la fiction s’intéresse à **la manière dont chacun traverse personnellement l’épreuve**, chaque protagoniste peut être résolu séparément.
+Si la fiction s’intéresse à la manière dont chaque protagoniste traverse personnellement l’épreuve, chacun peut être résolu séparément.
 
-Chacun utilise son propre Prisme pour ses Mises, et l’adversité peut être résolue en Miroir de ce même Prisme.
+Chaque protagoniste utilise son propre Prisme pour ses Mises, et l’adversité peut utiliser ce même Prisme en Mode Miroir.
 
-La même montagne peut donc produire plusieurs résolutions mécaniquement différentes, non parce qu’elle change de nature, mais parce que **plusieurs expériences subjectives de la même épreuve** sont regardées séparément.
+La même montagne peut donc produire plusieurs résolutions différentes parce que la fiction regarde plusieurs expériences subjectives distinctes.
 
 ## Focus collectif, Prisme partagé
 
-Si le groupe poursuit une Intention collective et que tous les protagonistes concernés partagent le même Prisme, le pool adverse peut être résolu en Miroir de ce Prisme commun.
-
-C’est notamment un cas fréquent dans une implémentation où les protagonistes appartiennent à une même culture ou vision du monde.
+Si le groupe poursuit une Intention collective et partage le même Prisme pertinent, l’adversité peut utiliser ce Prisme commun en Mode Miroir.
 
 ## Focus collectif, Prismes multiples
 
-Si plusieurs Prismes contribuent à la même orientation protagoniste, il n’existe plus de perspective unique que l’adversité abstraite puisse refléter.
+Si plusieurs Prismes contribuent à la même orientation protagoniste, il n’existe plus de perspective unique à refléter.
 
-Les contributions protagonistes restent résolues selon leurs Prismes respectifs, puis leurs Réussites sont réunies.
+Les contributions protagonistes sont traitées selon leurs Prismes respectifs, puis leurs sorties sont réunies.
 
 L’adversité sans perspective propre utilise alors le **Prisme standard**.
 
 > **Un miroir ne peut refléter une perspective unique que s’il existe une perspective unique à refléter.**
 
-Cette règle évite de choisir arbitrairement un Prisme majoritaire, celui d’un leader ou celui qui semblerait mécaniquement le plus avantageux.
-
-Elle n’empêche pas la fiction d’imposer ponctuellement une autre réponse. Si le lieu, le monde ou l’épreuve possède sa propre logique, cette logique reste prioritaire et fournit son propre Prisme.
-
-Ces trois cas sont désormais considérés comme **résolus pour le draft 0.5**.
+Une logique propre au monde ou à l’adversité reste prioritaire sur ce défaut.
 
 ---
 
-# 6. Ce que nous ne généralisons pas depuis Glorantha Perspectives
+# 7. Ce que nous ne généralisons pas depuis Glorantha Perspectives
 
-La formulation historique de Glorantha Perspectives associait :
+La formulation historique de Glorantha Perspectives rapprochait :
 
-- le **Miroir** aux véritables dépassements de soi ;
-- l’**Agnostique** aux enjeux mineurs qui impliquent peu émotionnellement le personnage.
+- le **Miroir** du dépassement de soi ;
+- l’**Agnostique / Monde médian** des enjeux mineurs ou peu émotionnels.
 
-Le premier rapprochement reste une excellente heuristique pour Glorantha et peut être conservé comme exemple.
+Le premier rapprochement reste un exemple utile.
 
-Le second ne devrait pas devenir une règle générale de Resonance.
+Le second ne doit pas devenir une règle générique de Resonance.
 
 La distinction conceptuelle n’est pas :
 
@@ -267,72 +223,70 @@ mais :
 
 > **la perspective du protagoniste doit-elle aussi transformer la lecture de l’adversité ?**
 
-Si oui, le Miroir est pertinent.
+Si un jeu veut que ce soit le cas dans certaines situations, il active le Mode Miroir selon sa propre politique de design.
 
-Si non, le Prisme standard fournit une lecture neutre.
-
-Une implémentation particulière peut bien sûr utiliser l’intensité émotionnelle, le type de scène ou le Zoom comme critère de bascule entre ces deux choix, mais cela relève de son propre game design.
+Sinon, le Prisme standard s’applique.
 
 ---
 
-# 7. Conséquence pour l’architecture de Resonance
+# 8. Architecture résultante
 
-Cette clarification renforce la séparation des responsabilités :
+La chaîne de responsabilités devient :
 
-> **fiction → Intention → Focus → orientations favorables / adverses → Mises → attribution des Prismes aux perspectives ou sous-ensembles concernés → incertitude → sorties mécaniques comparables → agrégation par orientation → comparaison → interprétation → fiction transformée**
+> **fiction → Intention → Focus → orientations favorables / adverses → Mises → perspectives qui les portent → Prismes applicables → incertitude → sorties mécaniques comparables → agrégation par orientation → comparaison → interprétation → fiction transformée**
 
-Elle permet surtout de ne pas confondre :
+Cette architecture permet de ne pas confondre :
 
-- **l’origine fictionnelle d’une Mise** ;
-- **son orientation pour le Focus** ;
-- **la perspective qui la porte** ;
-- **le Prisme qui l’actualise**.
+- l’origine fictionnelle d’une Mise ;
+- son orientation pour le Focus ;
+- la perspective qui la porte ;
+- le Prisme qui la traite ;
+- le format de sortie permettant l’agrégation.
 
-Une blessure appartient au personnage mais peut alimenter le pool adverse.
+Une blessure appartient au personnage mais peut alimenter l’orientation adverse.
 
-Une tempête n’appartient à aucun adversaire personnifié mais peut alimenter le pool adverse.
+Une tempête n’appartient à aucun adversaire personnifié mais peut alimenter l’orientation adverse.
 
-Une montagne sacrée peut alimenter le pool adverse **et** lui imposer une logique cosmologique propre.
+Une montagne sacrée peut alimenter l’orientation adverse **et** lui imposer une logique cosmologique propre.
 
-Un obstacle neutre peut alimenter le pool adverse tout en utilisant le Prisme standard.
+Un obstacle neutre utilise le Prisme standard.
 
-Un obstacle miroir peut alimenter le pool adverse tout en utilisant le même Prisme que le protagoniste.
+Un obstacle en Mode Miroir utilise le Prisme d’une perspective identifiée par le design.
 
 Un groupe peut partager une même orientation tout en faisant contribuer plusieurs Prismes différents à son résultat collectif.
-
-Ces dimensions restent distinctes.
 
 > **Les orientations appartiennent au Focus. Les Prismes appartiennent aux perspectives qui traversent ces orientations.**
 
 ---
 
-# 8. Intégration proposée dans le SRD
+# 9. Intégration dans le SRD
 
-Lors de la réécriture 0.5 du SRD français :
+Lors de la réalisation du SRD 0.5 français :
 
 - expliquer dans la section **Mises** qu’une Mise est orientée relativement au Focus ;
-- introduire les deux pools comme les deux orientations de la question, avant d’utiliser **camp** comme raccourci lorsque des protagonistes les incarnent ;
-- conserver « Mise favorable » et « Mise adverse », qui restent naturels une fois leur relativité au Focus expliquée ;
-- préciser qu’un **camp collectif peut réunir plusieurs Prismes** ;
-- expliquer que les Mises sont actualisées selon les Prismes des perspectives qui les portent, puis que leurs sorties comparables sont réunies au niveau de l’orientation ;
-- rappeler que, dans la configuration standard, les **Réussites** constituent le contrat d’interopérabilité permettant cette agrégation ;
-- ajouter dans la section **Prismes** un court passage sur l’adversité sans perspective propre ;
-- présenter trois possibilités : **Prisme propre**, **Prisme miroir**, **Prisme standard** ;
-- préciser le Miroir pour les Focus individuels, les groupes partageant un Prisme et les groupes multi-Prismes ;
-- rappeler qu’un environnement ou un monde peut lui-même imposer un Prisme avant de conclure qu’un obstacle est abstrait ;
-- ne pas faire du critère « enjeu mineur / implication émotionnelle faible » une règle générique de Resonance.
+- introduire les deux pools comme les deux orientations de la question avant d’utiliser **camp** comme raccourci ;
+- conserver « Mise favorable » et « Mise adverse » une fois leur relativité expliquée ;
+- préciser qu’un camp collectif peut réunir plusieurs Prismes ;
+- expliquer que les contributions sont traitées selon leurs Prismes puis agrégées au niveau de l’orientation ;
+- préciser avec humilité que Resonance utilise **actuellement les Réussites** comme format d’interopérabilité ;
+- ajouter dans la section **Prismes** le cas de l’adversité sans perspective propre ;
+- présenter **Prisme propre**, **Mode Miroir**, **Prisme standard** ;
+- présenter le Prisme standard comme défaut d’une adversité sans perspective ;
+- présenter le Mode Miroir comme mécanisme canonique dont la politique d’activation relève du game designer ;
+- préciser les trois cas du Miroir : Focus individuel, collectif à Prisme partagé, collectif multi-Prismes ;
+- rappeler qu’une logique propre au monde ou au lieu reste prioritaire.
 
-## Formulations candidates
+## Formulations stabilisées
 
 > **Une Mise n’est pas favorable ou adverse en soi. Le Focus détermine dans quel sens elle compte.**
 
 > **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
 
-> **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
-
 > **Partager une Intention ne signifie pas partager une perspective.**
 
 > **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
+
+> **Lorsque plusieurs Prismes contribuent à une même résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment de leur agrégation.**
 
 > **Le Miroir ne donne pas une vision du monde à l’obstacle. Il fait de la vision du protagoniste la manière dont l’ensemble de l’épreuve devient lisible.**
 
@@ -344,12 +298,12 @@ Lors de la réécriture 0.5 du SRD français :
 
 ---
 
-# Questions restantes à challenger
+# Questions de recherche non bloquantes
 
-- Le terme **Prisme miroir** doit-il devenir un terme générique canonique de Resonance ou rester un vocabulaire d’implémentation ?
-- Dans la configuration standard de Resonance, faut-il recommander explicitement le Prisme standard pour toute adversité sans perspective, et présenter le Miroir comme choix de design ?
-- Un jeu devrait-il annoncer à l’avance sa règle de choix entre Prisme propre, Miroir et Standard, ou peut-il laisser ce choix émerger scène par scène ?
-- Jusqu’où le contrat de sortie commune entre Prismes doit-il être un invariant de Resonance, notamment pour permettre les camps collectifs multi-Prismes ?
+Les questions suivantes ne bloquent plus la 0.5 :
+
+- quelles politiques d’activation du **Mode Miroir** seront pertinentes selon les jeux Resonance ;
+- quels autres contrats d’interopérabilité que les **Réussites** pourront être explorés dans de futures implémentations.
 
 Le principe directeur reste :
 
