@@ -20,7 +20,7 @@ La première question organise ce que la résolution regarde. La seconde ouvre l
 
 > **Nous apprendrons d’abord à déterminer ce qui compte. Nous verrons ensuite comment une perspective peut transformer la manière dont cela se résout.**
 
-Il fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
+Resonance fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Resonance.
 
 On peut simplement jouer.
 

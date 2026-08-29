@@ -20,7 +20,7 @@ The first question organizes what the resolution looks at. The second opens the 
 
 > **We will first learn how to determine what matters. We will then see how a perspective can transform the way it is resolved.**
 
-At the same time, it provides a **fully playable standard configuration**. You do not need to design your own game in order to use Resonance.
+At the same time, Resonance provides a **fully playable standard configuration**. You do not need to design your own game in order to use Resonance.
 
 You can simply play.
 
