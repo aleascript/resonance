@@ -1360,27 +1360,45 @@ They explore several directions:
 
 # In summary
 
-Resonance begins from a simple idea:
+Resonance organizes a simple movement:
 
-> **Fiction determines what matters.**
+> **Start from fiction, determine what matters, confront those truths with uncertainty, then return to transformed fiction.**
 
-Its standard configuration lets you play immediately:
+A resolution begins with an **Intention**. The **Focus** specifies the question and its **Zoom** the scale at which it is viewed. The **grammar of relevance** teaches the table which families of truths deserve its attention; **Frame Factors** close off what does not belong to the space of possibilities. Among everything that is true of the character, their relationships, the situation, and the world, the elements that are genuinely relevant and non-redundant become **Bets**.
 
-> **Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
+> **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-But the framework does not stop there.
+The Bets are then confronted with uncertainty.
 
-The Focus selects the relevant reality.
+In the standard configuration, each Bet contributes a D6, even results produce Successes, and the sides can compare their results. This procedure is enough to play immediately, but it is not the identity of the framework: it is a default answer to the decisions every Resonance implementation must make.
 
-The grammar of relevance teaches the table where to look.
+When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. The medium, the patterns being sought, interactions between pools, or even the form of the result can then express a particular relationship to the world.
 
-Frame Factors close off what does not belong to the space of possibilities.
+> **The Prism transforms uncertainty. The result provides a direction. The Bets give that direction a fictional form.**
 
-Prisms can transform the way uncertainty becomes a result.
+Resolution does not stop at the result. Its interpretation returns to the world. Some consequences remain local; others become persistent truths, written on the sheet or elsewhere in the fiction. They may in turn become relevant in a future resolution.
 
-The sheet preserves lasting truths that a future resolution may bring back into play.
+> **What happens today transforms what can matter tomorrow.**
 
-And resolution always returns to the fiction from which it began.
+The complete loop can therefore be read as:
 
-> **You can play Resonance as it is.**  
-> **You can also design with Resonance so that the world transforms the rules that bring it to life.**
+> **fiction / sheet → Intention → Focus / Zoom → Bets → uncertainty / Prism → result → interpretation → transformed fiction / sheet**
+
+The exact mechanism at the center of this loop can change. The movement itself does not.
+
+The framework therefore distinguishes three levels:
+
+- **Resonance** defines the fundamental gesture and the decisions a game must make;
+- **the standard configuration** provides simple, fully playable answers to those decisions;
+- **a game designed with Resonance** can keep those answers or transform them when a world, genre, trope, or perspective has something particular to make the player feel.
+
+> **Resonance defines what must be decided.**  
+> **The standard configuration provides a default decision.**  
+> **A Resonance game can keep or transform those decisions.**
+
+Resonance therefore does not try to move the complexity of a world into an ever more detailed technical model. It tries to preserve that complexity where it already has meaning: in the situations, relationships, beliefs, institutions, symbols, constraints, and consequences of the fiction.
+
+The player is invited to look at the world rather than search for a rule to activate. The game designer is invited to decide what their game teaches players to notice, what it makes impossible and, when it genuinely matters, how a way of inhabiting the world transforms uncertainty itself.
+
+> **In Resonance, the world does not merely decorate the mechanics.**  
+> **It determines what matters — and can go as far as determining how uncertainty takes on meaning.**
