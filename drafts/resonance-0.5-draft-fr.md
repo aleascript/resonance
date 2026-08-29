@@ -180,11 +180,49 @@ Mais lorsqu’un jeu ou une scène établit que **le temps lui-même est une pro
 
 > **Le temps de la table n’appartient normalement pas à la fiction. Mais lorsque le temps devient pertinent dans le monde, le Cadre peut les faire coïncider.**
 
-Le chronomètre, le sablier ou toute autre contrainte temporelle ne sert alors pas à accélérer artificiellement les joueurs.
+Cette résonance n’a pas nécessairement la forme d’un compte à rebours.
 
-Il devient la manifestation physique d’une loi ou d’une pression du monde.
+Le temps de table peut agir sur la fiction de plusieurs manières : il peut limiter directement ce qui reste possible, rendre une hésitation immédiatement pertinente, ou laisser le monde évoluer pendant que les joueurs délibèrent.
 
 > **Quand le temps compte dans le monde, le temps de la table peut entrer en Resonance avec lui.**
+
+## Trois formes de synchronisation temporelle
+
+La 0.5 distingue provisoirement trois formes utiles. Elles ne constituent pas trois sous-systèmes obligatoires, mais trois manières de reconnaître ce que le temps est en train de faire dans la fiction.
+
+### Temps contraint
+
+Le temps réel limite directement une action ou une présence fictionnelle.
+
+Un sablier, un chronomètre ou une durée réelle peut alors matérialiser une loi du monde.
+
+> *Vous pouvez rester cinq minutes dans cet espace mythique.*
+
+Ici, le temps de table **est** la contrainte fictionnelle.
+
+### Temps réactif
+
+Un instant de temps réel devient immédiatement significatif parce que la fiction exigeait déjà une réaction immédiate.
+
+> *La créature surgit. Que fais-tu ?*  
+> *Euh…*
+
+L’hésitation peut devenir une Mise parce que la scène avait rendu cette hésitation pertinente avant même qu’elle ne se produise.
+
+### Temps accumulé
+
+Le temps passé à la table peut laisser la fiction **attendre, évoluer ou réagir**.
+
+Il ne s’agit plus d’une échéance explicite ni d’une réaction instantanée. Quelque chose dans le monde est simplement en train de se transformer pendant que la table délibère.
+
+Cette transformation peut :
+
+- faire apparaître une nouvelle Mise ;
+- modifier la valeur fictionnelle d’une Mise déjà présente ;
+- changer les circonstances ;
+- ou, si la situation évolue suffisamment, **transformer le Focus lui-même**.
+
+> **Cette résonance n’a pas nécessairement la forme d’un compte à rebours. Le temps passé à la table peut aussi faire évoluer la fiction, révéler de nouvelles Mises ou transformer le Focus.**
 
 ## Exemple : descentes successives dans un monde virtuel ou mythique
 
@@ -212,7 +250,7 @@ Dans ce cas, il transformerait facilement :
 
 > *Qu’est-ce qui compte ici ?*
 
- en :
+en :
 
 > *Qu’est-ce que je peux encore trouver avant la fin du temps ?*
 
@@ -222,11 +260,11 @@ La clôture normale reste :
 
 > **Quand personne ne voit immédiatement quelque chose d’autre qui compte et qui ne répète pas ce qui a déjà été posé, on résout.**
 
-La contrainte de temps réel n’apparaît que lorsque la fiction lui donne une raison d’exister.
+La synchronisation temporelle n’apparaît que lorsque la fiction lui donne une raison d’exister.
 
 ---
 
-# 3. Urgence, hésitation et initiative fictionnelle
+# 3. Urgence, temps accumulé et initiative fictionnelle
 
 ## L’hésitation peut devenir une Mise
 
@@ -248,9 +286,57 @@ Son personnage peut encore réussir, éventuellement de manière spectaculaire. 
 
 Cela permet d’exprimer une urgence sans passer automatiquement par une procédure abstraite d’initiative.
 
-## Ne jamais mesurer la rapidité cognitive du joueur
+## Le monde peut continuer pendant que la table délibère
 
-Cette règle demande un garde-fou explicite.
+La synchronisation temporelle ne concerne pas seulement l’urgence.
+
+Dans certaines scènes, la fiction établit qu’un personnage, une institution, une foule, une menace ou un phénomène **attend, évolue ou réagit réellement** pendant que les joueurs délibèrent.
+
+Dans ce cas, le temps passé autour de la table peut finir par produire une nouvelle vérité fictionnelle.
+
+### Exemple : le Roi s’impatiente
+
+Les personnages sont en audience devant un Roi qu’ils cherchent à convaincre.
+
+Les joueurs discutent des arguments qu’ils souhaitent présenter :
+
+> *On commence par l’alliance ?*  
+> *Non, il faut d’abord parler des raids à la frontière.*  
+> *Et son frère ? On peut peut-être…*
+
+Le Roi, lui, est présent dans la scène. Il attend réellement leur réponse.
+
+Le meneur peut laisser apparaître progressivement les signes de cette attente : le sourire disparaît, les doigts battent l’accoudoir, un conseiller échange un regard inquiet.
+
+Puis, lorsque cela devient réellement pertinent, le meneur pose une nouvelle Mise adverse :
+
+> **Le Roi s’impatiente — et ce n’est pas bon signe.**
+
+Ce n’est pas une pénalité infligée parce que les joueurs ont « trop réfléchi ».
+
+C’est une vérité qui vient d’apparaître dans la fiction parce que le monde continuait d’exister pendant leur délibération.
+
+La Mise ne mesure donc pas la vitesse intellectuelle des joueurs. Elle matérialise l’évolution réelle de la situation.
+
+## Quand le temps accumulé compte-t-il ?
+
+Le temps de réflexion du joueur reste sans conséquence par défaut.
+
+Le temps accumulé ne devient fictionnel que si la situation établit que quelque chose dans le monde **est réellement en train d’attendre, d’évoluer ou de réagir** pendant cette délibération.
+
+Quelques contrastes permettent de préciser le principe :
+
+- les personnages discutent dans une antichambre avant l’audience : le Roi n’attend pas leurs mots et ne peut pas s’impatienter de cette discussion ;
+- les personnages sont déjà devant le Roi et restent longtemps sans répondre : son impatience peut devenir pertinente ;
+- la table représente en quelques minutes la coordination presque instinctive de personnages experts : le meneur peut considérer que ce temps n’existe pas tel quel dans la fiction ;
+- une foule attend une décision publique pendant que les personnages hésitent : son humeur peut évoluer ;
+- une blessure continue de saigner pendant une longue discussion : son aggravation peut devenir pertinente si le jeu et le Focus donnent réellement du poids à cette durée.
+
+La synchronisation temporelle reste donc un **choix de lecture fictionnelle**, pas une équivalence comptable entre secondes réelles et secondes imaginaires.
+
+## Ne jamais transformer le temps en punition du joueur
+
+Cette règle demande le même garde-fou que l’hésitation en urgence.
 
 La rapidité verbale, l’extraversion, l’expérience du jeu ou la vitesse de décision d’un joueur ne doivent jamais devenir des caractéristiques cachées.
 
@@ -258,11 +344,42 @@ En situation normale :
 
 > **le temps de réflexion du joueur n’a aucune conséquence fictionnelle.**
 
-Une hésitation réelle ne peut devenir une Mise que si la fiction **avait déjà établi** que la décision devait être immédiate.
+Le meneur ne crée pas une Mise parce qu’un joueur est lent. Il constate qu’une situation fictionnelle a eu le temps de changer lorsque cette évolution était déjà rendue possible par la scène.
 
-Autrement dit, on ne sanctionne jamais la lenteur d’un joueur.
+Autrement dit :
 
-On matérialise uniquement une urgence que la scène avait rendue pertinente avant qu’il ne réponde.
+> **On ne sanctionne pas la délibération. On laisse le monde continuer lorsqu’il avait une raison de continuer.**
+
+## Le temps accumulé peut transformer le Focus
+
+La non-redondance continue de s’appliquer.
+
+Le meneur ne devrait pas empiler artificiellement :
+
+- *Roi impatient* ;
+- *Roi très impatient* ;
+- *Roi agacé* ;
+- *Roi vraiment agacé*.
+
+Ces formulations décrivent probablement une même dimension fictionnelle.
+
+En revanche, la situation peut franchir un seuil qualitatif.
+
+> **Le Roi :** Assez. Vous me faites perdre mon temps. Cette audience est terminée.
+
+À cet instant, il ne s’agit plus nécessairement d’ajouter une Mise supplémentaire.
+
+Le Focus peut avoir changé.
+
+Les personnages ne cherchent peut-être plus seulement à :
+
+> *convaincre le Roi d’accepter leur proposition*
+
+mais à :
+
+> **empêcher le Roi de mettre fin à l’audience.**
+
+Le temps de table peut donc, dans certaines situations, modifier non seulement le pool mais **la question que la fiction pose désormais à la résolution**.
 
 ## Vers une initiative issue de la fiction
 
@@ -400,9 +517,12 @@ Un Facteur Cadre peut donc :
 - fermer certaines possibilités fictionnelles ;
 - rendre certaines conséquences inévitables ou particulières ;
 - transformer ce qui peut devenir pertinent ;
-- **imposer ponctuellement une contrainte au geste de table lorsque cette contrainte existe réellement dans la fiction.**
+- **imposer ponctuellement une contrainte au geste de table lorsque cette contrainte existe réellement dans la fiction ;**
+- **autoriser le temps de table à devenir un agent d’évolution de la situation lorsque le monde attend, évolue ou réagit réellement.**
 
-La synchronisation temporelle constitue le premier exemple canonique de cette dernière possibilité.
+La synchronisation temporelle constitue le premier exemple canonique de ces possibilités.
+
+Elle ne se limite plus au sablier : une temporalité fictionnelle peut être rendue sensible par une contrainte explicite, une réaction immédiate ou l’apparition progressive de nouvelles vérités.
 
 ## Supports
 
@@ -415,6 +535,7 @@ Elle pourra alors faire le pont entre :
 - dés, cartes, couleurs, objets et autres supports d’incertitude ;
 - Mises incarnées ;
 - contraintes temporelles ;
+- évolution temporelle de la situation ;
 - autres dispositifs de table dérivés d’une propriété réelle du monde ou du genre.
 
 ---
@@ -426,8 +547,10 @@ La grille actuelle peut être complétée par quelques questions :
 1. **Une vérité particulièrement importante peut-elle être incarnée à la table, et que signifie cette incarnation mécaniquement ?**
 2. **Quelles protections empêchent cette incarnation de devenir une performance obligatoire ou une source de pression sociale ?**
 3. **Existe-t-il des propriétés du monde qui devraient modifier temporairement le temps, l’espace, le silence, les objets ou un autre comportement réel de la table ?**
-4. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
-5. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
+4. **Le temps passé à la table peut-il légitimement faire évoluer certains éléments de la fiction ? Qu’est-ce qui, dans la scène, attend, évolue ou réagit réellement ?**
+5. **Cette évolution temporelle peut-elle seulement créer une nouvelle Mise, ou peut-elle aller jusqu’à transformer le Focus ?**
+6. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
+7. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
 
 ---
 
@@ -442,6 +565,10 @@ La grille actuelle peut être complétée par quelques questions :
 > **Quand le temps compte dans le monde, le temps de la table peut entrer en Resonance avec lui.**
 
 > **Le temps de la table n’appartient normalement pas à la fiction. Mais lorsque le temps devient pertinent dans le monde, le Cadre peut les faire coïncider.**
+
+> **Cette résonance n’a pas nécessairement la forme d’un compte à rebours. Le temps passé à la table peut aussi faire évoluer la fiction, révéler de nouvelles Mises ou transformer le Focus.**
+
+> **On ne sanctionne pas la délibération. On laisse le monde continuer lorsqu’il avait une raison de continuer.**
 
 > **Le dispositif de table lui-même peut devenir un support de la fiction lorsqu’un monde, un genre ou un Facteur Cadre lui donne une raison de l’être.**
 
@@ -458,11 +585,14 @@ Après validation conceptuelle de ce draft :
 - [ ] ajuster la formulation des **invariants** ;
 - [ ] étendre les **Facteurs Cadres** à la synchronisation du geste de table ;
 - [ ] réécrire **« Les supports peuvent eux aussi résonner »** ;
-- [ ] intégrer l’exemple du **temps réel** et celui de **l’hésitation en urgence** ;
+- [ ] intégrer les trois formes de synchronisation temporelle : **temps contraint, temps réactif, temps accumulé** ;
+- [ ] intégrer l’exemple du **temps réel**, celui de **l’hésitation en urgence** et celui du **Roi qui s’impatiente** ;
+- [ ] expliciter que le passage du temps peut faire apparaître une Mise ou, si la situation change de nature, **transformer le Focus** ;
 - [ ] compléter la **grille de conception** ;
 - [ ] vérifier la conclusion du SRD afin qu’elle reflète cette extension sans surcharger le manifeste ;
 - [ ] tester les règles à la table, en particulier la fréquence réelle des Mises incarnées ;
 - [ ] vérifier que la Mise incarnée ne devient pas une Réussite automatique attendue à chaque résolution ;
+- [ ] vérifier que le temps accumulé ne devient pas une punition implicite contre les joueurs qui délibèrent lentement ;
 - [ ] vérifier l’interaction avec plusieurs Prismes et avec les implémentations sans sortie en Réussites ;
 - [ ] après validation française, synchroniser la version anglaise.
 
@@ -476,6 +606,8 @@ La 0.5 doit notamment challenger les points suivants avant stabilisation :
 - Faut-il conserver le terme **Mise incarnée** dans toutes les implémentations ou autoriser un vocabulaire propre aux jeux ?
 - Une Mise incarnée doit-elle toujours produire exactement une Réussite dans la configuration standard, y compris lorsqu’un Prisme possède des effets spéciaux associés à certaines faces ?
 - Le meneur doit-il annoncer explicitement qu’une urgence autorise la synchronisation du temps avant de pouvoir transformer une hésitation en Mise ?
+- Dans le cas du temps accumulé, jusqu’où la fiction doit-elle rendre visible qu’elle continue d’évoluer avant que le meneur puisse poser une nouvelle Mise ?
+- Quels garde-fous empêchent le temps accumulé de devenir une manière implicite de presser ou de sanctionner les joueurs ?
 - La synchronisation diégétique doit-elle être décrite comme une propriété des Facteurs Cadres, comme une possibilité générale de design, ou les deux ?
 - Jusqu’où le SRD doit-il donner des exemples sans transformer ces exemples en pseudo-menu de mécaniques ?
 
