@@ -1,0 +1,51 @@
+name: Apply review wording fix
+
+on:
+  push:
+    branches:
+      - docs/foreground-prisms
+
+permissions:
+  contents: write
+
+jobs:
+  patch-wording:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: docs/foreground-prisms
+          fetch-depth: 0
+
+      - name: Apply French and English wording fix
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              Path('content/fr/index.md'): (
+                  "Il fournit en même temps une **configuration standard entièrement jouable**.",
+                  "Resonance fournit en même temps une **configuration standard entièrement jouable**."
+              ),
+              Path('content/en/index.md'): (
+                  "At the same time, it provides a **fully playable standard configuration**.",
+                  "At the same time, Resonance provides a **fully playable standard configuration**."
+              ),
+          }
+
+          for path, (old, new) in replacements.items():
+              text = path.read_text(encoding='utf-8')
+              if text.count(old) != 1:
+                  raise SystemExit(f'{path}: expected exactly one match for wording fix')
+              path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        run: |
+          rm .github/workflows/apply-review-wording-fix.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "docs: clarify Resonance subject in opening"
+          git push origin HEAD:docs/foreground-prisms
