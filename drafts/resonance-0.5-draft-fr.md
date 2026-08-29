@@ -33,6 +33,14 @@ Trois directions en constituent les premiers cas concrets :
 - la **synchronisation diégétique du temps de table** ;
 - le **déplacement du Focus vers l’incertitude réelle** lorsque certaines vérités sont déjà établies.
 
+Une quatrième clarification, désormais validée, concerne l’apparition des deux pools dans la configuration standard :
+
+- le Focus fait apparaître les vérités qui poussent **dans le sens de l’Intention** et celles qui poussent **contre elle** ;
+- ces deux orientations forment les deux pools ;
+- le terme **camp** reste un raccourci pratique lorsque ces orientations sont portées par des personnages ou des groupes.
+
+Cette clarification est détaillée dans `resonance-0.5-orientations-prismes-fr.md`, avec le cas des adversités sans perspective propre.
+
 ---
 
 # 1. Les Mises incarnées
@@ -576,6 +584,24 @@ Formulation candidate :
 
 > **Si la réponse au Focus est déjà établie par la fiction, reformulez le Focus jusqu’à atteindre ce qui reste réellement incertain.**
 
+## Deux orientations, deux pools
+
+La configuration standard doit expliquer plus naturellement pourquoi deux pools apparaissent.
+
+Une Mise n’est pas favorable ou adverse en soi. Le Focus permet de voir si elle pousse dans le sens de l’Intention ou contre elle.
+
+> **Une Mise est favorable ou adverse relativement au Focus et à l’Intention considérée.**
+
+Dans la configuration standard :
+
+- les Mises favorables à l’Intention forment un pool ;
+- les Mises qui poussent contre elle forment l’autre pool ;
+- lorsque ces orientations sont portées par des protagonistes ou des groupes clairement identifiables, le terme **camp** reste un raccourci naturel.
+
+Cette distinction évite de personnifier artificiellement une montagne, un climat, une blessure ou une contrainte simplement pour justifier l’existence du second pool.
+
+La clarification complète, ainsi que l’attribution des Prismes aux adversités sans perspective propre, est développée dans `resonance-0.5-orientations-prismes-fr.md`.
+
 ## Configuration standard
 
 La phrase :
@@ -596,7 +622,7 @@ Puis :
 
 La chaîne de référence peut être enrichie sans devenir plus lourde :
 
-> **fiction établie → Focus sur l’incertitude réelle → Mises → actualisation éventuelle à la table → incertitude / Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
+> **fiction établie → Focus sur l’incertitude réelle → orientations favorables / adverses → Mises → attribution éventuelle d’un Prisme à chaque orientation → actualisation éventuelle à la table → incertitude / Prisme → signaux mécaniques → échelle de résultat → interprétation → fiction transformée**
 
 La configuration standard reste lisible comme :
 
@@ -648,8 +674,11 @@ La grille actuelle peut être complétée par quelques questions :
 5. **Cette évolution temporelle peut-elle seulement créer une nouvelle Mise, ou peut-elle aller jusqu’à transformer le Focus ?**
 6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
 7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
-8. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
-9. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
+8. **Quelles vérités poussent dans le sens de l’Intention et lesquelles poussent contre elle pour ce Focus précis ?**
+9. **L’orientation adverse possède-t-elle une perspective ou une logique propre qui mérite un Prisme particulier ?**
+10. **Si elle n’en possède pas, faut-il employer un Prisme miroir ou le Prisme standard, et pourquoi ?**
+11. **Le lien entre ce dispositif et la fiction est-il assez fort pour justifier son coût cognitif ou matériel ?**
+12. **Si le thème était retiré, le dispositif garderait-il exactement le même sens ? Si oui, le lien diégétique mérite peut-être d’être renforcé.**
 
 ---
 
@@ -673,6 +702,12 @@ La grille actuelle peut être complétée par quelques questions :
 
 > **Une résolution ne demande pas aux dés ce que la fiction sait déjà. Elle les fait intervenir là où la fiction reste ouverte.**
 
+> **Une Mise n’est pas favorable ou adverse en soi. Le Focus détermine dans quel sens elle compte.**
+
+> **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
+
+> **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment l’incertitude de ce côté devient mécaniquement lisible.**
+
 > **Le dispositif de table lui-même peut devenir un support de la fiction lorsqu’un monde, un genre ou un Facteur Cadre lui donne une raison de l’être.**
 
 > **Une propriété du monde mérite-t-elle d’être seulement représentée, ou peut-elle être vécue momentanément par la table ?**
@@ -688,6 +723,8 @@ Après validation conceptuelle de ce draft :
 - [ ] ajuster la formulation des **invariants** ;
 - [ ] préciser dans la section **Focus** qu’une résolution porte sur ce qui demeure réellement incertain ;
 - [ ] préciser le rôle des **Facteurs Cadres** comme vérités capables de fermer ou fixer certains éléments sans les remettre en jeu ;
+- [ ] expliquer que les deux pools proviennent des deux orientations du Focus avant d’introduire **camp** comme raccourci ;
+- [ ] intégrer le cas des adversités sans perspective propre : **Prisme propre, Prisme miroir ou Prisme standard** ;
 - [ ] étendre les **Facteurs Cadres** à la synchronisation du geste de table ;
 - [ ] réécrire **« Les supports peuvent eux aussi résonner »** ;
 - [ ] intégrer les trois formes de synchronisation temporelle : **temps contraint, temps réactif, temps accumulé** ;
@@ -716,7 +753,9 @@ La 0.5 doit notamment challenger les points suivants avant stabilisation :
 - Dans le cas du temps accumulé, jusqu’où la fiction doit-elle rendre visible qu’elle continue d’évoluer avant que le meneur puisse poser une nouvelle Mise ?
 - Quels garde-fous empêchent le temps accumulé de devenir une manière implicite de presser ou de sanctionner les joueurs ?
 - La synchronisation diégétique doit-elle être décrite comme une propriété des Facteurs Cadres, comme une possibilité générale de design, ou les deux ?
-- La distinction actuelle entre « camps », Mises favorables et Mises adverses explique-t-elle suffisamment pourquoi deux pools apparaissent naturellement dans une résolution, y compris lorsqu’il n’existe aucun adversaire personnifié ?
+- Le terme **Prisme miroir** doit-il devenir un terme canonique de Resonance ou rester un vocabulaire d’implémentation ?
+- Dans la configuration standard, le Prisme standard doit-il être recommandé par défaut pour toute adversité sans perspective propre, avec le Miroir comme choix de design explicite ?
+- Dans une résolution collective où plusieurs protagonistes utilisent des Prismes différents, quel Prisme un éventuel Miroir devrait-il refléter ?
 - Jusqu’où le SRD doit-il donner des exemples sans transformer ces exemples en pseudo-menu de mécaniques ?
 
 Le critère restera le même :
