@@ -213,7 +213,7 @@ Il convient lorsque le jeu veut simplement laisser l’adversité produire une r
 
 Le Miroir reste simple tant qu’une perspective clairement identifiable porte l’épreuve.
 
-Lorsque plusieurs protagonistes participent, deux cas doivent être distingués selon le Focus.
+Lorsque plusieurs protagonistes participent, deux dimensions doivent être distinguées : le Focus est-il individuel ou collectif, et existe-t-il une perspective unique à refléter ?
 
 ## Focus individuel
 
@@ -242,6 +242,8 @@ L’adversité sans perspective propre utilise alors le **Prisme standard**.
 Cette règle évite de choisir arbitrairement un Prisme majoritaire, celui d’un leader ou celui qui semblerait mécaniquement le plus avantageux.
 
 Elle n’empêche pas la fiction d’imposer ponctuellement une autre réponse. Si le lieu, le monde ou l’épreuve possède sa propre logique, cette logique reste prioritaire et fournit son propre Prisme.
+
+Ces trois cas sont désormais considérés comme **résolus pour le draft 0.5**.
 
 ---
 
