@@ -78,8 +78,8 @@ export const site = {
     defaultFullName: 'aleascript/resonance',
   },
   identity: {
-    logo: 'img/site/resonance_simple_200x200.png',
-    favicon: 'img/site/resonance_simple_200x200.png',
+    logo: 'img/site/resonance-mode-maitre-icon-100.png',
+    favicon: 'img/site/resonance-mode-maitre-icon-100.png',
   } satisfies SiteIdentity,
   license: {
     label: 'CC BY 4.0',
