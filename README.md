@@ -1,38 +1,37 @@
-# Résonance
+# Resonance
 
-Le Principe de Résonance — un système cognitif et diégétique pour les jeux de rôle sur table.
+Resonance is an experimental game design paradigm and laboratory for tabletop role-playing games.
 
-## Site
+The published site is built with the shared [`resonance-site-template`](https://github.com/aleascript/resonance-site-template) and keeps English and French sources side by side.
 
-Le site est généré par Jekyll et hébergé sur GitHub Pages.
+## Content
 
-### Développement local
-
-```bash
-bundle install
-bundle exec jekyll serve
+```text
+docs/
+├── en/
+│   ├── index.md
+│   ├── principles.md
+│   └── experiments.md
+└── fr/
+    ├── index.md
+    ├── principles.md
+    └── experiments.md
 ```
 
-Le site est accessible sur `http://localhost:4000/resonance/`.
+The current site is intentionally a foundation rather than a complete manifesto. It establishes Resonance as the experimental paradigm, then points to the projects that emerge from it.
 
-### Génération des PDFs
+## Local development
 
-Les PDFs sont générés automatiquement lors des commits grâce au pre-commit hook.
-
-Pour installer les hooks :
+Use Node.js 24, then:
 
 ```bash
-bash tools/install-hooks.sh
+npm install
+npm run start:en
+npm run start:fr
 ```
 
-Génération manuelle :
+Validate both locales with:
 
 ```bash
-bash tools/generate-pdf.sh content/fr/index.md srd/resonance-fr.pdf
+npm run check
 ```
-
-### Dépendances
-
-- Ruby + Bundler
-- Pandoc
-- LaTeX (texlive-xetex, texlive-lang-french)
