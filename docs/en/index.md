@@ -21,6 +21,6 @@ A role-playing game can never remove every layer between players and fiction. Ru
 
 This site deliberately begins small. Resonance is a working paradigm: its principles are meant to be tested through actual games, frameworks and experiments, then refined when play reveals something new.
 
-Two branches already show that the paradigm does not imply a single architecture: **Regard** is a reusable TTRPG framework developed through Resonance, while **Unmind** is a standalone experiment developed directly through Resonance without using Regard.
+Two branches already show that the paradigm does not imply a single architecture: [**Regard**](https://aleascript.github.io/regard) is a reusable TTRPG framework developed through Resonance, while [**Unmind**](https://aleascript.github.io/unmind) is a standalone experiment developed directly through Resonance without using Regard.
 
 Continue with the [working principles](./principles), explore the [design axes](./design-axes), or see the [current experiments](./experiments).

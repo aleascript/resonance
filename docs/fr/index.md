@@ -21,6 +21,6 @@ Un jeu de rôle ne peut jamais supprimer toutes les couches entre les joueurs et
 
 Ce site commence volontairement petit. Resonance est un paradigme de travail : ses principes ont vocation à être éprouvés dans de vrais jeux, frameworks et expérimentations, puis raffinés lorsque le jeu révèle quelque chose de nouveau.
 
-Deux branches montrent déjà que le paradigme n'implique pas une architecture unique : **Regard** est un framework de JdR réutilisable développé à travers Resonance, tandis qu'**Unmind** est une expérimentation autonome développée directement à travers Resonance, sans utiliser Regard.
+Deux branches montrent déjà que le paradigme n'implique pas une architecture unique : [**Regard**](https://aleascript.github.io/regard) est un framework de JdR réutilisable développé à travers Resonance, tandis qu'[**Unmind**](https://aleascript.github.io/unmind) est une expérimentation autonome développée directement à travers Resonance, sans utiliser Regard.
 
 Continue avec les [principes de travail](./principles), explore les [axes de design](./design-axes) ou découvre les [expérimentations actuelles](./experiments).
