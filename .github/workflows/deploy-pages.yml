@@ -2,7 +2,7 @@ name: Build and deploy site
 
 on:
   push:
-    branches: [main]
+    branches: [main, refactor/resonance-foundation]
   pull_request:
   workflow_dispatch:
 
