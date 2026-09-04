@@ -23,4 +23,4 @@ This site deliberately begins small. Resonance is a working paradigm: its princi
 
 Two branches already show that the paradigm does not imply a single architecture: **Regard** is a reusable TTRPG framework developed through Resonance, while **Unmind** is a standalone experiment developed directly through Resonance without using Regard.
 
-Continue with the [working principles](./principles) or see the [current experiments](./experiments).
+Continue with the [working principles](./principles), explore the [design axes](./design-axes), or see the [current experiments](./experiments).

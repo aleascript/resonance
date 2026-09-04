@@ -2,7 +2,7 @@
 id: experiments
 title: Expérimentations
 slug: /experiments
-sidebar_position: 3
+sidebar_position: 4
 description: Frameworks et jeux développés à travers Resonance.
 ---
 

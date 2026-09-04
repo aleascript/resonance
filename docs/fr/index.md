@@ -23,4 +23,4 @@ Ce site commence volontairement petit. Resonance est un paradigme de travail : s
 
 Deux branches montrent déjà que le paradigme n'implique pas une architecture unique : **Regard** est un framework de JdR réutilisable développé à travers Resonance, tandis qu'**Unmind** est une expérimentation autonome développée directement à travers Resonance, sans utiliser Regard.
 
-Continue avec les [principes de travail](./principles) ou découvre les [expérimentations actuelles](./experiments).
+Continue avec les [principes de travail](./principles), explore les [axes de design](./design-axes) ou découvre les [expérimentations actuelles](./experiments).
