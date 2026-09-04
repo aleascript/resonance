@@ -20,6 +20,14 @@ Le système n'est pas extérieur à la fiction. Les règles, la conversation, l'
 
 On ne peut pas simplement les supprimer. On peut en revanche les organiser, les réduire, les intensifier ou les transformer délibérément.
 
+## Faire résonner le dispositif de jeu avec l'expérience
+
+Les éléments concrets du jeu — règles, supports, gestes, rythme, espace ou circulation de l'information — peuvent prolonger une propriété de la fiction ou de l'expérience recherchée.
+
+Cette correspondance n'a pas de valeur en elle-même. Elle devient intéressante lorsqu'elle rend quelque chose plus perceptible, sensible ou intelligible pour les joueurs.
+
+Resonance ne cherche donc pas à effacer l'interface entre les joueurs et la fiction. Il cherche à lui donner une forme signifiante lorsque cela sert l'expérience.
+
 ## Laisser le monde et l'expérience recherchée façonner le système
 
 Une mécanique n'a pas de valeur parce qu'elle serait universelle. Des mondes et des expériences différents peuvent appeler des formes de résolution, des interfaces ou même des architectures entièrement différentes.

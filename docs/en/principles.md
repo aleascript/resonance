@@ -20,6 +20,14 @@ The system is not outside the fiction looking in. Rules, conversation, uncertain
 
 They cannot simply be removed. They can, however, be organized, reduced, intensified or transformed deliberately.
 
+## Let the apparatus of play resonate with the experience
+
+The concrete elements of play — rules, media, gestures, pacing, space, or information flow — can extend a property of the fiction or of the intended experience.
+
+That correspondence has no value by itself. It becomes interesting when it makes something more perceptible, felt, or intelligible to the players.
+
+Resonance therefore does not seek to erase the interface between players and fiction. It seeks to give that interface a meaningful form when doing so serves the experience.
+
 ## Let the world and the desired experience shape the system
 
 A mechanic is not valuable because it is universal. Different worlds and different experiences may call for different forms of resolution, different interfaces, or entirely different architectures.
