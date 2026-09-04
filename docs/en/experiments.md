@@ -6,11 +6,11 @@ sidebar_position: 3
 description: Frameworks and games developed through Resonance.
 ---
 
-# Experiments {#experiments}
+# Experiments
 
 Resonance is tested by making things with it. The current projects already follow more than one branch.
 
-## Regard {#regard}
+## Regard
 
 [**Regard**](https://github.com/aleascript/regard) is a TTRPG framework developed through Resonance, with a fully playable standard configuration.
 
@@ -18,7 +18,7 @@ Regard can in turn be used to build games. Current implementations include [Glor
 
 Regard is an important result of Resonance, but it is not the definition of Resonance.
 
-## Unmind {#unmind}
+## Unmind
 
 [**Unmind**](https://github.com/aleascript/unmind) is a standalone experimental TTRPG developed directly through Resonance.
 

@@ -6,11 +6,11 @@ sidebar_position: 3
 description: Frameworks et jeux développés à travers Resonance.
 ---
 
-# Expérimentations {#experiments}
+# Expérimentations
 
 Resonance s'éprouve en fabriquant des choses avec lui. Les projets actuels suivent déjà plusieurs branches.
 
-## Regard {#regard}
+## Regard
 
 [**Regard**](https://github.com/aleascript/regard) est un framework de JdR développé à travers Resonance, avec une configuration standard entièrement jouable.
 
@@ -18,7 +18,7 @@ Regard peut à son tour servir à construire des jeux. Ses implémentations actu
 
 Regard est un résultat important de Resonance, mais il ne définit pas Resonance.
 
-## Unmind {#unmind}
+## Unmind
 
 [**Unmind**](https://github.com/aleascript/unmind) est un JdR expérimental autonome développé directement à travers Resonance.
 

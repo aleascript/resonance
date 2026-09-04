@@ -7,7 +7,7 @@ hide_table_of_contents: true
 description: Un paradigme expérimental et un laboratoire de game design pour les jeux de rôle sur table.
 ---
 
-# Resonance {#resonance}
+# Resonance
 
 **Resonance est un paradigme expérimental et un laboratoire de game design pour les jeux de rôle sur table.**
 
@@ -15,7 +15,7 @@ Il ne définit pas un moteur de règles universel. C'est un espace pour explorer
 
 Un jeu de rôle ne peut jamais supprimer toutes les couches entre les joueurs et la fiction. Les règles, la conversation, les choix, l'incertitude et l'interprétation font partie du jeu. Resonance demande comment organiser délibérément ces couches — et quelles fictions deviennent possibles lorsqu'on le fait.
 
-## Une base, pas une doctrine achevée {#foundation}
+## Une base, pas une doctrine achevée
 
 Ce site commence volontairement petit. Resonance est un paradigme de travail : ses principes ont vocation à être éprouvés dans de vrais jeux, frameworks et expérimentations, puis raffinés lorsque le jeu révèle quelque chose de nouveau.
 
