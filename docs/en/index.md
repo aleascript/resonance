@@ -7,6 +7,8 @@ hide_table_of_contents: true
 description: An experimental game design paradigm and laboratory for tabletop role-playing games.
 ---
 
+![Resonance logo](/img/site/resonance_proposals_medium.svg)
+
 # Resonance
 
 **Resonance is an experimental game design paradigm and laboratory for tabletop role-playing games.**
