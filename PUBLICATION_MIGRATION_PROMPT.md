@@ -11,10 +11,8 @@ Add the full publication and release pipeline to **Resonance**, using the curren
 The result must publish the existing EN/FR Resonance corpus as:
 
 - PDF — mandatory;
-- EPUB;
-- WebPub served by the site;
 - a `/publications/` catalogue page;
-- GitHub Release assets for PDF, EPUB and `publications.json`;
+- GitHub Release assets for PDF, and `publications.json`;
 - a Semantic Release based repository-wide publication version.
 
 Do not use this migration to rewrite or expand the current Resonance design material.
@@ -30,7 +28,7 @@ Before changing anything:
 2. Compare the publication implementation in Regard with the template. Regard has already exposed generic fixes that may not yet have been upstreamed.
 3. In particular, verify whether the template builder already contains the generic fixes used by Regard for:
    - creating a Markdown H1 from frontmatter when a page has no explicit H1;
-   - rewriting root-relative Markdown/HTML image paths such as `/img/...` for portable PDF/EPUB/WebPub output.
+   - rewriting root-relative Markdown/HTML image paths such as `/img/...` for portable PDF output.
 4. If a generic fix still exists only in Regard, prefer upstreaming it to `resonance-site-template` first, then consume the updated template here.
 
 This is especially important for Resonance because the current `docs/en/index.md` contains a root-relative image such as `/img/site/resonance_proposals_medium.svg`.
@@ -146,7 +144,7 @@ Do not merge merely because Vivliostyle exits successfully.
 The implementation conversation must:
 
 1. run typecheck and localized Docusaurus builds;
-2. build PDF + EPUB + WebPub for EN and FR;
+2. build PDF for EN and FR;
 3. inspect the generated PDFs visually, including cover, TOC, page breaks, typography, admonitions and images;
 4. specifically verify the root-relative Resonance logo/image renders correctly in the publication;
 5. make the actual EN/FR PDF artifacts available for review before merge;
