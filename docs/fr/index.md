@@ -7,7 +7,7 @@ hide_table_of_contents: true
 description: Un paradigme expérimental et un laboratoire de game design pour les jeux de rôle sur table.
 ---
 
-![Logo Resonance](/img/site/resonance_proposals_medium.svg)
+![](/img/site/resonance_proposals_medium.svg)
 
 # Resonance
 
