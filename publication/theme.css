@@ -83,6 +83,19 @@ a {
   text-underline-offset: 0.12em;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.8pt;
+  line-height: 1.36;
+}
+
+th,
+td {
+  padding: 0.15em 0.28em;
+  vertical-align: top;
+}
+
 blockquote {
   margin: 1.25em 0;
   padding: 0.75em 1em;
@@ -169,8 +182,8 @@ blockquote:has(.publication-admonition-design) {
 
 .publication-cover-page [role='doc-cover'] {
   display: block;
-  width: 42mm;
-  height: 42mm;
+  width: 18mm;
+  height: 18mm;
   margin: 0 auto;
   object-fit: contain;
 }
