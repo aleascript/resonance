@@ -2,174 +2,168 @@
 id: research-fields
 title: Champs de recherche
 slug: /research-fields
-description: Les questions de recherche que le laboratoire Resonance explore par le game design.
+description: Les questions de recherche dérivées de l'hypothèse centrale de Resonance.
 ---
 
 # Champs de recherche
 
-Resonance est organisé comme un **laboratoire de R&D en game design**. Il ne cherche pas seulement à produire des jeux : il formule des questions, construit des dispositifs jouables pour les éprouver, observe ce qu'ils permettent ou empêchent, puis révise ses hypothèses.
+Resonance est organisé comme un **laboratoire de R&D en game design**. Ses champs ne sont plus conçus comme une abstraction tirée a posteriori de Glorantha Perspectives ou de Regard. Ils dérivent d'un même problème de recherche.
 
-Cette structure distingue quatre niveaux :
+## Problème central
 
-- un **champ de recherche** rassemble des questions que le laboratoire veut explorer ;
-- un **axe de design** sert à analyser ce qu'un dispositif demande aux joueurs ou affirme sur la fiction ;
-- une **expérimentation** est une note, un prototype, un scénario, une procédure, un framework ou un jeu construit pour tester une hypothèse ;
-- un **résultat** est quelque chose que l'expérimentation permet de conserver provisoirement : principe, outil, jeu, framework, distinction conceptuelle ou nouvelle question.
+> **Comment des dispositifs de jeu simples et générateurs peuvent-ils rendre accessibles des expériences fictionnelles complexes sans les réduire pour les rendre praticables ?**
 
-Un même objet peut être à la fois une expérimentation et un résultat. **Regard**, par exemple, est un framework jouable et réutilisable, mais reste aussi un terrain d'expérimentation pour Resonance.
+Cette question contient deux exigences qui doivent rester simultanées :
 
-:::note[État actuel]
-**Resonance est aujourd'hui plus justement décrit comme un laboratoire de R&D que comme une Game Factory accomplie.**
+1. **réduire la complication de la pratique** — apprentissage, mémorisation, préparation, lookup, improvisation ex nihilo, coordination, peur de mal faire ;
+2. **préserver ou augmenter la puissance de complexification fictionnelle** — relations, causalités, conséquences, ambiguïtés, perspectives, transformations et émergence.
 
-La *Game Factory* est une **hypothèse de recherche** : Resonance pourrait-il devenir une méthode assez générative pour aider à produire, de manière répétable, des jeux substantiellement différents sans imposer un moteur commun ?
+La difficulté est précisément de ne pas satisfaire la première en sacrifiant la seconde.
 
-Regard, Glorantha Perspectives, Scooby-Doo et surtout Unmind fournissent déjà des éléments de réponse. Ils ne suffisent pas encore à démontrer la généralité de l'hypothèse.
+:::note[Complexité ≠ complication]
+La complexité n'est pas ici un défaut à supprimer. Elle peut être le résultat recherché.
+
+Un petit nombre de règles ou de relations peut engendrer une structure riche par interaction. Resonance s'intéresse à cette **simplicité génératrice**. La complication désigne au contraire la charge nécessaire pour entrer dans la pratique.
+
+Voir [**Simplicité génératrice, complication et complexité**](../simplicity-complexity).
 :::
+
+## L'accessibilité comme contrainte transversale
+
+L'accessibilité n'est donc plus un sixième champ placé à côté des autres. C'est une **contrainte d'évaluation qui traverse tout le laboratoire**.
+
+Lorsqu'un dispositif est simplifié, Resonance demande :
+
+> **Où est passée la fonction de ce qui a été retiré ?**
+
+Elle peut avoir été réellement éliminée, distribuée entre plusieurs participants, externalisée dans un support, pré-structurée par le designer, localisée au moment où elle devient pertinente, ou simplement transférée au MJ, au joueur ou à la négociation sociale.
+
+Le laboratoire étudie actuellement au moins trois formes d'accès :
+
+- **accès procédural** — comprendre et manipuler le jeu ;
+- **accès génératif** — savoir quoi faire lorsque l'inspiration manque ;
+- **accès à l'altérité** — pouvoir jouer depuis une perspective, une culture, une cosmologie ou une subjectivité éloignée de soi.
+
+Ces dimensions sont détaillées dans [**Accessibilité et distribution de la charge**](../accessibility) et [**Accessibilité à l'altérité fictionnelle**](../otherness).
+
+Resonance ne prétend pas encore couvrir toutes les dimensions de l'accessibilité — sensorielle, motrice, neurocognitive ou sociale. Il doit distinguer ce qu'il étudie réellement de ce qu'il ne fait encore qu'entrevoir.
 
 ## 1. Le médium JdR et ses frontières
 
-### Question centrale
+### Question dérivée
 
-> **Qu'est-ce qui appartient réellement à l'activité de jeu de rôle, et qu'est-ce qui appartient seulement aux formes historiques qu'elle a prises ?**
+> **Quelles composantes du dispositif historique du JdR portent réellement une fonction nécessaire, et lesquelles ne sont que des coûts de pratique que l'on peut retirer, déplacer ou remplacer ?**
 
-Resonance se rattache ici à la filiation la plus ancienne du JdR : non pas à une mécanique particulière de *Dungeons & Dragons*, mais au déplacement historique qui, de **Braunstein** à **Blackmoor** puis au *D&D* de 1974, a progressivement fait émerger une nouvelle activité à partir du wargame.
+Le laboratoire se rattache ici à la naissance de l'activité de role-playing elle-même, de Braunstein à Blackmoor puis au *D&D* de 1974, sans transformer les instruments historiques de ces jeux en définition du médium.
 
-Le laboratoire cherche à distinguer ce geste fondateur de ses instruments devenus familiers : groupe autour d'une table, MJ, conversation orale, fiches, dés, scénario préparé, campagne, progression, etc.
+MJ, groupe autour d'une table, oralité synchrone, dés, fiches, scénario préparé, progression ou campagne deviennent des variables expérimentales.
 
-### Expérimentations associées
+### Expériences associées
 
-- jeu solo et procédures issues de *La Voie Lunaire* ;
-- jeu par l'écriture, conversation différée ou autres formes non orales ;
-- répartition différente de l'autorité et des fonctions du MJ ;
-- dispositifs où certains éléments traditionnels du JdR sont retirés ou remplacés ;
-- comparaison avec des jeux qui ont déjà déplacé les frontières du médium, comme *Alice is Missing* ou *Polaris*.
+- jeu solo et *La Voie Lunaire* ;
+- jeu écrit, différé ou non oral ;
+- distribution différente des fonctions du MJ ;
+- dispositifs retirant ou remplaçant des composants traditionnels ;
+- comparaison avec *Alice is Missing*, *Polaris* et d'autres déplacements du médium.
 
-L'objectif n'est pas de trouver une définition minimale et éternelle du JdR, mais de **mettre ses composants en variation pour voir ce qu'ils produisent**.
+L'enjeu n'est pas de définir le JdR par soustraction, mais de comprendre **quelles fonctions chaque forme prend en charge et comment elles peuvent être recomposées**.
 
-## 2. De l'expérience au système
+## 2. De l'expérience à une simplicité génératrice
 
-### Question centrale
+### Question dérivée
 
-> **Peut-on découvrir le système dont une expérience a besoin au lieu de choisir d'abord une forme mécanique héritée ?**
+> **Quelles structures minimales peuvent générer l'expérience recherchée au lieu de tenter de la représenter exhaustivement ?**
 
-C'est l'hypothèse générative la plus générale de Resonance. Le laboratoire part d'une expérience, d'un monde, d'une activité mentale ou d'une relation au réel, puis cherche quelles procédures devraient en découler.
+C'est ici que l'ancienne question « de l'expérience au système » rejoint directement l'hypothèse centrale.
 
-Cette recherche ne demande pas seulement si une règle peut être thématique. Elle demande jusqu'où la forme du jeu elle-même peut changer : résolution, circulation de l'information, matérialité, mémoire, autorité, rythme ou absence même de hasard.
+Le designer ne cherche pas nécessairement le plus petit nombre de règles. Il cherche les **bonnes primitives et les bonnes relations** : celles dont les interactions permettent au jeu de produire davantage que ce qui a été explicitement programmé.
 
-### Expérimentations associées
+### Expériences associées
 
-- **Regard**, qui cherche des invariants de conception sans imposer toute la morphologie d'un jeu ;
-- **Glorantha Perspectives**, première exploration profonde d'une mécanique engendrée par des manières d'habiter un monde ;
-- **Scooby-Doo**, test de compression et de genre au sein de Regard ;
-- **Unmind**, qui abandonne volontairement l'architecture de Regard ;
-- futures expériences où un même univers ou une même intention de départ devrait conduire à des architectures incompatibles mais également légitimes.
+- **Regard** : la pertinence comme opération générique plutôt qu'un catalogue exhaustif d'actions ou de caractéristiques ;
+- **Scooby-Doo** : jusqu'où compresser le dispositif sans perdre la capacité du genre à émerger ;
+- **Unmind** : faire naître perte, silence, contamination et ambiguïté depuis quelques relations matérielles fortes ;
+- futurs jeux capables d'abandonner totalement la morphologie de Regard.
 
 ### Hypothèse « Game Factory »
 
-La *Game Factory* ne sera crédible que si la diversité produite n'est pas cosmétique. Quelques tests possibles :
+La *Game Factory* reste une hypothèse secondaire : une méthode fondée sur ces questions peut-elle aider plusieurs designers à découvrir des générateurs différents plutôt qu'à reproduire une recette ?
 
-1. retirer le lore doit laisser apparaître des activités mentales et des formes de résolution réellement différentes ;
-2. un nouveau jeu doit pouvoir abandonner des mécanismes devenus familiers dans les expériences précédentes ;
-3. un même monde doit pouvoir engendrer plusieurs jeux différents selon l'intention de regard ;
-4. d'autres designers doivent pouvoir utiliser la méthode sans reproduire simplement Regard ;
-5. les échecs doivent permettre d'identifier les vrais invariants de Resonance plutôt que d'être réinterprétés après coup comme des succès.
+Elle devient crédible si les expériences produisent des architectures substantiellement différentes, y compris plusieurs jeux incompatibles depuis un même monde ou une même matière fictionnelle.
 
-## 3. Attention, pertinence, perspective et réel
+## 3. Attention, pertinence et accès à l'altérité
 
-### Question centrale
+### Question dérivée
 
-> **À quoi le jeu demande-t-il de prêter attention, qu'est-ce qui devient pertinent, et qui décide de la manière dont le réel est interprété ?**
+> **Comment permettre à un joueur d'interagir avec un monde riche sans devoir traiter toute sa complexité à chaque instant — et sans réduire ce qui lui est étranger à des catégories déjà familières ?**
 
-Ce champ regroupe une grande partie des recherches qui ont donné naissance aux notions de **Mise**, de **Prisme**, de pertinence située et aux distinctions entre perspective et ontologie.
-
-Il étudie notamment :
-
-- comment la fiction détermine ce qui mérite d'entrer dans une résolution ;
-- comment le travail cognitif peut être déplacé de la feuille vers la situation ;
-- comment une culture, un trope, une cosmologie ou une position subjective peut transformer une procédure ;
-- comment distinguer ce qu'un personnage croit vrai de ce que le jeu affirme objectivement sur le monde ;
-- comment plusieurs manières incompatibles de lire le réel peuvent coexister.
-
-### Expérimentations associées
-
-**Regard** teste la pertinence comme geste de résolution. **Glorantha Perspectives** pousse le perspectivisme vers une question ontologique. **Scooby-Doo** utilise les Prismes pour rendre les tropes opérants. **Unmind** explore au contraire la puissance mécanique de vérités privées dont la vérité objective demeure indécidable.
-
-Les [axes de design](../design-axes) cognitif, diégétique, perspectiviste et ontologique sont les principaux outils d'analyse de ce champ, sans s'y réduire.
-
-## 4. Dispositifs, matérialité et modes de jeu
-
-### Question centrale
-
-> **Que se passe-t-il lorsque les supports, les gestes, le canal de communication ou la forme concrète de la partie deviennent eux-mêmes du game design ?**
-
-Resonance ne réduit pas le système aux règles abstraites. Une partie est aussi constituée par ce que les joueurs touchent, cachent, voient, disent, écrivent, attendent ou ne peuvent plus faire.
+La pertinence peut être comprise comme une technique de **localisation de la complexité** : toute la fiction n'entre pas dans chaque résolution, mais rien n'a besoin d'être exclu par principe de l'espace fictionnel.
 
 Ce champ explore :
 
-- solo, jeu par l'écriture, jeu synchrone ou différé ;
-- silence et parole comme ressources ou contraintes ;
-- supports physiques, cartes, piles, jetons, espace de table ;
-- interfaces numériques et canaux de communication ;
+- ce qui devient pertinent ici et maintenant ;
+- comment la fiction peut fournir directement les prises nécessaires à la résolution ;
+- comment plusieurs perspectives incompatibles peuvent rester opérantes ;
+- comment distinguer vérité privée, croyance, expérience et assertion ontologique du jeu ;
+- comment un dispositif peut servir d'aide cognitive pour commencer à agir depuis une perspective étrangère.
+
+**Glorantha Perspectives** devient ici une expérience majeure, mais non fondatrice de la théorie : il teste une solution particulière au problème d'accès à des cosmologies vécues. **Unmind** teste une autre limite en laissant la vérité objective de certaines perceptions indécidable.
+
+Les [axes de design](../design-axes) cognitif, diégétique, perspectiviste et ontologique restent des outils analytiques de ce champ, pas des axiomes du laboratoire.
+
+## 4. Dispositifs, matérialité et distribution de la charge
+
+### Question dérivée
+
+> **Quelles fonctions difficiles pour un participant peuvent être prises en charge par la forme concrète du jeu sans fermer la fiction ?**
+
+Une règle n'est pas le seul endroit où peut résider le système. Cartes, piles, jetons, silence, rythme, texte, espace de table, canaux numériques, information cachée ou tours de parole peuvent supporter une partie de la mémoire, de l'incertitude, de la contrainte ou de la génération fictionnelle.
+
+Le champ explore notamment :
+
+- solo, écrit, synchrone et différé ;
+- parole et silence ;
+- supports physiques et interfaces numériques ;
 - information cachée ou distribuée ;
-- temporalité et rythme comme matériaux de design.
+- temporalité et rythme ;
+- déplacement de fonctions traditionnellement portées par le MJ ou par l'expertise du joueur.
 
-### Expérimentations associées
-
-Dans **Unmind**, les piles cachées, les fragments, les Traces et le jeton-pilule ne décorent pas une résolution abstraite : ils donnent une forme concrète à la révélation, la perte, le silence et la contamination.
-
-Ce champ rend aussi particulièrement instructives les comparaisons avec **Dread**, **Ten Candles** et **Alice is Missing**.
+**Unmind** est actuellement l'expérience interne la plus nette de cette piste. **Dread**, **Ten Candles**, **Alice is Missing** et de nombreux jeux indie servent de cas comparatifs utiles.
 
 ## 5. Situation, facilitation et émergence
 
-### Question centrale
+### Question dérivée
 
-> **Comment préparer suffisamment de jeu pour qu'un monde produise des situations fortes sans préparer à l'avance l'histoire qui doit arriver ?**
+> **Comment réduire la charge d'invention et de maîtrise sans réduire la liberté, la causalité et la capacité d'émergence du monde ?**
 
-Cette recherche porte sur le scénario, le rôle du MJ et la continuité entre documentation du monde, préparation et jeu effectif.
+Le même problème apparaît des deux côtés de la table.
 
-Les notions actuellement explorées comprennent :
+Côté MJ, « improvise ce qui arrive » est une règle courte mais peut constituer une charge énorme. Côté joueur, « qu'est-ce que tu fais ? » peut devenir une page blanche qui exige une inspiration immédiate pour que la fiction continue.
 
-- la **Situation** comme monde local déjà sous tension ;
-- le **Vecteur** comme direction sans trajectoire prescrite ;
-- les Forces, Pressions, Promesses et Transformations ;
-- la possibilité d'écrire un scénario dans la même langue sémantique que celle utilisée ensuite pour jouer ;
-- le MJ comme gardien de cohérence et metteur en attention plutôt que comme auteur d'une intrigue à protéger.
+La recherche sur **Situation**, **Vecteur**, Forces, Pressions, Promesses et Transformations cherche à préparer une matière suffisamment causale pour que le MJ puisse regarder ce qui réagit plutôt qu'inventer ex nihilo. La recherche sur la **page blanche du joueur** explore la symétrie : lorsque le joueur n'a plus de prise, la fiction peut-elle lui en rendre une à partir de ce qui existe déjà ?
 
-Le jeu solo constitue ici une source historique importante : il a montré très tôt qu'une succession de situations et de conséquences pouvait produire une intrigue sans qu'une intrigue complète soit préparée.
+Voir [**Situation, Vecteur et page blanche**](../situation).
 
-Ce champ dialogue directement avec les recherches de jeux comme **Apocalypse World / PbtA**, qui structurent explicitement la manière dont le MC prépare, regarde et fait avancer le jeu.
+## Les objets du laboratoire
 
-## 6. Accessibilité d'entrée et charge de jeu
+Cette structure distingue toujours quatre niveaux utiles :
 
-### Question centrale
+- un **champ de recherche** rassemble une famille de questions dérivées du problème central ;
+- un **axe de design** sert à analyser un dispositif ;
+- une **expérience** est une note, un prototype, un scénario, une procédure, un framework ou un jeu construit pour mettre une hypothèse sous pression ;
+- un **résultat** est ce que l'on conserve provisoirement : principe, outil, distinction, dispositif, framework, jeu, limite ou nouvelle question.
 
-> **Quelle complexité appartient réellement à l'expérience recherchée, et quelle complexité n'est qu'un coût d'interface hérité ?**
+Un objet peut changer de statut avec le temps. Regard est à la fois un résultat jouable et un terrain expérimental. Une note WIP peut devenir un principe — ou être abandonnée après test.
 
-Cette recherche concerne d'abord l'accès à la pratique : joueurs débutants, personnes qui n'osent pas improviser, et surtout futurs MJ confrontés à une charge souvent présentée comme normale.
+## Fiche minimale d'une expérimentation
 
-Elle étudie notamment :
-
-- charge cognitive et consultation de règles ;
-- quantité de préparation nécessaire ;
-- difficulté à savoir « quoi faire maintenant » ;
-- peur de mal maîtriser, de mal improviser ou de ne pas connaître assez le monde ;
-- page blanche du joueur ;
-- transmission des règles par le geste plutôt que par l'apprentissage préalable ;
-- possibilité de réduire l'interface sans réduire la richesse de la fiction.
-
-**Regard** cherche déjà à déplacer une partie de l'attention de la feuille vers le monde. **Scooby-Doo** teste jusqu'où un jeu peut être compressé tout en restant fortement caractérisé. Les recherches sur **Situation / Vecteur** cherchent à faire pour le MJ ce que Regard tente de faire pour le joueur : réduire ce qu'il doit gérer sans appauvrir ce qu'il peut faire vivre.
-
-Ce champ ne prétend pas encore couvrir l'ensemble de l'accessibilité au sens large — sensorielle, motrice, neurocognitive ou sociale. Il définit honnêtement l'objet actuellement le plus travaillé : **le ticket d'entrée et la charge de pratique**. D'autres dimensions pourront devenir des recherches explicites lorsqu'elles seront effectivement étudiées.
-
-## Ranger une expérimentation dans le laboratoire
-
-Une note de travail n'a pas besoin de devenir un principe général pour appartenir à Resonance. Elle peut être décrite simplement par :
-
-- **Champ principal** — quelle famille de questions explore-t-elle ?
-- **Question testée** — qu'essaie-t-on réellement de savoir ?
-- **Dispositif** — note, prototype, procédure, scénario, partie, jeu ?
-- **Observation** — qu'est-ce qui s'est passé ou qu'est-ce que le design révèle ?
-- **Implication** — que faudrait-il conserver, modifier ou tester ensuite ?
+- **Question testée** — quelle dérivation du problème central attaque-t-on ?
+- **Charge visée** — quelle complication cherche-t-on à réduire ou redistribuer ?
+- **Complexité à préserver ou faire émerger** — qu'est-ce qui ne doit pas être sacrifié ?
+- **Dispositif** — note, prototype, scénario, procédure, partie, jeu ?
+- **Observation** — qu'est-ce qui s'est effectivement passé ?
+- **Déplacement de charge** — qu'avons-nous rendu plus difficile ailleurs, volontairement ou non ?
+- **Implication** — que faut-il conserver, modifier ou tester ?
 - **Statut** — intuition, hypothèse, expérimentation, résultat provisoire, question ouverte.
 
-Cette structure permet au laboratoire d'accumuler non seulement des réponses, mais aussi des **expériences négatives, des limites et des questions encore non résolues**.
+Cette fiche rend les échecs particulièrement utiles : une solution qui semble plus simple mais transfère toute sa complication au MJ, ou qui devient accessible en appauvrissant la fiction, est un résultat de recherche à part entière.
