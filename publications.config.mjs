@@ -2,6 +2,46 @@ export function definePublications(config) {
   return config;
 }
 
+function corpus(locale) {
+  const doc = (path) => `docs/${locale}/${path}`;
+
+  return [
+    // Core
+    doc('index.md'),
+    doc('principles.md'),
+    doc('research-fields.md'),
+    doc('simplicity-complexity.md'),
+    doc('accessibility.md'),
+    doc('otherness.md'),
+    doc('situation.md'),
+    doc('design-axes.md'),
+
+    // Internal experiments
+    doc('experiments.md'),
+    doc('experiments/regard.md'),
+    doc('experiments/glorantha-perspectives.md'),
+    doc('experiments/scooby-doo.md'),
+    doc('experiments/unmind.md'),
+    doc('experiments/la-voie-lunaire.md'),
+
+    // Comparative corpus, ordered by first publication
+    doc('comparisons.md'),
+    doc('comparisons/origins.md'),
+    doc('comparisons/questworlds.md'),
+    doc('comparisons/fate.md'),
+    doc('comparisons/dread.md'),
+    doc('comparisons/polaris.md'),
+    doc('comparisons/ribbon-drive.md'),
+    doc('comparisons/pbta.md'),
+    doc('comparisons/the-quiet-year.md'),
+    doc('comparisons/dream-askew.md'),
+    doc('comparisons/ten-candles.md'),
+    doc('comparisons/bluebeards-bride.md'),
+    doc('comparisons/monsterhearts-2.md'),
+    doc('comparisons/alice-is-missing.md'),
+  ];
+}
+
 export default definePublications({
   release: {
     initialVersion: '0.1.0',
@@ -38,23 +78,15 @@ export default definePublications({
         en: {
           title: 'Resonance',
           tocTitle: 'Contents',
-          contents: [
-            'docs/en/index.md',
-            'docs/en/principles.md',
-            'docs/en/design-axes.md',
-            'docs/en/experiments.md',
-          ],
+          contents: corpus('en'),
+          completeCorpus: true,
           outputs: ['pdf'],
         },
         fr: {
           title: 'Resonance',
           tocTitle: 'Sommaire',
-          contents: [
-            'docs/fr/index.md',
-            'docs/fr/principles.md',
-            'docs/fr/design-axes.md',
-            'docs/fr/experiments.md',
-          ],
+          contents: corpus('fr'),
+          completeCorpus: true,
           outputs: ['pdf'],
         },
       },
