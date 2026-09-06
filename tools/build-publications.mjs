@@ -2,7 +2,7 @@ import {execFileSync} from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {build, VFM} from '@vivliostyle/cli';
+import {build} from '@vivliostyle/cli';
 import config from '../publications.config.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -209,24 +209,6 @@ function ensureDocumentTitleHeading(markdown) {
   return `${markdown.slice(0, insertionPoint)}\n# ${title}\n${markdown.slice(insertionPoint)}`;
 }
 
-function documentTitle(markdown, sourcePath) {
-  const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
-  if (frontmatter) {
-    const titleLine = frontmatter[1]
-      .split(/\r?\n/)
-      .find((line) => /^title\s*:/.test(line));
-    if (titleLine) {
-      const title = decodeFrontmatterScalar(titleLine.replace(/^title\s*:\s*/, ''));
-      if (title) {
-        return title;
-      }
-    }
-  }
-
-  const heading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim();
-  return heading || path.basename(sourcePath, path.extname(sourcePath));
-}
-
 function transformRootRelativeImages(markdown, sourcePath) {
   const staticPrefix =
     path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
@@ -243,103 +225,88 @@ function transformRootRelativeImages(markdown, sourcePath) {
     );
 }
 
-function markdownLabel(value) {
-  return String(value)
-    .replaceAll('\\', '\\\\')
-    .replaceAll('[', '\\[')
-    .replaceAll(']', '\\]');
-}
-
 function sourceToHtmlPath(sourcePath) {
   return sourcePath.replace(/\.md$/i, '.html');
 }
 
-function firstLevelSectionId(markdown) {
-  const html = VFM({partial: true}).processSync(markdown).toString();
-  const section = html.match(/<section\b[^>]*class="[^"]*\blevel1\b[^"]*"[^>]*>/)?.[0];
-  return section?.match(/\bid="([^"]+)"/)?.[1] ?? null;
-}
-
-function documentTarget(markdown, sourcePath) {
-  const sectionId = firstLevelSectionId(markdown);
-  return `${sourceToHtmlPath(sourcePath)}${sectionId ? `#${sectionId}` : ''}`;
-}
-
-function publicationTree(contents, groups = []) {
-  const contentSet = new Set(contents);
-  const childrenByParent = new Map();
+function normalizedTocGroups(localeConfig) {
+  const contents = new Set(localeConfig.contents);
   const childPaths = new Set();
 
-  for (const group of groups) {
-    if (!contentSet.has(group.parent)) {
+  return (localeConfig.tocGroups ?? []).map((group) => {
+    if (!contents.has(group.parent)) {
       throw new Error(`Publication TOC parent is not in contents: ${group.parent}`);
     }
-    if (childrenByParent.has(group.parent)) {
-      throw new Error(`Publication TOC parent declared twice: ${group.parent}`);
-    }
 
-    const children = [];
-    for (const child of group.children ?? []) {
-      if (!contentSet.has(child)) {
+    const children = (group.children ?? []).map((child) => {
+      if (!contents.has(child)) {
         throw new Error(`Publication TOC child is not in contents: ${child}`);
       }
       if (childPaths.has(child)) {
         throw new Error(`Publication TOC child declared twice: ${child}`);
       }
       childPaths.add(child);
-      children.push(child);
-    }
-    childrenByParent.set(group.parent, children);
-  }
+      return sourceToHtmlPath(child);
+    });
 
-  return contents
-    .filter((sourcePath) => !childPaths.has(sourcePath))
-    .map((sourcePath) => ({
-      sourcePath,
-      children: (childrenByParent.get(sourcePath) ?? []).map((child) => ({
-        sourcePath: child,
-        children: [],
-      })),
-    }));
+    return {
+      parent: sourceToHtmlPath(group.parent),
+      children,
+    };
+  });
 }
 
-function renderTocNodes(nodes, titles, targets, depth = 0) {
-  const indent = '    '.repeat(depth);
-  const lines = [];
-
-  for (const node of nodes) {
-    const title = titles.get(node.sourcePath) ?? path.basename(node.sourcePath, '.md');
-    const target = targets.get(node.sourcePath) ?? sourceToHtmlPath(node.sourcePath);
-    lines.push(`${indent}1. [${markdownLabel(title)}](${target})`);
-    if (node.children.length > 0) {
-      lines.push(...renderTocNodes(node.children, titles, targets, depth + 1));
-    }
-  }
-
-  return lines;
-}
-
-async function writeToc(publicationWorkDir, locale, localeConfig, titles, targets) {
+function tocConfigSource(locale, localeConfig) {
   const title = localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents');
-  const tree = publicationTree(localeConfig.contents, localeConfig.tocGroups);
-  const tocPath = path.join(publicationWorkDir, 'publication-toc.md');
-  const body = [
-    `# ${title}`,
-    '',
-    '<nav id="toc" role="doc-toc">',
-    '',
-    ...renderTocNodes(tree, titles, targets),
-    '',
-    '</nav>',
-    '',
-  ].join('\n');
+  const groups = normalizedTocGroups(localeConfig);
 
-  await fs.writeFile(tocPath, body, 'utf8');
-  return {
-    path: 'publication-toc.md',
-    rel: 'contents',
-    title,
-  };
+  return `{
+    title: ${JSON.stringify(title)},
+    sectionDepth: 1,
+    transformDocumentList: (nodeList) => () => {
+      const groups = ${JSON.stringify(groups)};
+      const childHrefs = new Set(groups.flatMap((group) => group.children));
+      const childrenByParent = new Map(
+        groups.map((group) => [group.parent, group.children]),
+      );
+      const byHref = new Map(nodeList.map((node) => [node.href, node]));
+
+      const element = (tagName, properties = {}, children = []) => ({
+        type: 'element',
+        tagName,
+        properties,
+        children,
+      });
+      const text = (value) => ({type: 'text', value: String(value)});
+
+      const renderNode = (href) => {
+        const node = byHref.get(href);
+        if (!node) {
+          return null;
+        }
+
+        const firstH1 = (node.sections || []).find(
+          (section) => section.level === 1 && section.href,
+        );
+        const target = firstH1?.href || node.href;
+        const nested = (childrenByParent.get(href) || [])
+          .map(renderNode)
+          .filter(Boolean);
+
+        return element('li', {}, [
+          element('a', {href: target}, [text(node.title)]),
+          ...(nested.length > 0 ? [element('ol', {}, nested)] : []),
+        ]);
+      };
+
+      const roots = nodeList
+        .filter((node) => !childHrefs.has(node.href))
+        .map((node) => renderNode(node.href))
+        .filter(Boolean);
+
+      return element('ol', {}, roots);
+    },
+  }`;
 }
 
 function assetName(baseName, locale, format) {
@@ -520,6 +487,18 @@ async function writeCover(
   };
 }
 
+async function writeVivliostyleConfig(
+  publicationWorkDir,
+  task,
+  locale,
+  localeConfig,
+) {
+  const configPath = path.join(publicationWorkDir, 'vivliostyle.config.cjs');
+  const source = `module.exports = ${JSON.stringify(task, null, 2)};\n\nmodule.exports.toc = ${tocConfigSource(locale, localeConfig)};\n`;
+  await fs.writeFile(configPath, source, 'utf8');
+  return configPath;
+}
+
 async function preparePublication(
   publicationName,
   publication,
@@ -533,8 +512,6 @@ async function preparePublication(
 
   const customAdmonitions = config.markdown?.admonitions ?? [];
   const contentEntries = [];
-  const documentTitles = new Map();
-  const documentTargets = new Map();
 
   for (const sourcePath of localeConfig.contents) {
     const sourceAbsolute = path.join(projectRoot, sourcePath);
@@ -547,8 +524,6 @@ async function preparePublication(
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
     contentEntries.push(sourcePath);
-    documentTitles.set(sourcePath, documentTitle(withChapterHeading, sourcePath));
-    documentTargets.set(sourcePath, documentTarget(withChapterHeading, sourcePath));
   }
 
   const themeSource = path.join(projectRoot, publication.theme);
@@ -567,16 +542,9 @@ async function preparePublication(
     themeDestination,
     version,
   );
-  const tocEntry = await writeToc(
-    publicationWorkDir,
-    locale,
-    localeConfig,
-    documentTitles,
-    documentTargets,
-  );
   const entries = [
     ...(cover ? [cover.entry] : []),
-    tocEntry,
+    {rel: 'contents'},
     ...contentEntries,
   ];
 
@@ -599,9 +567,7 @@ async function preparePublication(
     },
   };
 
-  const configPath = path.join(publicationWorkDir, 'vivliostyle.config.json');
-  await fs.writeFile(configPath, JSON.stringify(task, null, 2), 'utf8');
-  return configPath;
+  return writeVivliostyleConfig(publicationWorkDir, task, locale, localeConfig);
 }
 
 async function main() {
