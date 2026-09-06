@@ -2,174 +2,168 @@
 id: research-fields
 title: Research fields
 slug: /research-fields
-description: The research questions explored by the Resonance game design laboratory.
+description: Research questions derived from Resonance's central hypothesis.
 ---
 
 # Research fields
 
-Resonance is organized as a **game design R&D laboratory**. Its purpose is not only to produce games: it formulates questions, builds playable devices to test them, observes what those devices enable or prevent, and revises its hypotheses.
+Resonance is organized as a **game design R&D laboratory**. Its fields are no longer treated as abstractions reconstructed after the fact from Glorantha Perspectives or Regard. They derive from one shared research problem.
 
-This structure distinguishes four levels:
+## Central problem
 
-- a **research field** gathers a family of questions the laboratory wants to investigate;
-- a **design axis** is a lens for analyzing what a particular design asks players to do or asserts about fiction;
-- an **experiment** is a note, prototype, scenario, procedure, framework, or game built to test a hypothesis;
-- a **result** is something provisionally retained from an experiment: a principle, tool, game, framework, conceptual distinction, or new question.
+> **How can simple, generative play devices make complex fictional experiences accessible without reducing them in order to make them playable?**
 
-The same artifact can be both an experiment and a result. **Regard**, for example, is a playable reusable framework and also an ongoing experimental ground for Resonance.
+This question contains two requirements that must remain simultaneous:
 
-:::note[Current status]
-**Resonance is currently more accurately described as an R&D laboratory than as an accomplished Game Factory.**
+1. **reduce the complication of practice** — learning, memorization, preparation, lookup, ex nihilo improvisation, coordination, fear of doing it wrong;
+2. **preserve or increase fictional complexification power** — relations, causalities, consequences, ambiguities, perspectives, transformations, and emergence.
 
-The *Game Factory* is a **research hypothesis**: could Resonance become a method generative enough to repeatedly help produce substantially different games without imposing a common engine?
+The difficulty is precisely not to satisfy the first by sacrificing the second.
 
-Regard, Glorantha Perspectives, Scooby-Doo, and especially Unmind already provide evidence. They do not yet demonstrate the generality of the hypothesis.
+:::note[Complexity ≠ complication]
+Complexity is not treated here as a defect to remove. It may be the desired result.
+
+A small number of rules or relations can generate rich structures through interaction. Resonance is interested in this **generative simplicity**. Complication, by contrast, means the burden required to enter the practice.
+
+See [**Generative simplicity, complication, and complexity**](../simplicity-complexity).
 :::
+
+## Accessibility as a transverse constraint
+
+Accessibility is therefore no longer a sixth field placed beside the others. It is an **evaluation constraint running through the entire laboratory**.
+
+When a device is simplified, Resonance asks:
+
+> **Where did the function of what was removed go?**
+
+It may have truly disappeared, been distributed across participants, externalized into a support, pre-structured by the designer, localized at the moment when it becomes relevant, or merely transferred to the GM, player, or social negotiation.
+
+The laboratory currently studies at least three forms of access:
+
+- **procedural access** — understanding and manipulating the game;
+- **generative access** — knowing what to do when inspiration is missing;
+- **access to alterity** — being able to play from a perspective, culture, cosmology, or subjectivity distant from oneself.
+
+These dimensions are developed in [**Accessibility and the distribution of burden**](../accessibility) and [**Access to fictional alterity**](../otherness).
+
+Resonance does not yet claim to cover every dimension of accessibility—sensory, motor, neurocognitive, or social. It must distinguish what it actually studies from what it has only begun to glimpse.
 
 ## 1. The role-playing medium and its boundaries
 
-### Central question
+### Derived question
 
-> **What actually belongs to the activity of role-playing, and what belongs only to the historical forms it happened to take?**
+> **Which components of the historical RPG apparatus actually carry a necessary function, and which are practice costs that can be removed, moved, or replaced?**
 
-Here Resonance connects to the earliest lineage of the RPG: not to a particular *Dungeons & Dragons* mechanic, but to the historical shift that, from **Braunstein** through **Blackmoor** and the 1974 publication of *D&D*, gradually produced a new activity from wargaming.
+The laboratory connects here to the emergence of role-playing itself, from Braunstein through Blackmoor and the 1974 publication of *D&D*, without turning the historical instruments of those games into the definition of the medium.
 
-The laboratory tries to distinguish that founding gesture from the instruments that later became familiar: a group around a table, a GM, spoken conversation, character sheets, dice, prepared scenarios, campaigns, advancement, and so on.
-
-### Associated experiments
-
-- solo play and procedures emerging from *La Voie Lunaire*;
-- play through writing, delayed conversation, or other non-spoken forms;
-- different distributions of authority and GM functions;
-- devices that remove or replace traditional components of RPG play;
-- comparison with games that have already shifted the medium's boundaries, such as *Alice is Missing* or *Polaris*.
-
-The aim is not to discover one eternal minimal definition of RPGs, but to **put their components into variation and observe what they produce**.
-
-## 2. From experience to system
-
-### Central question
-
-> **Can we discover the system an experience needs instead of first choosing an inherited mechanical form?**
-
-This is Resonance's broadest generative hypothesis. The laboratory starts from an experience, a world, a form of mental activity, or a relation to reality, then asks what procedures should grow from it.
-
-The question is not merely whether a rule can be thematic. It is how far the form of play itself may need to change: resolution, information flow, materiality, memory, authority, rhythm, or even the presence of randomness.
+GM, group around a table, synchronous speech, dice, character sheets, prepared scenario, advancement, and campaign become experimental variables.
 
 ### Associated experiments
 
-- **Regard**, which searches for design invariants without imposing the full morphology of one game;
-- **Glorantha Perspectives**, the first deep exploration of mechanics generated by ways of inhabiting a world;
-- **Scooby-Doo**, a test of compression and genre within Regard;
-- **Unmind**, which deliberately abandons Regard's architecture;
-- future experiments in which one world or starting intention should generate incompatible but equally legitimate architectures.
+- solo play and *La Voie Lunaire*;
+- written, delayed, or non-spoken play;
+- different distributions of GM functions;
+- devices that remove or replace traditional components;
+- comparisons with *Alice is Missing*, *Polaris*, and other shifts in the medium.
+
+The point is not to define RPGs by subtraction, but to understand **which functions each form carries and how those functions can be recomposed**.
+
+## 2. From experience to generative simplicity
+
+### Derived question
+
+> **What minimal structures can generate the intended experience instead of trying to represent it exhaustively?**
+
+This is where the earlier “experience to system” question directly meets the central hypothesis.
+
+The designer is not necessarily seeking the smallest number of rules. The search is for the **right primitives and relations**: those whose interaction lets play produce more than was explicitly programmed.
+
+### Associated experiments
+
+- **Regard**: relevance as a generic operation rather than an exhaustive catalogue of actions or traits;
+- **Scooby-Doo**: how far the device can be compressed without losing the genre's ability to emerge;
+- **Unmind**: generating loss, silence, contamination, and ambiguity from a few strong material relations;
+- future games able to abandon Regard's morphology entirely.
 
 ### The “Game Factory” hypothesis
 
-The *Game Factory* claim becomes credible only if the diversity produced is not cosmetic. Possible tests include:
+The *Game Factory* remains a secondary hypothesis: can a method based on these questions help multiple designers discover different generators instead of reproducing a recipe?
 
-1. removing the lore should still reveal substantially different mental activities and resolution structures;
-2. a new game must be able to abandon mechanisms that became familiar in earlier experiments;
-3. the same world should be able to generate different games from different intended ways of looking at it;
-4. other designers should be able to use the method without simply reproducing Regard;
-5. failures should identify real Resonance invariants instead of being reinterpreted after the fact as successes.
+It becomes credible if experiments yield substantially different architectures, including incompatible games from the same world or fictional material.
 
-## 3. Attention, relevance, perspective, and reality
+## 3. Attention, relevance, and access to alterity
 
-### Central question
+### Derived question
 
-> **What does the game ask players to attend to, what becomes relevant, and who determines how reality is interpreted?**
+> **How can a player interact with a rich world without processing all of its complexity at every moment—and without reducing what is foreign to already familiar categories?**
 
-This field gathers much of the work that led to **Bets**, **Prisms**, situated relevance, and the distinctions between perspective and ontology.
-
-It investigates, among other things:
-
-- how fiction determines what deserves to enter a resolution;
-- how cognitive work can move from the sheet toward the situation;
-- how a culture, trope, cosmology, or subjective position can transform procedure;
-- how to distinguish what a character experiences as true from what the game establishes objectively about the world;
-- how incompatible ways of reading reality can coexist.
-
-### Associated experiments
-
-**Regard** tests relevance as a resolution gesture. **Glorantha Perspectives** pushes perspectivism toward ontology. **Scooby-Doo** uses Prisms to make tropes operational. **Unmind** explores the opposite edge: private truths can be mechanically powerful while their objective truth remains undecidable.
-
-The cognitive, diegetic, perspectivist, and ontological [design axes](../design-axes) are the main analytical tools used here, but this field is broader than those axes.
-
-## 4. Devices, materiality, and modes of play
-
-### Central question
-
-> **What happens when the materials, gestures, communication channel, or concrete form of the session become game design in their own right?**
-
-Resonance does not reduce system to abstract rules. Play is also made of what players touch, hide, see, say, write, wait for, or are no longer allowed to do.
+Relevance can be understood as a technique for **localizing complexity**: not all fiction enters every resolution, yet nothing has to be excluded in principle from the fictional space.
 
 This field explores:
 
+- what becomes relevant here and now;
+- how fiction can directly provide the handles needed for resolution;
+- how incompatible perspectives can remain operational;
+- how to distinguish private truth, belief, experience, and the game's ontological assertions;
+- how a device can act as a cognitive aid for beginning to act from an unfamiliar perspective.
+
+**Glorantha Perspectives** becomes a major experiment here, but not the source of the theory: it tests one particular solution to the problem of access to lived cosmologies. **Unmind** tests another edge by leaving the objective truth of some perceptions undecidable.
+
+The cognitive, diegetic, perspectivist, and ontological [design axes](../design-axes) remain analytical tools for this field, not axioms of the laboratory.
+
+## 4. Devices, materiality, and distribution of burden
+
+### Derived question
+
+> **Which difficult functions for a participant can be carried by the concrete form of play without closing down the fiction?**
+
+Rules are not the only place where system can live. Cards, stacks, tokens, silence, rhythm, text, table space, digital channels, hidden information, or turn structures can carry memory, uncertainty, constraint, or fictional generation.
+
+This field explores in particular:
+
 - solo, written, synchronous, and delayed play;
-- silence and speech as resources or constraints;
-- physical supports, cards, stacks, tokens, and table space;
-- digital interfaces and communication channels;
+- speech and silence;
+- physical supports and digital interfaces;
 - hidden or distributed information;
-- time and rhythm as design materials.
+- time and rhythm;
+- moving functions traditionally carried by the GM or by player expertise.
 
-### Associated experiments
-
-In **Unmind**, hidden stacks, fragments, Traces, and the pill-token do not decorate an abstract resolution engine: they give concrete form to revelation, loss, silence, and contamination.
-
-This field also makes **Dread**, **Ten Candles**, and **Alice is Missing** especially useful comparisons.
+**Unmind** is currently the clearest internal experiment in this direction. **Dread**, **Ten Candles**, **Alice is Missing**, and many indie games provide useful comparative cases.
 
 ## 5. Situation, facilitation, and emergence
 
-### Central question
+### Derived question
 
-> **How can we prepare enough game for a world to produce strong situations without preparing the story that must happen?**
+> **How can the burden of invention and facilitation be reduced without reducing freedom, causality, and the world's ability to generate emergence?**
 
-This research concerns scenarios, the GM's role, and the continuity between world documentation, preparation, and actual play.
+The same problem appears on both sides of the table.
 
-Current concepts include:
+For the GM, “improvise what happens” is a short rule but can be an enormous burden. For the player, “what do you do?” can become a blank page that requires immediate inspiration for the fiction to continue.
 
-- **Situation** as a local world already under tension;
-- **Vector** as direction without a prescribed path;
-- Forces, Pressures, Promises, and Transformations;
-- writing a scenario in the same semantic language later used to play it;
-- the GM as guardian of coherence and director of attention rather than author of a plot that must be protected.
+The work on **Situation**, **Vector**, Forces, Pressures, Promises, and Transformations aims to prepare enough causal material that the GM can look at what reacts rather than invent ex nihilo. The work on the **player's blank page** explores the symmetry: when the player loses their grip, can the fiction return one from what already exists?
 
-Solo play is historically important here: it showed early on that a sequence of situations and consequences could generate plot without preparing a complete plot in advance.
+See [**Situation, Vector, and the blank page**](../situation).
 
-This field directly dialogues with games such as **Apocalypse World / PbtA**, which explicitly structure how the MC prepares, looks at the fiction, and pushes play forward.
+## The laboratory's objects
 
-## 6. Entry accessibility and play burden
+The structure still distinguishes four useful levels:
 
-### Central question
+- a **research field** gathers a family of questions derived from the central problem;
+- a **design axis** helps analyze a device;
+- an **experiment** is a note, prototype, scenario, procedure, framework, or game built to put a hypothesis under pressure;
+- a **result** is what is provisionally retained: principle, tool, distinction, device, framework, game, limit, or new question.
 
-> **Which complexity truly belongs to the intended experience, and which complexity is merely an inherited interface cost?**
+An object may change status over time. Regard is both a playable result and an experimental ground. A WIP note may become a principle—or be abandoned after testing.
 
-This work currently focuses on access to practice: first-time players, people who do not feel comfortable improvising, and especially prospective GMs facing a burden often treated as normal.
+## Minimal experiment record
 
-It investigates:
-
-- cognitive load and rules lookup;
-- required preparation;
-- difficulty knowing “what should I do now?”;
-- fear of running badly, improvising badly, or not knowing enough of the world;
-- the player's blank page;
-- teaching rules through play gestures rather than prior study;
-- reducing interface without reducing fictional richness.
-
-**Regard** already tries to shift some attention from the sheet toward the world. **Scooby-Doo** tests how far a game can be compressed while remaining strongly characterized. The **Situation / Vector** work asks whether the same move can be made for GMs: reduce what they must manage without reducing what they can make happen.
-
-This field does not yet claim to cover accessibility in its full sense—sensory, motor, neurocognitive, or social. It names the area currently being actively investigated: **entry cost and burden of practice**. Other accessibility dimensions should become explicit fields when they are actually researched.
-
-## Filing an experiment in the laboratory
-
-A working note does not need to become a general principle in order to belong to Resonance. It can be described through:
-
-- **Primary field** — which family of questions does it investigate?
-- **Question tested** — what are we actually trying to learn?
-- **Device** — note, prototype, procedure, scenario, session, game?
-- **Observation** — what happened, or what does the design reveal?
-- **Implication** — what should be kept, changed, or tested next?
+- **Question tested** — which derivation of the central problem is being attacked?
+- **Burden targeted** — which complication are we trying to reduce or redistribute?
+- **Complexity to preserve or generate** — what must not be sacrificed?
+- **Device** — note, prototype, scenario, procedure, session, game?
+- **Observation** — what actually happened?
+- **Burden displacement** — what became harder elsewhere, intentionally or not?
+- **Implication** — what should be kept, changed, or tested?
 - **Status** — intuition, hypothesis, experiment, provisional result, open question.
 
-This lets the laboratory accumulate not only answers but also **negative results, limits, and unresolved questions**.
+This makes failures especially useful: a solution that looks simpler but transfers all of its complication to the GM, or becomes accessible by impoverishing the fiction, is a research result in its own right.
