@@ -28,10 +28,10 @@ An experiment does not need to confirm its starting hypothesis. Discovering that
 
 | Project | Type | Relation to Resonance | Main question | Analysis |
 | --- | --- | --- | --- | --- |
-| [**Regard**](https://aleascript.github.io/regard) | Playable framework | developed within Resonance | relevance and fictional interface | [record](./regard) |
-| [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) | Game | built with Regard | otherness, perspectives, operative cosmologies | [record](./glorantha-perspectives) |
-| [**Scooby-Doo**](https://aleascript.github.io/scooby-doo) | Game | built with Regard | compression, genre, accessibility | [record](./scooby-doo) |
-| [**Unmind**](https://aleascript.github.io/unmind) | Game | developed directly within Resonance | materiality, loss, silence, private truths | [record](./unmind) |
+| [**Regard**](https://aleascript.github.io/regard) | Playable framework | developed within Resonance | relevance and fictional interface | [record](./experiments/regard.md) |
+| [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) | Game | built with Regard | otherness, perspectives, operative cosmologies | [record](./experiments/glorantha-perspectives.md) |
+| [**Scooby-Doo**](https://aleascript.github.io/scooby-doo) | Game | built with Regard | compression, genre, accessibility | [record](./experiments/scooby-doo.md) |
+| [**Unmind**](https://aleascript.github.io/unmind) | Game | developed directly within Resonance | materiality, loss, silence, private truths | [record](./experiments/unmind.md) |
 
 > **Resonance → Regard → Glorantha Perspectives / Scooby-Doo**  
 > **Resonance → Unmind**
@@ -40,8 +40,8 @@ This fork makes it possible to compare a family developed through one framework 
 
 ## Other experiments
 
-- [**La Voie Lunaire and solo play**](./la-voie-lunaire) — an archaeology of Situation → consequence → new Situation loops;
-- [**Situation, Vector, and the blank page**](../situation) — causal preparation, GM burden, and support for player inspiration (*WIP*).
+- [**La Voie Lunaire and solo play**](./experiments/la-voie-lunaire.md) — an archaeology of Situation → consequence → new Situation loops;
+- [**Situation, Vector, and the blank page**](./situation.md) — causal preparation, GM burden, and support for player inspiration (*WIP*).
 
 ## Put a hypothesis at risk
 
