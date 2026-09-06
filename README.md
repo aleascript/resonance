@@ -36,7 +36,7 @@ Core documentation includes:
 - `situation.md` — Situation, Vector, and the blank page (WIP);
 - `design-axes.md` — analytical lenses, not defining axioms;
 - `experiments.md` — the current internal experimental corpus;
-- `comparisons.md` — external and historical comparison cases.
+- `comparisons.md` — external and historical comparative cases.
 
 ## Local development
 
