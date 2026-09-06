@@ -27,7 +27,29 @@ const sidebars: SidebarsConfig = {
         'experiment-la-voie-lunaire',
       ],
     },
-    'comparisons',
+    {
+      type: 'category',
+      label: 'Comparaisons / Comparisons',
+      link: {type: 'doc', id: 'comparisons'},
+      items: [
+        'comparison-origins',
+        {
+          type: 'category',
+          label: 'Langage, résolution, autorité',
+          items: ['comparison-questworlds', 'comparison-fate', 'comparison-pbta', 'comparison-polaris'],
+        },
+        {
+          type: 'category',
+          label: 'Dispositif et matérialité',
+          items: ['comparison-dread', 'comparison-ten-candles', 'comparison-alice-is-missing', 'comparison-bluebeards-bride'],
+        },
+        {
+          type: 'category',
+          label: 'Avery Alder',
+          items: ['comparison-the-quiet-year', 'comparison-dream-askew', 'comparison-monsterhearts-2', 'comparison-ribbon-drive'],
+        },
+      ],
+    },
   ],
 };
 
