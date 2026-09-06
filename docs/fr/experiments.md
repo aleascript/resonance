@@ -28,10 +28,10 @@ Une expérimentation n'a pas besoin de confirmer l'hypothèse de départ. Décou
 
 | Projet | Type | Relation à Resonance | Question principale | Analyse |
 | --- | --- | --- | --- | --- |
-| [**Regard**](https://aleascript.github.io/regard) | Framework jouable | développé dans Resonance | pertinence et interface fictionnelle | [fiche](./regard) |
-| [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) | Jeu | construit avec Regard | altérité, perspectives et cosmologies opérantes | [fiche](./glorantha-perspectives) |
-| [**Scooby-Doo**](https://aleascript.github.io/scooby-doo) | Jeu | construit avec Regard | compression, genre et accessibilité | [fiche](./scooby-doo) |
-| [**Unmind**](https://aleascript.github.io/unmind) | Jeu | développé directement dans Resonance | matérialité, perte, silence et vérités privées | [fiche](./unmind) |
+| [**Regard**](https://aleascript.github.io/regard) | Framework jouable | développé dans Resonance | pertinence et interface fictionnelle | [fiche](./experiments/regard.md) |
+| [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) | Jeu | construit avec Regard | altérité, perspectives et cosmologies opérantes | [fiche](./experiments/glorantha-perspectives.md) |
+| [**Scooby-Doo**](https://aleascript.github.io/scooby-doo) | Jeu | construit avec Regard | compression, genre et accessibilité | [fiche](./experiments/scooby-doo.md) |
+| [**Unmind**](https://aleascript.github.io/unmind) | Jeu | développé directement dans Resonance | matérialité, perte, silence et vérités privées | [fiche](./experiments/unmind.md) |
 
 > **Resonance → Regard → Glorantha Perspectives / Scooby-Doo**  
 > **Resonance → Unmind**
@@ -40,8 +40,8 @@ Cette bifurcation permet de comparer une famille issue d'un framework avec une e
 
 ## Autres expérimentations
 
-- [**La Voie Lunaire et le jeu solo**](./la-voie-lunaire) — une archéologie des boucles Situation → conséquence → nouvelle Situation ;
-- [**Situation, Vecteur et page blanche**](../situation) — préparation causale, charge du MJ et soutien à l'inspiration du joueur (*WIP*).
+- [**La Voie Lunaire et le jeu solo**](./experiments/la-voie-lunaire.md) — une archéologie des boucles Situation → conséquence → nouvelle Situation ;
+- [**Situation, Vecteur et page blanche**](./situation.md) — préparation causale, charge du MJ et soutien à l'inspiration du joueur (*WIP*).
 
 ## Mettre une hypothèse en danger
 
