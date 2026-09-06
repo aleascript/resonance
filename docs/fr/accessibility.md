@@ -48,7 +48,7 @@ Pouvoir continuer à jouer lorsqu'on ne sait pas spontanément quoi inventer.
 
 Une règle comme « improvisez une scène intéressante » est courte mais peut demander une grande expertise implicite. Resonance cherche des dispositifs qui donnent des prises sans décider à la place du participant.
 
-La [**page blanche du joueur et le travail sur Situation**](../situation) constituent les expériences les plus explicites dans cette direction.
+La [**page blanche du joueur et le travail sur Situation**](./situation.md) constituent les expériences les plus explicites dans cette direction.
 
 ### Accès à l'altérité
 
@@ -56,7 +56,7 @@ Pouvoir jouer depuis une position éloignée de ses propres habitudes : autre su
 
 Ici, l'accessibilité ne doit pas signifier assimilation. Réduire une cosmologie étrangère à quelques catégories familières peut rendre le jeu plus facile tout en détruisant précisément la différence que l'on voulait rendre jouable.
 
-Voir [**Accessibilité à l'altérité fictionnelle**](../otherness).
+Voir [**Accessibilité à l'altérité fictionnelle**](./otherness.md).
 
 ## Joueur et MJ : une symétrie
 
