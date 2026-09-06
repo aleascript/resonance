@@ -1,141 +1,90 @@
 ---
 id: otherness
-title: Access to fictional alterity
+title: Access to fictional otherness
 slug: /otherness
-description: Helping a player inhabit a perspective distant from their own without reducing it.
+description: Helping a player inhabit a distant perspective without reducing it.
 ---
 
-# Access to fictional alterity
+# Access to fictional otherness
 
 :::caution[Work in progress]
-This page formulates a new research question from older Resonance and Glorantha Perspectives intuitions. **It is not yet a validated theory of the ability to play alterity.** It needs to be confronted with different players and with work outside the laboratory.
+This page states a research hypothesis that must be confronted with different players and work outside the laboratory. **It is not a validated theory of the ability to play otherness.**
 :::
 
-Part of TTRPG accessibility has little to do with rule count or calculation difficulty.
+Part of TTRPG accessibility concerns the **distance between a player and the fictional position they are asked to inhabit**.
 
-It concerns the **distance between the player and the fictional position they are asked to inhabit**.
+Playing someone close to oneself in a contemporary world may require little translation. Playing someone whose social obligations, conception of the individual, cosmology, or relation to the dead, spirits, territory, or time differs deeply from ours can be difficult even with two rules.
 
-Playing someone close to oneself in a contemporary world may require little translation. Playing someone whose social obligations, conception of the individual, cosmology, or relation to the dead, spirits, territory, or time differs deeply from one's own can be difficult even with two rules.
+The easiest solution is to reduce that distance: “just play yourself with different dressing.” It lowers entry cost but may erase exactly what the game meant to make perceptible.
 
-The easiest solution is then to reduce the distance:
-
-> “Just play yourself with different dressing.”
-
-That solution is accessible, but it may destroy precisely what the game wanted to make perceptible.
-
-## The research question
+## Research question
 
 > **How can a device help a player act from a perspective they could not spontaneously inhabit, without reducing it to familiar categories?**
 
-The problem is not to demand a perfect anthropological performance. A culture or fictional subjectivity can never be reduced to a few rules.
-
-The aim is instead to build **handles** that make genuine displacement possible.
+The aim is not perfect anthropological performance. It is to build **handles** that enable genuine movement.
 
 ## Four possible responses
 
 ### Assimilate
 
-Translate alterity into contemporary or familiar categories.
-
-This often works for rapid entry into play, but the price may be the erasure of the difference being explored.
+Translate otherness into contemporary or familiar categories. Entry is quick, at the risk of erasing difference.
 
 ### Explain
 
-Give the player a large amount of lore, history, cosmology, or context and ask them to internalize it before play.
-
-Complexity is preserved, but the entry cost may become very high.
+Provide extensive lore, history, or cosmology and ask players to internalize it before play. Richness is preserved, but entry cost may become very high.
 
 ### Exoticize
 
-Reduce difference to a few immediately recognizable signs, typical behaviors, or clichés.
+Reduce difference to a few signs, typical behaviors, or clichés that are easy to perform. Otherness becomes immediately playable, at the risk of caricature.
 
-Alterity becomes easy to imitate but risks becoming caricature.
+### Make operative
 
-### Make it operational
+Have the device itself lead the player through distinctions, obligations, consequences, and ways of seeing specific to that perspective. The player can **act first with partial handles**, then build deeper understanding through practice.
 
-Let the device itself bring the player into contact with distinctions, obligations, consequences, and ways of looking that belong to the perspective.
-
-The player does not need to understand everything before beginning. They can **act first with partial handles**, then progressively build deeper understanding through practice.
-
-This fourth path is what Resonance wants to explore.
+This fourth path is what Resonance wants to test.
 
 ## Rules as cognitive aids
 
-A rule can be more than representation or constraint. It can act as a **temporary cognitive prosthesis**.
+A rule can draw attention to something the player would not notice, make an obligation impossible to ignore, give consequences to a cultural or cosmological distinction, maintain incompatible readings, or make choices thinkable before they become intuitive.
 
-It can:
+The aim is not to choose for the player but to increase the **space of thought available** to them.
 
-- draw attention to something the player would not spontaneously notice;
-- make an obligation difficult to ignore;
-- give consequences to a cultural or cosmological distinction;
-- let incompatible readings coexist without selecting one as a neutral translation;
-- provide questions that alter how the player looks at a situation;
-- make certain choices thinkable before they become intuitive.
+## Prisms as an experimental answer
 
-The aim is not to choose for the player, but to increase the **space of thought available** to them.
+In [**Regard**](https://aleascript.github.io/regard/), a **Prism** is a resolution component associated with a particular perspective. When a way of inhabiting the world deserves to affect uncertainty itself, relevant elements attached to that perspective can be processed by a specific procedure before being reintegrated into the resolution. Regard provides a [**Prism workshop**](https://aleascript.github.io/regard/prism-workshop) that exposes this design logic.
 
-## Rereading Prisms
+A Prism is therefore not merely a colorful bonus attached to a belief. In some games it can make a perspective **operative**: the player encounters its consequences through procedure before fully internalizing its logic.
 
-From this perspective, Regard's Prisms can be read differently.
+[**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) is a particularly demanding case. Gloranthan cultures, myths, and cosmologies are not treated as lore alone; different ways of inhabiting the world can change how uncertainty is understood and resolved.
 
-They are not only rules that change with a worldview. They can be understood as an attempt to make a way of inhabiting the world **operational before the player has fully internalized it**.
+This tests a broader question:
 
-Glorantha Perspectives then becomes an experiment on a broader question:
+> **Can players learn to look from within a cosmology by playing its consequences rather than first learning it as a corpus?**
 
-> **Can a player learn to look from within a cosmology by playing its consequences rather than first learning it as a corpus?**
+Prisms are one possible answer, not a required solution for other Resonance experiments.
 
-This removes GP from the position of being Resonance's implicit template: Prisms are **one experimental answer** to a problem that may admit many others.
+## Players who are “unable”?
 
-## Players who are “incapable”?
+Difficulty playing far from oneself can have many causes: preference, lack of references, fear of doing it wrong, low improvisational confidence, difficulty separating “what I would do” from “what this character would do,” difficulty manipulating a counterfactual world, lack of support, or a genuine individual limit for a particular task.
 
-An initial hypothesis might be that some players are incapable of playing anything other than themselves or the contemporary world.
+A more productive experimental question is:
 
-Resonance should resist that formulation as too quick.
-
-An observable difficulty may have many causes:
-
-- personal preference;
-- lack of references;
-- fear of doing it wrong;
-- low confidence in improvisation;
-- difficulty separating “what I would do” from “what this character would do”;
-- difficulty manipulating a counterfactual world;
-- lack of appropriate supports;
-- overly abstract instructions;
-- or a genuine individual limitation for a particular task.
-
-The more fertile experimental question is therefore less:
-
-> “Who can play alterity?”
-
-than:
-
-> **“What distance can a device help this person cross that they would not cross without it?”**
+> **What distance can a device help this person cross that they would not cross without it?**
 
 This turns a category of players into a testable design question.
 
-## An ethical and epistemic risk
+## Ethical and epistemic risk
 
-A device that claims to “teach a culture” can itself become reductive, essentializing, or authoritarian.
+A device that claims to “teach a culture” can easily become reductive, essentialist, or authoritarian. Making a perspective playable does not mean claiming it has one essence captured by rules.
 
-Making a perspective playable does not mean claiming that it has a single essence captured by rules. The designer always chooses a partial view.
-
-We therefore need to distinguish between:
-
-- **opening a shift of perspective**;
-- **imposing a caricature as the truth of a human group**.
-
-This becomes especially important when a game draws on historical or living cultures rather than fictional cosmologies.
+We must distinguish **opening a shift of perspective** from **imposing a caricature as the truth of a human group**, especially when play draws on historical or living cultures.
 
 ## Hypotheses to test
 
 - Can procedures increase the fictional distance a player is willing or able to cross?
-- Are rules, questions, examples, consequences, relations, or material constraints better supports?
-- Does the player actually learn to see differently, or merely learn to reproduce a procedure?
+- Are rules, questions, examples, consequences, relationships, or material constraints better supports?
+- Does the player learn to see differently, or merely reproduce a procedure?
 - When does cognitive support become behavioral prescription?
-- Can incompatible perspectives be made equally playable without supplying a “neutral truth” that arbitrates between them?
-- How can progress be observed without pretending to measure inaccessible interiority?
+- Can incompatible perspectives remain equally playable without a neutral “truth” deciding between them?
 
-The ambition is not to make the player believe they have become somebody else.
-
-> **It is to build a playable passage toward a fictional position that, without the game, would have remained harder to think and inhabit.**
+> **Build a practicable passage toward a fictional position that would otherwise remain harder to think and inhabit.**

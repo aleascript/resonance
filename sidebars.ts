@@ -15,7 +15,18 @@ const sidebars: SidebarsConfig = {
     'otherness',
     'situation',
     'design-axes',
-    'experiments',
+    {
+      type: 'category',
+      label: 'Expérimentations / Experiments',
+      link: {type: 'doc', id: 'experiments'},
+      items: [
+        'experiment-regard',
+        'experiment-glorantha-perspectives',
+        'experiment-scooby-doo',
+        'experiment-unmind',
+        'experiment-la-voie-lunaire',
+      ],
+    },
     'comparisons',
   ],
 };
