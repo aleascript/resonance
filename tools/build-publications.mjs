@@ -2,7 +2,7 @@ import {execFileSync} from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {build} from '@vivliostyle/cli';
+import {build, VFM} from '@vivliostyle/cli';
 import config from '../publications.config.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -254,6 +254,17 @@ function sourceToHtmlPath(sourcePath) {
   return sourcePath.replace(/\.md$/i, '.html');
 }
 
+function firstLevelSectionId(markdown) {
+  const html = VFM({partial: true}).processSync(markdown).toString();
+  const section = html.match(/<section\b[^>]*class="[^"]*\blevel1\b[^"]*"[^>]*>/)?.[0];
+  return section?.match(/\bid="([^"]+)"/)?.[1] ?? null;
+}
+
+function documentTarget(markdown, sourcePath) {
+  const sectionId = firstLevelSectionId(markdown);
+  return `${sourceToHtmlPath(sourcePath)}${sectionId ? `#${sectionId}` : ''}`;
+}
+
 function publicationTree(contents, groups = []) {
   const contentSet = new Set(contents);
   const childrenByParent = new Map();
@@ -292,24 +303,23 @@ function publicationTree(contents, groups = []) {
     }));
 }
 
-function renderTocNodes(nodes, titles, depth = 0) {
+function renderTocNodes(nodes, titles, targets, depth = 0) {
   const indent = '    '.repeat(depth);
   const lines = [];
 
   for (const node of nodes) {
     const title = titles.get(node.sourcePath) ?? path.basename(node.sourcePath, '.md');
-    lines.push(
-      `${indent}1. [${markdownLabel(title)}](${sourceToHtmlPath(node.sourcePath)})`,
-    );
+    const target = targets.get(node.sourcePath) ?? sourceToHtmlPath(node.sourcePath);
+    lines.push(`${indent}1. [${markdownLabel(title)}](${target})`);
     if (node.children.length > 0) {
-      lines.push(...renderTocNodes(node.children, titles, depth + 1));
+      lines.push(...renderTocNodes(node.children, titles, targets, depth + 1));
     }
   }
 
   return lines;
 }
 
-async function writeToc(publicationWorkDir, locale, localeConfig, titles) {
+async function writeToc(publicationWorkDir, locale, localeConfig, titles, targets) {
   const title = localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents');
   const tree = publicationTree(localeConfig.contents, localeConfig.tocGroups);
   const tocPath = path.join(publicationWorkDir, 'publication-toc.md');
@@ -318,7 +328,7 @@ async function writeToc(publicationWorkDir, locale, localeConfig, titles) {
     '',
     '<nav id="toc" role="doc-toc">',
     '',
-    ...renderTocNodes(tree, titles),
+    ...renderTocNodes(tree, titles, targets),
     '',
     '</nav>',
     '',
@@ -524,6 +534,7 @@ async function preparePublication(
   const customAdmonitions = config.markdown?.admonitions ?? [];
   const contentEntries = [];
   const documentTitles = new Map();
+  const documentTargets = new Map();
 
   for (const sourcePath of localeConfig.contents) {
     const sourceAbsolute = path.join(projectRoot, sourcePath);
@@ -537,6 +548,7 @@ async function preparePublication(
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
     contentEntries.push(sourcePath);
     documentTitles.set(sourcePath, documentTitle(withChapterHeading, sourcePath));
+    documentTargets.set(sourcePath, documentTarget(withChapterHeading, sourcePath));
   }
 
   const themeSource = path.join(projectRoot, publication.theme);
@@ -555,7 +567,13 @@ async function preparePublication(
     themeDestination,
     version,
   );
-  const tocEntry = await writeToc(publicationWorkDir, locale, localeConfig, documentTitles);
+  const tocEntry = await writeToc(
+    publicationWorkDir,
+    locale,
+    localeConfig,
+    documentTitles,
+    documentTargets,
+  );
   const entries = [
     ...(cover ? [cover.entry] : []),
     tocEntry,
