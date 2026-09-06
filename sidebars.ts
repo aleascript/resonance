@@ -29,7 +29,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Comparisons',
+      label: 'Comparative cases',
       link: {type: 'doc', id: 'comparisons'},
       items: [
         'comparisons/comparison-origins',
