@@ -1,13 +1,13 @@
 ---
 id: comparisons
-title: Comparisons
+title: Comparative cases
 slug: /comparisons
-description: Games and lineages read as answers to questions close to Resonance's own.
+description: Games and lineages studied as comparative cases against Resonance's questions.
 ---
 
-# Comparisons
+# Comparative cases
 
-Resonance uses other games as **comparison cases**, not as foils or a simple influence list.
+Resonance uses other games as **comparative cases**, not as foils or a simple influence list.
 
 Each subpage asks four questions:
 
