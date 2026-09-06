@@ -44,7 +44,7 @@
     "production": [
       ">0.5%",
       "not dead",
-      "not_op_mini all"
+      "not op_mini all"
     ],
     "development": [
       "last 3 chrome version",
