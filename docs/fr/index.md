@@ -49,13 +49,13 @@ La formule **Game Factory** désigne une hypothèse secondaire : les questions e
 
 ## Parcourir Resonance
 
-Les [**principes de travail**](./principles) formulent les engagements du laboratoire et les [**champs de recherche**](./research-fields) organisent ses questions.
+Les [**principes de travail**](./principles.md) formulent les engagements du laboratoire et les [**champs de recherche**](./research-fields.md) organisent ses questions.
 
 Quatre pages développent le noyau actuel :
 
-- [**Simplicité génératrice, complication et complexité**](./simplicity-complexity) ;
-- [**Accessibilité et distribution de la charge**](./accessibility) ;
-- [**Accessibilité à l'altérité fictionnelle**](./otherness) — *work in progress* ;
-- [**Situation, Vecteur et page blanche**](./situation) — *work in progress*.
+- [**Simplicité génératrice, complication et complexité**](./simplicity-complexity.md) ;
+- [**Accessibilité et distribution de la charge**](./accessibility.md) ;
+- [**Accessibilité à l'altérité fictionnelle**](./otherness.md) — *work in progress* ;
+- [**Situation, Vecteur et page blanche**](./situation.md) — *work in progress*.
 
-Les [**axes de design**](./design-axes) fournissent des outils d'analyse. Les [**expérimentations**](./experiments) documentent ce que le laboratoire construit et apprend. Les [**comparaisons**](./comparisons) confrontent ses questions à des solutions déjà explorées ailleurs.
+Les [**axes de design**](./design-axes.md) fournissent des outils d'analyse. Les [**expérimentations**](./experiments.md) documentent ce que le laboratoire construit et apprend. Les [**comparaisons**](./comparisons.md) confrontent ses questions à des solutions déjà explorées ailleurs.
