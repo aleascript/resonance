@@ -1,11 +1,11 @@
 ---
 id: comparisons
-title: Comparaisons
+title: Cas comparatifs
 slug: /comparisons
-description: Des jeux et lignées lus comme réponses à des questions proches de celles de Resonance.
+description: Des jeux et lignées étudiés comme cas comparatifs face aux questions de Resonance.
 ---
 
-# Comparaisons
+# Cas comparatifs
 
 Resonance utilise d'autres jeux comme **cas comparatifs**, pas comme faire-valoir ni comme simple liste d'influences.
 
