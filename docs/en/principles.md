@@ -66,4 +66,4 @@ Resonance is a laboratory. Regard, Glorantha Perspectives, Scooby-Doo, and Unmin
 
 A useful experiment may confirm an intuition, contradict it, reveal that difficulty was merely displaced, or show that a simplification destroyed a complexity we wanted to preserve.
 
-> **The laboratory must be able to discover that its previous solution was only a habit.**
+> **The laboratory must be able to discover that a solution treated as a principle was only a local convention inherited from an earlier experiment.**
