@@ -6,11 +6,13 @@ slug: /comparisons/questworlds
 
 # HeroQuest / QuestWorlds
 
+**Original rules author:** Robin D. Laws.  
+**Published lineage:** *Hero Wars* (**2000**) → *HeroQuest* (**2003**) → *HeroQuest 2e* (**2009**) → *QuestWorlds SRD* (**2020**).  
+**QuestWorlds lineage development:** Greg Stafford, Ian Cooper, David Dunham, Mark Galeotti, Jeff Richard, Neil Robinson, Roderick Robinson, David Scott, and Lawrence Whitaker.
+
 ## Nearby question
 
 > **How can fictionally rich description remain playable without being translated into a universal skill taxonomy?**
-
-## Solution
 
 *HeroQuest*, then *QuestWorlds*, makes broad use of natural-language **abilities** and **keywords** that can act as umbrella abilities with more specific breakouts beneath them.
 

@@ -6,11 +6,12 @@ slug: /comparisons/alice-is-missing
 
 # Alice is Missing
 
+**Author:** Spenser Starke.  
+**First published:** **2020**.
+
 ## Nearby question
 
 > **What becomes of role-playing when spoken conversation is no longer its primary channel?**
-
-## Solution
 
 *Alice is Missing* is a silent game centered on the disappearance of Alice Briarwood. Participants use their phones to exchange text messages during play.
 

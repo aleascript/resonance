@@ -6,11 +6,12 @@ slug: /comparisons/ribbon-drive
 
 # Ribbon Drive — Avery Alder
 
+**Author:** Avery Alder.  
+**First released:** **2009** · current iteration published in **2011**.
+
 ## Nearby question
 
 > **Can a cultural medium outside the rules text guide fiction without becoming a scenario?**
-
-## Solution
 
 *Ribbon Drive* is a structured freeform game organized around **playlists brought by the players**. Participants play a road trip, share narration of obstacles and scenery, and let music guide the journey and shape the unfolding story.
 

@@ -6,11 +6,12 @@ slug: /comparisons/polaris
 
 # Polaris
 
+**Author:** Ben Lehman.  
+**First published:** **2005**.
+
 ## Nearby question
 
 > **Must resolution be a calculation or roll, or can it reside in the form of conversation itself?**
-
-## Solution
 
 In Ben Lehman's *Polaris: Chivalric Tragedy at Utmost North*, authority is distributed among several roles around a scene's protagonist, including Heart, Mistaken, and Moons. Conflicts are structured through **ritual phrases** that allow acceptance, conditions, escalation, refusal, or concession.
 

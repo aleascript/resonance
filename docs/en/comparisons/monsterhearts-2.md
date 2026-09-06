@@ -6,11 +6,12 @@ slug: /comparisons/monsterhearts-2
 
 # Monsterhearts 2 — Avery Alder
 
+**Author:** Avery Alder.  
+**Second edition published:** **2017** · first edition of *Monsterhearts*: **2012**.
+
 ## Nearby question
 
 > **Must mechanical possibility remain broad in order to preserve fictional complexity?**
-
-## Solution
 
 *Monsterhearts 2* concentrates its moves, Skins, Strings, and Conditions on relationships, desire, vulnerability, social domination, and adolescent transformation. The second edition explicitly **refined and streamlined** procedures to lead more directly back into fiction.
 

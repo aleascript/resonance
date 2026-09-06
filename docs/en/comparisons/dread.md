@@ -6,11 +6,12 @@ slug: /comparisons/dread
 
 # Dread
 
+**Original concept:** Epidiah Ravachol & Nat “woodelf” Barmore.  
+**First published:** **2005**.
+
 ## Nearby question
 
 > **How can tension and accumulating risk become directly perceptible to the player?**
-
-## Solution
 
 *Dread* replaces numerical resolution with a block tower. When an action is risky, pulling a block allows success but makes the tower more fragile for what follows. Refusing the pull accepts failure; collapse produces a catastrophic consequence for the character.
 

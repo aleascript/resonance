@@ -6,11 +6,12 @@ slug: /comparisons/bluebeards-bride
 
 # Bluebeard's Bride
 
+**Authors:** Whitney “Strix” Beltrán, Marissa Kelly & Sarah Richardson.  
+**First published:** **2017**.
+
 ## Nearby question
 
 > **Is “one player = one character = one interiority” necessary?**
-
-## Solution
 
 In *Bluebeard's Bride*, the participants collectively play **the Bride**, one woman composed of several psychic facets. Each player embodies a Sister — Fear, Rage, Shame, Desire, and so on — and participates from that position while exploring the house.
 

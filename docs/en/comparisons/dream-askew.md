@@ -6,11 +6,12 @@ slug: /comparisons/dream-askew
 
 # Dream Askew — Avery Alder
 
+**Author:** Avery Alder.  
+**First published version:** **2014** · revised version published with *Dream Apart* in **2018**.
+
 ## Nearby question
 
 > **What happens to GM burden when both dice and the master are removed without sacrificing relational and community density?**
-
-## Solution
 
 *Dream Askew* uses a **no dice, no masters** system. Players collectively build the enclave, portray characters, and also carry distributed **setting elements**. Characters have moves; **Weak Moves** earn tokens and **Strong Moves** spend them, turning vulnerability into future capacity.
 

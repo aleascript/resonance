@@ -6,11 +6,12 @@ slug: /comparisons/bluebeards-bride
 
 # Bluebeard's Bride
 
+**Autrices :** Whitney “Strix” Beltrán, Marissa Kelly & Sarah Richardson.  
+**Première publication :** **2017**.
+
 ## Question proche
 
 > **L'équivalence “un joueur = un personnage = une intériorité” est-elle nécessaire ?**
-
-## Solution
 
 Dans *Bluebeard's Bride*, les participants jouent ensemble **la Bride**, une seule femme composée de plusieurs facettes psychiques. Chaque joueur incarne une Sister — Fear, Rage, Shame, Desire, etc. — et participe depuis cette position à l'exploration de la maison.
 

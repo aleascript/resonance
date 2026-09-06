@@ -6,6 +6,8 @@ slug: /comparisons/origins
 
 # Braunstein → Blackmoor → D&D 1974
 
+**Repères historiques :** *Braunstein* — David Wesely, **1969** · *Blackmoor* — Dave Arneson, **premières parties en 1971** · *Dungeons & Dragons* — Gary Gygax & Dave Arneson, **1974**.
+
 ## Question proche
 
 > **Qu'est-ce qui constitue l'activité de jeu de rôle, indépendamment des instruments qui l'ont historiquement accompagnée ?**

@@ -6,6 +6,8 @@ slug: /comparisons/origins
 
 # Braunstein → Blackmoor → D&D 1974
 
+**Historical milestones:** *Braunstein* — David Wesely, **1969** · *Blackmoor* — Dave Arneson, **first sessions in 1971** · *Dungeons & Dragons* — Gary Gygax & Dave Arneson, **1974**.
+
 ## Nearby question
 
 > **What constitutes the activity of role-playing independently of the instruments that historically accompanied it?**

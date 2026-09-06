@@ -6,11 +6,12 @@ slug: /comparisons/dread
 
 # Dread
 
+**Conception originale :** Epidiah Ravachol & Nat “woodelf” Barmore.  
+**Première publication :** **2005**.
+
 ## Question proche
 
 > **Comment rendre la tension et l'accumulation du risque directement sensibles au joueur ?**
-
-## Solution
 
 *Dread* remplace la résolution numérique par une tour de blocs. Lorsqu'une action est risquée, retirer un bloc permet de réussir mais fragilise la tour pour la suite. Refuser le tirage accepte l'échec ; l'effondrement produit une conséquence catastrophique pour le personnage.
 

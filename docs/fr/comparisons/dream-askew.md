@@ -6,11 +6,12 @@ slug: /comparisons/dream-askew
 
 # Dream Askew — Avery Alder
 
+**Autrice :** Avery Alder.  
+**Première version publiée :** **2014** · version révisée publiée avec *Dream Apart* en **2018**.
+
 ## Question proche
 
 > **Que devient la charge du MJ lorsqu'on retire à la fois dés et meneur sans vouloir perdre la densité relationnelle et communautaire ?**
-
-## Solution
 
 *Dream Askew* utilise un système **sans dés et sans meneur**. Les joueurs construisent collectivement l'enclave, incarnent leurs personnages et prennent aussi en charge des **setting elements** distribués. Les personnages disposent de moves ; les **Weak Moves** donnent des jetons et les **Strong Moves** en dépensent, transformant la vulnérabilité en ressource future.
 

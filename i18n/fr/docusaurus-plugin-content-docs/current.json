@@ -10,17 +10,5 @@
   "sidebar.docsSidebar.category.Comparisons": {
     "message": "Comparaisons",
     "description": "The label for category Comparisons in sidebar docsSidebar"
-  },
-  "sidebar.docsSidebar.category.Language, resolution & authority": {
-    "message": "Langage, résolution et autorité",
-    "description": "The label for category Language, resolution & authority in sidebar docsSidebar"
-  },
-  "sidebar.docsSidebar.category.Device, materiality & burden": {
-    "message": "Dispositif, matérialité et charge",
-    "description": "The label for category Device, materiality & burden in sidebar docsSidebar"
-  },
-  "sidebar.docsSidebar.category.Avery Alder": {
-    "message": "Avery Alder",
-    "description": "The label for category Avery Alder in sidebar docsSidebar"
   }
 }

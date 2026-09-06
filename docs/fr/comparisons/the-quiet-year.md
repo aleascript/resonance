@@ -6,11 +6,12 @@ slug: /comparisons/the-quiet-year
 
 # The Quiet Year — Avery Alder
 
+**Autrice :** Avery Alder.  
+**Première publication :** **2013**.
+
 ## Question proche
 
 > **Comment rendre accessible la création collective d'une communauté complexe sans demander aux joueurs d'inventer librement une société entière ?**
-
-## Solution
 
 *The Quiet Year* combine une **carte dessinée collectivement**, un deck de 52 cartes correspondant aux semaines de l'année, des projets, ressources et événements, avec une fin connue : l'arrivée des Frost Shepherds.
 

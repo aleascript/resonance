@@ -6,11 +6,12 @@ slug: /comparisons/ten-candles
 
 # Ten Candles
 
+**Auteur :** Stephen Dewey.  
+**Première publication :** **2015**.
+
 ## Question proche
 
 > **Comment faire vivre une tragédie annoncée sans rendre les choix des joueurs insignifiants ?**
-
-## Solution
 
 *Ten Candles* est un jeu de *tragic horror* où la mort finale des personnages est connue. Dix bougies éclairent réellement la partie, servent de compte à rebours et participent à la structure de la session ; des éléments de personnage peuvent être brûlés physiquement.
 

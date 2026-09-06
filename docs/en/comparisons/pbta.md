@@ -6,11 +6,12 @@ slug: /comparisons/pbta
 
 # Apocalypse World / Powered by the Apocalypse
 
+**Design:** D. Vincent Baker for 1e; Meguey Baker joined as co-designer for 2e.  
+**First published:** **2010** · **2e: 2016**.
+
 ## Nearby question
 
 > **How can procedures be designed from what characters actually do and what play should produce rather than from a generic engine?**
-
-## Solution
 
 *Apocalypse World* organizes moves, playbooks, MC principles, threats, and preparation around a specific fictional activity. Vincent Baker also describes **PbtA as an approach to game-system design**, not one engine: 2d6+stat, playbooks, or XP are common conventions, not necessary invariants.
 

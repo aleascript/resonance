@@ -6,11 +6,13 @@ slug: /comparisons/questworlds
 
 # HeroQuest / QuestWorlds
 
+**Auteur des règles originales :** Robin D. Laws.  
+**Lignée publiée :** *Hero Wars* (**2000**) → *HeroQuest* (**2003**) → *HeroQuest 2e* (**2009**) → *QuestWorlds SRD* (**2020**).  
+**Développements de la lignée QuestWorlds :** Greg Stafford, Ian Cooper, David Dunham, Mark Galeotti, Jeff Richard, Neil Robinson, Roderick Robinson, David Scott et Lawrence Whitaker.
+
 ## Question proche
 
 > **Comment garder une description fictionnellement riche sans devoir la traduire dans une taxonomie universelle de compétences ?**
-
-## Solution
 
 *HeroQuest*, puis *QuestWorlds*, utilise largement des **abilities** en langage naturel et des **keywords** pouvant servir de capacités ombrelles dont dérivent des formulations plus spécifiques.
 

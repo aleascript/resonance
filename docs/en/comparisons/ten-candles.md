@@ -6,11 +6,12 @@ slug: /comparisons/ten-candles
 
 # Ten Candles
 
+**Author:** Stephen Dewey.  
+**First published:** **2015**.
+
 ## Nearby question
 
 > **How can a foretold tragedy remain meaningful without making player choices irrelevant?**
-
-## Solution
 
 *Ten Candles* is a tragic-horror game in which the characters' final deaths are known. Ten candles literally light the session, act as a countdown, and structure its progression; character elements can also be physically burned.
 

@@ -6,11 +6,12 @@ slug: /comparisons/pbta
 
 # Apocalypse World / Powered by the Apocalypse
 
+**Conception :** D. Vincent Baker pour la 1re édition ; Meguey Baker rejoint la conception pour la 2e édition.  
+**Première publication :** **2010** · **2e édition : 2016**.
+
 ## Question proche
 
 > **Comment concevoir les procédures depuis ce que les personnages font et ce que le jeu doit produire, plutôt que depuis un moteur générique ?**
-
-## Solution
 
 *Apocalypse World* articule moves, playbooks, principes du MC, menaces et procédures de préparation autour d'une activité fictionnelle précise. Vincent Baker décrit en outre **PbtA comme une approche de conception de systèmes**, pas comme un moteur unique : 2d6+stat, playbooks ou XP sont des conventions fréquentes, pas des invariants nécessaires.
 

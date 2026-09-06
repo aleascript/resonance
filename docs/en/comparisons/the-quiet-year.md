@@ -6,11 +6,12 @@ slug: /comparisons/the-quiet-year
 
 # The Quiet Year — Avery Alder
 
+**Author:** Avery Alder.  
+**First published:** **2013**.
+
 ## Nearby question
 
 > **How can collectively creating a complex community become accessible without asking players to freely invent an entire society?**
-
-## Solution
 
 *The Quiet Year* combines a **collectively drawn map**, a 52-card deck corresponding to the weeks of the year, projects, resources, and events, with a known ending: the arrival of the Frost Shepherds.
 
