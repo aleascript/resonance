@@ -73,7 +73,7 @@ La question expérimentalement plus féconde est donc :
 
 Cette formulation transforme une catégorie de joueurs en une question de design testable.
 
-## Un risque éthique et épistémique
+## Un risque de réduction
 
 Un dispositif qui prétend « enseigner une culture » peut facilement devenir réducteur, essentialiste ou autoritaire. Rendre une perspective jouable ne signifie pas prétendre qu'elle possède une essence unique que les règles auraient capturée.
 
