@@ -9,8 +9,10 @@ const sidebars: SidebarsConfig = {
       href: '/publications/',
     },
     'principles',
+    'research-fields',
     'design-axes',
     'experiments',
+    'comparisons',
   ],
 };
 
