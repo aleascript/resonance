@@ -7,8 +7,8 @@
     "message": "Expérimentations",
     "description": "The label for category Experiments in sidebar docsSidebar"
   },
-  "sidebar.docsSidebar.category.Comparisons": {
-    "message": "Comparaisons",
-    "description": "The label for category Comparisons in sidebar docsSidebar"
+  "sidebar.docsSidebar.category.Comparative cases": {
+    "message": "Cas comparatifs",
+    "description": "The label for category Comparative cases in sidebar docsSidebar"
   }
 }
