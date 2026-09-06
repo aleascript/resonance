@@ -42,6 +42,41 @@ function corpus(locale) {
   ];
 }
 
+function tocGroups(locale) {
+  const doc = (path) => `docs/${locale}/${path}`;
+
+  return [
+    {
+      parent: doc('experiments.md'),
+      children: [
+        doc('experiments/regard.md'),
+        doc('experiments/glorantha-perspectives.md'),
+        doc('experiments/scooby-doo.md'),
+        doc('experiments/unmind.md'),
+        doc('experiments/la-voie-lunaire.md'),
+      ],
+    },
+    {
+      parent: doc('comparisons.md'),
+      children: [
+        doc('comparisons/origins.md'),
+        doc('comparisons/questworlds.md'),
+        doc('comparisons/fate.md'),
+        doc('comparisons/dread.md'),
+        doc('comparisons/polaris.md'),
+        doc('comparisons/ribbon-drive.md'),
+        doc('comparisons/pbta.md'),
+        doc('comparisons/the-quiet-year.md'),
+        doc('comparisons/dream-askew.md'),
+        doc('comparisons/ten-candles.md'),
+        doc('comparisons/bluebeards-bride.md'),
+        doc('comparisons/monsterhearts-2.md'),
+        doc('comparisons/alice-is-missing.md'),
+      ],
+    },
+  ];
+}
+
 export default definePublications({
   release: {
     initialVersion: '0.1.0',
@@ -79,6 +114,7 @@ export default definePublications({
           title: 'Resonance',
           tocTitle: 'Contents',
           contents: corpus('en'),
+          tocGroups: tocGroups('en'),
           completeCorpus: true,
           outputs: ['pdf'],
         },
@@ -86,6 +122,7 @@ export default definePublications({
           title: 'Resonance',
           tocTitle: 'Sommaire',
           contents: corpus('fr'),
+          tocGroups: tocGroups('fr'),
           completeCorpus: true,
           outputs: ['pdf'],
         },
