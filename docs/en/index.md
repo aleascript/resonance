@@ -58,4 +58,4 @@ Four pages develop the current core:
 - [**Access to fictional otherness**](./otherness.md) — *work in progress*;
 - [**Situation, Vector, and the blank page**](./situation.md) — *work in progress*.
 
-The [**design axes**](./design-axes.md) provide analytical tools. [**Experiments**](./experiments.md) document what the laboratory builds and learns. [**Comparisons**](./comparisons.md) confront its questions with solutions already explored elsewhere.
+The [**design axes**](./design-axes.md) provide analytical tools. [**Experiments**](./experiments.md) document what the laboratory builds and learns. [**Comparative cases**](./comparisons.md) confront its questions with solutions already explored elsewhere.
