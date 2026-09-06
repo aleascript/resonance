@@ -66,4 +66,4 @@ Resonance est un laboratoire. Regard, Glorantha Perspectives, Scooby-Doo et Unmi
 
 Une expérience utile peut confirmer une intuition, la contredire, révéler que la difficulté a seulement été déplacée, ou montrer qu'une simplification a détruit une complexité que l'on voulait préserver.
 
-> **Le laboratoire doit pouvoir découvrir que sa solution précédente était une habitude.**
+> **Le laboratoire doit pouvoir découvrir qu'une solution tenue pour un principe n'était qu'une convention locale issue d'une expérience précédente.**
