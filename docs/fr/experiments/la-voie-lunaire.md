@@ -38,7 +38,7 @@ Le solo retire la coordination sociale et le MJ, mais leurs fonctions ne dispara
 
 Cette expérience nourrit directement les recherches sur **Situation** et **Vecteur** : préparer une matière capable de réagir, puis conserver une direction sans écrire une trajectoire.
 
-Voir [**Situation, Vecteur et page blanche**](../situation).
+Voir [**Situation, Vecteur et page blanche**](../../situation).
 
 ## Statut
 
