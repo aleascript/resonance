@@ -58,4 +58,4 @@ Quatre pages développent le noyau actuel :
 - [**Accessibilité à l'altérité fictionnelle**](./otherness.md) — *work in progress* ;
 - [**Situation, Vecteur et page blanche**](./situation.md) — *work in progress*.
 
-Les [**axes de design**](./design-axes.md) fournissent des outils d'analyse. Les [**expérimentations**](./experiments.md) documentent ce que le laboratoire construit et apprend. Les [**comparaisons**](./comparisons.md) confrontent ses questions à des solutions déjà explorées ailleurs.
+Les [**axes de design**](./design-axes.md) fournissent des outils d'analyse. Les [**expérimentations**](./experiments.md) documentent ce que le laboratoire construit et apprend. Les [**cas comparatifs**](./comparisons.md) confrontent ses questions à des solutions déjà explorées ailleurs.
