@@ -18,7 +18,7 @@ This imposes two simultaneous requirements:
 
 The difficulty is satisfying the first without sacrificing the second.
 
-See [**Generative simplicity, complication, and complexity**](../simplicity-complexity).
+See [**Generative simplicity, complication, and complexity**](./simplicity-complexity.md).
 
 ## Laboratory structure
 
@@ -39,7 +39,7 @@ Accessibility is an evaluation criterion across every field. When a device is si
 
 It may have been eliminated, distributed, externalized, pre-structured, localized to the relevant moment, or transferred to another participant.
 
-Three forms of access are especially active: **procedural access**, **generative access**, and **access to otherness**. They are developed in [**Accessibility and burden distribution**](../accessibility) and [**Access to fictional otherness**](../otherness).
+Three forms of access are especially active: **procedural access**, **generative access**, and **access to otherness**. They are developed in [**Accessibility and burden distribution**](./accessibility.md) and [**Access to fictional otherness**](./otherness.md).
 
 The current corpus does not support a general claim about sensory, motor, neurocognitive, linguistic, economic, or social accessibility.
 
@@ -97,10 +97,10 @@ For a GM, “improvise what happens” can hide a huge burden. For a player, “
 
 Work on **Situation**, **Vector**, Forces, Pressures, Promises, and Transformations prepares causal material so that a GM can look for what reacts rather than inventing ex nihilo. Work on the **player's blank page** asks the symmetrical question: when the player has no handle, can fiction provide one from what already exists?
 
-See [**Situation, Vector, and the blank page**](../situation).
+See [**Situation, Vector, and the blank page**](./situation.md).
 
 ## Analytical tools
 
-The [**design axes**](../design-axes) — cognitive, diegetic, perspectivist, and ontological — examine a device from several angles. They are reading instruments, not conditions for belonging to Resonance.
+The [**design axes**](./design-axes.md) — cognitive, diegetic, perspectivist, and ontological — examine a device from several angles. They are reading instruments, not conditions for belonging to Resonance.
 
-The [**experiments**](../experiments) use a common record so hypotheses, observations, and burden shifts can be compared across cases.
+The [**experiments**](./experiments.md) use a common record so hypotheses, observations, and burden shifts can be compared across cases.
