@@ -49,13 +49,13 @@ The phrase **Game Factory** names a secondary hypothesis: can the laboratory's q
 
 ## Explore Resonance
 
-The [**working principles**](./principles) state the laboratory's commitments and the [**research fields**](./research-fields) organize its questions.
+The [**working principles**](./principles.md) state the laboratory's commitments and the [**research fields**](./research-fields.md) organize its questions.
 
 Four pages develop the current core:
 
-- [**Generative simplicity, complication, and complexity**](./simplicity-complexity);
-- [**Accessibility and burden distribution**](./accessibility);
-- [**Access to fictional otherness**](./otherness) — *work in progress*;
-- [**Situation, Vector, and the blank page**](./situation) — *work in progress*.
+- [**Generative simplicity, complication, and complexity**](./simplicity-complexity.md);
+- [**Accessibility and burden distribution**](./accessibility.md);
+- [**Access to fictional otherness**](./otherness.md) — *work in progress*;
+- [**Situation, Vector, and the blank page**](./situation.md) — *work in progress*.
 
-The [**design axes**](./design-axes) provide analytical tools. [**Experiments**](./experiments) document what the laboratory builds and learns. [**Comparisons**](./comparisons) confront its questions with solutions already explored elsewhere.
+The [**design axes**](./design-axes.md) provide analytical tools. [**Experiments**](./experiments.md) document what the laboratory builds and learns. [**Comparisons**](./comparisons.md) confront its questions with solutions already explored elsewhere.
