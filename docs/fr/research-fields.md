@@ -94,7 +94,7 @@ Il étudie notamment :
 
 **Regard** teste la pertinence comme geste de résolution. **Glorantha Perspectives** pousse le perspectivisme vers une question ontologique. **Scooby-Doo** utilise les Prismes pour rendre les tropes opérants. **Unmind** explore au contraire la puissance mécanique de vérités privées dont la vérité objective demeure indécidable.
 
-Les [axes de design](./design-axes) cognitif, diégétique, perspectiviste et ontologique sont les principaux outils d'analyse de ce champ, sans s'y réduire.
+Les [axes de design](../design-axes) cognitif, diégétique, perspectiviste et ontologique sont les principaux outils d'analyse de ce champ, sans s'y réduire.
 
 ## 4. Dispositifs, matérialité et modes de jeu
 
