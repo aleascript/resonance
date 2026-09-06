@@ -48,7 +48,7 @@ Being able to continue playing when one does not spontaneously know what to inve
 
 A rule such as “improvise an interesting scene” is short but may demand major implicit expertise. Resonance looks for devices that provide handles without deciding in the participant's place.
 
-The [**player's blank page and the work on Situation**](../situation) are the clearest experiments in this direction.
+The [**player's blank page and the work on Situation**](./situation.md) are the clearest experiments in this direction.
 
 ### Access to otherness
 
@@ -56,7 +56,7 @@ Being able to play from a position distant from one's own habits: another subjec
 
 Accessibility must not mean assimilation here. Reducing an unfamiliar cosmology to familiar categories may make play easier while destroying the difference the game meant to make playable.
 
-See [**Access to fictional otherness**](../otherness).
+See [**Access to fictional otherness**](./otherness.md).
 
 ## Player and GM: a symmetry
 
