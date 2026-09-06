@@ -225,6 +225,90 @@ function transformRootRelativeImages(markdown, sourcePath) {
     );
 }
 
+function sourceToHtmlPath(sourcePath) {
+  return sourcePath.replace(/\.md$/i, '.html');
+}
+
+function normalizedTocGroups(localeConfig) {
+  const contents = new Set(localeConfig.contents);
+  const childPaths = new Set();
+
+  return (localeConfig.tocGroups ?? []).map((group) => {
+    if (!contents.has(group.parent)) {
+      throw new Error(`Publication TOC parent is not in contents: ${group.parent}`);
+    }
+
+    const children = (group.children ?? []).map((child) => {
+      if (!contents.has(child)) {
+        throw new Error(`Publication TOC child is not in contents: ${child}`);
+      }
+      if (childPaths.has(child)) {
+        throw new Error(`Publication TOC child declared twice: ${child}`);
+      }
+      childPaths.add(child);
+      return sourceToHtmlPath(child);
+    });
+
+    return {
+      parent: sourceToHtmlPath(group.parent),
+      children,
+    };
+  });
+}
+
+function tocConfigSource(locale, localeConfig) {
+  const title = localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents');
+  const groups = normalizedTocGroups(localeConfig);
+
+  return `{
+    title: ${JSON.stringify(title)},
+    sectionDepth: 1,
+    transformDocumentList: (nodeList) => () => {
+      const groups = ${JSON.stringify(groups)};
+      const childHrefs = new Set(groups.flatMap((group) => group.children));
+      const childrenByParent = new Map(
+        groups.map((group) => [group.parent, group.children]),
+      );
+      const byHref = new Map(nodeList.map((node) => [node.href, node]));
+
+      const element = (tagName, properties = {}, children = []) => ({
+        type: 'element',
+        tagName,
+        properties,
+        children,
+      });
+      const text = (value) => ({type: 'text', value: String(value)});
+
+      const renderNode = (href) => {
+        const node = byHref.get(href);
+        if (!node) {
+          return null;
+        }
+
+        const firstH1 = (node.sections || []).find(
+          (section) => section.level === 1 && section.href,
+        );
+        const target = firstH1?.href || node.href;
+        const nested = (childrenByParent.get(href) || [])
+          .map(renderNode)
+          .filter(Boolean);
+
+        return element('li', {}, [
+          element('a', {href: target}, [text(node.title)]),
+          ...(nested.length > 0 ? [element('ol', {}, nested)] : []),
+        ]);
+      };
+
+      const roots = nodeList
+        .filter((node) => !childHrefs.has(node.href))
+        .map((node) => renderNode(node.href))
+        .filter(Boolean);
+
+      return element('ol', {}, roots);
+    },
+  }`;
+}
+
 function assetName(baseName, locale, format) {
   return `${baseName}-${locale}.${format}`;
 }
@@ -403,6 +487,18 @@ async function writeCover(
   };
 }
 
+async function writeVivliostyleConfig(
+  publicationWorkDir,
+  task,
+  locale,
+  localeConfig,
+) {
+  const configPath = path.join(publicationWorkDir, 'vivliostyle.config.cjs');
+  const source = `module.exports = ${JSON.stringify(task, null, 2)};\n\nmodule.exports.toc = ${tocConfigSource(locale, localeConfig)};\n`;
+  await fs.writeFile(configPath, source, 'utf8');
+  return configPath;
+}
+
 async function preparePublication(
   publicationName,
   publication,
@@ -463,10 +559,6 @@ async function preparePublication(
     vfm: {
       rewriteRelativeHrefExtensions: true,
     },
-    toc: {
-      title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'),
-      sectionDepth: 2,
-    },
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
     workspaceDir: '.vivliostyle',
@@ -475,9 +567,7 @@ async function preparePublication(
     },
   };
 
-  const configPath = path.join(publicationWorkDir, 'vivliostyle.config.json');
-  await fs.writeFile(configPath, JSON.stringify(task, null, 2), 'utf8');
-  return configPath;
+  return writeVivliostyleConfig(publicationWorkDir, task, locale, localeConfig);
 }
 
 async function main() {

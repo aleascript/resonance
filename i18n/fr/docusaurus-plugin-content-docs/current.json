@@ -2,5 +2,13 @@
   "version.label": {
     "message": "Actuelle",
     "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Experiments": {
+    "message": "Expérimentations",
+    "description": "The label for category Experiments in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Comparative cases": {
+    "message": "Cas comparatifs",
+    "description": "The label for category Comparative cases in sidebar docsSidebar"
   }
 }

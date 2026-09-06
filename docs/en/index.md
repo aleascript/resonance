@@ -4,23 +4,58 @@ title: Resonance
 slug: /
 sidebar_position: 1
 hide_table_of_contents: true
-description: An experimental game design paradigm and laboratory for tabletop role-playing games.
+description: An R&D laboratory about access to complex fictional experiences.
 ---
 
 ![](/img/site/resonance_proposals_medium.svg)
 
 # Resonance
 
-**Resonance is an experimental game design paradigm and laboratory for tabletop role-playing games.**
+**Resonance is a game design R&D laboratory devoted to one central tension: how can complex fictional experiences be made accessible without reducing them in order to make them playable?**
 
-It does not define one universal rules engine. It is a place for exploring how game design shapes the relation between the people at the table, the procedures they use, the fiction they create, and the worlds they try to inhabit.
+Its proposal rests on a simple distinction: **fictional complexity and complication of practice are not the same thing.** A few principles can generate many relationships, consequences, and transformations. Conversely, a game may demand heavy memorization, preparation, or improvisation without producing richer fiction.
 
-A role-playing game can never remove every layer between players and fiction. Rules, conversation, choices, uncertainty and interpretation are part of play. Resonance asks how those layers can be shaped deliberately—and what kinds of fiction become possible when they are.
+> **Do not simplify the world. Simplify the way into it.**
 
-## A foundation, not a finished doctrine
+Resonance therefore looks for forms of **generative simplicity**: devices practical enough to give players access to fiction whose complexity can exceed that of the rules that generate it.
 
-This site deliberately begins small. Resonance is a working paradigm: its principles are meant to be tested through actual games, frameworks and experiments, then refined when play reveals something new.
+## Where does the burden go?
 
-Two branches already show that the paradigm does not imply a single architecture: [**Regard**](https://aleascript.github.io/regard) is a reusable TTRPG framework developed through Resonance, while [**Unmind**](https://aleascript.github.io/unmind) is a standalone experiment developed directly through Resonance without using Regard.
+Removing a rule does not necessarily remove the work it performed. That work may be transferred to the GM, to player improvisation, genre knowledge, group negotiation, or preparation. It may instead be pre-structured, distributed, externalized into a material device, or localized to the moment when it becomes relevant.
 
-Continue with the [working principles](./principles), explore the [design axes](./design-axes), or see the [current experiments](./experiments).
+One question therefore crosses the whole laboratory:
+
+> **When a design becomes more accessible, what happened to the work that used to be necessary?**
+
+This keeps minimalism from being confused with accessibility.
+
+## Accessibility as access to fiction
+
+Resonance currently studies at least three forms of access:
+
+- **procedural** — understanding and manipulating the game;
+- **generative** — being able to continue playing when inspiration fails;
+- **access to otherness** — acting from a subjectivity, culture, or cosmology distant from one's own without reducing it to familiar categories.
+
+A rule can therefore become a cognitive aid: not to play in the player's place, but to provide handles the player would not spontaneously have found.
+
+## The laboratory
+
+Resonance produces and studies **principles**, **research questions**, **playable experiments**, and **provisional results**. Games are not illustrations of a finished theory: they are used to put it under pressure.
+
+The laboratory has already produced [**Regard**](https://aleascript.github.io/regard), a TTRPG framework with a playable standard configuration; [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) and [**Scooby-Doo**](https://aleascript.github.io/scooby-doo), built with Regard; and [**Unmind**](https://aleascript.github.io/unmind), developed directly through Resonance.
+
+The phrase **Game Factory** names a secondary hypothesis: can the laboratory's questions and methods repeatedly help generate substantially different games without imposing a shared hidden architecture? That hypothesis remains to be tested; it does not define the project.
+
+## Explore Resonance
+
+The [**working principles**](./principles.md) state the laboratory's commitments and the [**research fields**](./research-fields.md) organize its questions.
+
+Four pages develop the current core:
+
+- [**Generative simplicity, complication, and complexity**](./simplicity-complexity.md);
+- [**Accessibility and burden distribution**](./accessibility.md);
+- [**Access to fictional otherness**](./otherness.md) — *work in progress*;
+- [**Situation, Vector, and the blank page**](./situation.md) — *work in progress*.
+
+The [**design axes**](./design-axes.md) provide analytical tools. [**Experiments**](./experiments.md) document what the laboratory builds and learns. [**Comparative cases**](./comparisons.md) confront its questions with solutions already explored elsewhere.
