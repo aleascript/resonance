@@ -17,7 +17,7 @@ const sidebars: SidebarsConfig = {
     'design-axes',
     {
       type: 'category',
-      label: 'Expérimentations / Experiments',
+      label: 'Experiments',
       link: {type: 'doc', id: 'experiments'},
       items: [
         'experiments/experiment-regard',
@@ -29,13 +29,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Comparaisons / Comparisons',
+      label: 'Comparisons',
       link: {type: 'doc', id: 'comparisons'},
       items: [
         'comparisons/comparison-origins',
         {
           type: 'category',
-          label: 'Langage / Language',
+          label: 'Language, resolution & authority',
           items: [
             'comparisons/comparison-questworlds',
             'comparisons/comparison-fate',
@@ -45,7 +45,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Dispositif / Device',
+          label: 'Device, materiality & burden',
           items: [
             'comparisons/comparison-dread',
             'comparisons/comparison-ten-candles',
