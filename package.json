@@ -10,7 +10,7 @@
     "build": "docusaurus build",
     "build:en": "docusaurus build --locale en",
     "build:fr": "docusaurus build --locale fr",
-    "publication:build": "node tools/build-publications.mjs",
+    "publication:build": "node tools/validate-publication-contents.mjs && node tools/build-publications.mjs",
     "publication:site": "node tools/copy-publications-to-site.mjs",
     "release:prepare": "node tools/prepare-release.mjs",
     "check": "npm run typecheck && npm run build",
@@ -44,7 +44,7 @@
     "production": [
       ">0.5%",
       "not dead",
-      "not op_mini all"
+      "not_op_mini all"
     ],
     "development": [
       "last 3 chrome version",
