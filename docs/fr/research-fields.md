@@ -18,7 +18,7 @@ Cette question impose deux exigences simultanées :
 
 La difficulté consiste à ne pas satisfaire la première en sacrifiant la seconde.
 
-Voir [**Simplicité génératrice, complication et complexité**](../simplicity-complexity).
+Voir [**Simplicité génératrice, complication et complexité**](./simplicity-complexity.md).
 
 ## Structure du laboratoire
 
@@ -39,7 +39,7 @@ L'accessibilité sert de critère à tous les champs. Lorsqu'un dispositif est s
 
 Elle peut avoir été éliminée, distribuée, externalisée, pré-structurée, localisée au moment pertinent, ou transférée à un autre participant.
 
-Trois formes d'accès sont particulièrement travaillées : **accès procédural**, **accès génératif** et **accès à l'altérité**. Elles sont détaillées dans [**Accessibilité et distribution de la charge**](../accessibility) et [**Accessibilité à l'altérité fictionnelle**](../otherness).
+Trois formes d'accès sont particulièrement travaillées : **accès procédural**, **accès génératif** et **accès à l'altérité**. Elles sont détaillées dans [**Accessibilité et distribution de la charge**](./accessibility.md) et [**Accessibilité à l'altérité fictionnelle**](./otherness.md).
 
 Le corpus actuel ne suffit pas à revendiquer une couverture générale de l'accessibilité sensorielle, motrice, neurocognitive, linguistique, économique ou sociale.
 
@@ -97,10 +97,10 @@ Côté MJ, « improvise ce qui arrive » peut constituer une charge immense. Cô
 
 La recherche sur **Situation**, **Vecteur**, Forces, Pressions, Promesses et Transformations cherche à préparer une matière suffisamment causale pour que le MJ puisse regarder ce qui réagit plutôt qu'inventer ex nihilo. La recherche sur la **page blanche du joueur** explore la symétrie : lorsque le joueur n'a plus de prise, la fiction peut-elle lui en rendre une à partir de ce qui existe déjà ?
 
-Voir [**Situation, Vecteur et page blanche**](../situation).
+Voir [**Situation, Vecteur et page blanche**](./situation.md).
 
 ## Outils d'analyse
 
-Les [**axes de design**](../design-axes) — cognitif, diégétique, perspectiviste et ontologique — servent à examiner un dispositif sous plusieurs angles. Ils sont des instruments de lecture, pas des conditions d'appartenance à Resonance.
+Les [**axes de design**](./design-axes.md) — cognitif, diégétique, perspectiviste et ontologique — servent à examiner un dispositif sous plusieurs angles. Ils sont des instruments de lecture, pas des conditions d'appartenance à Resonance.
 
-Les [**expérimentations**](../experiments) utilisent une fiche commune pour rendre les hypothèses, observations et déplacements de charge comparables d'un cas à l'autre.
+Les [**expérimentations**](./experiments.md) utilisent une fiche commune pour rendre les hypothèses, observations et déplacements de charge comparables d'un cas à l'autre.
