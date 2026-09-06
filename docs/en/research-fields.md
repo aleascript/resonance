@@ -94,7 +94,7 @@ It investigates, among other things:
 
 **Regard** tests relevance as a resolution gesture. **Glorantha Perspectives** pushes perspectivism toward ontology. **Scooby-Doo** uses Prisms to make tropes operational. **Unmind** explores the opposite edge: private truths can be mechanically powerful while their objective truth remains undecidable.
 
-The cognitive, diegetic, perspectivist, and ontological [design axes](./design-axes) are the main analytical tools used here, but this field is broader than those axes.
+The cognitive, diegetic, perspectivist, and ontological [design axes](../design-axes) are the main analytical tools used here, but this field is broader than those axes.
 
 ## 4. Devices, materiality, and modes of play
 
