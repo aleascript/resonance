@@ -73,7 +73,7 @@ A more productive experimental question is:
 
 This turns a category of players into a testable design question.
 
-## Ethical and epistemic risk
+## A risk of reduction
 
 A device that claims to “teach a culture” can easily become reductive, essentialist, or authoritarian. Making a perspective playable does not mean claiming it has one essence captured by rules.
 
