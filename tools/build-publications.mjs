@@ -209,6 +209,24 @@ function ensureDocumentTitleHeading(markdown) {
   return `${markdown.slice(0, insertionPoint)}\n# ${title}\n${markdown.slice(insertionPoint)}`;
 }
 
+function documentTitle(markdown, sourcePath) {
+  const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (frontmatter) {
+    const titleLine = frontmatter[1]
+      .split(/\r?\n/)
+      .find((line) => /^title\s*:/.test(line));
+    if (titleLine) {
+      const title = decodeFrontmatterScalar(titleLine.replace(/^title\s*:\s*/, ''));
+      if (title) {
+        return title;
+      }
+    }
+  }
+
+  const heading = markdown.match(/^#\s+(.+)$/m)?.[1]?.trim();
+  return heading || path.basename(sourcePath, path.extname(sourcePath));
+}
+
 function transformRootRelativeImages(markdown, sourcePath) {
   const staticPrefix =
     path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
@@ -223,6 +241,95 @@ function transformRootRelativeImages(markdown, sourcePath) {
       /(<img\b[^>]*\bsrc=["'])\/(?!\/)([^"']+)/gi,
       (_match, opening, assetPath) => `${opening}${staticPrefix}/${assetPath}`,
     );
+}
+
+function markdownLabel(value) {
+  return String(value)
+    .replaceAll('\\', '\\\\')
+    .replaceAll('[', '\\[')
+    .replaceAll(']', '\\]');
+}
+
+function sourceToHtmlPath(sourcePath) {
+  return sourcePath.replace(/\.md$/i, '.html');
+}
+
+function publicationTree(contents, groups = []) {
+  const contentSet = new Set(contents);
+  const childrenByParent = new Map();
+  const childPaths = new Set();
+
+  for (const group of groups) {
+    if (!contentSet.has(group.parent)) {
+      throw new Error(`Publication TOC parent is not in contents: ${group.parent}`);
+    }
+    if (childrenByParent.has(group.parent)) {
+      throw new Error(`Publication TOC parent declared twice: ${group.parent}`);
+    }
+
+    const children = [];
+    for (const child of group.children ?? []) {
+      if (!contentSet.has(child)) {
+        throw new Error(`Publication TOC child is not in contents: ${child}`);
+      }
+      if (childPaths.has(child)) {
+        throw new Error(`Publication TOC child declared twice: ${child}`);
+      }
+      childPaths.add(child);
+      children.push(child);
+    }
+    childrenByParent.set(group.parent, children);
+  }
+
+  return contents
+    .filter((sourcePath) => !childPaths.has(sourcePath))
+    .map((sourcePath) => ({
+      sourcePath,
+      children: (childrenByParent.get(sourcePath) ?? []).map((child) => ({
+        sourcePath: child,
+        children: [],
+      })),
+    }));
+}
+
+function renderTocNodes(nodes, titles, depth = 0) {
+  const indent = '    '.repeat(depth);
+  const lines = [];
+
+  for (const node of nodes) {
+    const title = titles.get(node.sourcePath) ?? path.basename(node.sourcePath, '.md');
+    lines.push(
+      `${indent}1. [${markdownLabel(title)}](${sourceToHtmlPath(node.sourcePath)})`,
+    );
+    if (node.children.length > 0) {
+      lines.push(...renderTocNodes(node.children, titles, depth + 1));
+    }
+  }
+
+  return lines;
+}
+
+async function writeToc(publicationWorkDir, locale, localeConfig, titles) {
+  const title = localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents');
+  const tree = publicationTree(localeConfig.contents, localeConfig.tocGroups);
+  const tocPath = path.join(publicationWorkDir, 'publication-toc.md');
+  const body = [
+    `# ${title}`,
+    '',
+    '<nav id="toc" role="doc-toc">',
+    '',
+    ...renderTocNodes(tree, titles),
+    '',
+    '</nav>',
+    '',
+  ].join('\n');
+
+  await fs.writeFile(tocPath, body, 'utf8');
+  return {
+    path: 'publication-toc.md',
+    rel: 'contents',
+    title,
+  };
 }
 
 function assetName(baseName, locale, format) {
@@ -416,6 +523,7 @@ async function preparePublication(
 
   const customAdmonitions = config.markdown?.admonitions ?? [];
   const contentEntries = [];
+  const documentTitles = new Map();
 
   for (const sourcePath of localeConfig.contents) {
     const sourceAbsolute = path.join(projectRoot, sourcePath);
@@ -428,6 +536,7 @@ async function preparePublication(
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
     contentEntries.push(sourcePath);
+    documentTitles.set(sourcePath, documentTitle(withChapterHeading, sourcePath));
   }
 
   const themeSource = path.join(projectRoot, publication.theme);
@@ -446,9 +555,10 @@ async function preparePublication(
     themeDestination,
     version,
   );
+  const tocEntry = await writeToc(publicationWorkDir, locale, localeConfig, documentTitles);
   const entries = [
     ...(cover ? [cover.entry] : []),
-    {rel: 'contents'},
+    tocEntry,
     ...contentEntries,
   ];
 
@@ -462,10 +572,6 @@ async function preparePublication(
     theme: themeDestination,
     vfm: {
       rewriteRelativeHrefExtensions: true,
-    },
-    toc: {
-      title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'),
-      sectionDepth: 2,
     },
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
