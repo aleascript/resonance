@@ -79,7 +79,7 @@ export const site = {
   },
   identity: {
     logo: 'img/site/resonance-mode-maitre-icon-100.png',
-    favicon: 'img/site/resonance-mode-maitre-icon-100.png',
+    favicon: 'img/site/favicon.ico',
   } satisfies SiteIdentity,
   license: {
     label: 'CC BY 4.0',
