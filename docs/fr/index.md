@@ -21,6 +21,8 @@ Et une règle minuscule peut parfois faire apparaître des choses que personne n
 
 **Resonance est un laboratoire de game design consacré à ce genre de problèmes.**
 
+Le nom vient d'une intuition simple : je cherche des formes de jeu où **ce que fait le joueur résonne avec ce que vit le personnage et avec ce que devient la fiction**. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
+
 J'y construis des réponses possibles, je les transforme en jeux ou en dispositifs, puis je regarde ce qu'elles rendent possible et où elles cassent.
 
 > **Ne pas simplifier le monde. Simplifier le moyen d'y entrer.**
@@ -46,6 +48,20 @@ Ce qui semble avoir suffisamment résisté pour être conservé provisoirement :
 Les jeux et travaux rencontrés ailleurs qui déplacent les questions de Resonance, montrent d'autres réponses ou empêchent de revendiquer trop vite comme nouvelle une idée qui ne l'est pas.
 
 Ces quatre entrées ne sont pas les étapes d'une méthode. Une expérience peut faire naître une question ; un apprentissage peut redevenir une hypothèse ; un autre jeu peut obliger à recommencer ailleurs.
+
+Certains mots reviennent aussi parce qu'ils deviennent eux-mêmes des problèmes à travailler.
+
+**Jeu** — qu'est-ce qu'on appelle encore jeu quand on retire certaines de ses formes habituelles ?
+
+**Univers** — contenu de l'imaginaire, ou structure qui transforme la manière d'imaginer ?
+
+**Fiction** — ce qui est établi ensemble ? ce qui est imaginé ? les deux ?
+
+**Imaginaire** — ce par quoi chacun pense et transforme ce qui lui est proposé.
+
+**Joueur** — la personne réelle, avec son attention, son expérience, sa fatigue, ses habitudes.
+
+**Immersion** — peut-être moins une disparition du réel qu'une certaine organisation de l'attention et de la pertinence.
 
 ## Les expériences principales
 
