@@ -6,26 +6,33 @@ function corpus(locale) {
   const doc = (path) => `docs/${locale}/${path}`;
 
   return [
-    // Core
     doc('index.md'),
-    doc('principles.md'),
-    doc('research-fields.md'),
-    doc('simplicity-complexity.md'),
-    doc('accessibility.md'),
-    doc('otherness.md'),
-    doc('situation.md'),
-    doc('design-axes.md'),
 
-    // Internal experiments
-    doc('experiments.md'),
+    // Questioning
+    doc('questions/index.md'),
+    doc('questions/access-without-impoverishing.md'),
+    doc('questions/where-does-work-go.md'),
+    doc('questions/situation.md'),
+    doc('questions/otherness.md'),
+    doc('questions/universe-imagination.md'),
+    doc('questions/roleplaying-borders.md'),
+
+    // Experiments
+    doc('experiments/index.md'),
     doc('experiments/regard.md'),
     doc('experiments/glorantha-perspectives.md'),
     doc('experiments/scooby-doo.md'),
     doc('experiments/unmind.md'),
     doc('experiments/la-voie-lunaire.md'),
 
-    // Comparative corpus, ordered by first publication
-    doc('comparisons.md'),
+    // Learnings
+    doc('learnings/index.md'),
+    doc('learnings/simplicity-complexity.md'),
+    doc('learnings/accessibility.md'),
+    doc('learnings/design-axes.md'),
+
+    // Others
+    doc('comparisons/index.md'),
     doc('comparisons/origins.md'),
     doc('comparisons/questworlds.md'),
     doc('comparisons/fate.md'),
@@ -47,7 +54,18 @@ function tocGroups(locale) {
 
   return [
     {
-      parent: doc('experiments.md'),
+      parent: doc('questions/index.md'),
+      children: [
+        doc('questions/access-without-impoverishing.md'),
+        doc('questions/where-does-work-go.md'),
+        doc('questions/situation.md'),
+        doc('questions/otherness.md'),
+        doc('questions/universe-imagination.md'),
+        doc('questions/roleplaying-borders.md'),
+      ],
+    },
+    {
+      parent: doc('experiments/index.md'),
       children: [
         doc('experiments/regard.md'),
         doc('experiments/glorantha-perspectives.md'),
@@ -57,7 +75,15 @@ function tocGroups(locale) {
       ],
     },
     {
-      parent: doc('comparisons.md'),
+      parent: doc('learnings/index.md'),
+      children: [
+        doc('learnings/simplicity-complexity.md'),
+        doc('learnings/accessibility.md'),
+        doc('learnings/design-axes.md'),
+      ],
+    },
+    {
+      parent: doc('comparisons/index.md'),
       children: [
         doc('comparisons/origins.md'),
         doc('comparisons/questworlds.md'),
