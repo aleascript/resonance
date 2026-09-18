@@ -1,98 +1,44 @@
 ---
 id: research-fields
-title: Ce que je cherche
+title: Questionner
 slug: /research-fields
 description: Les questions qui travaillent actuellement Resonance.
 ---
 
-# Ce que je cherche
+# Questionner
 
-Je ne pars pas d'une définition de Resonance.
+Resonance part de problèmes plus souvent que de définitions.
 
-Je pars de problèmes.
+Certaines questions reviennent depuis longtemps. D'autres viennent d'apparaître. Certaines ont déjà produit plusieurs jeux ; d'autres n'ont encore presque aucune réponse.
 
-Certains reviennent depuis le début. D'autres sont apparus parce qu'un jeu a rendu une ancienne réponse insuffisante. Je les garde ici tant qu'ils continuent à produire quelque chose.
+Elles n'ont pas besoin d'entrer dans des « champs de recherche » séparés.
 
-## Comment rendre une expérience plus accessible sans l'appauvrir ?
+## [Rendre accessible sans appauvrir](./questions/access-without-impoverishing.md)
 
-C'est probablement la question la plus ancienne.
+Comment réduire le ticket d'entrée d'une expérience sans retirer ce qui la rendait intéressante ?
 
-Un jeu peut être difficile parce qu'il demande beaucoup de règles, mais aussi parce qu'il demande énormément d'improvisation, de culture préalable, de préparation ou de confiance en soi.
+## [Où va le travail quand on simplifie ?](./questions/where-does-work-go.md)
 
-À l'inverse, simplifier ce que le monde permet peut rendre le jeu très facile — au prix de ce qui m'intéressait dans ce monde.
+Quand une règle ou une procédure disparaît, sa fonction a-t-elle réellement disparu ou s'est-elle déplacée ailleurs ?
 
-Je cherche donc des formes où **la pratique devient plus simple sans que l'expérience devienne plus pauvre**.
+## [Que faire de la page blanche ?](./situation.md)
 
-C'est de là que vient la distinction encore utile entre [simplicité, complication et complexité](./simplicity-complexity.md).
+Que peut faire le jeu quand le joueur répond « je ne sais pas quoi faire » ? Et comment éviter que le MJ doive constamment inventer la suite à partir de rien ?
 
-## Quand j'enlève du travail, où va-t-il ?
+## [Comment jouer loin de soi ?](./otherness.md)
 
-Une règle supprimée ne disparaît pas toujours.
+Comment agir depuis une culture, une subjectivité ou une cosmologie qu'on ne sait pas spontanément habiter sans la réduire à ses propres catégories ?
 
-Elle peut devenir une décision du MJ. Une fiche plus légère peut demander davantage d'improvisation. Une procédure absente peut devenir une négociation permanente entre les joueurs.
+## [Qu'est-ce qu'un univers fait à l'imaginaire ?](./questions/universe-imagination.md)
 
-Cette question me sert souvent de détecteur :
+Un univers fournit-il seulement des choses à imaginer, ou peut-il transformer la manière même dont une personne imagine ?
 
-> **Quand quelque chose devient plus simple, qui ou quoi fait maintenant le travail ?**
+## [Qu'est-ce qui fait encore jeu de rôle ?](./questions/roleplaying-borders.md)
 
-J'ai commencé à en faire une note plus précise sur [l'accessibilité et la distribution de la charge](./accessibility.md).
+Que découvre-t-on lorsqu'on retire, déplace ou remplace des composants historiques comme le MJ, les dés, le personnage individuel, l'oralité ou le scénario préparé ?
 
-## Comment jouer quand on ne sait pas quoi inventer ?
+Ces questions se recoupent.
 
-« Tu peux faire ce que tu veux. »
+C'est souhaitable.
 
-C'est une promesse magnifique. C'est aussi parfois une page blanche.
-
-Je cherche des dispositifs qui peuvent rendre une prise au joueur ou au MJ **à partir de ce qui existe déjà dans la fiction**, sans décider à leur place.
-
-Le travail sur [Situation, Vecteur et page blanche](./situation.md) vient directement de là.
-
-## Comment penser depuis une position qui n'est pas la mienne ?
-
-Un personnage peut vivre depuis vingt ans dans une culture, une religion ou une cosmologie que son joueur découvre depuis vingt minutes.
-
-Expliquer davantage de lore ne résout pas forcément ce décalage. Réduire cette différence à quelques signes familiers non plus.
-
-Je cherche comment un jeu peut aider quelqu'un à **agir avant de tout comprendre**, puis peut-être comprendre autrement parce qu'il a agi.
-
-C'est le problème actuel de [l'accès à l'altérité](./otherness.md).
-
-## Qu'est-ce qu'un univers fait à l'imaginaire ?
-
-Cette question est plus récente et encore beaucoup moins stabilisée.
-
-Postulat de départ :
-
-> **Chaque joueur possède son imaginaire, qui lui fait penser l'univers. Le jeu crée un espace commun avec d'autres joueurs qui pensent eux aussi cet univers.**
-
-À partir de là, les questions se multiplient.
-
-Qu'est-ce qui est réellement partagé ? L'univers, ou seulement des signes et des conséquences à partir desquels chacun reconstruit quelque chose ?
-
-Quelle place garde le réel — faim, fatigue, travail, irritation, bruit du train — dans cette activité imaginative ? Est-ce là qu'il faut chercher une définition utile de l'immersion ?
-
-Le personnage imaginé « connaît » son monde depuis bien plus longtemps que le joueur. Comment compenser ou exploiter cette différence ?
-
-Et surtout :
-
-> **Un univers fournit-il seulement des choses à imaginer, ou peut-il transformer la manière même dont une personne imagine ?**
-
-Je n'ai pas encore de réponse satisfaisante. C'est précisément pourquoi la question est ici.
-
-## Où commence et où finit le jeu de rôle ?
-
-MJ, dés, feuille, oralité synchrone, campagne : tout cela appartient à l'histoire du JdR. Je ne veux pas en faire automatiquement son essence.
-
-J'utilise donc aussi Resonance pour retirer, déplacer ou remplacer certains composants et regarder ce qu'ils faisaient réellement.
-
-Le solo, l'écrit, l'asynchrone ou les redistributions de l'autorité m'intéressent surtout comme expériences de démontage.
-
-## Ces questions ne sont pas indépendantes
-
-Je résiste maintenant à l'envie de les transformer trop vite en « champs » bien séparés.
-
-La page blanche touche à l'accessibilité. L'altérité touche à l'imaginaire. La distribution de la charge touche au rôle du MJ, aux supports et à la fiction elle-même.
-
-C'est très bien ainsi.
-
-**Si une nouvelle question oblige à refaire la carte, je préfère refaire la carte que protéger la carte.**
+Une question n'est pas une case destinée à contenir une partie de Resonance. C'est un endroit depuis lequel la recherche peut repartir.
