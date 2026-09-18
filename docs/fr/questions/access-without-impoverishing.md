@@ -17,7 +17,7 @@ La question qui revient depuis longtemps dans Resonance est donc :
 
 > **Comment rendre une expérience plus accessible sans réduire la complexité qu'on voulait justement rendre jouable ?**
 
-Cette question a notamment conduit à distinguer [simplicité, complication et complexité](../simplicity-complexity.md), puis à regarder plus précisément [où se déplace la charge](../accessibility.md).
+Cette question a notamment conduit à distinguer [simplicité, complication et complexité](../learnings/simplicity-complexity.md), puis à regarder plus précisément [où se déplace la charge](../learnings/accessibility.md).
 
 Elle traverse aussi plusieurs essais : [Regard](../experiments/regard.md), [Scooby-Doo](../experiments/scooby-doo.md), [Glorantha Perspectives](../experiments/glorantha-perspectives.md) et [Unmind](../experiments/unmind.md) n'essaient pas de rendre accessibles les mêmes choses, ni de la même manière.
 
