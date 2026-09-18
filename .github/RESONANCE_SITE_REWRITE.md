@@ -120,3 +120,46 @@ Les comparaisons historiques et les expérimentations pourront ensuite être rev
 ---
 
 Cette note est un cadre de travail pour la branche. Elle n'est pas destinée à être publiée telle quelle sur le site.
+
+
+## Architecture pilote
+
+La première passe teste maintenant une structure plus simple :
+
+1. **Ce que je cherche**
+2. **Ce que j'essaie**
+3. **Ce que j'apprends**
+4. **Ce que les autres m'apprennent**
+5. **Qui suis-je ?**
+
+Les anciennes pages conceptuelles ne sont pas supprimées. Elles passent provisoirement sous **Notes de travail**.
+
+C'est un choix important : le lecteur rencontre d'abord les questions, les expériences et les apprentissages. La taxonomie vient ensuite, si elle reste utile.
+
+### Le « je »
+
+La version française teste explicitement la première personne.
+
+L'objectif n'est pas de rendre le site autobiographique. Le « je » sert à rendre visible la position depuis laquelle une proposition est faite :
+
+> « Je distingue ceci parce que cela m'aide à concevoir aujourd'hui »
+
+plutôt que :
+
+> « Resonance distingue ceci »
+
+La seconde formulation donne facilement à un outil provisoire l'apparence d'une catégorie objective.
+
+### Statut de cette passe
+
+Cette branche est un **prototype éditorial**.
+
+La version française est volontairement en avance sur la version anglaise. La page `about` existe dans les deux langues pour que la navigation partagée reste valide, mais les grandes pages anglaises n'ont pas encore été migrées vers cette nouvelle voix.
+
+Avant d'étendre la réécriture, il faut relire cette première tranche et répondre notamment à ces questions :
+
+- Est-ce que le « je » sonne juste ou devient-il envahissant ?
+- Est-ce que la nouvelle navigation donne envie d'entrer dans la recherche ?
+- Est-ce que les questions sont plus claires sans être simplifiées ?
+- Quelles formulations restent encore trop écrites « par l'IA » ?
+- Qu'est-ce qui mérite réellement de survivre des anciennes catégories ?
