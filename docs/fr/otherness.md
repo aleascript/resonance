@@ -1,11 +1,11 @@
 ---
 id: otherness
-title: Accessibilité à l'altérité fictionnelle
+title: Comment jouer loin de soi ?
 slug: /otherness
-description: Aider un joueur à habiter une perspective éloignée de lui sans la réduire.
+description: Comment rendre praticable une perspective éloignée sans la réduire à des catégories familières.
 ---
 
-# Accessibilité à l'altérité fictionnelle
+# Comment jouer loin de soi ?
 
 :::caution[Work in progress]
 Cette page formule une hypothèse de recherche qui doit être confrontée à des joueurs différents et à des travaux extérieurs au laboratoire. **Elle ne constitue pas une théorie validée de la capacité à jouer l'altérité.**
