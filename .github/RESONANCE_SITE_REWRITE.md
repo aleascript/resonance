@@ -8,7 +8,7 @@ Le problème n'est pas seulement stylistique. Le site tendait à présenter Reso
 
 ## Direction retenue
 
-La navigation principale s'organise maintenant autour de quatre portes d'entrée :
+La navigation principale s'organise maintenant autour de quatre portes d'entrée, en français comme en anglais :
 
 - **Questionner**
 - **Essayer**
@@ -97,6 +97,19 @@ Il présente :
 Pas de page autonome « Qui suis-je ? » à ce stade.
 
 La collaboration avec l'IA relève du processus de travail interne et n'a pas besoin d'être mise en avant sur le site public.
+
+## Organisation des fichiers
+
+Le dépôt reflète maintenant la navigation :
+
+- `questions/` contient la page d'entrée **Questionner / Questioning** et les questions développées ;
+- `experiments/` contient **Essayer / Trying** et les expériences ;
+- `learnings/` contient **Apprendre / Learning** et les apprentissages ou outils suffisamment éprouvés ;
+- `comparisons/` contient **Les autres / Others** et les cas comparatifs.
+
+Les anciens `id` et `slug` sont conservés lorsque c'est utile afin d'éviter de casser les URLs publiques uniquement pour des raisons de rangement interne.
+
+Les versions française et anglaise ont désormais la même architecture éditoriale. Elles peuvent évoluer ensemble à partir de cette base.
 
 ## Mots et définitions
 
