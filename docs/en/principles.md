@@ -19,7 +19,7 @@ The useful question becomes:
 
 > **Where did the function of what I removed go?**
 
-See [Burden distribution](./accessibility.md).
+See [Burden distribution](./learnings/accessibility.md).
 
 ## Simple does not mean poor
 
@@ -27,7 +27,7 @@ A few relationships can generate many consequences.
 
 A lightweight form is only interesting if it preserves or increases enough generative power for the intended experience.
 
-See [Generative simplicity and complexity](./simplicity-complexity.md).
+See [Generative simplicity and complexity](./learnings/simplicity-complexity.md).
 
 ## Freedom without a handle can become a burden
 
@@ -35,7 +35,7 @@ See [Generative simplicity and complexity](./simplicity-complexity.md).
 
 Fictional freedom and the ability to find an action are not the same thing.
 
-The work on [Situation](./situation.md) looks for handles that do not decide in the player's place.
+The work on [Situation](./questions/situation.md) looks for handles that do not decide in the player's place.
 
 ## Explaining is not always the same as making accessible
 
@@ -65,7 +65,7 @@ Unmind was especially useful because it forced a distinction between what Regard
 
 Some distinctions are useful without becoming principles.
 
-The [**design axes**](./design-axes.md) separate phenomena that are often confused: where player attention goes, what continuity exists between fiction and manipulation, how a perspective becomes operative, and what the mechanics affirm about reality.
+The [**design axes**](./learnings/design-axes.md) separate phenomena that are often confused: where player attention goes, what continuity exists between fiction and manipulation, how a perspective becomes operative, and what the mechanics affirm about reality.
 
 They do not define what a Resonance game must be.
 
