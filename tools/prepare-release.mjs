@@ -26,7 +26,6 @@ function run(command, args) {
 
 run('npm', ['run', 'publication:build']);
 run('npm', ['run', 'build']);
-run('npm', ['run', 'publication:site']);
 
 await fs.writeFile('.release-prepared', `${version}\n`, 'utf8');
 console.log(`Prepared release ${version}.`);
