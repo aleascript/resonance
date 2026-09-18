@@ -1,266 +1,123 @@
 # Réécriture du site Resonance — note de travail
 
-Cette branche sert à revoir le site Resonance en profondeur, en particulier sa **voix**, sa **posture** et la manière dont il expose la recherche.
+Cette branche sert à revoir le site Resonance en profondeur : sa voix, sa posture et surtout la manière dont on entre dans la recherche.
 
-Le problème n'est pas seulement stylistique. Le site tend parfois à présenter Resonance comme un cadre théorique déjà stabilisé, avec un ton académique, abstrait ou trop assuré. Cela ne correspond pas vraiment à la manière dont le projet avance.
+Le problème n'est pas seulement stylistique. Le site tendait à présenter Resonance comme un cadre théorique déjà stabilisé. Or le projet avance autrement : questions, essais, conséquences, révisions.
 
-Resonance est un laboratoire.
+> **La crédibilité doit venir de la précision des questions et des expériences, pas du ton académique.**
 
-Il part de questions, propose des formes possibles, construit des expériences, observe ce qu'elles produisent, puis révise ses propres idées.
+## Direction retenue
 
-## Principe de rédaction
+La navigation principale s'organise maintenant autour de quatre portes d'entrée :
 
-> La crédibilité doit venir de la précision des questions et des expériences, pas du ton académique.
+- **Questionner**
+- **Essayer**
+- **Apprendre**
+- **Les autres**
 
-Le texte devrait donc plus souvent montrer :
+Ce ne sont pas quatre étapes d'une méthode.
 
-1. la question qui résiste ;
-2. l'hypothèse ou la réponse provisoire essayée ;
-3. ce qu'elle permet de construire ou d'observer ;
-4. où elle casse ;
-5. ce que les jeux ont effectivement appris au laboratoire.
+Un essai peut produire une question. Un apprentissage peut redevenir une hypothèse. Un autre jeu peut obliger à reformuler une question. Une question peut rester ouverte longtemps.
 
-## Voix recherchée
+La navigation sert à entrer dans le mouvement de la recherche, pas à définir ce qu'est Resonance.
 
-Favoriser :
+## Questionner
 
-- des phrases directes ;
-- des questions fortes ;
-- des postulats explicitement assumés comme tels ;
-- des exemples concrets ;
-- des expériences mentales ;
-- des conséquences ;
-- des formulations courtes quand elles portent vraiment une idée ;
-- le droit de dire « nous ne savons pas encore ».
+Cette partie rassemble les questions vivantes.
 
-Éviter :
+Une question peut croiser plusieurs autres sujets et évoluer sans devoir changer de « champ de recherche ».
 
-- les introductions académiques qui retardent l'idée ;
-- les longues précautions avant de proposer quelque chose ;
-- l'inflation terminologique ;
-- les abstractions empilées ;
-- les typologies qui n'aident pas à agir ;
-- les références utilisées pour produire une impression de sérieux ;
-- le ton de doctrine lorsqu'il s'agit encore d'une hypothèse.
+Les premières entrées sont :
 
-## Test de voix
+- rendre accessible sans appauvrir ;
+- où va le travail quand on simplifie ? ;
+- que faire de la page blanche ? ;
+- comment jouer loin de soi ? ;
+- qu'est-ce qu'un univers fait à l'imaginaire ? ;
+- qu'est-ce qui fait encore jeu de rôle ?
 
-Une question simple pour chaque paragraphe :
+Les pages restent volontairement courtes lorsqu'une réponse plus développée existe déjà ailleurs.
 
-> Est-ce qu'AleaScript pourrait naturellement dire cette phrase à voix haute en essayant de comprendre le problème ?
+## Essayer
 
-Si non, il faut probablement la réécrire.
+Cette partie rassemble les jeux, frameworks et prototypes utilisés pour mettre des réponses possibles sous pression :
 
-## Rapport aux concepts extérieurs
+- Regard ;
+- Glorantha Perspectives ;
+- Scooby-Doo ;
+- Unmind ;
+- Situation / Vecteur ;
+- La Voie Lunaire et les essais solo.
 
-Les concepts, auteurs et jeux existants peuvent être utiles pour :
+Un essai n'est pas une illustration de théorie. Il doit pouvoir rendre une réponse vulnérable.
 
-- trouver un contre-exemple ;
-- découvrir une expérience comparable ;
-- révéler une dimension oubliée ;
-- apporter un outil de pensée réellement opérant.
+## Apprendre
 
-Ils ne doivent pas servir à :
+Cette partie rassemble ce qui semble avoir suffisamment résisté pour être conservé provisoirement.
 
-- légitimer une intuition ;
-- remplacer une question par un nom ;
-- reconstruire Resonance avec le vocabulaire d'autres traditions ;
-- faire passer une analyse pour la structure objective du phénomène.
+On y trouve notamment :
+
+- simplicité génératrice, complication et complexité ;
+- distribution de la charge ;
+- certains apprentissages sur liberté, page blanche et accès à l'altérité ;
+- les axes cognitif, diégétique, perspectiviste et ontologique.
+
+Les axes sont conservés parce qu'ils permettent de distinguer des phénomènes souvent confondus. Ils ne définissent pas ce qu'un jeu Resonance doit être.
+
+Des pistes plus récentes — comme une possible dimension sotériologique issue de Glorantha Perspectives — restent hors du site tant qu'elles ne sont pas davantage éprouvées.
+
+## Les autres
+
+Cette partie rassemble les jeux et travaux extérieurs qui déplacent les questions de Resonance.
+
+Elle n'est ni une galerie d'influences ni une généalogie.
 
 Question de contrôle :
 
-> Qu'est-ce que cette référence nous permet de faire ou de voir que nous ne pouvions pas faire ou voir avant ?
+> **Qu'est-ce que ce cas change dans la question que nous sommes en train de poser ?**
 
-Si la réponse n'est pas claire, elle n'est probablement pas nécessaire ici.
+## Voix
 
-## Manière de travailler sur cette branche
+La première personne reste disponible lorsqu'elle sert à assumer une hypothèse ou un point de vue.
 
-Ne pas réécrire tout le site d'un seul mouvement.
+Elle ne doit pas devenir la structure du site.
 
-Pour chaque page :
-
-1. identifier l'idée réellement importante ;
-2. repérer ce qui vient de l'expérience et ce qui vient d'une formulation trop théorique ;
-3. raccourcir ce qui peut l'être sans perdre de pensée ;
-4. rendre visibles les questions, hypothèses et limites ;
-5. vérifier que la page dit quelque chose d'opératoire ;
-6. préserver les formulations singulières plutôt que les normaliser.
-
-Une phrase rugueuse mais porteuse peut être préférable à une phrase élégante devenue générique.
-
-Une bonne question peut être préférable à une fausse conclusion.
-
-## Modus vivendi avec l'IA
-
-> AleaScript propose des formes pour penser. L'IA les met sous contrainte.
-
-L'IA doit aider à :
-
-- pousser les conséquences ;
-- chercher les angles morts ;
-- produire des contre-exemples ;
-- distinguer l'intuition originale des ajouts analytiques ;
-- tester où une proposition cesse de fonctionner ;
-- simplifier la rédaction sans simplifier la pensée.
-
-Elle ne doit pas automatiquement transformer les intuitions en théorie académique.
-
-## Première cible
-
-Commencer par les pages qui définissent le projet et sa posture :
-
-- page d'accueil / introduction ;
-- principes ;
-- axes de design ;
-- champs de recherche ;
-- pages qui décrivent la nature de Resonance comme laboratoire.
-
-Les comparaisons historiques et les expérimentations pourront ensuite être revues avec cette voix stabilisée.
-
----
-
-Cette note est un cadre de travail pour la branche. Elle n'est pas destinée à être publiée telle quelle sur le site.
-
-
-## Architecture pilote
-
-La première passe teste maintenant une structure plus simple :
-
-1. **Ce que je cherche**
-2. **Ce que j'essaie**
-3. **Ce que j'apprends**
-4. **Ce que les autres m'apprennent**
-5. **Qui suis-je ?**
-
-Les anciennes pages conceptuelles ne sont pas supprimées. Elles passent provisoirement sous **Notes de travail**.
-
-C'est un choix important : le lecteur rencontre d'abord les questions, les expériences et les apprentissages. La taxonomie vient ensuite, si elle reste utile.
-
-### Le « je »
-
-La version française teste explicitement la première personne.
-
-L'objectif n'est pas de rendre le site autobiographique. Le « je » sert à rendre visible la position depuis laquelle une proposition est faite :
-
-> « Je distingue ceci parce que cela m'aide à concevoir aujourd'hui »
-
-plutôt que :
-
-> « Resonance distingue ceci »
-
-La seconde formulation donne facilement à un outil provisoire l'apparence d'une catégorie objective.
-
-### Statut de cette passe
-
-Cette branche est un **prototype éditorial**.
-
-La version française est volontairement en avance sur la version anglaise. La page `about` existe dans les deux langues pour que la navigation partagée reste valide, mais les grandes pages anglaises n'ont pas encore été migrées vers cette nouvelle voix.
-
-Avant d'étendre la réécriture, il faut relire cette première tranche et répondre notamment à ces questions :
-
-- Est-ce que le « je » sonne juste ou devient-il envahissant ?
-- Est-ce que la nouvelle navigation donne envie d'entrer dans la recherche ?
-- Est-ce que les questions sont plus claires sans être simplifiées ?
-- Quelles formulations restent encore trop écrites « par l'IA » ?
-- Qu'est-ce qui mérite réellement de survivre des anciennes catégories ?
-
-
-## Plan de réorganisation — direction suivante
-
-La première passe en « Ce que je… » a été utile comme prototype, mais elle pousse trop loin la première personne et recentre inutilement la navigation sur l'auteur.
-
-La direction suivante est plus simple :
-
-### Questionner
-
-Les questions vivantes du projet.
-
-Pas de « champs de recherche » à protéger. Une question peut en croiser plusieurs autres, changer de formulation, disparaître ou revenir.
-
-Cette entrée doit pouvoir accueillir une intuition neuve sans commencer par décider dans quelle catégorie théorique elle appartient.
-
-### Essayer
-
-Les jeux, frameworks, prototypes, scénarios et procédures construits pour mettre une réponse possible à l'épreuve.
-
-Le risque à éviter : devenir un portfolio de productions.
-
-Chaque essai doit rester relié à ce qui l'a déclenché, à ce qu'il a effectivement produit et à ce qu'il a déplacé.
-
-### Apprendre
-
-Ce qui paraît avoir suffisamment résisté pour être conservé provisoirement.
-
-Cela remplace l'idée de « principes » trop facilement reçus comme une doctrine.
-
-Cette partie peut contenir plusieurs natures d'apprentissage :
-- des observations robustes ;
-- des distinctions utiles ;
-- des outils de pensée ;
-- les **axes de design**.
-
-Les axes sont à préserver : leur intérêt n'est pas de classer Resonance, mais de mettre des mots sur des phénomènes proches et pourtant différents.
-
-Axes actuels :
-- cognitif ;
-- diégétique ;
-- perspectiviste ;
-- ontologique.
-
-Un **axe sotériologique** est désormais un candidat sérieux, notamment à partir de Glorantha Perspectives : certaines mécaniques ne portent pas seulement une ontologie (« qu'est-ce que le réel ? »), mais une voie de libération ou de dépassement de la condition ordinaire (« comment sortir de la manière ordinaire d'habiter ce réel ? »).
-
-Le cas de la Pensée draconique et de l'Illumination montre déjà que cet axe ne se confond pas avec l'ontologique. Il doit toutefois rester une hypothèse à formuler et tester avant intégration.
-
-### Les autres
-
-Les jeux, auteurs et travaux qui déplacent les questions de Resonance.
-
-Cette entrée n'est pas une quatrième étape du processus ni une galerie d'influences.
-
-Elle sert à sortir du laboratoire : voir ce qui a déjà été essayé, trouver des contre-exemples, découvrir une autre réponse, ou constater qu'une intuition supposée originale ne l'est pas.
-
-Le critère de présence reste opératoire : **qu'est-ce que ce cas change dans une question de Resonance ?**
-
-## Une navigation, pas une méthode
-
-Ces quatre entrées ne décrivent pas un pipeline.
-
-Il ne faut surtout pas raconter :
-
-> Questionner → Essayer → Apprendre → Les autres
-
-comme une méthode linéaire.
-
-Dans la pratique :
-- un essai fait naître une nouvelle question ;
-- un apprentissage peut être remis en cause par un essai ;
-- un autre jeu peut reformuler une question ;
-- une question peut rester longtemps sans essai ;
-- un axe peut apparaître parce qu'il devient nécessaire de distinguer deux phénomènes jusque-là confondus.
-
-La navigation doit permettre d'entrer dans ce mouvement, pas le normaliser.
+Le prototype précédent en « Ce que je cherche / essaie / apprends » a été abandonné parce qu'il recentrait inutilement la navigation sur l'auteur.
 
 ## Accueil
 
 L'accueil doit rester court.
 
-Il doit :
-- dire ce qu'est Resonance ;
-- donner quelques problèmes concrets qui donnent envie d'entrer ;
-- expliquer en quelques lignes qui est AleaScript et depuis quelle position le site est écrit ;
-- présenter les quatre portes d'entrée ;
-- montrer les jeux comme expériences, sans reconstruire toute la théorie.
+Il présente :
+- quelques problèmes concrets ;
+- les quatre portes d'entrée ;
+- les expériences principales ;
+- quelques lignes sur AleaScript et la position depuis laquelle le site est écrit.
 
-Pas de page « Qui suis-je ? » nécessaire à ce stade.
+Pas de page autonome « Qui suis-je ? » à ce stade.
 
-La collaboration avec l'IA relève du processus de travail interne ; elle n'a pas besoin d'être mise en avant sur le site public.
+La collaboration avec l'IA relève du processus de travail interne et n'a pas besoin d'être mise en avant sur le site public.
 
-## Notes et archives
+## Mots et définitions
 
-Les pages conceptuelles existantes ne doivent pas être forcées immédiatement dans la nouvelle structure.
+Une intuition existe autour de termes comme **jeu**, **imaginaire**, **fiction**, **univers**, **joueur**, **immersion**.
 
-Certaines peuvent devenir des apprentissages.
-D'autres peuvent rester des notes.
-Certaines pourront fusionner, être raccourcies ou disparaître.
+L'idée n'est pas assez mûre pour devenir une rubrique nommée « lexique » ou « mots en travail ».
 
-L'architecture doit rester assez légère pour que le coût d'une future réorganisation soit faible.
+Elle reste à garder en tête : certains mots pourront apparaître directement sur l'accueil ou ailleurs lorsque leur usage devient suffisamment opérant.
+
+## Test de voix
+
+Pour chaque paragraphe :
+
+> **Est-ce qu'AleaScript pourrait naturellement dire cette phrase à voix haute en essayant de comprendre le problème ?**
+
+Si non, il faut probablement la réécrire.
+
+Une phrase rugueuse mais porteuse peut être préférable à une phrase élégante devenue générique.
+
+Une bonne question peut être préférable à une fausse conclusion.
+
+---
+
+Cette note est un cadre de travail pour la branche. Elle n'est pas destinée à être publiée telle quelle sur le site.
