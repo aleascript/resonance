@@ -163,3 +163,104 @@ Avant d'étendre la réécriture, il faut relire cette première tranche et rép
 - Est-ce que les questions sont plus claires sans être simplifiées ?
 - Quelles formulations restent encore trop écrites « par l'IA » ?
 - Qu'est-ce qui mérite réellement de survivre des anciennes catégories ?
+
+
+## Plan de réorganisation — direction suivante
+
+La première passe en « Ce que je… » a été utile comme prototype, mais elle pousse trop loin la première personne et recentre inutilement la navigation sur l'auteur.
+
+La direction suivante est plus simple :
+
+### Questionner
+
+Les questions vivantes du projet.
+
+Pas de « champs de recherche » à protéger. Une question peut en croiser plusieurs autres, changer de formulation, disparaître ou revenir.
+
+Cette entrée doit pouvoir accueillir une intuition neuve sans commencer par décider dans quelle catégorie théorique elle appartient.
+
+### Essayer
+
+Les jeux, frameworks, prototypes, scénarios et procédures construits pour mettre une réponse possible à l'épreuve.
+
+Le risque à éviter : devenir un portfolio de productions.
+
+Chaque essai doit rester relié à ce qui l'a déclenché, à ce qu'il a effectivement produit et à ce qu'il a déplacé.
+
+### Apprendre
+
+Ce qui paraît avoir suffisamment résisté pour être conservé provisoirement.
+
+Cela remplace l'idée de « principes » trop facilement reçus comme une doctrine.
+
+Cette partie peut contenir plusieurs natures d'apprentissage :
+- des observations robustes ;
+- des distinctions utiles ;
+- des outils de pensée ;
+- les **axes de design**.
+
+Les axes sont à préserver : leur intérêt n'est pas de classer Resonance, mais de mettre des mots sur des phénomènes proches et pourtant différents.
+
+Axes actuels :
+- cognitif ;
+- diégétique ;
+- perspectiviste ;
+- ontologique.
+
+Un **axe sotériologique** est désormais un candidat sérieux, notamment à partir de Glorantha Perspectives : certaines mécaniques ne portent pas seulement une ontologie (« qu'est-ce que le réel ? »), mais une voie de libération ou de dépassement de la condition ordinaire (« comment sortir de la manière ordinaire d'habiter ce réel ? »).
+
+Le cas de la Pensée draconique et de l'Illumination montre déjà que cet axe ne se confond pas avec l'ontologique. Il doit toutefois rester une hypothèse à formuler et tester avant intégration.
+
+### Les autres
+
+Les jeux, auteurs et travaux qui déplacent les questions de Resonance.
+
+Cette entrée n'est pas une quatrième étape du processus ni une galerie d'influences.
+
+Elle sert à sortir du laboratoire : voir ce qui a déjà été essayé, trouver des contre-exemples, découvrir une autre réponse, ou constater qu'une intuition supposée originale ne l'est pas.
+
+Le critère de présence reste opératoire : **qu'est-ce que ce cas change dans une question de Resonance ?**
+
+## Une navigation, pas une méthode
+
+Ces quatre entrées ne décrivent pas un pipeline.
+
+Il ne faut surtout pas raconter :
+
+> Questionner → Essayer → Apprendre → Les autres
+
+comme une méthode linéaire.
+
+Dans la pratique :
+- un essai fait naître une nouvelle question ;
+- un apprentissage peut être remis en cause par un essai ;
+- un autre jeu peut reformuler une question ;
+- une question peut rester longtemps sans essai ;
+- un axe peut apparaître parce qu'il devient nécessaire de distinguer deux phénomènes jusque-là confondus.
+
+La navigation doit permettre d'entrer dans ce mouvement, pas le normaliser.
+
+## Accueil
+
+L'accueil doit rester court.
+
+Il doit :
+- dire ce qu'est Resonance ;
+- donner quelques problèmes concrets qui donnent envie d'entrer ;
+- expliquer en quelques lignes qui est AleaScript et depuis quelle position le site est écrit ;
+- présenter les quatre portes d'entrée ;
+- montrer les jeux comme expériences, sans reconstruire toute la théorie.
+
+Pas de page « Qui suis-je ? » nécessaire à ce stade.
+
+La collaboration avec l'IA relève du processus de travail interne ; elle n'a pas besoin d'être mise en avant sur le site public.
+
+## Notes et archives
+
+Les pages conceptuelles existantes ne doivent pas être forcées immédiatement dans la nouvelle structure.
+
+Certaines peuvent devenir des apprentissages.
+D'autres peuvent rester des notes.
+Certaines pourront fusionner, être raccourcies ou disparaître.
+
+L'architecture doit rester assez légère pour que le coût d'une future réorganisation soit faible.
