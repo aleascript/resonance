@@ -23,9 +23,9 @@ than:
 
 > **When something becomes easier here, who or what is now doing the work?**
 
-This question produced a first [map of burden distribution](../accessibility.md).
+This question produced a first [map of burden distribution](../learnings/accessibility.md).
 
-It also returns in [Situation and the blank page](../situation.md), where a very short procedure such as “improvise what happens” can hide a major demand, and in [Regard](../experiments/regard.md), where part of the complexity is moved toward judgments of relevance.
+It also returns in [Situation and the blank page](./situation.md), where a very short procedure such as “improvise what happens” can hide a major demand, and in [Regard](../experiments/regard.md), where part of the complexity is moved toward judgments of relevance.
 
 I do not assume all burden should disappear.
 
