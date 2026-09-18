@@ -1,11 +1,11 @@
 ---
 id: research-fields
-title: Question
+title: Questioning
 slug: /research-fields
 description: The questions currently working on Resonance.
 ---
 
-# Question
+# Questioning
 
 Resonance starts from problems more often than from definitions.
 
