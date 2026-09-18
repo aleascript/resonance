@@ -38,7 +38,7 @@ Solo play removes social coordination and the GM, but their functions do not dis
 
 This experiment directly feeds work on **Situation** and **Vector**: prepare matter capable of reacting, then preserve direction without writing a trajectory.
 
-See [**Situation, Vector, and the blank page**](../situation.md).
+See [**Situation, Vector, and the blank page**](../questions/situation.md).
 
 ## Status
 
