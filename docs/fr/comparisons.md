@@ -1,39 +1,49 @@
 ---
 id: comparisons
-title: Cas comparatifs
+title: Ce que les autres m'apprennent
 slug: /comparisons
-description: Des jeux et lignées étudiés comme cas comparatifs face aux questions de Resonance.
+description: Les jeux et travaux qui déplacent, précisent ou contredisent mes propres questions.
 ---
 
-# Cas comparatifs
+# Ce que les autres m'apprennent
 
-Resonance utilise d'autres jeux comme **cas comparatifs**, pas comme faire-valoir ni comme simple liste d'influences.
+Je ne regarde pas les autres jeux pour construire une généalogie prestigieuse de Resonance.
 
-Chaque sous-page pose quatre questions :
+Je les regarde parce qu'ils ont souvent rencontré avant moi une question que je suis en train de poser — parfois avec une réponse bien meilleure que celle que j'avais imaginée.
 
-1. **quelle question proche le jeu rencontre-t-il ?**
-2. **quelle solution concrète choisit-il ?**
-3. **qu'est-ce que cette solution rend possible, et quelle charge déplace-t-elle ?**
-4. **qu'est-ce que ce cas apprend ou laisse ouvert pour Resonance ?**
+Ils peuvent aussi m'apprendre que ma question est trop vague, que je revendique comme neuf quelque chose qui ne l'est pas, ou qu'une solution que j'écarte trop vite ouvre en réalité une autre voie.
 
-Une ressemblance n'implique pas une filiation, et une filiation n'implique pas un même objectif.
+Pour chaque cas, j'essaie surtout de demander :
 
-## Chronologie
+1. **Quelle question ce jeu rencontre-t-il que je rencontre aussi ?**
+2. **Qu'a-t-il essayé concrètement ?**
+3. **Qu'est-ce que cette réponse rend possible, et qu'est-ce qu'elle déplace ?**
+4. **Qu'est-ce que cela change dans ma propre question ?**
 
-Les cas sont classés par **date de première publication du jeu ou de la lignée représentée**. Lorsqu'une page traverse plusieurs éditions, les principaux jalons sont indiqués.
+Une ressemblance n'implique pas une filiation. Une différence ne signifie pas que l'un des deux a tort.
 
-- **1969–1974** — [**Braunstein → Blackmoor → D&D 1974**](./comparisons/origins.md) — David Wesely ; Dave Arneson ; Gary Gygax & Dave Arneson — émergence du role-playing comme activité et distinction entre geste fondateur et conventions historiques.
-- **2000–2020** — [**HeroQuest / QuestWorlds**](./comparisons/questworlds.md) — Robin D. Laws et développements successifs — langage naturel comme interface sémantique compacte.
-- **2003 / 2013** — [**Fate / Fate Core**](./comparisons/fate.md) — Rob Donoghue & Fred Hicks ; équipe Fate Core — affirmations fictionnelles vraies, permissions et économie mécanique.
-- **2005** — [**Dread**](./comparisons/dread.md) — Epidiah Ravachol & Nat “woodelf” Barmore — risque rendu physiquement sensible par la tour.
-- **2005** — [**Polaris**](./comparisons/polaris.md) — Ben Lehman — syntaxe de conversation et autorité distribuée comme mécanique.
-- **2009 / 2011** — [**Ribbon Drive**](./comparisons/ribbon-drive.md) — Avery Alder — playlists et musique comme dispositif générateur.
-- **2010** — [**Apocalypse World / PbtA**](./comparisons/pbta.md) — D. Vincent Baker ; Meguey Baker rejoint la conception de la 2e édition — procédures conçues depuis l'activité fictionnelle et contre-test majeur pour la spécificité de Resonance.
-- **2013** — [**The Quiet Year**](./comparisons/the-quiet-year.md) — Avery Alder — carte, deck et temporalité comme générateurs de complexité communautaire.
-- **2014 / 2018** — [**Dream Askew**](./comparisons/dream-askew.md) — Avery Alder — autorité distribuée, setting elements et économie de vulnérabilité.
-- **2015** — [**Ten Candles**](./comparisons/ten-candles.md) — Stephen Dewey — lumière, temps et destruction comme structure irréversible.
-- **2017** — [**Bluebeard's Bride**](./comparisons/bluebeards-bride.md) — Whitney “Strix” Beltrán, Marissa Kelly & Sarah Richardson — une identité fictionnelle distribuée entre plusieurs joueurs.
-- **2017** — [**Monsterhearts 2**](./comparisons/monsterhearts-2.md) — Avery Alder — contrainte mécanique et densité relationnelle.
-- **2020** — [**Alice is Missing**](./comparisons/alice-is-missing.md) — Spenser Starke — silence, téléphones et texte comme médium premier.
+## Les cas déjà étudiés
 
-Ces jeux sont intéressants précisément parce qu'ils empêchent Resonance de revendiquer comme nouveauté des propositions trop générales telles que « les règles doivent servir l'expérience » ou « un dispositif léger peut produire une fiction riche ». Le travail du laboratoire doit donc rester plus précis : **comprendre comment la charge est distribuée et comment une forme praticable donne accès à une complexité qui peut la dépasser.**
+Je garde ici une chronologie surtout pour retrouver facilement les jeux, pas pour raconter une marche du progrès.
+
+- **1969–1974** — [**Braunstein → Blackmoor → D&D 1974**](./comparisons/origins.md) — qu'est-ce qui appartient au geste du role-playing, et qu'est-ce qui appartient seulement à son histoire ?
+- **2000–2020** — [**HeroQuest / QuestWorlds**](./comparisons/questworlds.md) — jusqu'où le langage naturel peut-il servir directement d'interface de jeu ?
+- **2003 / 2013** — [**Fate / Fate Core**](./comparisons/fate.md) — comment une affirmation fictionnelle devient-elle permission et ressource ?
+- **2005** — [**Dread**](./comparisons/dread.md) — que change le fait de rendre le risque physiquement sensible ?
+- **2005** — [**Polaris**](./comparisons/polaris.md) — que peut une syntaxe de conversation lorsqu'elle devient la mécanique ?
+- **2009 / 2011** — [**Ribbon Drive**](./comparisons/ribbon-drive.md) — que peut produire un support qui n'est pas habituellement considéré comme une règle ?
+- **2010** — [**Apocalypse World / PbtA**](./comparisons/pbta.md) — contre-exemple majeur à toute prétention naïve de « partir de la fiction pour créer le système ».
+- **2013** — [**The Quiet Year**](./comparisons/the-quiet-year.md) — carte, deck et temps comme générateurs de communauté.
+- **2014 / 2018** — [**Dream Askew**](./comparisons/dream-askew.md) — distribution de l'autorité et éléments de monde comme prises.
+- **2015** — [**Ten Candles**](./comparisons/ten-candles.md) — lumière, temps et destruction comme structure irréversible.
+- **2017** — [**Bluebeard's Bride**](./comparisons/bluebeards-bride.md) — une identité fictionnelle distribuée entre plusieurs joueurs.
+- **2017** — [**Monsterhearts 2**](./comparisons/monsterhearts-2.md) — contrainte et densité relationnelle.
+- **2020** — [**Alice is Missing**](./comparisons/alice-is-missing.md) — silence, téléphone et texte comme médium premier.
+
+Cette partie du site peut rester plus analytique que le reste.
+
+C'est sa fonction.
+
+Mais même ici, je veux garder une règle simple :
+
+> **Une référence n'est utile que si elle change quelque chose à la question que je suis en train de poser.**
