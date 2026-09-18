@@ -17,7 +17,7 @@ Je fais des jeux de rôle pour comprendre des choses qui me résistent.
 
 Je construis des jeux, des frameworks, des scénarios et parfois de simples procédures. Je regarde ce qu'ils rendent possible, ce qu'ils déplacent, ce qu'ils cassent. Puis je recommence.
 
-Le nom vient d'une intuition simple : je cherche des formes de jeu où **ce que fait le joueur résonne avec ce que vit le personnage et avec ce que devient la fiction**. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
+Le nom vient d'une intuition simple : **Resonance cherche une continuité de sens entre ce que fait le joueur, ce que vit le personnage et ce que devient la fiction.** Les termes, les gestes, les objets et les opérations manipulés à la table devraient autant que possible prolonger mentalement l'expérience fictionnelle plutôt que l'interrompre par une abstraction sans rapport ; leur rythme devrait lui aussi résonner avec celui de la fiction et de l'expérience recherchée. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
 
 Ce site n'est pas l'exposé d'une théorie achevée. C'est la trace organisée d'une recherche en cours.
 
