@@ -1,11 +1,11 @@
 ---
 id: experiments
-title: Try
+title: Trying
 slug: /experiments
 description: Games, prototypes, and procedures that put Resonance's questions to the test.
 ---
 
-# Try
+# Trying
 
 An idea becomes much more interesting when something has to be built with it.
 
