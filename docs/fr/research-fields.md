@@ -1,106 +1,98 @@
 ---
 id: research-fields
-title: Champs de recherche
+title: Ce que je cherche
 slug: /research-fields
-description: Les questions de recherche issues du problème central de Resonance.
+description: Les questions qui travaillent actuellement Resonance.
 ---
 
-# Champs de recherche
+# Ce que je cherche
 
-## Problème central
+Je ne pars pas d'une définition de Resonance.
 
-> **Comment des dispositifs de jeu simples et générateurs peuvent-ils rendre accessibles des expériences fictionnelles complexes sans les réduire pour les rendre praticables ?**
+Je pars de problèmes.
 
-Cette question impose deux exigences simultanées :
+Certains reviennent depuis le début. D'autres sont apparus parce qu'un jeu a rendu une ancienne réponse insuffisante. Je les garde ici tant qu'ils continuent à produire quelque chose.
 
-1. **réduire la complication de la pratique** — apprentissage, mémorisation, préparation, consultation, improvisation ex nihilo, coordination, peur de mal faire ;
-2. **préserver ou augmenter la puissance de complexification fictionnelle** — relations, causalités, conséquences, ambiguïtés, perspectives, transformations et émergence.
+## Comment rendre une expérience plus accessible sans l'appauvrir ?
 
-La difficulté consiste à ne pas satisfaire la première en sacrifiant la seconde.
+C'est probablement la question la plus ancienne.
 
-Voir [**Simplicité génératrice, complication et complexité**](./simplicity-complexity.md).
+Un jeu peut être difficile parce qu'il demande beaucoup de règles, mais aussi parce qu'il demande énormément d'improvisation, de culture préalable, de préparation ou de confiance en soi.
 
-## Structure du laboratoire
+À l'inverse, simplifier ce que le monde permet peut rendre le jeu très facile — au prix de ce qui m'intéressait dans ce monde.
 
-Resonance distingue quatre niveaux :
+Je cherche donc des formes où **la pratique devient plus simple sans que l'expérience devienne plus pauvre**.
 
-- un **champ de recherche** rassemble une famille de questions ;
-- un **axe de design** sert à analyser ce qu'un dispositif demande aux participants ou affirme sur la fiction ;
-- une **expérimentation** est une note, un prototype, un scénario, une procédure, un framework ou un jeu construit pour mettre une hypothèse sous pression ;
-- un **résultat** est ce que l'expérience permet de conserver provisoirement : principe, outil, distinction, dispositif, framework, jeu, limite ou nouvelle question.
+C'est de là que vient la distinction encore utile entre [simplicité, complication et complexité](./simplicity-complexity.md).
 
-Un même objet peut occuper plusieurs niveaux. Regard est un résultat jouable et un terrain expérimental. Une note WIP peut devenir un principe, être reformulée ou être abandonnée après test.
+## Quand j'enlève du travail, où va-t-il ?
 
-### L'accessibilité comme contrainte transversale
+Une règle supprimée ne disparaît pas toujours.
 
-L'accessibilité sert de critère à tous les champs. Lorsqu'un dispositif est simplifié, le laboratoire demande notamment :
+Elle peut devenir une décision du MJ. Une fiche plus légère peut demander davantage d'improvisation. Une procédure absente peut devenir une négociation permanente entre les joueurs.
 
-> **Où est passée la fonction de ce qui a été retiré ?**
+Cette question me sert souvent de détecteur :
 
-Elle peut avoir été éliminée, distribuée, externalisée, pré-structurée, localisée au moment pertinent, ou transférée à un autre participant.
+> **Quand quelque chose devient plus simple, qui ou quoi fait maintenant le travail ?**
 
-Trois formes d'accès sont particulièrement travaillées : **accès procédural**, **accès génératif** et **accès à l'altérité**. Elles sont détaillées dans [**Accessibilité et distribution de la charge**](./accessibility.md) et [**Accessibilité à l'altérité fictionnelle**](./otherness.md).
+J'ai commencé à en faire une note plus précise sur [l'accessibilité et la distribution de la charge](./accessibility.md).
 
-Le corpus actuel ne suffit pas à revendiquer une couverture générale de l'accessibilité sensorielle, motrice, neurocognitive, linguistique, économique ou sociale.
+## Comment jouer quand on ne sait pas quoi inventer ?
 
-## 1. Le médium JdR et ses frontières
+« Tu peux faire ce que tu veux. »
 
-> **Quelles composantes du dispositif historique du JdR portent une fonction nécessaire, et lesquelles peuvent être retirées, déplacées ou remplacées ?**
+C'est une promesse magnifique. C'est aussi parfois une page blanche.
 
-Le laboratoire se rattache à la naissance de l'activité de role-playing elle-même, de Braunstein à Blackmoor puis au *D&D* de 1974, sans transformer les instruments historiques de ces jeux en définition du médium.
+Je cherche des dispositifs qui peuvent rendre une prise au joueur ou au MJ **à partir de ce qui existe déjà dans la fiction**, sans décider à leur place.
 
-MJ, groupe autour d'une table, oralité synchrone, dés, fiches, scénario préparé, progression ou campagne deviennent des variables expérimentales.
+Le travail sur [Situation, Vecteur et page blanche](./situation.md) vient directement de là.
 
-**Expériences associées :** jeu solo et *La Voie Lunaire* ; jeu écrit ou différé ; autres distributions des fonctions du MJ ; dispositifs retirant ou remplaçant des composants traditionnels ; comparaisons avec *Alice is Missing*, *Polaris* et d'autres déplacements du médium.
+## Comment penser depuis une position qui n'est pas la mienne ?
 
-L'enjeu n'est pas de définir le JdR par soustraction, mais de comprendre **quelles fonctions chaque forme prend en charge et comment elles peuvent être recomposées**.
+Un personnage peut vivre depuis vingt ans dans une culture, une religion ou une cosmologie que son joueur découvre depuis vingt minutes.
 
-## 2. De l'expérience à une simplicité génératrice
+Expliquer davantage de lore ne résout pas forcément ce décalage. Réduire cette différence à quelques signes familiers non plus.
 
-> **Quelles structures minimales peuvent générer l'expérience recherchée au lieu de tenter de la représenter exhaustivement ?**
+Je cherche comment un jeu peut aider quelqu'un à **agir avant de tout comprendre**, puis peut-être comprendre autrement parce qu'il a agi.
 
-Le designer ne cherche pas nécessairement le plus petit nombre de règles. Il cherche les **bonnes primitives et les bonnes relations** : celles dont les interactions permettent au jeu de produire davantage que ce qui a été explicitement programmé.
+C'est le problème actuel de [l'accès à l'altérité](./otherness.md).
 
-**Expériences associées :** Regard, où la pertinence remplace un catalogue exhaustif d'actions ou de caractéristiques ; Scooby-Doo, qui teste la compression d'un genre ; Unmind, qui fait naître perte, silence, contamination et ambiguïté depuis quelques relations matérielles fortes ; futurs jeux capables d'adopter des architectures entièrement différentes.
+## Qu'est-ce qu'un univers fait à l'imaginaire ?
 
-## 3. Attention, pertinence et accès à l'altérité
+Cette question est plus récente et encore beaucoup moins stabilisée.
 
-> **Comment permettre à un joueur d'interagir avec un monde riche sans devoir traiter toute sa complexité à chaque instant — et sans réduire ce qui lui est étranger à des catégories déjà familières ?**
+Postulat de départ :
 
-La pertinence peut être comprise comme une technique de **localisation de la complexité** : toute la fiction n'entre pas dans chaque résolution, mais un élément n'a pas besoin d'avoir été pré-encodé pour pouvoir compter.
+> **Chaque joueur possède son imaginaire, qui lui fait penser l'univers. Le jeu crée un espace commun avec d'autres joueurs qui pensent eux aussi cet univers.**
 
-Ce champ explore :
+À partir de là, les questions se multiplient.
 
-- ce qui devient pertinent ici et maintenant ;
-- comment la fiction fournit des prises directement utilisables ;
-- comment plusieurs perspectives incompatibles peuvent rester opérantes ;
-- comment distinguer vérité privée, croyance, expérience et assertion ontologique du jeu ;
-- comment un dispositif peut aider à agir depuis une perspective étrangère.
+Qu'est-ce qui est réellement partagé ? L'univers, ou seulement des signes et des conséquences à partir desquels chacun reconstruit quelque chose ?
 
-**Glorantha Perspectives** teste l'accès à des cosmologies vécues par l'intermédiaire de procédures opérantes. **Unmind** explore une autre limite en laissant **indécidable le statut objectif de certaines perceptions et cosmologies privées**.
+Quelle place garde le réel — faim, fatigue, travail, irritation, bruit du train — dans cette activité imaginative ? Est-ce là qu'il faut chercher une définition utile de l'immersion ?
 
-## 4. Dispositifs, matérialité et distribution de la charge
+Le personnage imaginé « connaît » son monde depuis bien plus longtemps que le joueur. Comment compenser ou exploiter cette différence ?
 
-> **Quelles fonctions difficiles pour un participant peuvent être prises en charge par la forme concrète du jeu sans fermer la fiction ?**
+Et surtout :
 
-Le système peut résider dans des cartes, piles, jetons, silences, rythmes, textes, espaces de table, canaux numériques, informations cachées ou tours de parole aussi bien que dans des règles abstraites.
+> **Un univers fournit-il seulement des choses à imaginer, ou peut-il transformer la manière même dont une personne imagine ?**
 
-Ce champ explore notamment le solo, l'écrit, le synchrone et le différé ; parole et silence ; supports physiques et interfaces numériques ; information cachée ou distribuée ; temporalité et rythme ; redistribution des fonctions traditionnellement portées par le MJ ou l'expertise du joueur.
+Je n'ai pas encore de réponse satisfaisante. C'est précisément pourquoi la question est ici.
 
-**Unmind** est l'expérience interne la plus nette de cette piste. **Dread**, **Ten Candles**, **Alice is Missing**, **The Quiet Year** et **Ribbon Drive** sont des cas comparatifs particulièrement utiles.
+## Où commence et où finit le jeu de rôle ?
 
-## 5. Situation, facilitation et émergence
+MJ, dés, feuille, oralité synchrone, campagne : tout cela appartient à l'histoire du JdR. Je ne veux pas en faire automatiquement son essence.
 
-> **Comment réduire la charge d'invention et de maîtrise sans réduire la liberté, la causalité et la capacité d'émergence du monde ?**
+J'utilise donc aussi Resonance pour retirer, déplacer ou remplacer certains composants et regarder ce qu'ils faisaient réellement.
 
-Côté MJ, « improvise ce qui arrive » peut constituer une charge immense. Côté joueur, « qu'est-ce que tu fais ? » peut devenir une page blanche qui exige une inspiration immédiate pour que la fiction continue.
+Le solo, l'écrit, l'asynchrone ou les redistributions de l'autorité m'intéressent surtout comme expériences de démontage.
 
-La recherche sur **Situation**, **Vecteur**, Forces, Pressions, Promesses et Transformations cherche à préparer une matière suffisamment causale pour que le MJ puisse regarder ce qui réagit plutôt qu'inventer ex nihilo. La recherche sur la **page blanche du joueur** explore la symétrie : lorsque le joueur n'a plus de prise, la fiction peut-elle lui en rendre une à partir de ce qui existe déjà ?
+## Ces questions ne sont pas indépendantes
 
-Voir [**Situation, Vecteur et page blanche**](./situation.md).
+Je résiste maintenant à l'envie de les transformer trop vite en « champs » bien séparés.
 
-## Outils d'analyse
+La page blanche touche à l'accessibilité. L'altérité touche à l'imaginaire. La distribution de la charge touche au rôle du MJ, aux supports et à la fiction elle-même.
 
-Les [**axes de design**](./design-axes.md) — cognitif, diégétique, perspectiviste et ontologique — servent à examiner un dispositif sous plusieurs angles. Ils sont des instruments de lecture, pas des conditions d'appartenance à Resonance.
+C'est très bien ainsi.
 
-Les [**expérimentations**](./experiments.md) utilisent une fiche commune pour rendre les hypothèses, observations et déplacements de charge comparables d'un cas à l'autre.
+**Si une nouvelle question oblige à refaire la carte, je préfère refaire la carte que protéger la carte.**
