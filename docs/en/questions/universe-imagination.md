@@ -2,20 +2,34 @@
 id: question-universe-imagination
 title: What does a universe do to imagination?
 slug: /questions/universe-imagination
-description: Does a fictional universe only provide things to imagine, or can it change how imagination works?
+description: Does a universe provide content to imagine, or can it also transform the way we imagine?
 ---
 
 # What does a universe do to imagination?
 
 This is a recent question.
 
-A fictional universe can be treated as content for imagination: places, people, myths, cultures, histories.
+I can treat a universe as what imagination manipulates: places, characters, stories, cultures, myths, objects, events.
 
-But some universes seem to do more. They change what a person notices, what relations seem possible, what questions become thinkable, and what feels natural or strange.
+But some universes seem to do more.
 
-A provisional distinction is:
+They change what a person notices, the relationships they consider possible, the questions they ask, what feels natural, strange, desirable, or frightening.
+
+This suggests a provisional distinction:
 
 > **Support: what I imagine.**  
 > **Structure: how I imagine.**
 
-I do not yet have an answer robust enough to turn this into a conclusion. The question remains open.
+If that distinction holds, a universe would not only be a reservoir of content. It could become a generative structure for imagination.
+
+That immediately creates other questions.
+
+What is actually shared between several players? The same universe, or signs, statements, and consequences from which each person constructs something?
+
+The imagined character may have lived twenty years in this world while the player has known it for twenty minutes. How can that difference be played without requiring twenty years of preparation?
+
+And what then becomes of immersion? Is it forgetting reality, when real voices, gestures, dice, and media can be exactly what sustains imagination?
+
+I do not yet have an answer robust enough to turn into something learned.
+
+So the question stays here.
