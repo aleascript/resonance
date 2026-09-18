@@ -33,19 +33,19 @@ These are examples of the kinds of problems Resonance tries to study — and to 
 
 ## Enter the research
 
-### [Question](./research-fields.md)
+### [Questioning](./questions/index.md)
 
 The questions that resist today: accessibility, burden, the blank page, otherness, imagination, and the boundaries of role-playing games.
 
-### [Try](./experiments.md)
+### [Trying](./experiments/index.md)
 
 Games and prototypes built to put possible answers under pressure: **Regard**, **Glorantha Perspectives**, **Scooby-Doo**, **Unmind**, Situation, and other experiments.
 
-### [Learn](./principles.md)
+### [Learning](./learnings/index.md)
 
 What seems to have resisted enough to be kept provisionally: useful distinctions, design observations, and tools such as the cognitive, diegetic, perspectivist, and ontological axes.
 
-### [Others](./comparisons.md)
+### [Others](./comparisons/index.md)
 
 Games and work encountered elsewhere that shift Resonance's questions, reveal other answers, or prevent an idea from being claimed as new too quickly.
 
