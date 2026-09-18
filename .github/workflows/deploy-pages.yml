@@ -155,7 +155,6 @@ jobs:
         run: |
           npm run publication:build
           npm run build
-          npm run publication:site
 
       - name: Upload deployed publication artifacts
         uses: actions/upload-artifact@v4
