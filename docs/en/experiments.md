@@ -1,57 +1,64 @@
 ---
 id: experiments
-title: Experiments
+title: Try
 slug: /experiments
-description: Resonance's internal experiments and what they teach the laboratory.
+description: Games, prototypes, and procedures that put Resonance's questions to the test.
 ---
 
-# Experiments
+# Try
 
-A Resonance experiment may be a published game, a framework, a prototype, a procedure, a scenario, or a practice of play. Its value does not come from resembling a shared mechanical form, but from **the question it puts under pressure and what it lets the laboratory learn**.
+An idea becomes much more interesting when something has to be built with it.
 
-## Minimal experiment record
+Resonance experiments can be complete games, frameworks, scenarios, table procedures, or abandoned prototypes. Their purpose is not to illustrate a theory that has already been decided.
 
-Each subpage follows the same record as far as useful:
+They make an answer **vulnerable**.
 
-- **Question tested** — what are we actually trying to learn?
-- **Burden targeted** — what complication are we trying to reduce, move, or expose?
-- **Complexity to preserve or generate** — what must not be sacrificed?
-- **Device** — what procedures, materials, or distributions of authority are used?
-- **Observation** — what does the design or actual play show?
-- **Burden shift** — what happened to the work that was removed?
-- **Implication** — what should be kept, changed, or tested next?
-- **Status** — hypothesis, prototype, game, provisional result, open question.
+## Regard
 
-An experiment does not need to confirm its starting hypothesis. Discovering that a solution simplifies an interface by transferring all its burden to the GM is already a useful result.
+[**Play / read Regard**](https://aleascript.github.io/regard) · [experiment note](./experiments/regard.md)
 
-## Project lineage
+Can resolution start from what matters in the fiction rather than from a predefined catalogue of properties?
 
-| Project | Type | Relation to Resonance | Main question | Analysis |
-| --- | --- | --- | --- | --- |
-| [**Regard**](https://aleascript.github.io/regard) | Playable framework | developed within Resonance | relevance and fictional interface | [record](./experiments/regard.md) |
-| [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) | Game | built with Regard | otherness, perspectives, operative cosmologies | [record](./experiments/glorantha-perspectives.md) |
-| [**Scooby-Doo**](https://aleascript.github.io/scooby-doo) | Game | built with Regard | compression, genre, accessibility | [record](./experiments/scooby-doo.md) |
-| [**Unmind**](https://aleascript.github.io/unmind) | Game | developed directly within Resonance | materiality, loss, silence, private truths | [record](./experiments/unmind.md) |
+Regard became a playable framework, but it also revealed a new burden: collectively recognizing what is relevant requires judgment.
 
-> **Resonance → Regard → Glorantha Perspectives / Scooby-Doo**  
-> **Resonance → Unmind**
+## Glorantha Perspectives
 
-This fork makes it possible to compare a family developed through one framework with an experiment that adopts an entirely different architecture.
+[**Play / read Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) · [experiment note](./experiments/glorantha-perspectives.md)
 
-## Other experiments
+Can cultures and cosmologies become operative without being translated into a single mechanical physics?
 
-- [**La Voie Lunaire and solo play**](./experiments/la-voie-lunaire.md) — an archaeology of Situation → consequence → new Situation loops;
-- [**Situation, Vector, and the blank page**](./situation.md) — causal preparation, GM burden, and support for player inspiration (*WIP*).
+Prisms are one experimental answer to that question.
 
-## Put a hypothesis at risk
+## Scooby-Doo
 
-A future experiment is especially valuable when it can reveal a real limit. For example:
+[**Play / read Scooby-Doo**](https://aleascript.github.io/scooby-doo) · [experiment note](./experiments/scooby-doo.md)
 
-- produce a game with no dice, no pool, and no equivalent of a Bet;
-- build two incompatible games from the same world;
-- have another designer work from the laboratory's questions alone;
-- test solo, written, or asynchronous play as the primary form;
-- design explicitly for a beginner GM and observe real burden;
-- **reveal that a solution treated as a principle was only a local convention inherited from an earlier experiment.**
+How far can a genre be compressed without losing what lets it generate recognizable situations?
 
-> **A good R&D result is not merely a game that works. It is a game that teaches the laboratory something it did not already know.**
+## Unmind
+
+[**Play / read Unmind**](https://aleascript.github.io/unmind) · [experiment note](./experiments/unmind.md)
+
+Can psychic unraveling emerge from the game apparatus itself?
+
+Unmind does not use Regard. That break is an important result: Resonance must be able to lead to genuinely different forms of play.
+
+## Situation, Vector, and the blank page
+
+[**Question and working note**](./situation.md)
+
+How can player and GM invention be supported from what already exists without writing the trajectory for them?
+
+## La Voie Lunaire and solo play
+
+[**Experiment note**](./experiments/la-voie-lunaire.md)
+
+Solo play is used here to dismantle some functions traditionally concentrated in the GM and to observe how a Situation can produce its own consequences.
+
+## Next
+
+The most useful experiments are those that can break an idea that has become too comfortable.
+
+For example: produce a game with no dice and no equivalent of a Bet; build two incompatible games from the same universe; have another designer work using only Resonance's questions; push written or asynchronous play much further.
+
+> **If an experiment can only confirm Resonance, it probably has little left to teach it.**
