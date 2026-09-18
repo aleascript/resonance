@@ -45,7 +45,7 @@ Unmind does not use Regard. That break is an important result: Resonance must be
 
 ## Situation, Vector, and the blank page
 
-[**Question and working note**](./situation.md)
+[**Question and working note**](./questions/situation.md)
 
 How can player and GM invention be supported from what already exists without writing the trajectory for them?
 
