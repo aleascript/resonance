@@ -1,11 +1,11 @@
 ---
 id: situation
-title: Situation, Vecteur et page blanche
+title: Que faire de la page blanche ?
 slug: /situation
-description: Réduire la charge d'invention sans réduire la liberté ni l'émergence.
+description: Comment soutenir l'invention du joueur et du MJ sans choisir à leur place.
 ---
 
-# Situation, Vecteur et page blanche
+# Que faire de la page blanche ?
 
 :::caution[Work in progress]
 Cette page consolide deux notes de recherche encore expérimentales : le travail sur **Situation / Vecteur / rôle du MJ** et celui sur la **page blanche du joueur**. Les noms et procédures ne sont pas considérés comme définitifs.
