@@ -21,11 +21,11 @@ Comment réduire le ticket d'entrée d'une expérience sans retirer ce qui la re
 
 Quand une règle ou une procédure disparaît, sa fonction a-t-elle réellement disparu ou s'est-elle déplacée ailleurs ?
 
-## [Que faire de la page blanche ?](./situation.md)
+## [Que faire de la page blanche ?](./questions/situation.md)
 
 Que peut faire le jeu quand le joueur répond « je ne sais pas quoi faire » ? Et comment éviter que le MJ doive constamment inventer la suite à partir de rien ?
 
-## [Comment jouer loin de soi ?](./otherness.md)
+## [Comment jouer loin de soi ?](./questions/otherness.md)
 
 Comment agir depuis une culture, une subjectivité ou une cosmologie qu'on ne sait pas spontanément habiter sans la réduire à ses propres catégories ?
 
