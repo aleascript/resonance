@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Actuelle",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Questioning": {
+    "message": "Questionner",
+    "description": "The label for category Questioning in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Trying": {
+    "message": "Essayer",
+    "description": "The label for category Trying in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Learning": {
+    "message": "Apprendre",
+    "description": "The label for category Learning in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Others": {
+    "message": "Les autres",
+    "description": "The label for category Others in sidebar docsSidebar"
+  }
+}
