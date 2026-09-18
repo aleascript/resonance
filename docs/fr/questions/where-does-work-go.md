@@ -23,9 +23,9 @@ que :
 
 > **Quand quelque chose devient plus facile ici, qui ou quoi fait maintenant le travail ?**
 
-Cette question a produit une première [cartographie de la distribution de la charge](../accessibility.md).
+Cette question a produit une première [cartographie de la distribution de la charge](../learnings/accessibility.md).
 
-Elle revient aussi dans [Situation et la page blanche](../situation.md), où une procédure très courte comme « improvise ce qui arrive » peut cacher une demande considérable, et dans [Regard](../experiments/regard.md), où une partie de la complexité est déplacée vers le jugement de pertinence.
+Elle revient aussi dans [Situation et la page blanche](./situation.md), où une procédure très courte comme « improvise ce qui arrive » peut cacher une demande considérable, et dans [Regard](../experiments/regard.md), où une partie de la complexité est déplacée vers le jugement de pertinence.
 
 Je ne suppose pas que toute charge doive disparaître.
 
