@@ -11,6 +11,22 @@ description: Un laboratoire de game design par l'expérimentation.
 
 # Resonance
 
+Je fais des jeux de rôle pour comprendre des choses qui me résistent.
+
+**Resonance est le nom que je donne au laboratoire où j'essaie des réponses.**
+
+Je construis des jeux, des frameworks, des scénarios et parfois de simples procédures. Je regarde ce qu'ils rendent possible, ce qu'ils déplacent, ce qu'ils cassent. Puis je recommence.
+
+Le nom vient d'une intuition simple : je cherche des formes de jeu où **ce que fait le joueur résonne avec ce que vit le personnage et avec ce que devient la fiction**. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
+
+Ce site n'est pas l'exposé d'une théorie achevée. C'est la trace organisée d'une recherche en cours.
+
+> **Ne pas simplifier le monde. Simplifier le moyen d'y entrer.**
+
+Cette phrase me sert de boussole. Pas de conclusion.
+
+## Quelques problèmes qui résistent
+
 Un jeu de trois règles peut être épuisant à jouer.
 
 Un univers passionnant peut rester difficile à habiter.
@@ -19,15 +35,7 @@ Une mécanique supprimée peut simplement transférer son travail au MJ ou aux j
 
 Et une règle minuscule peut parfois faire apparaître des choses que personne n'avait préparées.
 
-**Resonance est un laboratoire de game design consacré à ce genre de problèmes.**
-
-Le nom vient d'une intuition simple : je cherche des formes de jeu où **ce que fait le joueur résonne avec ce que vit le personnage et avec ce que devient la fiction**. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
-
-J'y construis des réponses possibles, je les transforme en jeux ou en dispositifs, puis je regarde ce qu'elles rendent possible et où elles cassent.
-
-> **Ne pas simplifier le monde. Simplifier le moyen d'y entrer.**
-
-Cette phrase me sert de boussole. Pas de conclusion.
+Ce sont quelques exemples du genre de problèmes que Resonance essaie d'étudier — et de résoudre à sa façon.
 
 ## Entrer dans la recherche
 
@@ -73,7 +81,7 @@ Certains mots reviennent aussi parce qu'ils deviennent eux-mêmes des problèmes
 
 Le fait qu'ils ne se ressemblent pas est important.
 
-## D'où j'écris
+## À propos
 
 Je suis **AleaScript**. Je conçois des jeux de rôle et Resonance est le laboratoire dans lequel j'essaie de comprendre ce que je fais lorsque je les conçois.
 
