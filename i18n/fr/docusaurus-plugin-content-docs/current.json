@@ -3,16 +3,20 @@
     "message": "Actuelle",
     "description": "The label for version current"
   },
-  "sidebar.docsSidebar.category.What I try": {
-    "message": "Ce que j'essaie",
-    "description": "The label for category What I try in sidebar docsSidebar"
+  "sidebar.docsSidebar.category.Questioning": {
+    "message": "Questionner",
+    "description": "The label for category Questioning in sidebar docsSidebar"
   },
-  "sidebar.docsSidebar.category.What others teach me": {
-    "message": "Ce que les autres m'apprennent",
-    "description": "The label for category What others teach me in sidebar docsSidebar"
+  "sidebar.docsSidebar.category.Trying": {
+    "message": "Essayer",
+    "description": "The label for category Trying in sidebar docsSidebar"
   },
-  "sidebar.docsSidebar.category.Working notes": {
-    "message": "Notes de travail",
-    "description": "The label for category Working notes in sidebar docsSidebar"
+  "sidebar.docsSidebar.category.Learning": {
+    "message": "Apprendre",
+    "description": "The label for category Learning in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Others": {
+    "message": "Les autres",
+    "description": "The label for category Others in sidebar docsSidebar"
   }
 }
