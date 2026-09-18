@@ -58,11 +58,6 @@ const sidebars: SidebarsConfig = {
         'comparisons/comparison-alice-is-missing',
       ],
     },
-    {
-      type: 'link',
-      label: 'Publications',
-      href: '/publications/',
-    },
   ],
 };
 
