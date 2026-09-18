@@ -26,17 +26,14 @@ These projects are results **and experiments**. None of their mechanics defines 
 
 The published site is built with the shared [`resonance-site-template`](https://github.com/aleascript/resonance-site-template) and keeps English and French sources side by side.
 
-Core documentation includes:
+The documentation now mirrors the four main entries of the site:
 
-- `principles.md` — current working commitments;
-- `research-fields.md` — research fields derived from the central problem;
-- `simplicity-complexity.md` — generative simplicity, complication, and complexity;
-- `accessibility.md` — accessibility and burden distribution;
-- `otherness.md` — access to fictional alterity (WIP);
-- `situation.md` — Situation, Vector, and the blank page (WIP);
-- `design-axes.md` — analytical lenses, not defining axioms;
-- `experiments.md` — the current internal experimental corpus;
-- `comparisons.md` — external and historical comparative cases.
+- `questions/` — current questions;
+- `experiments/` — games, prototypes, and procedures used to test possible answers;
+- `learnings/` — provisional results and analytical tools that have resisted enough to keep;
+- `comparisons/` — external and historical cases that shift Resonance's questions.
+
+Versioned EN/FR PDF snapshots are generated separately with Vivliostyle and attached to GitHub Releases. They are not exposed as a section of the public site.
 
 ## Local development
 
