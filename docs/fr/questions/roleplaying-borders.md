@@ -19,7 +19,7 @@ Que devient le jeu sans MJ central ? Sans hasard ? Sans personnage individuel ? 
 
 Ces expériences m'intéressent moins pour repousser une frontière par principe que pour découvrir les fonctions cachées derrière des formes devenues habituelles.
 
-[La Voie Lunaire](../experiments/la-voie-lunaire.md) et le travail sur [Situation](../situation.md) ont déjà commencé à démonter certaines fonctions du MJ.
+[La Voie Lunaire](../experiments/la-voie-lunaire.md) et le travail sur [Situation](./situation.md) ont déjà commencé à démonter certaines fonctions du MJ.
 
 Les [cas historiques](../comparisons/origins.md) posent la question dans l'autre sens : quelles conventions étaient déjà présentes à la naissance du role-playing, et lesquelles se sont stabilisées ensuite ?
 
