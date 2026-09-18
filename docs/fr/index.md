@@ -11,12 +11,6 @@ description: Un laboratoire de game design par l'expérimentation.
 
 # Resonance
 
-Je fais des jeux de rôle pour comprendre des choses qui me résistent.
-
-**Resonance est le nom que je donne au laboratoire où j'essaie des réponses.**
-
-Je construis des jeux, des frameworks, des scénarios et parfois de simples procédures. Je regarde ce qu'ils rendent possible, ce qu'ils déplacent, ce qu'ils cassent. Puis je recommence.
-
 Le nom vient d'une intuition simple : **Resonance cherche une continuité de sens entre ce que fait le joueur, ce que vit le personnage et ce que devient la fiction.** Les termes, les gestes, les objets et les opérations manipulés à la table devraient autant que possible prolonger mentalement l'expérience fictionnelle plutôt que l'interrompre par une abstraction sans rapport ; leur rythme devrait lui aussi résonner avec celui de la fiction et de l'expérience recherchée. Resonance ne désigne donc pas une mécanique particulière, mais une qualité recherchée par le design.
 
 Ce site n'est pas l'exposé d'une théorie achevée. C'est la trace organisée d'une recherche en cours.
@@ -25,7 +19,7 @@ Ce site n'est pas l'exposé d'une théorie achevée. C'est la trace organisée d
 
 Cette phrase me sert de boussole. Pas de conclusion.
 
-## Quelques problèmes qui résistent
+## Exemples de problèmes abordés ici
 
 Un jeu de trois règles peut être épuisant à jouer.
 
