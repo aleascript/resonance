@@ -1,69 +1,72 @@
 ---
 id: principles
-title: Principles
+title: Learn
 slug: /principles
-sidebar_position: 2
-description: The current working principles of Resonance.
+description: What Resonance experiments have taught the laboratory to keep, provisionally.
 ---
 
-# Working principles
+# Learn
 
-These principles do not describe a mechanic shared by Resonance games. They state the laboratory's current commitments and must remain revisable through experimentation.
+Some ideas resist better than others.
 
-## Do not simplify the world. Simplify the way into it
+That does not turn them into laws of Resonance. They become things that would now be costly to ignore when designing.
 
-Accessibility should not be achieved by systematically impoverishing fiction, reducing alterity, or prematurely closing the space of possibilities.
+## Removing a rule does not necessarily remove the work
 
-Resonance instead looks for interfaces, procedures, and supports that let more people enter a rich experience without first having to master all of its complexity.
+A rule can disappear and return as improvisation, preparation, memory, negotiation, or implicit expertise.
 
-## Seek generative simplicity, not simplification
+The useful question becomes:
 
-**Simple** does not mean **poor**. A simple rule, relation, or transformation can produce numerous and unpredictable consequences through interaction.
+> **Where did the function of what I removed go?**
 
-Resonance therefore favors structures able to **generate** complexity over complicated devices that try to represent it exhaustively in advance.
+See [Burden distribution](./accessibility.md).
 
-Fictional complexity can be an outcome of play. It does not need to be fully contained in the rules.
+## Simple does not mean poor
 
-## Distinguish complexity from complication
+A few relationships can generate many consequences.
 
-**Complexity** here means relational and emergent richness: causalities, tensions, consequences, ambiguities, perspectives, transformations, and histories produced through interaction.
+A lightweight form is only interesting if it preserves or increases enough generative power for the intended experience.
 
-**Complication** means the burden required to practice: memorization, exceptions, conversions, preparation, lookup, unsupported improvisation, operations, or prior knowledge.
+See [Generative simplicity and complexity](./simplicity-complexity.md).
 
-Both may sometimes be necessary. Resonance simply refuses to assume that they must grow together.
+## Freedom without a handle can become a burden
 
-## Always ask where the burden went
+“Do whatever you want” can open a world. It can also create a blank page.
 
-A removed rule may become an extra decision for the GM. A lighter character sheet may become an improvisational demand. An absent procedure may become social negotiation. Fiction made “easy” may only be easy because what made it strange or open was removed.
+Fictional freedom and the ability to find an action are not the same thing.
 
-> **When complication disappears from the interface, look for where its function went.**
+The work on [Situation](./situation.md) looks for handles that do not decide in the player's place.
 
-It may have been removed, distributed, externalized into a support, pre-structured by the designer, localized at the relevant moment—or merely transferred onto someone else.
+## Explaining is not always the same as making accessible
 
-## Make alterity playable rather than reducing it
+A person can know a great deal about a culture or universe without knowing what to notice or how to act from within that position.
 
-A character, culture, cosmology, or form of subjectivity may be difficult to play because it lies far from a player's habits.
+[Glorantha Perspectives](./experiments/glorantha-perspectives.md) suggests that it can sometimes be possible to act with partial understanding, then learn through consequences.
 
-The solution should not automatically be to translate it into the player's familiar categories. A device can instead become a **cognitive aid**: providing handles, distinctions, constraints, and consequences that let a player begin acting from a perspective before fully internalizing it.
+This result is more fragile than the previous ones.
 
-This remains a research area, not an established result.
+## The apparatus can carry meaning
 
-## Start from the experience, not an inherited form
+Regard shows that fictional sentences can remain directly operative.
 
-A TTRPG does not have to reproduce the structures that its history standardized. GMs, dice, character sheets, synchronous speech, prepared scenarios, or a particular resolution form are possible solutions, not obligations.
+Unmind goes further: hidden fragments, silence, loss, or a material gesture do not merely represent the system.
 
-Begin from the experience, the relation to the world, and the activity the game is trying to make possible, then design the device that gives players practical access to them.
+They can **be** the system.
 
-## Treat the system as part of the medium
+## A solution that works is not yet a law
 
-Rules, supports, gestures, rhythm, space, conversation, silence, uncertainty, hidden information, and distributions of authority are not external layers around the experience. They shape it.
+Regard works. That does not mean Resonance games should resemble Regard.
 
-Design can therefore move some burden into the device itself when doing so genuinely helps players perceive, decide, or generate something that would otherwise be difficult to practice.
+Unmind was especially useful because it forced a distinction between what Regard had actually taught and what might merely have become a design habit.
 
-## Learn through playable experiments
+> **A solution that works is a result. Not yet a law.**
 
-Resonance is a laboratory. Regard, Glorantha Perspectives, Scooby-Doo, and Unmind are important results, but none of their solutions automatically becomes a Resonance invariant.
+## Tools for distinguishing
 
-A useful experiment may confirm an intuition, contradict it, reveal that difficulty was merely displaced, or show that a simplification destroyed a complexity we wanted to preserve.
+Some distinctions are useful without becoming principles.
 
-> **The laboratory must be able to discover that a solution treated as a principle was only a local convention inherited from an earlier experiment.**
+The [**design axes**](./design-axes.md) separate phenomena that are often confused: where player attention goes, what continuity exists between fiction and manipulation, how a perspective becomes operative, and what the mechanics affirm about reality.
+
+They do not define what a Resonance game must be.
+
+They help reveal what a design is doing.
