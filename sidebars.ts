@@ -3,10 +3,22 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'home',
-    'research-fields',
     {
       type: 'category',
-      label: 'What I try',
+      label: 'Questioning',
+      link: {type: 'doc', id: 'research-fields'},
+      items: [
+        'question-access-without-impoverishing',
+        'question-where-work-goes',
+        'situation',
+        'otherness',
+        'question-universe-imagination',
+        'question-roleplaying-borders',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Trying',
       link: {type: 'doc', id: 'experiments'},
       items: [
         'experiments/experiment-regard',
@@ -16,10 +28,19 @@ const sidebars: SidebarsConfig = {
         'experiments/experiment-la-voie-lunaire',
       ],
     },
-    'principles',
     {
       type: 'category',
-      label: 'What others teach me',
+      label: 'Learning',
+      link: {type: 'doc', id: 'principles'},
+      items: [
+        'simplicity-complexity',
+        'accessibility',
+        'design-axes',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Others',
       link: {type: 'doc', id: 'comparisons'},
       items: [
         'comparisons/comparison-origins',
@@ -37,23 +58,10 @@ const sidebars: SidebarsConfig = {
         'comparisons/comparison-alice-is-missing',
       ],
     },
-    'about',
     {
       type: 'link',
       label: 'Publications',
       href: '/publications/',
-    },
-    {
-      type: 'category',
-      label: 'Working notes',
-      collapsed: true,
-      items: [
-        'simplicity-complexity',
-        'accessibility',
-        'otherness',
-        'situation',
-        'design-axes',
-      ],
     },
   ],
 };
