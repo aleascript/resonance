@@ -1,91 +1,64 @@
 ---
 id: experiments
-title: Ce que j'essaie
+title: Essayer
 slug: /experiments
-description: Les jeux, prototypes et procédures avec lesquels je mets mes questions à l'épreuve.
+description: Les jeux, prototypes et procédures qui mettent les questions de Resonance à l'épreuve.
 ---
 
-# Ce que j'essaie
+# Essayer
 
-Je comprends mieux une idée quand j'essaie de fabriquer quelque chose avec.
+Une idée devient beaucoup plus intéressante lorsqu'il faut fabriquer quelque chose avec.
 
-Une expérience Resonance peut donc devenir un jeu complet, un framework, un scénario, une procédure de table ou un prototype abandonné. Je ne lui demande pas de prouver que j'avais raison.
+Les essais de Resonance peuvent être des jeux complets, des frameworks, des scénarios, des procédures de table ou des prototypes abandonnés. Leur rôle n'est pas d'illustrer une théorie déjà décidée.
 
-Je lui demande de **rendre ma réponse vulnérable**.
+Ils rendent une réponse **vulnérable**.
 
 ## Regard
 
 [**Jouer / lire Regard**](https://aleascript.github.io/regard) · [note d'expérience](./experiments/regard.md)
 
-J'ai voulu voir si une résolution pouvait partir d'une question très simple :
+Peut-on partir de ce qui compte dans la fiction plutôt que d'un catalogue préétabli de propriétés ?
 
-> **Qu'est-ce qui compte ici ?**
-
-Au lieu de pré-encoder tout ce qui pourrait devenir pertinent, Regard laisse la situation sélectionner ses propres Mises.
-
-Cela fonctionne suffisamment bien pour être devenu un framework jouable.
-
-Cela crée aussi un nouveau problème : reconnaître ensemble ce qui est pertinent demande du jugement. La complexité n'a pas disparu. Une partie a changé de place.
+Regard est devenu un framework jouable, mais il a aussi rendu visible une nouvelle charge : reconnaître ensemble ce qui est pertinent demande du jugement.
 
 ## Glorantha Perspectives
 
 [**Jouer / lire Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) · [note d'expérience](./experiments/glorantha-perspectives.md)
 
-Glorantha a poussé Regard beaucoup plus loin que prévu.
+Peut-on rendre des cultures et cosmologies opérantes sans les traduire dans une physique mécanique unique ?
 
-Je ne voulais pas seulement rendre le lore disponible. Je voulais voir si des cultures et cosmologies différentes pouvaient changer **ce qui devient pertinent et la manière dont une incertitude est vécue**.
-
-C'est de là que viennent en grande partie les Prismes.
-
-L'expérience reste fragile : un dispositif qui aide à jouer une perspective peut très vite la caricaturer.
+Les Prismes sont une réponse expérimentale à cette question.
 
 ## Scooby-Doo
 
 [**Jouer / lire Scooby-Doo**](https://aleascript.github.io/scooby-doo) · [note d'expérience](./experiments/scooby-doo.md)
 
-Ici la question était presque inverse : combien faut-il réellement conserver pour qu'un genre continue à produire ses situations reconnaissables ?
-
-Scooby-Doo me sert à tester la compression, les tropes et la possibilité qu'une forme légère reste génératrice plutôt que simplement pauvre.
+Jusqu'où peut-on comprimer un genre sans perdre ce qui lui permet de produire ses situations reconnaissables ?
 
 ## Unmind
 
 [**Jouer / lire Unmind**](https://aleascript.github.io/unmind) · [note d'expérience](./experiments/unmind.md)
 
-Unmind est important parce qu'il a cassé une tentation.
+Peut-on faire naître l'effilochement psychique depuis le dispositif de jeu lui-même ?
 
-J'aurais pu continuer à fabriquer des variations de Regard. À la place, j'ai essayé de faire naître l'effilochement psychique depuis des fragments cachés, des pertes, des silences, des paroles étrangères et un jeton-pilule.
-
-Le résultat ne ressemble pas à Regard.
-
-C'est précisément ce dont Resonance avait besoin.
+Unmind n'utilise pas Regard. Cette rupture est un résultat important : Resonance doit pouvoir conduire à des formes de jeu réellement différentes.
 
 ## Situation, Vecteur et page blanche
 
-[**Note de travail**](./situation.md)
+[**Question et note de travail**](./situation.md)
 
-Cette expérience part d'un problème très concret :
-
-> « Je ne sais pas quoi faire. »
-
-Je cherche ce qu'un jeu peut faire de cette phrase sans punir le joueur et sans choisir à sa place.
-
-La même question existe côté MJ : comment éviter de dépendre en permanence de l'invention instantanée ?
+Comment soutenir l'invention du joueur et du MJ à partir de ce qui existe déjà sans écrire la trajectoire à leur place ?
 
 ## La Voie Lunaire et le solo
 
 [**Note d'expérience**](./experiments/la-voie-lunaire.md)
 
-Le solo me sert notamment à démonter les fonctions habituellement confondues dans le rôle du MJ et à regarder comment une Situation peut produire sa propre suite de conséquences.
+Le solo sert ici à démonter certaines fonctions traditionnellement concentrées dans le MJ et à observer comment une Situation peut produire ses propres conséquences.
 
-## Ce que je veux essayer ensuite
+## Ensuite
 
-Quelques expériences me semblent particulièrement dangereuses — donc utiles :
+Les essais les plus utiles sont ceux qui peuvent mettre en défaut une idée devenue trop confortable.
 
-- produire un jeu sans dés, sans pool et sans équivalent de Mise ;
-- construire deux jeux incompatibles depuis un même univers ;
-- faire utiliser les questions de Resonance par un autre designer ;
-- pousser réellement l'écrit ou l'asynchrone ;
-- tester les dispositifs avec des personnes qui n'ont pas l'expertise implicite que j'apporte moi-même à mes parties ;
-- fabriquer un jeu qui mette en défaut une idée que je présente aujourd'hui dans [Ce que j'apprends](./principles.md).
+Par exemple : produire un jeu sans dés ni équivalent de Mise ; construire deux jeux incompatibles depuis un même univers ; faire travailler un autre designer avec les seules questions de Resonance ; pousser réellement l'écrit ou l'asynchrone.
 
-> **Si une expérience ne peut que confirmer Resonance, elle ne m'apprend probablement plus grand-chose.**
+> **Si une expérience ne peut que confirmer Resonance, elle ne lui apprend probablement plus grand-chose.**
