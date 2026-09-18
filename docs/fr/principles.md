@@ -1,69 +1,83 @@
 ---
 id: principles
-title: Principes
+title: Ce que j'apprends
 slug: /principles
 sidebar_position: 2
-description: Les principes de travail actuels de Resonance.
+description: Les idées que les expériences Resonance m'ont appris à conserver provisoirement.
 ---
 
-# Principes de travail
+# Ce que j'apprends
 
-Ces principes ne décrivent pas une mécanique commune aux jeux Resonance. Ils formulent les engagements actuels du laboratoire et doivent rester révisables par l'expérimentation.
+Je me méfie maintenant du mot **principe**.
 
-## Ne pas simplifier le monde. Simplifier le moyen d'y entrer
+Il donne facilement l'impression qu'une idée a été démontrée alors qu'elle a seulement bien résisté jusqu'ici.
 
-L'accessibilité ne doit pas être obtenue en appauvrissant systématiquement la fiction, en réduisant l'altérité ou en fermant prématurément l'espace des possibles.
+Je garde donc ici ce que les expériences Resonance m'ont appris à prendre au sérieux. Rien n'est à l'abri du prochain jeu.
 
-Resonance cherche au contraire des interfaces, procédures et supports qui permettent à davantage de personnes d'entrer dans une expérience riche sans devoir d'abord maîtriser toute sa complexité.
+## Enlever une règle n'enlève pas forcément le travail
 
-## Rechercher la simplicité génératrice, pas la simplification
+C'est probablement l'apprentissage le plus robuste.
 
-**Simple** ne signifie pas **pauvre**. Une règle, une relation ou une transformation simple peut produire des conséquences nombreuses et imprévisibles par interaction.
+Une règle peut disparaître et réapparaître sous forme d'improvisation, de préparation, de mémoire, de négociation ou d'expertise implicite.
 
-Resonance privilégie donc les structures capables de **générer** de la complexité plutôt que les dispositifs compliqués qui tentent de la représenter exhaustivement à l'avance.
+Depuis, je demande presque systématiquement :
 
-La complexité fictionnelle peut être un résultat du jeu. Elle n'a pas besoin d'être intégralement contenue dans ses règles.
+> **Où est passée la fonction de ce que j'ai retiré ?**
 
-## Distinguer complexité et complication
+Cette question m'est plus utile que le nombre de pages d'un système.
 
-La **complexité** désigne ici la richesse relationnelle et émergente : causalités, tensions, conséquences, ambiguïtés, perspectives, transformations, histoire produite par les interactions.
+## Simple ne veut pas dire pauvre
 
-La **complication** désigne la charge nécessaire pour pratiquer : mémorisation, exceptions, conversions, préparation, lookup, improvisation sans support, opérations ou connaissances préalables.
+Quelques relations peuvent produire beaucoup de conséquences.
 
-Les deux peuvent parfois être nécessaires. Resonance refuse simplement de supposer qu'elles doivent croître ensemble.
+Je préfère donc chercher des formes **génératrices** plutôt que des formes seulement courtes : des dispositifs qui donnent prise à des situations nouvelles sans devoir toutes les prévoir.
 
-## Toujours demander où va la charge
+C'est ce que j'essaie de préciser dans [Simplicité génératrice et complexité](./simplicity-complexity.md).
 
-Une règle supprimée peut devenir une décision supplémentaire pour le MJ. Une fiche allégée peut devenir une exigence d'improvisation. Une procédure absente peut devenir de la négociation sociale. Une fiction rendue « facile » peut l'être parce qu'on lui a retiré ce qui la rendait étrangère ou ouverte.
+## Une liberté sans prise peut devenir une charge
 
-> **Quand une complication disparaît de l'interface, il faut regarder où sa fonction est passée.**
+« Fais ce que tu veux » peut ouvrir un monde. Cela peut aussi abandonner le joueur devant une page blanche.
 
-Elle peut avoir été supprimée, distribuée, externalisée dans un support, pré-structurée par le designer, localisée au moment pertinent — ou simplement transférée à quelqu'un d'autre.
+J'ai longtemps traité l'inspiration comme quelque chose que le joueur ou le MJ devait apporter au jeu. Je m'intéresse maintenant beaucoup plus à ce que le dispositif peut faire lorsque cette inspiration n'arrive pas.
 
-## Rendre l'altérité praticable plutôt que la réduire
+> **La liberté m'intéresse davantage quand le monde donne quelque chose avec quoi agir.**
 
-Un personnage, une culture, une cosmologie ou une forme de subjectivité peuvent être difficiles à jouer parce qu'ils sont éloignés des habitudes du joueur.
+## Expliquer n'est pas toujours la meilleure manière de rendre accessible
 
-La solution ne devrait pas automatiquement consister à les traduire dans les catégories familières du joueur. Un dispositif peut au contraire servir d'**aide cognitive** : fournir des prises, distinctions, contraintes et conséquences qui permettent de commencer à agir depuis une perspective avant de l'avoir entièrement intériorisée.
+C'est particulièrement visible avec Glorantha.
 
-Cette hypothèse reste un terrain de recherche, pas un résultat acquis.
+Un joueur peut apprendre beaucoup de choses sur une culture sans pour autant savoir quoi remarquer, ce qui serait évident pour son personnage ou quelle décision aurait du sens depuis cette position.
 
-## Partir de l'expérience, pas d'une forme héritée
+Je cherche donc de plus en plus des dispositifs qui permettent **d'agir avec une compréhension partielle**, puis d'apprendre par les conséquences.
 
-Le JdR n'a pas à reproduire les structures que son histoire a standardisées. MJ, dés, fiches, oralité synchrone, scénario préparé ou forme particulière de résolution sont des solutions possibles, pas des obligations.
+Cela ne remplace pas le savoir. Cela change l'ordre dans lequel il devient nécessaire.
 
-On part de l'expérience, de la relation au monde et de l'activité que le jeu cherche à rendre possibles, puis on conçoit le dispositif qui leur donne prise.
+## La fiction peut porter davantage de travail que je ne le pensais
 
-## Traiter le système comme une partie du médium
+Regard m'a appris à prendre très au sérieux des phrases fictionnelles directement utilisables.
 
-Les règles, supports, gestes, rythme, espace, conversation, silence, incertitude, information cachée et distribution de l'autorité ne sont pas des couches extérieures à l'expérience. Ils la façonnent.
+Unmind m'a appris quelque chose d'encore plus radical : parfois le support, le silence, la disparition d'un fragment ou un geste matériel n'illustrent pas le système.
 
-Le design peut donc déplacer de la charge vers le dispositif lui-même lorsqu'il aide effectivement les joueurs à percevoir, décider ou faire émerger quelque chose qui serait autrement difficile à pratiquer.
+**Ils sont le système.**
 
-## Apprendre par des expérimentations jouables
+Je veux continuer à tester jusqu'où cette continuité peut aller sans devenir une nouvelle orthodoxie.
 
-Resonance est un laboratoire. Regard, Glorantha Perspectives, Scooby-Doo et Unmind sont des résultats importants, mais aucune de leurs solutions ne devient automatiquement un invariant de Resonance.
+## Un jeu réussi peut donner une mauvaise leçon
 
-Une expérience utile peut confirmer une intuition, la contredire, révéler que la difficulté a seulement été déplacée, ou montrer qu'une simplification a détruit une complexité que l'on voulait préserver.
+Regard fonctionne. Cela ne signifie pas que tous les jeux Resonance doivent ressembler à Regard.
 
-> **Le laboratoire doit pouvoir découvrir qu'une solution tenue pour un principe n'était qu'une convention locale issue d'une expérience précédente.**
+Unmind a été important précisément parce qu'il m'a forcé à distinguer ce que j'avais appris de Regard de ce que j'avais simplement pris l'habitude de faire.
+
+Je veux conserver ce réflexe :
+
+> **Une solution qui marche est un résultat. Pas encore une loi.**
+
+## Ne pas simplifier le monde. Simplifier le moyen d'y entrer.
+
+Cette phrase reste ma meilleure boussole.
+
+Elle ne signifie pas que tout monde doit être complexe, ni que toute simplification est mauvaise.
+
+Elle me rappelle seulement la chose que je ne veux pas perdre de vue : lorsqu'une expérience m'intéresse parce qu'elle est riche, étrange, contradictoire ou difficile à habiter, je préfère chercher un meilleur passage vers elle que retirer ce qui la rend intéressante.
+
+La prochaine expérience peut encore me montrer que je formule mal le problème.
