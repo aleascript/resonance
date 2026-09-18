@@ -6,20 +6,20 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Questioning',
-      link: {type: 'doc', id: 'research-fields'},
+      link: {type: 'doc', id: 'questions/research-fields'},
       items: [
-        'question-access-without-impoverishing',
-        'question-where-work-goes',
-        'situation',
-        'otherness',
-        'question-universe-imagination',
-        'question-roleplaying-borders',
+        'questions/question-access-without-impoverishing',
+        'questions/question-where-work-goes',
+        'questions/situation',
+        'questions/otherness',
+        'questions/question-universe-imagination',
+        'questions/question-roleplaying-borders',
       ],
     },
     {
       type: 'category',
       label: 'Trying',
-      link: {type: 'doc', id: 'experiments'},
+      link: {type: 'doc', id: 'experiments/experiments'},
       items: [
         'experiments/experiment-regard',
         'experiments/experiment-glorantha-perspectives',
@@ -31,17 +31,17 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Learning',
-      link: {type: 'doc', id: 'principles'},
+      link: {type: 'doc', id: 'learnings/principles'},
       items: [
-        'simplicity-complexity',
-        'accessibility',
-        'design-axes',
+        'learnings/simplicity-complexity',
+        'learnings/accessibility',
+        'learnings/design-axes',
       ],
     },
     {
       type: 'category',
       label: 'Others',
-      link: {type: 'doc', id: 'comparisons'},
+      link: {type: 'doc', id: 'comparisons/comparisons'},
       items: [
         'comparisons/comparison-origins',
         'comparisons/comparison-questworlds',
