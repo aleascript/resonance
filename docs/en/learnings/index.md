@@ -1,11 +1,11 @@
 ---
 id: principles
-title: Learn
+title: Learning
 slug: /principles
 description: What Resonance experiments have taught the laboratory to keep, provisionally.
 ---
 
-# Learn
+# Learning
 
 Some ideas resist better than others.
 
