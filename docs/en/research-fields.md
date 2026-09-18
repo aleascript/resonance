@@ -21,11 +21,11 @@ How can the entry cost of an experience be reduced without removing what made it
 
 When a rule or procedure disappears, has its function actually vanished, or has it moved somewhere else?
 
-## [What can we do with the blank page?](./situation.md)
+## [What can we do with the blank page?](./questions/situation.md)
 
 What can the game do when a player says “I don't know what to do”? And how can the GM avoid having to invent what happens next from nothing?
 
-## [How can we play far from ourselves?](./otherness.md)
+## [How can we play far from ourselves?](./questions/otherness.md)
 
 How can someone act from a culture, subjectivity, or cosmology they cannot spontaneously inhabit without reducing it to their own categories?
 
