@@ -3,21 +3,10 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   docsSidebar: [
     'home',
-    {
-      type: 'link',
-      label: 'Publications',
-      href: '/publications/',
-    },
-    'principles',
     'research-fields',
-    'simplicity-complexity',
-    'accessibility',
-    'otherness',
-    'situation',
-    'design-axes',
     {
       type: 'category',
-      label: 'Experiments',
+      label: 'What I try',
       link: {type: 'doc', id: 'experiments'},
       items: [
         'experiments/experiment-regard',
@@ -27,9 +16,10 @@ const sidebars: SidebarsConfig = {
         'experiments/experiment-la-voie-lunaire',
       ],
     },
+    'principles',
     {
       type: 'category',
-      label: 'Comparative cases',
+      label: 'What others teach me',
       link: {type: 'doc', id: 'comparisons'},
       items: [
         'comparisons/comparison-origins',
@@ -45,6 +35,24 @@ const sidebars: SidebarsConfig = {
         'comparisons/comparison-bluebeards-bride',
         'comparisons/comparison-monsterhearts-2',
         'comparisons/comparison-alice-is-missing',
+      ],
+    },
+    'about',
+    {
+      type: 'link',
+      label: 'Publications',
+      href: '/publications/',
+    },
+    {
+      type: 'category',
+      label: 'Working notes',
+      collapsed: true,
+      items: [
+        'simplicity-complexity',
+        'accessibility',
+        'otherness',
+        'situation',
+        'design-axes',
       ],
     },
   ],
