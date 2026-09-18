@@ -19,7 +19,7 @@ La question utile devient :
 
 > **Où est passée la fonction de ce que j'ai retiré ?**
 
-Voir [Distribution de la charge](./accessibility.md).
+Voir [Distribution de la charge](./learnings/accessibility.md).
 
 ## Simple ne veut pas dire pauvre
 
@@ -27,7 +27,7 @@ Quelques relations peuvent produire beaucoup de conséquences.
 
 Une forme légère n'est intéressante que si elle conserve ou augmente une puissance génératrice suffisante pour l'expérience recherchée.
 
-Voir [Simplicité génératrice et complexité](./simplicity-complexity.md).
+Voir [Simplicité génératrice et complexité](./learnings/simplicity-complexity.md).
 
 ## Une liberté sans prise peut devenir une charge
 
@@ -35,7 +35,7 @@ Voir [Simplicité génératrice et complexité](./simplicity-complexity.md).
 
 La liberté fictionnelle et la capacité à trouver une action ne sont pas la même chose.
 
-Le travail sur [Situation](./situation.md) cherche des prises qui ne décident pas à la place du joueur.
+Le travail sur [Situation](./questions/situation.md) cherche des prises qui ne décident pas à la place du joueur.
 
 ## Expliquer n'est pas toujours rendre accessible
 
@@ -65,7 +65,7 @@ Unmind a été particulièrement utile parce qu'il a obligé à séparer ce que 
 
 Certaines distinctions sont utiles sans être des principes.
 
-Les [**axes de design**](./design-axes.md) servent à séparer des phénomènes souvent confondus : où porte l'attention du joueur, quelle continuité existe entre fiction et manipulation, comment une perspective devient opérante, et ce que la mécanique affirme du réel.
+Les [**axes de design**](./learnings/design-axes.md) servent à séparer des phénomènes souvent confondus : où porte l'attention du joueur, quelle continuité existe entre fiction et manipulation, comment une perspective devient opérante, et ce que la mécanique affirme du réel.
 
 Ils ne définissent pas ce qu'un jeu Resonance doit être.
 
