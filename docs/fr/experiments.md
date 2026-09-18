@@ -45,7 +45,7 @@ Unmind n'utilise pas Regard. Cette rupture est un résultat important : Resonanc
 
 ## Situation, Vecteur et page blanche
 
-[**Question et note de travail**](./situation.md)
+[**Question et note de travail**](./questions/situation.md)
 
 Comment soutenir l'invention du joueur et du MJ à partir de ce qui existe déjà sans écrire la trajectoire à leur place ?
 
