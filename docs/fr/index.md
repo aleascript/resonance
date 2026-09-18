@@ -33,19 +33,19 @@ Ce sont quelques exemples du genre de problèmes que Resonance essaie d'étudier
 
 ## Entrer dans la recherche
 
-### [Questionner](./research-fields.md)
+### [Questionner](./questions/index.md)
 
 Les questions qui résistent aujourd'hui : accessibilité, charge, page blanche, altérité, imaginaire, frontières du jeu de rôle.
 
-### [Essayer](./experiments.md)
+### [Essayer](./experiments/index.md)
 
 Les jeux et prototypes construits pour mettre des réponses sous pression : **Regard**, **Glorantha Perspectives**, **Scooby-Doo**, **Unmind**, Situation et d'autres essais.
 
-### [Apprendre](./principles.md)
+### [Apprendre](./learnings/index.md)
 
 Ce qui semble avoir suffisamment résisté pour être conservé provisoirement : distinctions utiles, observations de design, outils comme les axes cognitif, diégétique, perspectiviste et ontologique.
 
-### [Les autres](./comparisons.md)
+### [Les autres](./comparisons/index.md)
 
 Les jeux et travaux rencontrés ailleurs qui déplacent les questions de Resonance, montrent d'autres réponses ou empêchent de revendiquer trop vite comme nouvelle une idée qui ne l'est pas.
 
