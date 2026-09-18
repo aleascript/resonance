@@ -19,7 +19,7 @@ What happens without a central GM? Without randomness? Without an individual cha
 
 These experiments interest me less as a way to push a boundary for its own sake than as a way to discover the hidden functions behind familiar forms.
 
-[La Voie Lunaire](../experiments/la-voie-lunaire.md) and the work on [Situation](../situation.md) have already started dismantling some GM functions.
+[La Voie Lunaire](../experiments/la-voie-lunaire.md) and the work on [Situation](./situation.md) have already started dismantling some GM functions.
 
 The [historical cases](../comparisons/origins.md) ask the question in the other direction: which conventions were already present at the birth of role-playing, and which stabilized later?
 
