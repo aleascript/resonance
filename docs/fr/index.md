@@ -4,58 +4,48 @@ title: Resonance
 slug: /
 sidebar_position: 1
 hide_table_of_contents: true
-description: Un laboratoire de R&D sur l'accès à des expériences fictionnelles complexes.
+description: Un laboratoire personnel de game design par l'expérimentation.
 ---
 
 ![](/img/site/resonance_proposals_medium.svg)
 
 # Resonance
 
-**Resonance est un laboratoire de R&D en game design consacré à une tension centrale : comment rendre accessibles des expériences fictionnelles complexes sans les réduire pour les rendre praticables ?**
+Je fais des jeux de rôle pour comprendre des choses qui me résistent.
 
-Sa proposition repose sur une distinction simple : **la complexité de la fiction et la complication de sa pratique ne sont pas la même chose.** Peu de principes peuvent engendrer beaucoup de relations, de conséquences et de transformations. À l'inverse, un jeu peut exiger beaucoup de mémorisation, de préparation ou d'improvisation sans produire davantage de richesse fictionnelle.
+Pourquoi un jeu de trois règles peut-il être épuisant à jouer ? Pourquoi un monde passionnant peut-il rester difficile à habiter ? Pourquoi retirer une mécanique ne retire-t-il pas forcément le travail qu'elle prenait en charge ? Comment aider quelqu'un à penser depuis une perspective qui n'est pas spontanément la sienne sans la réduire à ce qu'il connaît déjà ?
+
+**Resonance est le nom que je donne au laboratoire où j'essaie des réponses.**
+
+Je construis des jeux, des frameworks, des scénarios et parfois de simples procédures. Je regarde ce qu'ils rendent possible, ce qu'ils déplacent, ce qu'ils cassent. Puis je recommence.
+
+Ce site n'est donc pas l'exposé d'une théorie achevée. C'est la trace organisée d'une recherche en cours.
 
 > **Ne pas simplifier le monde. Simplifier le moyen d'y entrer.**
 
-Resonance cherche donc des formes de **simplicité génératrice** : des dispositifs suffisamment praticables pour donner accès à une fiction dont la complexité peut dépasser celle de leurs règles.
+Cette phrase me sert de boussole. Pas de conclusion.
 
-## Où va la charge ?
+## Les jeux sont mes expériences
 
-Retirer une règle ne supprime pas nécessairement le travail qu'elle prenait en charge. Ce travail peut être transféré au MJ, à l'improvisation du joueur, à sa connaissance du genre, à la négociation du groupe ou à la préparation. Il peut aussi être pré-structuré, distribué, externalisé dans un support ou rendu pertinent seulement au moment où il devient nécessaire.
+[**Regard**](https://aleascript.github.io/regard) est né d'une question sur la pertinence : peut-on résoudre une situation en partant de ce qui compte dans la fiction plutôt que d'un catalogue préétabli ?
 
-Une question traverse donc le laboratoire :
+[**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) m'a obligé à pousser cette question vers les cultures, les cosmologies et les manières différentes d'habiter le réel.
 
-> **Quand un design devient plus accessible, qu'est devenu le travail qui était auparavant nécessaire ?**
+[**Scooby-Doo**](https://aleascript.github.io/scooby-doo) a testé autre chose : jusqu'où peut-on comprimer un genre sans perdre ce qui le fait fonctionner ?
 
-Cette question évite de confondre minimalisme et accessibilité.
+[**Unmind**](https://aleascript.github.io/unmind) a cassé une partie de la réponse précédente. Il n'utilise pas Regard. Son dispositif matériel, ses silences et ses pertes m'ont appris que Resonance devait pouvoir produire des jeux qui ne se ressemblent pas.
 
-## L'accessibilité comme accès à la fiction
+Je continue à considérer ces jeux comme des résultats provisoires. Un jeu qui fonctionne n'a pas automatiquement raison.
 
-Resonance étudie notamment trois formes d'accès :
+## Parcourir la recherche
 
-- **procédural** — comprendre et manipuler le jeu ;
-- **génératif** — pouvoir continuer à jouer lorsque l'inspiration manque ;
-- **à l'altérité** — pouvoir agir depuis une subjectivité, une culture ou une cosmologie éloignée de soi sans la réduire à des catégories familières.
+Je propose pour l'instant quatre entrées.
 
-Une règle peut ainsi devenir une aide cognitive : non pour jouer à la place du joueur, mais pour lui fournir des prises qu'il n'aurait pas spontanément trouvées.
+- [**Ce que je cherche**](./research-fields.md) — les questions qui me travaillent aujourd'hui.
+- [**Ce que j'essaie**](./experiments.md) — les jeux et prototypes avec lesquels je mets ces questions sous pression.
+- [**Ce que j'apprends**](./principles.md) — les idées qui ont suffisamment résisté pour mériter d'être conservées, au moins provisoirement.
+- [**Ce que les autres m'apprennent**](./comparisons.md) — les jeux et travaux qui contredisent, précisent ou déplacent mes propres questions.
 
-## Le laboratoire
+Le reste du site contient des notes plus détaillées. Certaines sont déjà solides. D'autres sont encore trop propres pour des idées qui bougent.
 
-Resonance produit et étudie des **principes**, des **questions de recherche**, des **expériences jouables** et des **résultats provisoires**. Les jeux ne sont pas les illustrations d'une théorie déjà achevée : ils servent à la mettre sous pression.
-
-Le laboratoire a déjà produit [**Regard**](https://aleascript.github.io/regard), un framework de JdR avec une configuration standard jouable ; [**Glorantha Perspectives**](https://aleascript.github.io/glorantha-perspectives) et [**Scooby-Doo**](https://aleascript.github.io/scooby-doo), construits avec Regard ; et [**Unmind**](https://aleascript.github.io/unmind), développé directement depuis Resonance.
-
-La formule **Game Factory** désigne une hypothèse secondaire : les questions et méthodes du laboratoire peuvent-elles aider à engendrer, de manière répétable, des jeux substantiellement différents sans imposer une architecture commune ? Cette hypothèse reste à éprouver ; elle ne définit pas le projet.
-
-## Parcourir Resonance
-
-Les [**principes de travail**](./principles.md) formulent les engagements du laboratoire et les [**champs de recherche**](./research-fields.md) organisent ses questions.
-
-Quatre pages développent le noyau actuel :
-
-- [**Simplicité génératrice, complication et complexité**](./simplicity-complexity.md) ;
-- [**Accessibilité et distribution de la charge**](./accessibility.md) ;
-- [**Accessibilité à l'altérité fictionnelle**](./otherness.md) — *work in progress* ;
-- [**Situation, Vecteur et page blanche**](./situation.md) — *work in progress*.
-
-Les [**axes de design**](./design-axes.md) fournissent des outils d'analyse. Les [**expérimentations**](./experiments.md) documentent ce que le laboratoire construit et apprend. Les [**cas comparatifs**](./comparisons.md) confrontent ses questions à des solutions déjà explorées ailleurs.
+C'est aussi une partie de l'expérience.
